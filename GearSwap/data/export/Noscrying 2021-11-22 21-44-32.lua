@@ -1,0 +1,17 @@
+sets.exported={
+    main="Naegling",
+    sub={ name="Demers. Degen +1", augments={'Path: A',}},
+    ammo="Homiliary",
+    head={ name="Viti. Chapeau +1", augments={'Enfeebling Magic duration','Magic Accuracy',}},
+    body="Jhakri Robe +2",
+    hands="Aya. Manopolas +1",
+    legs={ name="Carmine Cuisses +1", augments={'Accuracy+20','Attack+12','"Dual Wield"+6',}},
+    feet="Aya. Gambieras +1",
+    neck="Elite Royal Collar",
+    waist="Flume Belt",
+    left_ear="Suppanomimi",
+    right_ear="Eabani Earring",
+    left_ring="Defending Ring",
+    right_ring={ name="Dark Ring", augments={'Phys. dmg. taken -6%','Magic dmg. taken -3%',}},
+    back={ name="Sucellos's Cape", augments={'STR+20','Accuracy+20 Attack+20','"Dbl.Atk."+10','Phys. dmg. taken-10%',}},
+}

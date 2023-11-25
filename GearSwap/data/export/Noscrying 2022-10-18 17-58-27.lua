@@ -1,0 +1,16 @@
+sets.exported={
+    main="Karambit",
+    ammo="Knobkierrie",
+    head={ name="Blistering Sallet +1", augments={'Path: A',}},
+    body="Ken. Samue",
+    hands="Mummu Wrists +2",
+    legs="Hiza. Hizayoroi +2",
+    feet="Ken. Sune-Ate",
+    neck="Rep. Plat. Medal",
+    waist="Moonbow Belt",
+    left_ear="Sherida Earring",
+    right_ear={ name="Moonshade Earring", augments={'"Mag.Atk.Bns."+4','TP Bonus +250',}},
+    left_ring="Gere Ring",
+    right_ring="Epona's Ring",
+    back={ name="Segomo's Mantle", augments={'STR+20','Accuracy+20 Attack+20','"Dbl.Atk."+10',}},
+}

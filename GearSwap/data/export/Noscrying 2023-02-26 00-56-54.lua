@@ -1,0 +1,17 @@
+sets.exported={
+    main="Apocalypse",
+    sub="Utu Grip",
+    ammo={ name="Seeth. Bomblet +1", augments={'Path: A',}},
+    head="Sakpata's Helm",
+    body="Sacro Breastplate",
+    hands={ name="Carmine Fin. Ga.", augments={'Rng.Atk.+15','"Mag.Atk.Bns."+10','"Store TP"+5',}},
+    legs="Heath. Flanchard +2",
+    feet="Sakpata's Leggings",
+    neck="Sibyl Scarf",
+    waist="Orpheus's Sash",
+    left_ear="Malignance Earring",
+    right_ear="Friomisi Earring",
+    left_ring="Evanescence Ring",
+    right_ring="Archon Ring",
+    back="Argocham. Mantle",
+}

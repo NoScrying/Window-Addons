@@ -1,0 +1,17 @@
+sets.exported={
+    main={ name="Aettir", augments={'Accuracy+70','Mag. Evasion+50','Weapon skill damage +10%',}},
+    sub="Utu Grip",
+    ammo="Ginsen",
+    head="Meghanada Visor +2",
+    body="Runeist Coat +1",
+    hands="Aya. Manopolas +2",
+    legs={ name="Futhark Trousers", augments={'Enhances "Inspire" effect',}},
+    feet="Aya. Gambieras +2",
+    neck="Elite Royal Collar",
+    waist={ name="Sailfi Belt +1", augments={'Path: A',}},
+    left_ear="Sherida Earring",
+    right_ear="Cessance Earring",
+    left_ring="Defending Ring",
+    right_ring={ name="Dark Ring", augments={'Phys. dmg. taken -6%','Magic dmg. taken -3%',}},
+    back="Moonbeam Cape",
+}

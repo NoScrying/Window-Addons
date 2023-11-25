@@ -1,0 +1,18 @@
+sets.exported={
+    main="Kaja Knife",
+    sub="Sandung",
+    range="Kaja Bow",
+    ammo="Stone Arrow",
+    head="Tema. Headband",
+    body="Meg. Cuirie +2",
+    hands="Meg. Gloves +2",
+    legs="Temachtiani Pants",
+    feet="Temachtiani Boots",
+    neck="Peacock Amulet",
+    waist="Eschan Stone",
+    left_ear="Volley Earring",
+    right_ear="Cessance Earring",
+    left_ring="Prouesse Ring",
+    right_ring="Cacoethic Ring",
+    back="Thall Mantle",
+}

@@ -1,0 +1,17 @@
+sets.exported={
+    main="Verethragna",
+    range="Animator P",
+    ammo="Automat. Oil +3",
+    head="Tali'ah Turban +2",
+    body="Tali'ah Manteel +2",
+    hands={ name="Herculean Gloves", augments={'Accuracy+27','"Triple Atk."+3','DEX+15',}},
+    legs={ name="Taeon Tights", augments={'Accuracy+25','"Triple Atk."+2','STR+5 DEX+5',}},
+    feet={ name="Herculean Boots", augments={'Accuracy+28','"Triple Atk."+4',}},
+    neck="Shulmanu Collar",
+    waist="Moonbow Belt +1",
+    left_ear="Crep. Earring",
+    right_ear="Sroda Earring",
+    left_ring="Epona's Ring",
+    right_ring="Gere Ring",
+    back={ name="Visucius's Mantle", augments={'STR+20','Accuracy+20 Attack+20','"Dbl.Atk."+10','Phys. dmg. taken-10%',}},
+}

@@ -1,0 +1,17 @@
+sets.exported={
+    main={ name="Iztaasu +2", augments={'DMG:+11','Weapon Skill Acc.+2','Accuracy+8',}},
+    sub={ name="Ipetam", augments={'Accuracy+12','"Dbl.Atk."+3','DMG:+15',}},
+    ammo="Hasty Pinion +1",
+    head="Aya. Zucchetto",
+    body="Atrophy Tabard +1",
+    hands="Aya. Manopolas",
+    legs={ name="Taeon Tights", augments={'"Triple Atk."+2',}},
+    feet="Aya. Gambieras",
+    neck="Peacock Amulet",
+    waist="Cetl Belt",
+    left_ear="Mache Earring",
+    right_ear="Brutal Earring",
+    left_ring="Enlivened Ring",
+    right_ring="Jhakri Ring",
+    back="Sucellos's Cape",
+}

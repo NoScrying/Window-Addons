@@ -1,0 +1,17 @@
+sets.exported={
+    main="Tauret",
+    range={ name="Doomsday", augments={'"Mag.Atk.Bns."+20','Weapon skill damage +7%','STR+15 AGI+15',}},
+    ammo="Animikii Bullet",
+    head={ name="Blistering Sallet +1", augments={'Path: A',}},
+    body="Mummu Jacket +2",
+    hands="Mummu Wrists +2",
+    legs="Mummu Kecks +2",
+    feet="Mummu Gamash. +2",
+    neck="Fotia Gorget",
+    waist="Fotia Belt",
+    left_ear="Odr Earring",
+    right_ear={ name="Moonshade Earring", augments={'"Mag.Atk.Bns."+4','TP Bonus +250',}},
+    left_ring="Lehko's Ring",
+    right_ring="Ilabrat Ring",
+    back={ name="Camulus's Mantle", augments={'DEX+20','Accuracy+20 Attack+20','"Dbl.Atk."+10','Phys. dmg. taken-10%',}},
+}

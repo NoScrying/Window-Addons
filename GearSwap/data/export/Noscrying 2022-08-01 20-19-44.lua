@@ -1,0 +1,17 @@
+sets.exported={
+    main="Lycurgos",
+    sub="Utu Grip",
+    ammo={ name="Seeth. Bomblet +1", augments={'Path: A',}},
+    head="Sulevia's Mask +1",
+    body="Sakpata's Plate",
+    hands="Sakpata's Gauntlets",
+    legs="Sulev. Cuisses +2",
+    feet="Sulev. Leggings +2",
+    neck="Elite Royal Collar",
+    waist="Flume Belt",
+    left_ear="Brutal Earring",
+    right_ear="Cessance Earring",
+    left_ring="Defending Ring",
+    right_ring={ name="Dark Ring", augments={'Magic dmg. taken -6%','Phys. dmg. taken -3%','Breath dmg. taken -5%',}},
+    back={ name="Ankou's Mantle", augments={'STR+20','Accuracy+20 Attack+20','"Dbl.Atk."+10','Damage taken-5%',}},
+}

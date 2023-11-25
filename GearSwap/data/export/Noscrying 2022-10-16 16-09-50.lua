@@ -1,0 +1,16 @@
+sets.exported={
+    main="Karambit",
+    ammo="Ginsen",
+    head="Malignance Chapeau",
+    body="Malignance Tabard",
+    hands="Malignance Gloves",
+    legs={ name="Hes. Hose +1", augments={'Enhances "Hundred Fists" effect',}},
+    feet="Hermes' Sandals",
+    neck={ name="Mnk. Nodowa +1", augments={'Path: A',}},
+    waist="Moonbow Belt",
+    left_ear="Sherida Earring",
+    right_ear="Cessance Earring",
+    left_ring="Defending Ring",
+    right_ring="Warp Ring",
+    back={ name="Segomo's Mantle", augments={'STR+20','Accuracy+20 Attack+20','"Dbl.Atk."+10',}},
+}

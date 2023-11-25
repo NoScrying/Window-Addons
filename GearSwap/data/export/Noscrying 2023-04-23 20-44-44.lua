@@ -1,0 +1,17 @@
+sets.exported={
+    main="Maxentius",
+    sub={ name="Machaera +2", augments={'TP Bonus +1000',}},
+    ammo="Aurgelmir Orb",
+    head="Malignance Chapeau",
+    body="Malignance Tabard",
+    hands="Malignance Gloves",
+    legs="Malignance Tights",
+    feet="Malignance Boots",
+    neck="Warder's Charm +1",
+    waist="Carrier's Sash",
+    left_ear="Eabani Earring",
+    right_ear="Suppanomimi",
+    left_ring="Archon Ring",
+    right_ring="Defending Ring",
+    back={ name="Rosmerta's Cape", augments={'DEX+20','Accuracy+20 Attack+20','"Dbl.Atk."+10','Phys. dmg. taken-10%',}},
+}

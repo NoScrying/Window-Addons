@@ -1,0 +1,17 @@
+sets.exported={
+    main="Shining One",
+    sub="Utu Grip",
+    ammo="Aurgelmir Orb",
+    head="Flam. Zucchetto +2",
+    body="Hjarrandi Breast.",
+    hands={ name="Valorous Mitts", augments={'"Store TP"+7','Accuracy+14',}},
+    legs="Nyame Flanchard",
+    feet="Flam. Gambieras +2",
+    neck="Shulmanu Collar",
+    waist={ name="Sailfi Belt +1", augments={'Path: A',}},
+    left_ear="Sroda Earring",
+    right_ear="Sherida Earring",
+    left_ring="Niqmaddu Ring",
+    right_ring="Moonlight Ring",
+    back={ name="Brigantia's Mantle", augments={'STR+20','Accuracy+20 Attack+20','"Dbl.Atk."+10',}},
+}

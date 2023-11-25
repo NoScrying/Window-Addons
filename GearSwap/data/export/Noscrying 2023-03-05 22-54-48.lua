@@ -1,0 +1,17 @@
+sets.exported={
+    main="Wind Knife",
+    sub="Qutrub Knife",
+    ammo="Sroda Tathlum",
+    head="Ea Hat",
+    body="Ea Houppelande",
+    hands={ name="Amalric Gages +1", augments={'INT+12','Mag. Acc.+20','"Mag.Atk.Bns."+20',}},
+    legs="Leth. Fuseau +2",
+    feet="Jhakri Pigaches +2",
+    neck="Sibyl Scarf",
+    waist="Eschan Stone",
+    left_ear="Malignance Earring",
+    right_ear="Regal Earring",
+    left_ring="Jhakri Ring",
+    right_ring="Freke Ring",
+    back={ name="Sucellos's Cape", augments={'MND+20','Mag. Acc+20 /Mag. Dmg.+20','"Mag.Atk.Bns."+7',}},
+}

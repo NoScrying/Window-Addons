@@ -1,0 +1,17 @@
+sets.exported={
+    main={ name="Ohrmazd", augments={'Attack+14','Pet: Phys. dmg. taken -4%','Pet: STR+12 Pet: DEX+12 Pet: VIT+12',}},
+    range="Divinator",
+    ammo="Automat. Oil +3",
+    head={ name="Anwig Salade", augments={'Attack+3','Pet: Damage taken -10%','Accuracy+3','Pet: Haste+5',}},
+    body={ name="Taeon Tabard", augments={'Pet: Attack+19 Pet: Rng.Atk.+19','Pet: "Dbl. Atk."+5','Pet: Damage taken -4%',}},
+    hands={ name="Taeon Gloves", augments={'Accuracy+17','Pet: "Dbl. Atk."+5','Pet: Damage taken -4%',}},
+    legs={ name="Taeon Tights", augments={'Accuracy+19 Attack+19','Pet: "Dbl. Atk."+5','Pet: Damage taken -4%',}},
+    feet={ name="Taeon Boots", augments={'Accuracy+14','Pet: "Dbl. Atk."+5','Pet: Damage taken -4%',}},
+    neck="Shepherd's Chain",
+    waist="Klouskap Sash",
+    left_ear="Handler's Earring",
+    right_ear="Mache Earring",
+    left_ring="Varar Ring",
+    right_ring="Varar Ring",
+    back={ name="Visucius's Mantle", augments={'Pet: Acc.+20 Pet: R.Acc.+20 Pet: Atk.+20 Pet: R.Atk.+20','Accuracy+20 Attack+20','Pet: Haste+10',}},
+}

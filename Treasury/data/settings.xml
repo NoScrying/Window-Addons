@@ -1,0 +1,16 @@
+<?xml version="1.1" ?>
+<settings>
+    <global>
+        <AutoDrop>false</AutoDrop>
+        <AutoStack>true</AutoStack>
+        <Delay>0</Delay>
+        <Drop>Insect Wing,Silk Thread,Colibri Feather,Rock Salt,Ziz Meat,Puk Egg,Almond</Drop>
+        <Lot />
+        <Pass />
+        <Verbose>false</Verbose>
+    </global>
+    <noscrying>
+        <AutoDrop>true</AutoDrop>
+        <Drop>Bale Seal: Bd.,Darklinn Scythe,Puk Egg,Thew Bomblet,Bifrost Ring,Altep Ring,Magoraga Beads,Clot Plasma,Voyage Card,2Leaf Mandra Bud,Mavi Seal: Hn.,Limule Pincer,Beehive Chip,Aoid. Seal: Bd.,Colibri Feather,Vision Jewel,Earth Spirit,Tropic Gages,Issen Hachimaki,Snoll Arm,Shadow Geode,Mercury,Unkai Seal: Bd.,Ardor Coin,Manticore Hair,Bale Earring,Caller Seal: Hn.,Raid. Seal: Bd.,Siege Bow,Jacaranda Log,Svnt. Seal: Bd.,Sleepshroom,Bale Seal: Hd.,Ajari Necklace,Repelling Collar,Diatryma Meat,Mavi Seal: Bd.,Balance Stone,Mea Ring,Shivite,Orison Seal: Hd.,Aqua Geode,Rabbit Hide,Flint Stone,Copper Ore,Mavi Seal: Lg.,Humus,Ifritite,Bat Wing,Silk Thread,Creed Seal: Bd.,Phurba,Insect Wing,Raptor Skin,Dryad Root,Celeritas Pole,Acinaces,Eft Blood,Charis Seal: Bd.,Pebble,Halting Stole,Wieldance Coin,Metanoia Ring,Molva Maul,Aoid. Seal: Hn.,Wind Ore,Charmer&apos;s Merlin,Clionid Wing,Caller Seal: Bd.,Raid. Seal: Hd.,Golem Shard,Orison Seal: Lg.,Magnus Lance,Sharpeye Mantle,Garudite,Fire Ore,Apkallu Egg,Apkallu Feather,Tantra Seal: Hd.,Soil Geode,Wieldance Card,Ferine Seal: Lg.,Honey,Lambent Scale,Leviatite,Carbite,Ziz Meat,Bale Seal: Lg.,Aristo Belt,Ramuite,Vision Coin,Mythril Ore,Goetia Seal: Bd.,Djinn Ash,Tin Ore,Rvg. Seal: Lg.,Holla Ring,Dem Ring,Manticore Fang,Helical Gear,Fiend Blood,Wind Crystal,Lncr. Seal: Lg.,Titanite,Wam. Cocoon,Afflictors,Rock Salt,Flan Meat,Flytrap Leaf,Ludic Mitts,Colibri Beak,Land Crab Meat,Bat Fang,Gear Fluid,Breeze Geode,Caller Seal: Lg.,Chukwa&apos;s Egg,Giant Bird Fthr.,Darksteel Ore,Balance Card,Kriegsmesser,Goetia Seal: Hn.,Puk Wing,Bird Egg,G. Sheep Meat,Hare Meat,Shadow Belt,Ferine Seal: Bd.,Tantra Seal: Bd.,Iga Seal: Hd.,Coeurl Meat,Rvg. Seal: Bd.,Hecteyes Eye,Soulflayer Staff,Ost Cerveliere,Slime Oil,Seashell,Wieldance Stone,Undead Skin,Bone Chip,Blk. Tiger Fang,Thundermelon,Pamamas,Tiresias&apos; Cape,Balance Jewel,Fenrite,Gifted Earring,Earth Ore,Light Geode,Lncr. Seal: Bd.,Lizard Egg,Peapuk Wing,Spider Web,Rusty Bucket,Creed Seal: Hn.,Snow Belt,Artemis&apos;s Medal,G. Bird Plume,Unkai Seal: Lg.,Eschalixir,Pugil Scales,Snow Geode,Tantra Earring,Shall Shell,Charis Earring,Flame Geode,Almond,Sylvan Seal: Bd.,Aqua Belt,Imp Wing,Dried Mugwort,Ryoshi Hachimaki,Ardor Jewel,Scorpion Shell,Estq. Seal: Hd.,Poroggo Hat,Vision Bow,Wicca Subligar,Mavi Seal: Hd.,Zinc Ore,Silver Ore,Bird Feather,Bugard Skin,Gold Ore,Creed Earring,Magic Pot Shard,Cirque Seal: Hn.,Burattinaios,Primal Belt,Cirque Seal: Lg.,Sylvan Seal: Hn.,Philomath Stole,Djinn Arm,Crawler Egg,Eschalixir +1,Nvrch. Seal: Bd.,Scorpion Claw,Thunder Geode,Crab Shell</Drop>
+    </noscrying>
+</settings>

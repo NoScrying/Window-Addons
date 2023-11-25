@@ -1,0 +1,17 @@
+sets.exported={
+    main={ name="Fusetto", augments={'DMG:+3','Shadowstitch:DMG:+10%',}},
+    sub="Qutrub Knife",
+    range="Gjallarhorn",
+    head="Fili Calot +2",
+    body="Fili Hongreline +2",
+    hands="Fili Manchettes +2",
+    legs="Inyanga Shalwar +2",
+    feet="Brioso Slippers +2",
+    neck="Mnbw. Whistle +1",
+    waist="Plat. Mog. Belt",
+    left_ear={ name="Odnowa Earring +1", augments={'Path: A',}},
+    right_ear={ name="Fili Earring", augments={'System: 1 ID: 1676 Val: 0','Accuracy+7','Mag. Acc.+7',}},
+    left_ring={ name="Gelatinous Ring +1", augments={'Path: A',}},
+    right_ring="Defending Ring",
+    back={ name="Intarabus's Cape", augments={'CHR+20','Mag. Acc+20 /Mag. Dmg.+20','"Fast Cast"+10','Phys. dmg. taken-10%',}},
+}

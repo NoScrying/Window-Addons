@@ -1,0 +1,17 @@
+sets.exported={
+    main="Naegling",
+    sub={ name="Machaera +2", augments={'TP Bonus +1000',}},
+    ammo="Ginsen",
+    head={ name="Blistering Sallet +1", augments={'Path: A',}},
+    body="Hashishin Mintan +2",
+    hands="Hashi. Bazu. +2",
+    legs={ name="Carmine Cuisses +1", augments={'Accuracy+20','Attack+12','"Dual Wield"+6',}},
+    feet="Malignance Boots",
+    neck="Sibyl Scarf",
+    waist="Flume Belt",
+    left_ear="Eabani Earring",
+    right_ear="Suppanomimi",
+    left_ring="Defending Ring",
+    right_ring="Warp Ring",
+    back={ name="Rosmerta's Cape", augments={'DEX+20','Accuracy+20 Attack+20','"Dbl.Atk."+10','Phys. dmg. taken-10%',}},
+}

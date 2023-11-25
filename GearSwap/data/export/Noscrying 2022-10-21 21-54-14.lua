@@ -1,0 +1,16 @@
+sets.exported={
+    main="Karambit",
+    ammo="Knobkierrie",
+    head={ name="Blistering Sallet +1", augments={'Path: A',}},
+    body="Ken. Samue",
+    hands={ name="Herculean Gloves", augments={'Accuracy+6 Attack+6','"Triple Atk."+2','Accuracy+15','Attack+5',}},
+    legs={ name="Tatena. Haidate +1", augments={'Path: A',}},
+    feet="Anch. Gaiters +2",
+    neck={ name="Mnk. Nodowa +1", augments={'Path: A',}},
+    waist="Moonbow Belt",
+    left_ear="Sherida Earring",
+    right_ear={ name="Moonshade Earring", augments={'"Mag.Atk.Bns."+4','TP Bonus +250',}},
+    left_ring="Gere Ring",
+    right_ring="Petrov Ring",
+    back={ name="Segomo's Mantle", augments={'STR+20','Accuracy+20 Attack+20','"Dbl.Atk."+10',}},
+}

@@ -1,0 +1,16 @@
+sets.exported={
+    main="Karambit",
+    ammo="Ginsen",
+    head="Malignance Chapeau",
+    body="Malignance Tabard",
+    hands="Malignance Gloves",
+    legs="Bhikku Hose +2",
+    feet="Anch. Gaiters +2",
+    neck="Elite Royal Collar",
+    waist="Moonbow Belt",
+    left_ear="Sherida Earring",
+    right_ear="Cessance Earring",
+    left_ring="Defending Ring",
+    right_ring="Gere Ring",
+    back="Moonbeam Cape",
+}

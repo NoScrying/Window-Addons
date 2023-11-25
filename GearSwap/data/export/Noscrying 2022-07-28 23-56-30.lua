@@ -1,0 +1,17 @@
+sets.exported={
+    main="Sakpata's Sword",
+    sub={ name="Demers. Degen +1", augments={'Path: A',}},
+    range="Kaja Bow",
+    head="Lethargy Chappel",
+    body={ name="Telchine Chas.", augments={'"Cure" potency +7%','Enh. Mag. eff. dur. +10',}},
+    hands={ name="Vitiation Gloves", augments={'Enhancing Magic duration',}},
+    legs="Leth. Fuseau +1",
+    feet="Leth. Houseaux +1",
+    neck="Duelist's Torque",
+    waist="Embla Sash",
+    left_ear="Aredan Earring",
+    right_ear="Malignance Earring",
+    left_ring="Stikini Ring",
+    right_ring="Stikini Ring",
+    back={ name="Sucellos's Cape", augments={'MND+20','Mag. Acc+20 /Mag. Dmg.+20','"Mag.Atk.Bns."+7',}},
+}

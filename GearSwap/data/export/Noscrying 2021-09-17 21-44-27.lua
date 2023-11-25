@@ -1,0 +1,17 @@
+sets.exported={
+    main="Denouements",
+    range="Em. Animator",
+    ammo="Automat. Oil +3",
+    head={ name="Taeon Chapeau", augments={'Pet: Attack+10 Pet: Rng.Atk.+10','Pet: "Dbl. Atk."+5','Pet: Damage taken -4%',}},
+    body={ name="Taeon Tabard", augments={'Pet: Attack+19 Pet: Rng.Atk.+19','Pet: "Dbl. Atk."+5','Pet: Damage taken -4%',}},
+    hands={ name="Taeon Gloves", augments={'Accuracy+17','Pet: "Dbl. Atk."+5','Pet: Damage taken -4%',}},
+    legs={ name="Taeon Tights", augments={'Accuracy+19 Attack+19','Pet: "Dbl. Atk."+5','Pet: Damage taken -4%',}},
+    feet={ name="Taeon Boots", augments={'Accuracy+14','Pet: "Dbl. Atk."+5','Pet: Damage taken -4%',}},
+    neck="Lissome Necklace",
+    waist="Klouskap Sash",
+    left_ear="Brutal Earring",
+    right_ear="Mache Earring",
+    left_ring="Epona's Ring",
+    right_ring="Warp Ring",
+    back="Kayapa Cape",
+}

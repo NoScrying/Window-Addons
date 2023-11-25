@@ -1,0 +1,16 @@
+sets.exported={
+    main="Kaja Knuckles",
+    range="Divinator",
+    head="Tali'ah Turban +2",
+    body={ name="Otro. Harness +1", augments={'Phys. dmg. taken -3%','Magic dmg. taken -3%','"Dbl.Atk."+2',}},
+    hands="Tali'ah Gages +1",
+    legs={ name="Taeon Tights", augments={'Accuracy+25','"Triple Atk."+2','STR+5 DEX+5',}},
+    feet="Battlecast Gaiters",
+    neck="Elite Royal Collar",
+    waist="Moonbow Belt",
+    left_ear="Mache Earring",
+    right_ear="Brutal Earring",
+    left_ring={ name="Dark Ring", augments={'Phys. dmg. taken -6%','Magic dmg. taken -3%',}},
+    right_ring="Defending Ring",
+    back={ name="Visucius's Mantle", augments={'STR+20','Accuracy+20 Attack+20','"Dbl.Atk."+10','Phys. dmg. taken-10%',}},
+}

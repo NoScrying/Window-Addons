@@ -1,0 +1,17 @@
+sets.exported={
+    main="Kaja Scythe",
+    sub="Utu Grip",
+    ammo="Aurgelmir Orb",
+    head="Flam. Zucchetto +2",
+    body="Hjarrandi Breast.",
+    hands="Sakpata's Gauntlets",
+    legs="Sakpata's Cuisses",
+    feet="Flam. Gambieras +2",
+    neck="Lissome Necklace",
+    waist="Ioskeha Belt +1",
+    left_ear="Dedition Earring",
+    right_ear="Cessance Earring",
+    left_ring="Chirich Ring",
+    right_ring="Chirich Ring",
+    back={ name="Ankou's Mantle", augments={'DEX+20','Accuracy+20 Attack+20','"Dbl.Atk."+10','Phys. dmg. taken-10%',}},
+}

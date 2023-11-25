@@ -1,0 +1,17 @@
+sets.exported={
+    main={ name="Ichigohitofuri", augments={'DMG:+30','STR+20','Accuracy+15',}},
+    sub="Utu Grip",
+    ammo="Aurgelmir Orb",
+    head="Flam. Zucchetto +2",
+    body="Flamma Korazin +2",
+    hands={ name="Tatena. Gote +1", augments={'Path: A',}},
+    legs={ name="Tatena. Haidate +1", augments={'Path: A',}},
+    feet={ name="Ryuo Sune-Ate +1", augments={'STR+12','DEX+12','Accuracy+20',}},
+    neck="Moonbeam Nodowa",
+    waist={ name="Sailfi Belt +1", augments={'Path: A',}},
+    left_ear="Cessance Earring",
+    right_ear={ name="Lugra Earring +1", augments={'Path: A',}},
+    left_ring="Chirich Ring",
+    right_ring="Chirich Ring +1",
+    back={ name="Smertrios's Mantle", augments={'STR+20','Accuracy+20 Attack+20','"Dbl.Atk."+10',}},
+}

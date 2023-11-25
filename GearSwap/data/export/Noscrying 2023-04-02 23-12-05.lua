@@ -1,0 +1,16 @@
+sets.exported={
+    main="Verethragna",
+    ammo="Crepuscular Pebble",
+    head={ name="Rao Kabuto", augments={'Pet: HP+100','Pet: Accuracy+15','Pet: Damage taken -3%',}},
+    body="Hiza. Haramaki +2",
+    hands={ name="Hes. Gloves +1", augments={'Enhances "Invigorate" effect',}},
+    legs="Bhikku Hose +2",
+    feet="Hermes' Sandals",
+    neck={ name="Bathy Choker +1", augments={'Path: A',}},
+    waist="Moonbow Belt +1",
+    left_ear="Sherida Earring",
+    right_ear="Infused Earring",
+    left_ring="Chirich Ring +1",
+    right_ring="Defending Ring",
+    back={ name="Segomo's Mantle", augments={'STR+20','Accuracy+20 Attack+20','STR+5','"Dbl.Atk."+10','Phys. dmg. taken-10%',}},
+}

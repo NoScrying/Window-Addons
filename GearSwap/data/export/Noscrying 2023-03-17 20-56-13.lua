@@ -1,0 +1,17 @@
+sets.exported={
+    main="Zantetsuken X",
+    sub="Utu Grip",
+    ammo={ name="Seeth. Bomblet +1", augments={'Path: A',}},
+    head={ name="Adhemar Bonnet +1", augments={'DEX+12','AGI+12','Accuracy+20',}},
+    body={ name="Adhemar Jacket +1", augments={'DEX+12','AGI+12','Accuracy+20',}},
+    hands={ name="Herculean Gloves", augments={'"Triple Atk."+3','STR+13',}},
+    legs="Meg. Chausses +2",
+    feet={ name="Herculean Boots", augments={'Accuracy+28','"Triple Atk."+4',}},
+    neck="Fotia Gorget",
+    waist={ name="Sailfi Belt +1", augments={'Path: A',}},
+    left_ear="Sherida Earring",
+    right_ear={ name="Moonshade Earring", augments={'"Mag.Atk.Bns."+4','TP Bonus +250',}},
+    left_ring="Rufescent Ring",
+    right_ring="Sroda Ring",
+    back={ name="Ogma's Cape", augments={'DEX+20','Accuracy+20 Attack+20','"Dbl.Atk."+10','Phys. dmg. taken-10%',}},
+}

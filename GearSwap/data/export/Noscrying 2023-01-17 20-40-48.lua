@@ -1,0 +1,17 @@
+sets.exported={
+    main="Kaja Knife",
+    sub={ name="Malevolence", augments={'INT+1','Mag. Acc.+1','"Mag.Atk.Bns."+5',}},
+    ammo="Per. Lucky Egg",
+    head="Malignance Chapeau",
+    body="Malignance Tabard",
+    hands="Malignance Gloves",
+    legs="Malignance Tights",
+    feet="Jute Boots +1",
+    neck="Elite Royal Collar",
+    waist="Flume Belt",
+    left_ear="Sherida Earring",
+    right_ear={ name="Skulk. Earring +1", augments={'System: 1 ID: 1676 Val: 0','Accuracy+11','Mag. Acc.+11','"Store TP"+3',}},
+    left_ring={ name="Dark Ring", augments={'Phys. dmg. taken -6%','Magic dmg. taken -3%',}},
+    right_ring="Defending Ring",
+    back="Moonbeam Cape",
+}

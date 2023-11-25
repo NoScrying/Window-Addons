@@ -1,0 +1,17 @@
+sets.exported={
+    main={ name="Macbain", augments={'Accuracy+20','"Dbl.Atk."+3','DMG:+32',}},
+    sub="Immolation Grip",
+    ammo="Ginsen",
+    head="Sulevia's Mask +1",
+    body="Pumm. Lorica +1",
+    hands="Sulev. Gauntlets +1",
+    legs="Sulevi. Cuisses +1",
+    feet={ name="Agoge Calligae", augments={'Enhances "Tomahawk" effect',}},
+    neck="Elite Royal Collar",
+    waist="Flume Belt",
+    left_ear="Brutal Earring",
+    right_ear="Mache Earring",
+    left_ring="Defending Ring",
+    right_ring={ name="Dark Ring", augments={'Phys. dmg. taken -6%','Magic dmg. taken -3%',}},
+    back={ name="Cichol's Mantle", augments={'STR+20','Accuracy+20 Attack+20','"Dbl.Atk."+10',}},
+}

@@ -1,0 +1,17 @@
+sets.exported={
+    main="Tauret",
+    sub={ name="Demers. Degen +1", augments={'Path: A',}},
+    range={ name="Linos", augments={'Accuracy+15','Weapon skill damage +3%','Quadruple Attack +3',}},
+    head="Nyame Helm",
+    body="Nyame Mail",
+    hands="Nyame Gauntlets",
+    legs="Nyame Flanchard",
+    feet="Nyame Sollerets",
+    neck="Sibyl Scarf",
+    waist="Eschan Stone",
+    left_ear="Ishvara Earring",
+    right_ear={ name="Moonshade Earring", augments={'"Mag.Atk.Bns."+4','TP Bonus +250',}},
+    left_ring="Epaminondas's Ring",
+    right_ring="Arvina Ringlet +1",
+    back="Argocham. Mantle",
+}

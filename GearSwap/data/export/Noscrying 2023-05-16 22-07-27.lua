@@ -1,0 +1,18 @@
+sets.exported={
+    main="Naegling",
+    sub="Blurred Knife +1",
+    range={ name="Anarchy +2", augments={'Delay:+60','TP Bonus +1000',}},
+    ammo="Eminent Bullet",
+    head="Nyame Helm",
+    body="Nyame Mail",
+    hands="Nyame Gauntlets",
+    legs={ name="Carmine Cuisses +1", augments={'Accuracy+20','Attack+12','"Dual Wield"+6',}},
+    feet="Nyame Sollerets",
+    neck="Warder's Charm +1",
+    waist="Carrier's Sash",
+    left_ear="Crep. Earring",
+    right_ear="Suppanomimi",
+    left_ring="Purity Ring",
+    right_ring="Defending Ring",
+    back={ name="Camulus's Mantle", augments={'DEX+20','Accuracy+20 Attack+20','"Dbl.Atk."+10','Phys. dmg. taken-10%',}},
+}

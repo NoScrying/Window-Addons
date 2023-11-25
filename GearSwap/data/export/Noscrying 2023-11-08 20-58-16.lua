@@ -1,0 +1,17 @@
+sets.exported={
+    main="Apocalypse",
+    sub="Utu Grip",
+    ammo={ name="Seeth. Bomblet +1", augments={'Path: A',}},
+    head="Flam. Zucchetto +2",
+    body="Ignominy Cuirass +3",
+    hands="Sakpata's Gauntlets",
+    legs="Sulev. Cuisses +2",
+    feet="Sakpata's Leggings",
+    neck="Fotia Gorget",
+    waist="Fotia Belt",
+    left_ear="Cessance Earring",
+    right_ear={ name="Lugra Earring +1", augments={'Path: A',}},
+    left_ring="Niqmaddu Ring",
+    right_ring="Epaminondas's Ring",
+    back={ name="Ankou's Mantle", augments={'STR+20','Accuracy+20 Attack+20','"Dbl.Atk."+10',}},
+}

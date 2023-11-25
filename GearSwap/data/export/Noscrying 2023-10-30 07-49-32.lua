@@ -1,0 +1,17 @@
+sets.exported={
+    main="Tauret",
+    sub="Culminus",
+    range={ name="Linos", augments={'All Songs+2','"Fast Cast"+4','Quadruple Attack +2',}},
+    head="Fili Calot +2",
+    body="Nyame Mail",
+    hands="Fili Manchettes +2",
+    legs="Fili Rhingrave +2",
+    feet="Nyame Sollerets",
+    neck="Warder's Charm +1",
+    waist="Flume Belt",
+    left_ear={ name="Odnowa Earring +1", augments={'Path: A',}},
+    right_ear="Tuisto Earring",
+    left_ring="Moonlight Ring",
+    right_ring={ name="Gelatinous Ring +1", augments={'Path: A',}},
+    back="Moonbeam Cape",
+}

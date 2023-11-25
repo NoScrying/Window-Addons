@@ -1,0 +1,17 @@
+sets.exported={
+    main="Malignance Pole",
+    sub="Mensch Strap",
+    ammo="Homiliary",
+    head="Jhakri Coronal +1",
+    body="Jhakri Robe +2",
+    hands="Jhakri Cuffs +1",
+    legs={ name="Telchine Braconi", augments={'"Cure" potency +8%','Enh. Mag. eff. dur. +7',}},
+    feet="Battlecast Gaiters",
+    neck="Lissome Necklace",
+    waist="Cetl Belt",
+    left_ear="Mache Earring",
+    right_ear="Brutal Earring",
+    left_ring="Strendu Ring",
+    right_ring="Petrov Ring",
+    back="Lugh's Cape",
+}

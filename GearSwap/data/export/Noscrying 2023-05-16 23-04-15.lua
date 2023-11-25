@@ -1,0 +1,17 @@
+sets.exported={
+    main="Shining One",
+    sub="Utu Grip",
+    ammo="Aurgelmir Orb",
+    head="Nyame Helm",
+    body="Nyame Mail",
+    hands="Nyame Gauntlets",
+    legs="Nyame Flanchard",
+    feet="Nyame Sollerets",
+    neck="Warder's Charm +1",
+    waist="Carrier's Sash",
+    left_ear="Crep. Earring",
+    right_ear="Eabani Earring",
+    left_ring="Archon Ring",
+    right_ring="Purity Ring",
+    back={ name="Smertrios's Mantle", augments={'STR+20','Accuracy+20 Attack+20','"Dbl.Atk."+10','Phys. dmg. taken-10%',}},
+}

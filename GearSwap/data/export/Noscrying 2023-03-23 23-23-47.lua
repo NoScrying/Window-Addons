@@ -1,0 +1,17 @@
+sets.exported={
+    main="Zantetsuken X",
+    sub="Utu Grip",
+    ammo="Homiliary",
+    head="Rawhide Mask",
+    body="Runeist Coat +1",
+    hands="Erilaz Gauntlets +2",
+    legs={ name="Carmine Cuisses +1", augments={'Accuracy+20','Attack+12','"Dual Wield"+6',}},
+    feet="Erilaz Greaves +2",
+    neck="Warder's Charm +1",
+    waist="Engraved Belt",
+    left_ear="Sherida Earring",
+    right_ear="Cessance Earring",
+    left_ring="Stikini Ring +1",
+    right_ring="Stikini Ring +1",
+    back={ name="Ogma's Cape", augments={'HP+60','Eva.+20 /Mag. Eva.+20','Enmity+10','Parrying rate+5%',}},
+}

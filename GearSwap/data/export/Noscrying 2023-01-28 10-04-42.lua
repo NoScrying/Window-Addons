@@ -1,0 +1,16 @@
+sets.exported={
+    main="Karambit",
+    ammo="Aurgelmir Orb",
+    head={ name="Blistering Sallet +1", augments={'Path: A',}},
+    body="Ken. Samue",
+    hands={ name="Ryuo Tekko +1", augments={'DEX+12','Accuracy+25','"Dbl.Atk."+4',}},
+    legs="Bhikku Hose +2",
+    feet="Ken. Sune-Ate +1",
+    neck={ name="Mnk. Nodowa +1", augments={'Path: A',}},
+    waist="Moonbow Belt +1",
+    left_ear="Sherida Earring",
+    right_ear="Odr Earring",
+    left_ring="Gere Ring",
+    right_ring="Epona's Ring",
+    back={ name="Segomo's Mantle", augments={'STR+20','Accuracy+20 Attack+20','STR+5','"Dbl.Atk."+10','Phys. dmg. taken-10%',}},
+}

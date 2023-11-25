@@ -1,0 +1,18 @@
+sets.exported={
+    main="Naegling",
+    sub="Eletta Knife",
+    range={ name="Doomsday", augments={'"Mag.Atk.Bns."+20','"Dbl.Atk."+4','Quadruple Attack +2',}},
+    ammo="Eminent Bullet",
+    head={ name="Lanun Tricorne", augments={'Enhances "Winning Streak" effect',}},
+    body={ name="Adhemar Jacket", augments={'DEX+10','AGI+10','Accuracy+15',}},
+    hands={ name="Adhemar Wristbands", augments={'Accuracy+15','Attack+15','"Subtle Blow"+7',}},
+    legs={ name="Carmine Cuisses +1", augments={'Accuracy+20','Attack+12','"Dual Wield"+6',}},
+    feet={ name="Carmine Greaves", augments={'Accuracy+10','DEX+10','MND+15',}},
+    neck="Lissome Necklace",
+    waist="Windbuffet Belt",
+    left_ear="Brutal Earring",
+    right_ear="Mache Earring",
+    left_ring="Luzaf's Ring",
+    right_ring="Barataria Ring",
+    back={ name="Camulus's Mantle", augments={'DEX+20','Accuracy+20 Attack+20','"Dbl.Atk."+10',}},
+}

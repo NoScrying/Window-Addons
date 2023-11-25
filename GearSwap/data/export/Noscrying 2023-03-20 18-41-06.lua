@@ -1,0 +1,17 @@
+sets.exported={
+    main="Lycurgos",
+    sub="Utu Grip",
+    ammo="Staunch Tathlum",
+    head="Sakpata's Helm",
+    body="Boii Lorica +2",
+    hands="Boii Mufflers +2",
+    legs="Boii Cuisses +2",
+    feet="Sakpata's Leggings",
+    neck="Moonbeam Necklace",
+    waist="Eschan Stone",
+    left_ear="Crep. Earring",
+    right_ear={ name="Boii Earring", augments={'System: 1 ID: 1676 Val: 0','Accuracy+6','Mag. Acc.+6',}},
+    left_ring={ name="Metamor. Ring +1", augments={'Path: A',}},
+    right_ring="Crepuscular Ring",
+    back={ name="Cichol's Mantle", augments={'STR+20','Accuracy+20 Attack+20','Weapon skill damage +10%','Phys. dmg. taken-10%',}},
+}

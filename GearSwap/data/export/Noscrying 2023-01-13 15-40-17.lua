@@ -1,0 +1,17 @@
+sets.exported={
+    main={ name="Ichigohitofuri", augments={'DMG:+30','STR+20','Accuracy+15',}},
+    sub="Utu Grip",
+    ammo="Aurgelmir Orb",
+    head={ name="Rao Kabuto", augments={'Pet: HP+100','Pet: Accuracy+15','Pet: Damage taken -3%',}},
+    body="Sacro Breastplate",
+    hands={ name="Rao Kote", augments={'Pet: HP+100','Pet: Accuracy+15','Pet: Damage taken -3%',}},
+    legs={ name="Tatena. Haidate +1", augments={'Path: A',}},
+    feet={ name="Tatena. Sune. +1", augments={'Path: A',}},
+    neck={ name="Sam. Nodowa +1", augments={'Path: A',}},
+    waist="Flume Belt",
+    left_ear="Odnowa Earring +1",
+    right_ear="Infused Earring",
+    left_ring="Defending Ring",
+    right_ring="Chirich Ring +1",
+    back="Moonbeam Cape",
+}

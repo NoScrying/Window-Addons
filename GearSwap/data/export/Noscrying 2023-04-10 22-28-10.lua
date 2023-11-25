@@ -1,0 +1,17 @@
+sets.exported={
+    main="Zantetsuken X",
+    sub="Utu Grip",
+    ammo="Staunch Tathlum +1",
+    head="Erilaz Galea +2",
+    body="Erilaz Surcoat +2",
+    hands="Erilaz Gauntlets +2",
+    legs={ name="Carmine Cuisses +1", augments={'Accuracy+20','Attack+12','"Dual Wield"+6',}},
+    feet="Erilaz Greaves +2",
+    neck="Warder's Charm +1",
+    waist={ name="Kentarch Belt +1", augments={'Path: A',}},
+    left_ear={ name="Odnowa Earring +1", augments={'Path: A',}},
+    right_ear="Tuisto Earring",
+    left_ring="Moonlight Ring",
+    right_ring="Defending Ring",
+    back={ name="Ogma's Cape", augments={'HP+60','Eva.+20 /Mag. Eva.+20','Enmity+10','Phys. dmg. taken-10%',}},
+}

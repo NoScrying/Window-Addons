@@ -1,0 +1,17 @@
+sets.exported={
+    main="Tauret",
+    sub={ name="Demers. Degen +1", augments={'Path: A',}},
+    ammo="Aurgelmir Orb",
+    head={ name="Blistering Sallet +1", augments={'Path: A',}},
+    body="Mummu Jacket +2",
+    hands="Mummu Wrists +2",
+    legs={ name="Lustr. Subligar +1", augments={'Accuracy+20','DEX+8','Crit. hit rate+3%',}},
+    feet={ name="Lustra. Leggings +1", augments={'HP+65','STR+15','DEX+15',}},
+    neck="Fotia Gorget",
+    waist="Fotia Belt",
+    left_ear="Odr Earring",
+    right_ear={ name="Moonshade Earring", augments={'"Mag.Atk.Bns."+4','TP Bonus +250',}},
+    left_ring="Lehko's Ring",
+    right_ring="Ilabrat Ring",
+    back="Sacro Mantle",
+}

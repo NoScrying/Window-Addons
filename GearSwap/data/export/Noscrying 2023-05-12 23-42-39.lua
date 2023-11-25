@@ -1,0 +1,17 @@
+sets.exported={
+    main="Maxentius",
+    sub="Culminus",
+    ammo="Sapience Orb",
+    head="Amalric Coif",
+    body="Arbatel Gown +2",
+    hands="Arbatel Bracers +2",
+    legs="Gyve Trousers",
+    feet="Arbatel Loafers +2",
+    neck="Voltsurge Torque",
+    waist="Witful Belt",
+    left_ear="Malignance Earring",
+    right_ear="Loquac. Earring",
+    left_ring="Kishar Ring",
+    right_ring="Weather. Ring",
+    back="Aptitude Mantle",
+}

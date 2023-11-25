@@ -1,0 +1,17 @@
+sets.exported={
+    main="Daybreak",
+    sub="Culminus",
+    ammo="Homiliary",
+    head="Jhakri Coronal +1",
+    body="Jhakri Robe +2",
+    hands={ name="Telchine Gloves", augments={'"Cure" potency +7%','Enh. Mag. eff. dur. +7',}},
+    legs="Jhakri Slops +1",
+    feet={ name="Telchine Pigaches", augments={'Enh. Mag. eff. dur. +10',}},
+    neck="Elite Royal Collar",
+    waist="Cetl Belt",
+    left_ear="Friomisi Earring",
+    right_ear="Malignance Earring",
+    left_ring="Defending Ring",
+    right_ring="Warp Ring",
+    back="Moonbeam Cape",
+}

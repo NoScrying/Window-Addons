@@ -1,0 +1,17 @@
+sets.exported={
+    main="Naegling",
+    sub="Blurred Shield +1",
+    ammo="Aurgelmir Orb",
+    head="Hjarrandi Helm",
+    body="Boii Lorica +2",
+    hands={ name="Souv. Handsch. +1", augments={'----------------',}},
+    legs="Boii Cuisses +2",
+    feet="Flam. Gambieras +2",
+    neck={ name="War. Beads +1", augments={'Path: A',}},
+    waist="Ioskeha Belt +1",
+    left_ear="Dedition Earring",
+    right_ear="Crep. Earring",
+    left_ring="Chirich Ring",
+    right_ring="Chirich Ring +1",
+    back={ name="Cichol's Mantle", augments={'STR+20','Accuracy+20 Attack+20','"Dbl.Atk."+10','Phys. dmg. taken-10%',}},
+}

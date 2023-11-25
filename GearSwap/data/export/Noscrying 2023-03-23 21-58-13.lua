@@ -1,0 +1,16 @@
+sets.exported={
+    main="Daybreak",
+    ammo="Sroda Tathlum",
+    head="Arbatel Bonnet +2",
+    body="Arbatel Gown +2",
+    hands="Arbatel Bracers +2",
+    legs="Arbatel Pants +2",
+    feet="Jhakri Pigaches +2",
+    neck="Mizu. Kubikazari",
+    waist="Hachirin-no-Obi",
+    left_ear="Malignance Earring",
+    right_ear={ name="Arbatel Earring +1", augments={'System: 1 ID: 1676 Val: 0','Mag. Acc.+13','Enmity-3',}},
+    left_ring="Mujin Band",
+    right_ring="Freke Ring",
+    back="Twilight Cape",
+}

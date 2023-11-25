@@ -1,0 +1,18 @@
+sets.exported={
+    main="Naegling",
+    sub="Kaja Knife",
+    range={ name="Anarchy +2", augments={'Delay:+60','TP Bonus +1000',}},
+    ammo="Bronze Bullet",
+    head="Pixie Hairpin +1",
+    body="Rawhide Vest",
+    hands={ name="Carmine Fin. Ga.", augments={'Rng.Atk.+15','"Mag.Atk.Bns."+10','"Store TP"+5',}},
+    legs="Shned. Tights +1",
+    feet={ name="Herculean Boots", augments={'Weapon skill damage +3%','Mag. Acc.+25','Accuracy+2 Attack+2','Mag. Acc.+17 "Mag.Atk.Bns."+17',}},
+    neck="Sibyl Scarf",
+    waist="Eschan Stone",
+    left_ear="Friomisi Earring",
+    right_ear={ name="Moonshade Earring", augments={'"Mag.Atk.Bns."+4','TP Bonus +250',}},
+    left_ring="Ilabrat Ring",
+    right_ring="Archon Ring",
+    back={ name="Camulus's Mantle", augments={'AGI+20','Rng.Acc.+20 Rng.Atk.+20','Weapon skill damage +10%',}},
+}

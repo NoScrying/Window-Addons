@@ -1,0 +1,17 @@
+sets.exported={
+    main="Shining One",
+    sub="Utu Grip",
+    ammo="Aurgelmir Orb",
+    head="Hjarrandi Helm",
+    body="Tartarus Platemail",
+    hands="Sulev. Gauntlets +2",
+    legs={ name="Carmine Cuisses +1", augments={'Accuracy+20','Attack+12','"Dual Wield"+6',}},
+    feet="Sulev. Leggings +2",
+    neck="Elite Royal Collar",
+    waist="Flume Belt",
+    left_ear="Sroda Earring",
+    right_ear="Sherida Earring",
+    left_ring="Defending Ring",
+    right_ring="Chirich Ring +1",
+    back="Moonbeam Cape",
+}

@@ -1,0 +1,17 @@
+sets.exported={
+    main="Masamune",
+    sub="Utu Grip",
+    ammo="Aurgelmir Orb",
+    head={ name="Valorous Mask", augments={'AGI+14','Weapon skill damage +5%','Quadruple Attack +1','Mag. Acc.+20 "Mag.Atk.Bns."+20',}},
+    body="Kasuga Domaru +2",
+    hands={ name="Tatena. Gote +1", augments={'Path: A',}},
+    legs={ name="Tatena. Haidate +1", augments={'Path: A',}},
+    feet={ name="Ryuo Sune-Ate +1", augments={'STR+12','DEX+12','Accuracy+20',}},
+    neck="Moonbeam Nodowa",
+    waist="Ioskeha Belt +1",
+    left_ear="Cessance Earring",
+    right_ear={ name="Lugra Earring +1", augments={'Path: A',}},
+    left_ring="Ilabrat Ring",
+    right_ring="Chirich Ring +1",
+    back={ name="Smertrios's Mantle", augments={'STR+20','Accuracy+20 Attack+20','"Dbl.Atk."+10','Phys. dmg. taken-10%',}},
+}

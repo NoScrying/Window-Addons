@@ -1,0 +1,167 @@
+<?xml version="1.1" ?>
+<settings>
+    <global>
+        <auto>true</auto>
+        <language>English</language>
+        <sets>
+            <abyssea>
+                <1>Monberaux</1>
+                <2>Sylvie (UC)</2>
+                <3>Ulmia</3>
+                <4>Joachim</4>
+                <5>Koru-Moru</5>
+            </abyssea>
+            <apoc>
+                <1>Sylvie (UC)</1>
+                <2>Qultada</2>
+                <3>Joachim</3>
+                <4>Ulmia</4>
+                <5>Koru-Moru</5>
+            </apoc>
+            <beasts>
+                <1>Abenzio</1>
+                <2>Ullegore</2>
+                <3>Darrcuiln</3>
+                <4>Areuhat</4>
+                <5>D. Shantotto</5>
+            </beasts>
+            <brd>
+                <1>Ulmia</1>
+                <2>Joachim</2>
+            </brd>
+            <brdbuffs>
+                <1>Monberaux</1>
+                <2>Qultada</2>
+                <3>King of Hearts</3>
+                <4>Sylvie (UC)</4>
+                <5>Lilisette</5>
+            </brdbuffs>
+            <brdcp>
+                <1>Monberaux</1>
+                <2>Qultada</2>
+                <3>Koru-Moru</3>
+                <4>Shantotto II</4>
+                <5>Uka Totlihn</5>
+            </brdcp>
+            <buffs2>
+                <1>Monberaux</1>
+                <2>Sylvie (UC)</2>
+                <3>Ulmia</3>
+                <4>Joachim</4>
+                <5>Arciela II</5>
+            </buffs2>
+            <buffs3>
+                <1>Monberaux</1>
+                <2>Joachim</2>
+                <3>Ulmia</3>
+                <4>Qultada</4>
+                <5>King of Hearts</5>
+            </buffs3>
+            <buffs4>
+                <1>Monberaux</1>
+                <2>Joachim</2>
+                <3>Koru-Moru</3>
+                <4>Ulmia</4>
+                <5>Qultada</5>
+            </buffs4>
+            <buffs5>
+                <1>Ygnas</1>
+                <2>Joachim</2>
+                <3>Ulmia</3>
+                <4>Koru-Moru</4>
+                <5>Qultada</5>
+            </buffs5>
+            <carntrials>
+                <1>Monberaux</1>
+                <2>Sylvie (UC)</2>
+                <3>Lilisette</3>
+                <4>Koru-Moru</4>
+                <5>Sakura</5>
+            </carntrials>
+            <cp2>
+                <1>Iroha II</1>
+                <2>Qultada</2>
+                <3>Uka Totlihn</3>
+                <4>Koru-Moru</4>
+                <5>Sylvie (UC)</5>
+            </cp2>
+            <cpbrd>
+                <1>Mnejing</1>
+                <2>Monberaux</2>
+                <3>Qultada</3>
+                <4>Koru-Moru</4>
+                <5>Joachim</5>
+            </cpbrd>
+            <cpcor>
+                <1>Qultada</1>
+                <2>Sylvie (UC)</2>
+                <3>Monberaux</3>
+                <4>Uka Totlihn</4>
+                <5>Koru-Moru</5>
+            </cpcor>
+            <cpmnk>
+                <1>Qultada</1>
+                <2>Uka Totlihn</2>
+                <3>Monberaux</3>
+                <5>Koru-Moru</5>
+            </cpmnk>
+            <cpwar>
+                <1>Qultada</1>
+                <2>Sylvie (UC)</2>
+                <3>Monberaux</3>
+                <4>Koru-Moru</4>
+                <5>Joachim</5>
+            </cpwar>
+            <curse>
+                <1>AAEV</1>
+                <2>Joachim</2>
+                <3>Mayakov</3>
+                <4>Karaha-Baruha</4>
+                <5>Ferreous Coffin</5>
+            </curse>
+            <cursna>
+                <1>King of Hearts</1>
+                <2>Kupipi</2>
+                <3>Ingrid II</3>
+                <4>Ferreous Coffin</4>
+                <5>Joachim</5>
+            </cursna>
+            <geas>
+                <1>AAEV</1>
+                <3>Qultada</3>
+                <4>King of Hearts</4>
+                <5>Monberaux</5>
+            </geas>
+            <geo>
+                <1>Brygid</1>
+                <2>Kuyin Hathdenna</2>
+                <3>Star Sibyl</3>
+                <4>Sakura</4>
+                <5>Moogle</5>
+            </geo>
+            <haste>
+                <1>Ulmia</1>
+                <2>King of Hearts</2>
+                <3>Qultada</3>
+                <4>Joachim</4>
+            </haste>
+            <relic>
+                <1>Valaineral</1>
+                <2>Monberaux</2>
+                <3>Qultada</3>
+                <4>Ulmia</4>
+                <5>King of Hearts</5>
+            </relic>
+            <trials>
+                <1>Monberaux</1>
+                <2>Sylvie (UC)</2>
+                <3>Koru-Moru</3>
+            </trials>
+        </sets>
+        <wait>
+            <aftercast>3</aftercast>
+            <retr>1.25</retr>
+            <retrall>3</retrall>
+        </wait>
+    </global>
+</settings>

@@ -1,0 +1,17 @@
+sets.exported={
+    main="Zantetsuken X",
+    sub="Utu Grip",
+    ammo="Homiliary",
+    head="Rawhide Mask",
+    body="Runeist Coat +1",
+    hands="Turms Mittens +1",
+    legs={ name="Carmine Cuisses +1", augments={'Accuracy+20','Attack+12','"Dual Wield"+6',}},
+    feet="Turms Leggings +1",
+    neck={ name="Bathy Choker +1", augments={'Path: A',}},
+    waist="Engraved Belt",
+    left_ear={ name="Odnowa Earring +1", augments={'Path: A',}},
+    right_ear="Infused Earring",
+    left_ring="Chirich Ring +1",
+    right_ring="Chirich Ring",
+    back={ name="Ogma's Cape", augments={'DEX+20','Accuracy+20 Attack+20','"Dbl.Atk."+10','Parrying rate+5%',}},
+}

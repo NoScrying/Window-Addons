@@ -1,0 +1,17 @@
+sets.exported={
+    main="Kaja Claymore",
+    sub="Capitoline Strap",
+    ammo={ name="Seeth. Bomblet +1", augments={'Path: A',}},
+    head="Pixie Hairpin +1",
+    body="Flamma Korazin +1",
+    hands={ name="Fall. Fin. Gaunt. +2", augments={'Enhances "Diabolic Eye" effect',}},
+    legs="Heath. Flanchard +1",
+    feet="Flam. Gambieras +2",
+    neck="Deceiver's Torque",
+    waist="Flume Belt",
+    left_ear="Malignance Earring",
+    right_ear="Magnetic Earring",
+    left_ring="Evanescence Ring",
+    right_ring="Stikini Ring",
+    back={ name="Niht Mantle", augments={'Attack+6','Dark magic skill +9','"Drain" and "Aspir" potency +24',}},
+}

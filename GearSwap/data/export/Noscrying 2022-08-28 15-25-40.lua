@@ -1,0 +1,17 @@
+sets.exported={
+    main="Naegling",
+    sub="Sakpata's Sword",
+    ammo="Mavi Tathlum",
+    head="Jhakri Coronal +2",
+    body="Ayanmo Corazza +2",
+    hands="Aya. Manopolas +2",
+    legs="Aya. Cosciales +2",
+    feet="Aya. Gambieras +2",
+    neck="Mirage Stole",
+    waist="Eschan Stone",
+    left_ear="Mache Earring",
+    right_ear="Cessance Earring",
+    left_ring="Stikini Ring",
+    right_ring="Stikini Ring",
+    back={ name="Cornflower Cape", augments={'MP+21','DEX+1','Blue Magic skill +10',}},
+}

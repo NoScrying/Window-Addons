@@ -1,0 +1,17 @@
+sets.exported={
+    main="Tauret",
+    sub={ name="Demers. Degen +1", augments={'Path: A',}},
+    range={ name="Linos", augments={'Accuracy+15','"Dbl.Atk."+3','Quadruple Attack +3',}},
+    head="Fili Calot +2",
+    body="Nyame Mail",
+    hands="Fili Manchettes +2",
+    legs="Fili Rhingrave +2",
+    feet="Nyame Sollerets",
+    neck={ name="Bard's Charm +1", augments={'Path: A',}},
+    waist={ name="Sailfi Belt +1", augments={'Path: A',}},
+    left_ear="Suppanomimi",
+    right_ear="Eabani Earring",
+    left_ring="Moonlight Ring",
+    right_ring="Chirich Ring +1",
+    back="Moonbeam Cape",
+}

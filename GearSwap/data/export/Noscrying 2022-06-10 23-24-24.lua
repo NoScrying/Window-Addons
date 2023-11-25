@@ -1,0 +1,17 @@
+sets.exported={
+    main="Blau Dolch",
+    sub="Joyeuse",
+    ammo="Bibiki Seashell",
+    head="Walahra Turban",
+    body="Antares Harness",
+    hands="Shade Mittens",
+    legs="Byakko's Haidate",
+    feet="Bounding Boots",
+    neck="Fotia Gorget",
+    waist="Virtuoso Belt",
+    left_ear="Suppanomimi",
+    right_ear="Brutal Earring",
+    left_ring="Rajas Ring",
+    right_ring="Defending Ring",
+    back="Cuchulain's Mantle",
+}

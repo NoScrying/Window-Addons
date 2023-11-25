@@ -1,0 +1,17 @@
+sets.exported={
+    main="Apocalypse",
+    sub="Utu Grip",
+    ammo="Staunch Tathlum",
+    head="Ratri Sallet",
+    body="Heath. Cuirass +2",
+    hands="Ratri Gadlings",
+    legs="Ratri Cuisses",
+    feet="Ratri Sollerets",
+    neck="Dualism Collar +1",
+    waist="Oneiros Belt",
+    left_ear="Odnowa Earring +1",
+    right_ear="Magnetic Earring",
+    left_ring="Meridian Ring",
+    right_ring="Bomb Queen Ring",
+    back="Moonbeam Cape",
+}

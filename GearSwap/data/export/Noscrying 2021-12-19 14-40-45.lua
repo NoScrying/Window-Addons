@@ -1,0 +1,17 @@
+sets.exported={
+    main="Daybreak",
+    sub="Culminus",
+    ammo="Homiliary",
+    head="Jhakri Coronal +1",
+    body="Mallquis Saio +1",
+    hands="Jhakri Cuffs +1",
+    legs="Jhakri Slops +1",
+    feet="Battlecast Gaiters",
+    neck="Elite Royal Collar",
+    waist="Cetl Belt",
+    left_ear="Friomisi Earring",
+    right_ear="Malignance Earring",
+    left_ring="Defending Ring",
+    right_ring={ name="Dark Ring", augments={'Phys. dmg. taken -6%','Magic dmg. taken -3%',}},
+    back="Lugh's Cape",
+}

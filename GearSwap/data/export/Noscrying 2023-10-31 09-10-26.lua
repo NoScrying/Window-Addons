@@ -1,0 +1,17 @@
+sets.exported={
+    main="Tauret",
+    sub="Sandung",
+    ammo="Aurgelmir Orb",
+    head="Malignance Chapeau",
+    body="Malignance Tabard",
+    hands="Malignance Gloves",
+    legs="Malignance Tights",
+    feet="Malignance Boots",
+    neck="Iskur Gorget",
+    waist={ name="Kentarch Belt +1", augments={'Path: A',}},
+    left_ear="Sherida Earring",
+    right_ear="Crep. Earring",
+    left_ring="Moonlight Ring",
+    right_ring="Lehko's Ring",
+    back="Sacro Mantle",
+}

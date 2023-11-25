@@ -1,0 +1,17 @@
+sets.exported={
+    main="Naegling",
+    sub="Blurred Shield +1",
+    ammo="Staunch Tathlum",
+    head="Sakpata's Helm",
+    body="Sacro Breastplate",
+    hands="Sakpata's Gauntlets",
+    legs="Sakpata's Cuisses",
+    feet={ name="Souveran Schuhs +1", augments={'HP+105','Enmity+9','Potency of "Cure" effect received +15%',}},
+    neck={ name="Bathy Choker +1", augments={'Path: A',}},
+    waist="Asklepian Belt",
+    left_ear="Dedition Earring",
+    right_ear="Odnowa Earring +1",
+    left_ring="Defending Ring",
+    right_ring="Chirich Ring",
+    back={ name="Cichol's Mantle", augments={'STR+20','Accuracy+20 Attack+20','"Dbl.Atk."+10','Phys. dmg. taken-10%',}},
+}

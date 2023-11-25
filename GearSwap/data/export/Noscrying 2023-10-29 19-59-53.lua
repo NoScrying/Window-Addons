@@ -1,0 +1,17 @@
+sets.exported={
+    main="Mandau",
+    sub={ name="Demers. Degen +1", augments={'Path: A',}},
+    range={ name="Linos", augments={'All Songs+2','"Fast Cast"+4','Quadruple Attack +2',}},
+    head="Nyame Helm",
+    body="Nyame Mail",
+    hands="Nyame Gauntlets",
+    legs="Nyame Flanchard",
+    feet="Fili Cothurnes +1",
+    neck="Warder's Charm +1",
+    waist="Carrier's Sash",
+    left_ear={ name="Odnowa Earring +1", augments={'Path: A',}},
+    right_ear="Eabani Earring",
+    left_ring="Moonlight Ring",
+    right_ring="Defending Ring",
+    back="Moonbeam Cape",
+}

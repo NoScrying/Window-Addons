@@ -1,0 +1,17 @@
+sets.exported={
+    main="Anahera Blade",
+    sub="Immolation Grip",
+    ammo="Ginsen",
+    head="Flam. Zucchetto +2",
+    body="Flamma Korazin +1",
+    hands="Flam. Manopolas +2",
+    legs="Hiza. Hizayoroi +2",
+    feet="Flam. Gambieras +2",
+    neck="Rep. Plat. Medal",
+    waist={ name="Sailfi Belt +1", augments={'Path: A',}},
+    left_ear="Brutal Earring",
+    right_ear="Ishvara Earring",
+    left_ring="Petrov Ring",
+    right_ring="Flamma Ring",
+    back={ name="Smertrios's Mantle", augments={'STR+20','Accuracy+20 Attack+20','"Dbl.Atk."+10',}},
+}

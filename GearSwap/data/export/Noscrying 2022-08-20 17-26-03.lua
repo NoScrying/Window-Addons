@@ -1,0 +1,17 @@
+sets.exported={
+    main="Naegling",
+    sub="Sakpata's Sword",
+    ammo="Mavi Tathlum",
+    head="Jhakri Coronal +2",
+    body="Jhakri Robe +2",
+    hands="Jhakri Cuffs +2",
+    legs="Jhakri Slops +2",
+    feet="Jhakri Pigaches +2",
+    neck="Mirage Stole",
+    waist="Eschan Stone",
+    left_ear="Saviesa Pearl",
+    right_ear="Enchntr. Earring",
+    left_ring="Archon Ring",
+    right_ring="Stikini Ring",
+    back="Ogapepo Cape",
+}

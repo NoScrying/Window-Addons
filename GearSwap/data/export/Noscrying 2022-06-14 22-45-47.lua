@@ -1,0 +1,17 @@
+sets.exported={
+    main="Naegling",
+    sub={ name="Demers. Degen +1", augments={'Path: A',}},
+    range={ name="Linos", augments={'All Songs+1','Occ. quickens spellcasting +4%','STR+5 DEX+5',}},
+    head="Aya. Zucchetto +1",
+    body="Ayanmo Corazza +2",
+    hands="Aya. Manopolas +1",
+    legs="Aya. Cosciales +1",
+    feet="Aya. Gambieras +1",
+    neck="Lissome Necklace",
+    waist="Windbuffet Belt",
+    left_ear="Suppanomimi",
+    right_ear="Eabani Earring",
+    left_ring="Petrov Ring",
+    right_ring="Chirich Ring",
+    back={ name="Intarabus's Cape", augments={'CHR+20','Mag. Acc+20 /Mag. Dmg.+20','"Fast Cast"+10','Phys. dmg. taken-10%',}},
+}

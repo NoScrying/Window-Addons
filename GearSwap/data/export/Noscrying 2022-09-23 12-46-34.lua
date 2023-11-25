@@ -1,0 +1,17 @@
+sets.exported={
+    main="Karambit",
+    range="Divinator",
+    ammo="Automat. Oil +3",
+    head="Malignance Chapeau",
+    body="Hiza. Haramaki +1",
+    hands="Foire Dastanas +2",
+    legs="Malignance Tights",
+    feet="Hermes' Sandals",
+    neck="Elite Royal Collar",
+    waist="Moonbow Belt",
+    left_ear="Enmerkar Earring",
+    right_ear="Sroda Earring",
+    left_ring="Defending Ring",
+    right_ring={ name="Dark Ring", augments={'Phys. dmg. taken -6%','Magic dmg. taken -3%',}},
+    back={ name="Visucius's Mantle", augments={'STR+20','Accuracy+20 Attack+20','"Dbl.Atk."+10','Phys. dmg. taken-10%',}},
+}

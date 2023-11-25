@@ -1,0 +1,18 @@
+sets.exported={
+    main="Tokko Sword",
+    sub="Eminent Scimitar",
+    range={ name="Doomsday", augments={'"Mag.Atk.Bns."+20','"Dbl.Atk."+3','DMG:+21',}},
+    ammo="Eminent Bullet",
+    head="Shned. Chapeau +1",
+    body="Shned. Tabard +1",
+    hands="Meg. Gloves +1",
+    legs="Meg. Chausses",
+    feet="Meg. Jambeaux",
+    neck="Peacock Amulet",
+    waist="Cetl Belt",
+    left_ear="Suppanomimi",
+    right_ear="Mache Earring",
+    left_ring="Jaeger Ring",
+    right_ring="Longshot Ring",
+    back="Cuchulain's Mantle",
+}

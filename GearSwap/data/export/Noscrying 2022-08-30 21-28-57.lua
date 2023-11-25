@@ -1,0 +1,18 @@
+sets.exported={
+    main="Naegling",
+    sub="Fettering Blade",
+    range={ name="Doomsday", augments={'"Mag.Atk.Bns."+20','Weapon skill damage +7%','STR+15 AGI+15',}},
+    ammo="Adlivun Bullet",
+    head="Meghanada Visor +2",
+    body="Meg. Cuirie +2",
+    hands={ name="Carmine Fin. Ga.", augments={'Rng.Atk.+15','"Mag.Atk.Bns."+10','"Store TP"+5',}},
+    legs="Meg. Chausses +2",
+    feet="Meg. Jam. +2",
+    neck="Commodore Charm",
+    waist="Kwahu Kachina Belt",
+    left_ear="Volley Earring",
+    right_ear="Mache Earring",
+    left_ring="Cacoethic Ring",
+    right_ring="Longshot Ring",
+    back={ name="Camulus's Mantle", augments={'AGI+20','Rng.Acc.+20 Rng.Atk.+20','Weapon skill damage +10%',}},
+}

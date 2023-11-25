@@ -1,0 +1,16 @@
+sets.exported={
+    main="Maxentius",
+    ammo="Homiliary",
+    head="Arbatel Bonnet +2",
+    body="Arbatel Gown +2",
+    hands="Nyame Gauntlets",
+    legs="Arbatel Pants +2",
+    feet="Nyame Sollerets",
+    neck="Warder's Charm +1",
+    waist="Embla Sash",
+    left_ear="Infused Earring",
+    right_ear="Regal Earring",
+    left_ring="Stikini Ring +1",
+    right_ring="Stikini Ring +1",
+    back={ name="Lugh's Cape", augments={'INT+20','Mag. Acc+20 /Mag. Dmg.+20','"Fast Cast"+10',}},
+}

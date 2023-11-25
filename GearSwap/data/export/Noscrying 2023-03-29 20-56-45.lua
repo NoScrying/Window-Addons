@@ -1,0 +1,17 @@
+sets.exported={
+    main="Tauret",
+    sub="Sandung",
+    ammo={ name="Seeth. Bomblet +1", augments={'Path: A',}},
+    head={ name="Adhemar Bonnet +1", augments={'DEX+12','AGI+12','Accuracy+20',}},
+    body={ name="Adhemar Jacket +1", augments={'DEX+12','AGI+12','Accuracy+20',}},
+    hands={ name="Adhemar Wrist. +1", augments={'DEX+12','AGI+12','Accuracy+20',}},
+    legs="Mummu Kecks +2",
+    feet="Mummu Gamash. +2",
+    neck="Fotia Gorget",
+    waist="Fotia Belt",
+    left_ear="Odr Earring",
+    right_ear={ name="Skulk. Earring +1", augments={'System: 1 ID: 1676 Val: 0','Accuracy+11','Mag. Acc.+11','"Store TP"+3',}},
+    left_ring="Epona's Ring",
+    right_ring="Gere Ring",
+    back="Sacro Mantle",
+}

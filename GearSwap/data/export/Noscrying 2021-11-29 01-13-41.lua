@@ -1,0 +1,18 @@
+sets.exported={
+    main="Naegling",
+    sub={ name="Demers. Degen +1", augments={'Path: A',}},
+    range={ name="Doomsday", augments={'"Mag.Atk.Bns."+20','Weapon skill damage +7%','STR+15 AGI+15',}},
+    ammo="Eminent Bullet",
+    head={ name="Taeon Chapeau", augments={'"Mag.Atk.Bns."+18','Weapon Skill Acc.+18','AGI+10',}},
+    body="Rawhide Vest",
+    hands={ name="Carmine Fin. Ga.", augments={'Rng.Atk.+15','"Mag.Atk.Bns."+10','"Store TP"+5',}},
+    legs="Shned. Tights +1",
+    feet={ name="Adhemar Gamashes", augments={'AGI+6','Rng.Acc.+8','Rng.Atk.+8',}},
+    neck="Stoicheion Medal",
+    waist="Shadow Belt",
+    left_ear="Friomisi Earring",
+    right_ear={ name="Moonshade Earring", augments={'"Mag.Atk.Bns."+4','TP Bonus +250',}},
+    left_ring="Fenrir Ring",
+    right_ring="Fenrir Ring",
+    back="Argocham. Mantle",
+}

@@ -1,0 +1,17 @@
+sets.exported={
+    main="Mandau",
+    sub="Tauret",
+    ammo="Oshasha's Treatise",
+    head="Jhakri Coronal +2",
+    body="Nyame Mail",
+    hands="Jhakri Cuffs +2",
+    legs="Nyame Flanchard",
+    feet="Leth. Houseaux +2",
+    neck="Rep. Plat. Medal",
+    waist={ name="Sailfi Belt +1", augments={'Path: A',}},
+    left_ear="Sherida Earring",
+    right_ear="Ishvara Earring",
+    left_ring="Ifrit Ring +1",
+    right_ring="Epaminondas's Ring",
+    back={ name="Sucellos's Cape", augments={'STR+20','Accuracy+20 Attack+20','STR+10','Weapon skill damage +10%',}},
+}

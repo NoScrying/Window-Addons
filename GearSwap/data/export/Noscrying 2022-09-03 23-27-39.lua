@@ -1,0 +1,17 @@
+sets.exported={
+    main="Daybreak",
+    sub="Culminus",
+    ammo="Impatiens",
+    head="Arbatel Bonnet +1",
+    body={ name="Telchine Chas.", augments={'"Regen" potency+1',}},
+    hands={ name="Telchine Gloves", augments={'"Regen" potency+1',}},
+    legs={ name="Telchine Braconi", augments={'"Cure" potency +8%','Enh. Mag. eff. dur. +7',}},
+    feet={ name="Telchine Pigaches", augments={'"Regen" potency+1',}},
+    neck="Sibyl Scarf",
+    waist="Embla Sash",
+    left_ear="Aredan Earring",
+    right_ear="Malignance Earring",
+    left_ring="Stikini Ring",
+    right_ring="Stikini Ring",
+    back={ name="Bookworm's Cape", augments={'INT+3','MND+2','Helix eff. dur. +20','"Regen" potency+9',}},
+}

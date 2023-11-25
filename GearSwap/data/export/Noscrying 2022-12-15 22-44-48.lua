@@ -1,0 +1,17 @@
+sets.exported={
+    main="Loxotic Mace +1",
+    sub="Blurred Shield +1",
+    ammo="Knobkierrie",
+    head={ name="Odyssean Helm", augments={'Accuracy+3','Weapon skill damage +4%','STR+5','Attack+6',}},
+    body={ name="Valorous Mail", augments={'Weapon skill damage +4%','STR+13','Attack+5',}},
+    hands="Boii Mufflers +2",
+    legs="Boii Cuisses +2",
+    feet="Sulev. Leggings +2",
+    neck="Sibyl Scarf",
+    waist="Orpheus's Sash",
+    left_ear="Friomisi Earring",
+    right_ear={ name="Moonshade Earring", augments={'"Mag.Atk.Bns."+4','TP Bonus +250',}},
+    left_ring="Weather. Ring",
+    right_ring="Rufescent Ring",
+    back="Argocham. Mantle",
+}

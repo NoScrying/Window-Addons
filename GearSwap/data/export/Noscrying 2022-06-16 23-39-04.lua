@@ -1,0 +1,17 @@
+sets.exported={
+    main="Naegling",
+    sub={ name="Demers. Degen +1", augments={'Path: A',}},
+    range={ name="Linos", augments={'All Songs+2','"Fast Cast"+4','Quadruple Attack +2',}},
+    head="Aya. Zucchetto +1",
+    body="Ayanmo Corazza +2",
+    hands="Aya. Manopolas +1",
+    legs="Aya. Cosciales +2",
+    feet={ name="Bihu Slippers", augments={'Enhances "Nightingale" effect',}},
+    neck="Elite Royal Collar",
+    waist="Flume Belt",
+    left_ear="Suppanomimi",
+    right_ear="Eabani Earring",
+    left_ring="Defending Ring",
+    right_ring={ name="Dark Ring", augments={'Magic dmg. taken -6%','Phys. dmg. taken -3%','Breath dmg. taken -5%',}},
+    back={ name="Intarabus's Cape", augments={'DEX+20','Accuracy+20 Attack+20','"Dbl.Atk."+10','Phys. dmg. taken-10%',}},
+}

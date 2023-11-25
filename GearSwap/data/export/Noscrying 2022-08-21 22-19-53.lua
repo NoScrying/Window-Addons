@@ -1,0 +1,17 @@
+sets.exported={
+    main="Naegling",
+    sub={ name="Pukulatmuj +1", augments={'Path: A',}},
+    range="Kaja Bow",
+    head="Jhakri Coronal +2",
+    body="Atrophy Tabard +2",
+    hands="Leth. Gantherots +1",
+    legs={ name="Chironic Hose", augments={'Mag. Acc.+21 "Mag.Atk.Bns."+21','INT+10','Mag. Acc.+11','"Mag.Atk.Bns."+5',}},
+    feet="Malignance Boots",
+    neck="Duelist's Torque",
+    waist="Eschan Stone",
+    left_ear="Snotra Earring",
+    right_ear="Malignance Earring",
+    left_ring="Kishar Ring",
+    right_ring="Stikini Ring",
+    back={ name="Sucellos's Cape", augments={'MND+20','Mag. Acc+20 /Mag. Dmg.+20','"Mag.Atk.Bns."+7',}},
+}

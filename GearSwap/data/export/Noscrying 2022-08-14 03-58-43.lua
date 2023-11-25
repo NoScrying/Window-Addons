@@ -1,0 +1,17 @@
+sets.exported={
+    main={ name="Aettir", augments={'Accuracy+70','Mag. Evasion+50','Weapon skill damage +10%',}},
+    sub="Utu Grip",
+    ammo="Ginsen",
+    head="Aya. Zucchetto +2",
+    body="Rawhide Vest",
+    hands={ name="Carmine Fin. Ga.", augments={'Rng.Atk.+15','"Mag.Atk.Bns."+10','"Store TP"+5',}},
+    legs="Shned. Tights +1",
+    feet={ name="Adhemar Gamashes", augments={'AGI+10','Rng.Acc.+15','Rng.Atk.+15',}},
+    neck="Sibyl Scarf",
+    waist="Eschan Stone",
+    left_ear="Friomisi Earring",
+    right_ear="Hecate's Earring",
+    left_ring="Fenrir Ring",
+    right_ring="Fenrir Ring",
+    back="Argocham. Mantle",
+}

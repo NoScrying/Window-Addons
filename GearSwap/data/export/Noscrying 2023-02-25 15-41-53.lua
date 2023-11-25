@@ -1,0 +1,17 @@
+sets.exported={
+    main="Kikoku",
+    sub={ name="Ternion Dagger +1", augments={'Path: A',}},
+    ammo="Togakushi Shuriken",
+    head={ name="Rao Kabuto", augments={'Pet: HP+100','Pet: Accuracy+15','Pet: Damage taken -3%',}},
+    body="Hiza. Haramaki +2",
+    hands={ name="Rao Kote", augments={'Pet: HP+100','Pet: Accuracy+15','Pet: Damage taken -3%',}},
+    legs="Malignance Tights",
+    feet="Danzo Sune-Ate",
+    neck={ name="Bathy Choker +1", augments={'Path: A',}},
+    waist="Flume Belt",
+    left_ear="Infused Earring",
+    right_ear={ name="Hattori Earring", augments={'System: 1 ID: 1676 Val: 0','Accuracy+6','Mag. Acc.+6',}},
+    left_ring="Chirich Ring +1",
+    right_ring="Chirich Ring",
+    back="Moonbeam Cape",
+}

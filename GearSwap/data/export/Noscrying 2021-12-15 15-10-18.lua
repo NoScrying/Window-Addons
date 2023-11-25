@@ -1,0 +1,18 @@
+sets.exported={
+    main="Naegling",
+    sub={ name="Demers. Degen +1", augments={'Path: A',}},
+    range={ name="Anarchy +2", augments={'Delay:+60','TP Bonus +1000',}},
+    ammo="Animikii Bullet",
+    head={ name="Lanun Tricorne", augments={'Enhances "Winning Streak" effect',}},
+    body={ name="Adhemar Jacket", augments={'DEX+10','AGI+10','Accuracy+15',}},
+    hands="Chasseur's Gants",
+    legs={ name="Carmine Cuisses +1", augments={'Accuracy+20','Attack+12','"Dual Wield"+6',}},
+    feet="Malignance Boots",
+    neck="Lissome Necklace",
+    waist="Windbuffet Belt",
+    left_ear="Eabani Earring",
+    right_ear="Suppanomimi",
+    left_ring="Luzaf's Ring",
+    right_ring="Barataria Ring",
+    back={ name="Camulus's Mantle", augments={'DEX+20','Accuracy+20 Attack+20','"Dbl.Atk."+10',}},
+}

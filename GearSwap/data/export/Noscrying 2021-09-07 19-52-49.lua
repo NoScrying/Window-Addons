@@ -1,0 +1,17 @@
+sets.exported={
+    main={ name="Ipetam", augments={'Accuracy+12','"Dbl.Atk."+3','DMG:+15',}},
+    sub="Sandung",
+    range="Raider's Bmrng.",
+    head="Mummu Bonnet +1",
+    body={ name="Adhemar Jacket", augments={'DEX+8','AGI+8','Accuracy+12',}},
+    hands={ name="Plun. Armlets", augments={'Enhances "Perfect Dodge" effect',}},
+    legs={ name="Taeon Tights", augments={'Accuracy+25','"Triple Atk."+2','STR+5 DEX+5',}},
+    feet="Skulk. Poulaines",
+    neck="Peacock Amulet",
+    waist="Windbuffet Belt",
+    left_ear="Brutal Earring",
+    right_ear="Mache Earring",
+    left_ring="Epona's Ring",
+    right_ring="Mummu Ring",
+    back="Bleating Mantle",
+}

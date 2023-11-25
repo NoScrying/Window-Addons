@@ -1,0 +1,17 @@
+sets.exported={
+    main="Naegling",
+    sub={ name="Demers. Degen +1", augments={'Path: A',}},
+    range="Terpander",
+    head="Aya. Zucchetto +1",
+    body="Ayanmo Corazza +2",
+    hands="Aya. Manopolas +1",
+    legs="Aya. Cosciales +1",
+    feet="Aya. Gambieras +1",
+    neck="Lissome Necklace",
+    waist="Windbuffet Belt",
+    left_ear="Suppanomimi",
+    right_ear="Eabani Earring",
+    left_ring="Petrov Ring",
+    right_ring="Chirich Ring",
+    back="Letalis Mantle",
+}

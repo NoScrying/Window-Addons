@@ -1,0 +1,16 @@
+sets.exported={
+    main="Karambit",
+    ammo="Ginsen",
+    head={ name="Blistering Sallet +1", augments={'Path: A',}},
+    body="Malignance Tabard",
+    hands="Mummu Wrists +2",
+    legs="Bhikku Hose +2",
+    feet={ name="Herculean Boots", augments={'Accuracy+28','"Triple Atk."+4',}},
+    neck={ name="Mnk. Nodowa +1", augments={'Path: A',}},
+    waist="Moonbow Belt",
+    left_ear="Sherida Earring",
+    right_ear="Cessance Earring",
+    left_ring="Defending Ring",
+    right_ring={ name="Dark Ring", augments={'Phys. dmg. taken -6%','Magic dmg. taken -3%',}},
+    back="Moonbeam Cape",
+}

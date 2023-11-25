@@ -1,0 +1,16 @@
+sets.exported={
+    main="Jolt Counter",
+    ammo="Staunch Tathlum",
+    head="Malignance Chapeau",
+    body="Ken. Samue",
+    hands="Malignance Gloves",
+    legs="Anch. Hose +2",
+    feet="Malignance Boots",
+    neck="Elite Royal Collar",
+    waist="Moonbow Belt",
+    left_ear="Sherida Earring",
+    right_ear={ name="Bhikku Earring", augments={'System: 1 ID: 1676 Val: 0','Accuracy+6','Mag. Acc.+6',}},
+    left_ring="Defending Ring",
+    right_ring="Epona's Ring",
+    back={ name="Segomo's Mantle", augments={'VIT+20','Accuracy+20 Attack+20','"Dbl.Atk."+10','System: 1 ID: 640 Val: 4',}},
+}

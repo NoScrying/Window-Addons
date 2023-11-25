@@ -1,0 +1,17 @@
+sets.exported={
+    main="Karambit",
+    range="Animator P",
+    ammo="Automat. Oil +3",
+    head={ name="Blistering Sallet +1", augments={'Path: A',}},
+    body="Tali'ah Manteel +2",
+    hands={ name="Herculean Gloves", augments={'"Mag.Atk.Bns."+23','Weapon skill damage +4%','Mag. Acc.+5',}},
+    legs="Hiza. Hizayoroi +2",
+    feet={ name="Herculean Boots", augments={'Accuracy+28','"Triple Atk."+4',}},
+    neck="Fotia Gorget",
+    waist="Moonbow Belt +1",
+    left_ear={ name="Moonshade Earring", augments={'"Mag.Atk.Bns."+4','TP Bonus +250',}},
+    right_ear="Sroda Earring",
+    left_ring="Epona's Ring",
+    right_ring="Gere Ring",
+    back={ name="Visucius's Mantle", augments={'STR+20','Accuracy+20 Attack+20','"Dbl.Atk."+10','Phys. dmg. taken-10%',}},
+}

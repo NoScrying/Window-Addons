@@ -1,0 +1,17 @@
+sets.exported={
+    main="Carnwenhan",
+    sub={ name="Fusetto +2", augments={'TP Bonus +1000',}},
+    range={ name="Linos", augments={'Attack+20','Weapon skill damage +3%','Quadruple Attack +3',}},
+    head="Nyame Helm",
+    body="Fili Hongreline +2",
+    hands="Nyame Gauntlets",
+    legs="Fili Rhingrave +2",
+    feet="Fili Cothurnes +2",
+    neck={ name="Bathy Choker +1", augments={'Path: A',}},
+    waist="Flume Belt",
+    left_ear={ name="Odnowa Earring +1", augments={'Path: A',}},
+    right_ear="Eabani Earring",
+    left_ring="Defending Ring",
+    right_ring="Chirich Ring +1",
+    back={ name="Intarabus's Cape", augments={'DEX+20','Accuracy+20 Attack+20','DEX+6','"Dbl.Atk."+10','Phys. dmg. taken-10%',}},
+}

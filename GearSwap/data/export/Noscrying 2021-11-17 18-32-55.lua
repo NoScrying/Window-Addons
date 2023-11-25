@@ -1,0 +1,17 @@
+sets.exported={
+    main="Naegling",
+    sub="Culminus",
+    ammo="Homiliary",
+    head={ name="Viti. Chapeau +1", augments={'Enfeebling Magic duration','Magic Accuracy',}},
+    body="Jhakri Robe +2",
+    hands="Aya. Manopolas +1",
+    legs="Carmine Cuisses +1",
+    feet="Aya. Gambieras +1",
+    neck="Elite Royal Collar",
+    waist="Flume Belt",
+    left_ear="Suppanomimi",
+    right_ear="Brutal Earring",
+    left_ring="Defending Ring",
+    right_ring={ name="Dark Ring", augments={'Phys. dmg. taken -6%','Magic dmg. taken -3%',}},
+    back={ name="Sucellos's Cape", augments={'STR+20','Accuracy+20 Attack+20','"Dbl.Atk."+10','Phys. dmg. taken-10%',}},
+}

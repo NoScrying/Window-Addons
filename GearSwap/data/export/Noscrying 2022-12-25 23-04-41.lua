@@ -1,0 +1,17 @@
+sets.exported={
+    main="Naegling",
+    sub="Blurred Shield +1",
+    ammo="Per. Lucky Egg",
+    head="Wh. Rarab Cap +1",
+    body="Sakpata's Plate",
+    hands={ name="Valorous Mitts", augments={'"Mag.Atk.Bns."+1','Attack+11','"Treasure Hunter"+1','Accuracy+8 Attack+8','Mag. Acc.+3 "Mag.Atk.Bns."+3',}},
+    legs="Sakpata's Cuisses",
+    feet="Hermes' Sandals",
+    neck={ name="War. Beads +1", augments={'Path: A',}},
+    waist="Asklepian Belt",
+    left_ear="Odnowa Earring +1",
+    right_ear={ name="Lugra Earring +1", augments={'Path: A',}},
+    left_ring="Defending Ring",
+    right_ring={ name="Dark Ring", augments={'Magic dmg. taken -6%','Phys. dmg. taken -3%','Breath dmg. taken -5%',}},
+    back="Moonbeam Cape",
+}

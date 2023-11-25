@@ -1,0 +1,18 @@
+sets.exported={
+    main="Naegling",
+    sub="Blurred Knife +1",
+    range={ name="Anarchy +2", augments={'Delay:+60','TP Bonus +1000',}},
+    ammo="Eminent Bullet",
+    head="Malignance Chapeau",
+    body="Malignance Tabard",
+    hands="Malignance Gloves",
+    legs="Malignance Tights",
+    feet="Malignance Boots",
+    neck="Lissome Necklace",
+    waist="Eschan Stone",
+    left_ear="Crep. Earring",
+    right_ear="Cessance Earring",
+    left_ring="Ilabrat Ring",
+    right_ring="Crepuscular Ring",
+    back={ name="Camulus's Mantle", augments={'DEX+20','Accuracy+20 Attack+20','"Dbl.Atk."+10','Phys. dmg. taken-10%',}},
+}

@@ -1,0 +1,17 @@
+sets.exported={
+    main={ name="Macbain", augments={'Accuracy+20','"Dbl.Atk."+3','DMG:+32',}},
+    sub="Immolation Grip",
+    ammo="Ginsen",
+    head="Flam. Zucchetto +1",
+    body="Sulevia's Plate. +1",
+    hands="Sulev. Gauntlets +1",
+    legs="Sulevi. Cuisses +1",
+    feet="Sulev. Leggings +1",
+    neck="Fotia Gorget",
+    waist="Fotia Belt",
+    left_ear={ name="Moonshade Earring", augments={'"Mag.Atk.Bns."+4','TP Bonus +250',}},
+    right_ear="Ishvara Earring",
+    left_ring="Petrov Ring",
+    right_ring="Rajas Ring",
+    back="Letalis Mantle",
+}

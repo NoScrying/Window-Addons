@@ -1,0 +1,17 @@
+sets.exported={
+    main="Naegling",
+    sub="Blurred Shield +1",
+    ammo="Aurgelmir Orb",
+    head="Hjarrandi Helm",
+    body="Sakpata's Plate",
+    hands="Sakpata's Gauntlets",
+    legs="Boii Cuisses +2",
+    feet="Flam. Gambieras +2",
+    neck={ name="War. Beads +1", augments={'Path: A',}},
+    waist="Ioskeha Belt +1",
+    left_ear="Brutal Earring",
+    right_ear={ name="Boii Earring", augments={'System: 1 ID: 1676 Val: 0','Accuracy+6','Mag. Acc.+6',}},
+    left_ring="Chirich Ring",
+    right_ring="Chirich Ring +1",
+    back={ name="Cichol's Mantle", augments={'STR+20','Accuracy+20 Attack+20','"Dbl.Atk."+10','Phys. dmg. taken-10%',}},
+}

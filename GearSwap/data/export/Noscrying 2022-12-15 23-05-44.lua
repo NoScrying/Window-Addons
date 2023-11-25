@@ -1,0 +1,17 @@
+sets.exported={
+    main="Kaja Axe",
+    sub="Blurred Shield +1",
+    ammo="Knobkierrie",
+    head={ name="Odyssean Helm", augments={'Accuracy+3','Weapon skill damage +4%','STR+5','Attack+6',}},
+    body="Hjarrandi Breast.",
+    hands="Boii Mufflers +2",
+    legs={ name="Valorous Hose", augments={'Weapon skill damage +4%','STR+9','Attack+12',}},
+    feet="Sulev. Leggings +2",
+    neck="Rep. Plat. Medal",
+    waist={ name="Sailfi Belt +1", augments={'Path: A',}},
+    left_ear="Thrud Earring",
+    right_ear={ name="Moonshade Earring", augments={'"Mag.Atk.Bns."+4','TP Bonus +250',}},
+    left_ring="Rajas Ring",
+    right_ring="Rufescent Ring",
+    back={ name="Cichol's Mantle", augments={'STR+20','Accuracy+20 Attack+20','"Dbl.Atk."+10',}},
+}

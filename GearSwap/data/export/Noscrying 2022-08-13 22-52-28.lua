@@ -1,0 +1,17 @@
+sets.exported={
+    main={ name="Aettir", augments={'Accuracy+70','Mag. Evasion+50','Weapon skill damage +10%',}},
+    sub="Utu Grip",
+    ammo="Impatiens",
+    head={ name="Futhark Bandeau", augments={'Enhances "Battuta" effect',}},
+    body="Runeist Coat +1",
+    hands="Runeist Mitons",
+    legs={ name="Carmine Cuisses +1", augments={'Accuracy+20','Attack+12','"Dual Wield"+6',}},
+    feet="Aya. Gambieras +2",
+    neck="Elite Royal Collar",
+    waist="Siegel Sash",
+    left_ear="Sherida Earring",
+    right_ear="Magnetic Earring",
+    left_ring="Stikini Ring",
+    right_ring="Stikini Ring",
+    back="Moonbeam Cape",
+}

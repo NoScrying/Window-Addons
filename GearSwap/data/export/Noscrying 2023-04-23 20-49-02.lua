@@ -1,0 +1,17 @@
+sets.exported={
+    main="Maxentius",
+    sub={ name="Machaera +2", augments={'TP Bonus +1000',}},
+    ammo="Crepuscular Pebble",
+    head="Malignance Chapeau",
+    body="Hashishin Mintan +2",
+    hands="Malignance Gloves",
+    legs="Malignance Tights",
+    feet="Nyame Sollerets",
+    neck="Lissome Necklace",
+    waist="Shetal Stone",
+    left_ear="Crep. Earring",
+    right_ear="Suppanomimi",
+    left_ring="Chirich Ring +1",
+    right_ring="Epona's Ring",
+    back={ name="Rosmerta's Cape", augments={'DEX+20','Accuracy+20 Attack+20','"Dbl.Atk."+10','Phys. dmg. taken-10%',}},
+}

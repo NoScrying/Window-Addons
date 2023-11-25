@@ -1,0 +1,17 @@
+sets.exported={
+    main="Kaja Knife",
+    sub={ name="Malevolence", augments={'INT+1','Mag. Acc.+1','"Mag.Atk.Bns."+5',}},
+    ammo="Oshasha's Treatise",
+    head="Jhakri Coronal +2",
+    body="Lethargy Sayon +2",
+    hands="Leth. Ganth. +2",
+    legs="Leth. Fuseau +2",
+    feet="Leth. Houseaux +2",
+    neck="Sibyl Scarf",
+    waist="Eschan Stone",
+    left_ear={ name="Moonshade Earring", augments={'"Mag.Atk.Bns."+4','TP Bonus +250',}},
+    right_ear="Malignance Earring",
+    left_ring="Strendu Ring",
+    right_ring="Mephitas's Ring +1",
+    back={ name="Sucellos's Cape", augments={'MND+20','Mag. Acc+20 /Mag. Dmg.+20','"Mag.Atk.Bns."+7',}},
+}

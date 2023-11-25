@@ -1,0 +1,17 @@
+sets.exported={
+    main="Sunblade",
+    sub="Utu Grip",
+    ammo="Impatiens",
+    head="Sakpata's Helm",
+    body="Heath. Cuirass +2",
+    hands="Sakpata's Gauntlets",
+    legs="Sakpata's Cuisses",
+    feet="Sakpata's Leggings",
+    neck="Deceiver's Torque",
+    waist="Eschan Stone",
+    left_ear="Malignance Earring",
+    right_ear={ name="Heath. Earring +1", augments={'System: 1 ID: 1676 Val: 0','Accuracy+11','Mag. Acc.+11','Weapon skill damage +2%',}},
+    left_ring={ name="Metamor. Ring +1", augments={'Path: A',}},
+    right_ring="Stikini Ring +1",
+    back="Chuparrosa Mantle",
+}

@@ -1,0 +1,17 @@
+sets.exported={
+    main="Naegling",
+    sub="Sandung",
+    ammo="Per. Lucky Egg",
+    head="Skormoth Mask",
+    body={ name="Adhemar Jacket", augments={'DEX+10','AGI+10','Accuracy+15',}},
+    hands={ name="Adhemar Wristbands", augments={'Accuracy+15','Attack+15','"Subtle Blow"+7',}},
+    legs="Malignance Tights",
+    feet="Malignance Boots",
+    neck="Elite Royal Collar",
+    waist={ name="Sailfi Belt +1", augments={'Path: A',}},
+    left_ear="Sherida Earring",
+    right_ear="Cessance Earring",
+    left_ring={ name="Dark Ring", augments={'Magic dmg. taken -6%','Phys. dmg. taken -3%','Breath dmg. taken -5%',}},
+    right_ring="Defending Ring",
+    back="Moonbeam Cape",
+}

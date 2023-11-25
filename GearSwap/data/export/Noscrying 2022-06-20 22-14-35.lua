@@ -1,0 +1,17 @@
+sets.exported={
+    main="Kaja Chopper",
+    sub="Immolation Grip",
+    ammo="Ginsen",
+    head="Flam. Zucchetto +1",
+    body="Pumm. Lorica +1",
+    hands="Sulev. Gauntlets +1",
+    legs="Sulevi. Cuisses +1",
+    feet="Flam. Gambieras +1",
+    neck="Lissome Necklace",
+    waist="Ioskeha Belt",
+    left_ear="Brutal Earring",
+    right_ear="Mache Earring",
+    left_ring="Chirich Ring",
+    right_ring="Petrov Ring",
+    back={ name="Cichol's Mantle", augments={'STR+20','Accuracy+20 Attack+20','"Dbl.Atk."+10',}},
+}

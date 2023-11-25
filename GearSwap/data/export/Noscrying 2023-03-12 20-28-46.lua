@@ -1,0 +1,17 @@
+sets.exported={
+    main="Akademos",
+    sub="Enki Strap",
+    ammo="Impatiens",
+    head={ name="Telchine Cap", augments={'"Cure" potency +8%','Enh. Mag. eff. dur. +10',}},
+    body={ name="Telchine Chas.", augments={'"Cure" potency +7%','Enh. Mag. eff. dur. +10',}},
+    hands={ name="Telchine Gloves", augments={'"Cure" potency +7%','Enh. Mag. eff. dur. +9',}},
+    legs={ name="Telchine Braconi", augments={'"Cure" potency +8%','Enh. Mag. eff. dur. +10',}},
+    feet={ name="Vanya Clogs", augments={'Healing magic skill +20','"Cure" spellcasting time -7%','Magic dmg. taken -3',}},
+    neck="Phalaina Locket",
+    waist="Gishdubar Sash",
+    left_ear="Magnetic Earring",
+    right_ear="Halasz Earring",
+    left_ring="Kunaji Ring",
+    right_ring="Menelaus's Ring",
+    back={ name="Aurist's Cape +1", augments={'Path: A',}},
+}

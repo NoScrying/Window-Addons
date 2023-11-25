@@ -1,0 +1,17 @@
+sets.exported={
+    main="Daybreak",
+    sub="Culminus",
+    ammo="Impatiens",
+    head="Amalric Coif",
+    body="Jhakri Robe +2",
+    hands="Jhakri Cuffs +2",
+    legs="Jhakri Slops +2",
+    feet="Jhakri Pigaches +2",
+    neck="Elite Royal Collar",
+    waist="Embla Sash",
+    left_ear="Magnetic Earring",
+    right_ear="Malignance Earring",
+    left_ring="Lebeche Ring",
+    right_ring="Jhakri Ring",
+    back="Lugh's Cape",
+}

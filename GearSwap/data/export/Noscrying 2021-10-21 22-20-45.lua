@@ -1,0 +1,17 @@
+sets.exported={
+    main="Kaja Sword",
+    sub="Homestead Wand",
+    ammo="Ginsen",
+    head="Rawhide Mask",
+    body="Jhakri Robe +1",
+    hands="Adhemar Wristbands",
+    legs={ name="Taeon Tights", augments={'Accuracy+25','"Triple Atk."+2','STR+5 DEX+5',}},
+    feet="Jhakri Pigaches +1",
+    neck="Elite Royal Collar",
+    waist="Windbuffet Belt",
+    left_ear="Mache Earring",
+    right_ear="Brutal Earring",
+    left_ring="Defending Ring",
+    right_ring="Epona's Ring",
+    back={ name="Rosmerta's Cape", augments={'STR+20','Accuracy+20 Attack+20','"Dbl.Atk."+10','Phys. dmg. taken-10%',}},
+}

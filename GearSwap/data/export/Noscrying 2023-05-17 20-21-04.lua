@@ -1,0 +1,16 @@
+sets.exported={
+    main={ name="Ohtas", augments={'Accuracy+70','Pet: Accuracy+70','Pet: Haste+10%',}},
+    range="Animator P",
+    head="Nyame Helm",
+    body="Hiza. Haramaki +2",
+    hands="Nyame Gauntlets",
+    legs="Nyame Flanchard",
+    feet="Hermes' Sandals",
+    neck={ name="Bathy Choker +1", augments={'Path: A',}},
+    waist="Moonbow Belt +1",
+    left_ear="Enmerkar Earring",
+    right_ear="Sroda Earring",
+    left_ring="Defending Ring",
+    right_ring="C. Palug Ring",
+    back={ name="Visucius's Mantle", augments={'STR+20','Accuracy+20 Attack+20','"Dbl.Atk."+10','Phys. dmg. taken-10%',}},
+}

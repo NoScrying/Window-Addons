@@ -1,0 +1,17 @@
+sets.exported={
+    main="Kaja Knuckles",
+    range="Divinator",
+    ammo="Automat. Oil +3",
+    head="Tali'ah Turban +2",
+    body={ name="Pitre Tobe +1", augments={'Enhances "Overdrive" effect',}},
+    hands="Tali'ah Gages +1",
+    legs={ name="Taeon Tights", augments={'Accuracy+25','"Triple Atk."+2','STR+5 DEX+5',}},
+    feet="Tali'ah Crackows +1",
+    neck="Lissome Necklace",
+    waist="Moonbow Belt",
+    left_ear="Mache Earring",
+    right_ear="Brutal Earring",
+    left_ring="Epona's Ring",
+    right_ring="Thurandaut Ring",
+    back={ name="Visucius's Mantle", augments={'STR+10','Accuracy+10 Attack+10','"Dbl.Atk."+10',}},
+}

@@ -1,0 +1,17 @@
+sets.exported={
+    main="Kaja Knife",
+    sub={ name="Ternion Dagger +1", augments={'Path: A',}},
+    ammo="Per. Lucky Egg",
+    head="Wh. Rarab Cap +1",
+    body={ name="Adhemar Jacket", augments={'DEX+10','AGI+10','Accuracy+15',}},
+    hands={ name="Plun. Armlets", augments={'Enhances "Perfect Dodge" effect',}},
+    legs="Meg. Chausses +2",
+    feet="Trotter Boots",
+    neck="Lissome Necklace",
+    waist={ name="Sailfi Belt +1", augments={'Path: A',}},
+    left_ear="Sherida Earring",
+    right_ear={ name="Skulk. Earring +1", augments={'System: 1 ID: 1676 Val: 0','Accuracy+11','Mag. Acc.+11','"Store TP"+3',}},
+    left_ring="Epona's Ring",
+    right_ring="Mummu Ring",
+    back="Canny Cape",
+}

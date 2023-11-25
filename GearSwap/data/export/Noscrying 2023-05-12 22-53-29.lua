@@ -1,0 +1,17 @@
+sets.exported={
+    main="Malignance Pole",
+    sub="Enki Strap",
+    ammo="Oshasha's Treatise",
+    head="Nyame Helm",
+    body="Nyame Mail",
+    hands="Jhakri Cuffs +2",
+    legs="Nyame Flanchard",
+    feet="Nyame Sollerets",
+    neck="Rep. Plat. Medal",
+    waist="Cornelia's Belt",
+    left_ear={ name="Moonshade Earring", augments={'"Mag.Atk.Bns."+4','TP Bonus +250',}},
+    right_ear="Ishvara Earring",
+    left_ring="Epaminondas's Ring",
+    right_ring="Ifrit Ring +1",
+    back={ name="Aurist's Cape +1", augments={'Path: A',}},
+}

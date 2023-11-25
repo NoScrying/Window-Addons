@@ -1,0 +1,17 @@
+sets.exported={
+    main="Maxentius",
+    sub="Culminus",
+    ammo="Staunch Tathlum +1",
+    head="Nyame Helm",
+    body="Nyame Mail",
+    hands="Nyame Gauntlets",
+    legs="Nyame Flanchard",
+    feet="Nyame Sollerets",
+    neck="Lissome Necklace",
+    waist="Cornelia's Belt",
+    left_ear="Cessance Earring",
+    right_ear="Brutal Earring",
+    left_ring="Defending Ring",
+    right_ring="Chirich Ring +1",
+    back={ name="Aurist's Cape +1", augments={'Path: A',}},
+}

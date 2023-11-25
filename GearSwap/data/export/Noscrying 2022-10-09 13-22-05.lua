@@ -1,0 +1,17 @@
+sets.exported={
+    main="Kaja Knife",
+    sub={ name="Ternion Dagger +1", augments={'Path: A',}},
+    ammo="Oshasha's Treatise",
+    head={ name="Blistering Sallet +1", augments={'Path: A',}},
+    body="Malignance Tabard",
+    hands="Meg. Gloves +2",
+    legs="Meg. Chausses +2",
+    feet="Malignance Boots",
+    neck="Fotia Gorget",
+    waist="Fotia Belt",
+    left_ear="Ishvara Earring",
+    right_ear={ name="Moonshade Earring", augments={'"Mag.Atk.Bns."+4','TP Bonus +250',}},
+    left_ring="Epona's Ring",
+    right_ring="Ilabrat Ring",
+    back="Letalis Mantle",
+}

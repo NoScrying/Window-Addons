@@ -1,0 +1,16 @@
+sets.exported={
+    main="Denouements",
+    ammo="Hasty Pinion +1",
+    head="Hizamaru Somen",
+    body="Mummu Jacket +1",
+    hands="Mummu Wrists +1",
+    legs={ name="Taeon Tights", augments={'Accuracy+25','"Triple Atk."+2','STR+5 DEX+5',}},
+    feet="Hiza. Sune-Ate +1",
+    neck="Light Gorget",
+    waist="Light Belt",
+    left_ear="Brutal Earring",
+    right_ear="Mache Earring",
+    left_ring="Rajas Ring",
+    right_ring="Epona's Ring",
+    back={ name="Segomo's Mantle", augments={'STR+20','Accuracy+20 Attack+20','"Dbl.Atk."+10',}},
+}

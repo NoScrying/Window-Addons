@@ -1,0 +1,17 @@
+sets.exported={
+    main="Naegling",
+    sub="Eletta Knife",
+    ammo="Ginsen",
+    head="Aya. Zucchetto +1",
+    body="Ayanmo Corazza",
+    hands="Aya. Manopolas +1",
+    legs={ name="Taeon Tights", augments={'Accuracy+25','"Triple Atk."+2','STR+5 DEX+5',}},
+    feet="Aya. Gambieras +1",
+    neck="Lissome Necklace",
+    waist="Windbuffet Belt",
+    left_ear="Suppanomimi",
+    right_ear="Brutal Earring",
+    left_ring="Chirich Ring",
+    right_ring="Rajas Ring",
+    back={ name="Sucellos's Cape", augments={'STR+20','Accuracy+20 Attack+20','"Dual Wield"+10','Phys. dmg. taken-10%',}},
+}

@@ -1,0 +1,17 @@
+sets.exported={
+    main="Tauret",
+    sub={ name="Ternion Dagger +1", augments={'Path: A',}},
+    ammo="Aurgelmir Orb",
+    head="Malignance Chapeau",
+    body="Malignance Tabard",
+    hands="Malignance Gloves",
+    legs="Malignance Tights",
+    feet="Malignance Boots",
+    neck="Elite Royal Collar",
+    waist="Engraved Belt",
+    left_ear="Sherida Earring",
+    right_ear={ name="Skulk. Earring +1", augments={'System: 1 ID: 1676 Val: 0','Accuracy+11','Mag. Acc.+11','"Store TP"+3',}},
+    left_ring="Moonlight Ring",
+    right_ring="Defending Ring",
+    back="Sacro Mantle",
+}

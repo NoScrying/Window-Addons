@@ -1,0 +1,17 @@
+sets.exported={
+    main="Karambit",
+    range="Divinator",
+    ammo="Automat. Oil +3",
+    head="Tali'ah Turban +2",
+    body="Tali'ah Manteel +2",
+    hands="Foire Dastanas +2",
+    legs={ name="Taeon Tights", augments={'Accuracy+25','"Triple Atk."+2','STR+5 DEX+5',}},
+    feet="Tali'ah Crackows +1",
+    neck="Lissome Necklace",
+    waist="Moonbow Belt",
+    left_ear="Mache Earring",
+    right_ear="Brutal Earring",
+    left_ring="Epona's Ring",
+    right_ring="Thurandaut Ring",
+    back={ name="Visucius's Mantle", augments={'STR+20','Accuracy+20 Attack+20','"Dbl.Atk."+10','Phys. dmg. taken-10%',}},
+}

@@ -1,0 +1,16 @@
+sets.exported={
+    main="Verethragna",
+    ammo="Crepuscular Pebble",
+    head="Hiza. Somen +2",
+    body="Anch. Cyclas +2",
+    hands={ name="Tatena. Gote +1", augments={'Path: A',}},
+    legs={ name="Tatena. Haidate +1", augments={'Path: A',}},
+    feet={ name="Tatena. Sune. +1", augments={'Path: A',}},
+    neck={ name="Unmoving Collar +1", augments={'Path: A',}},
+    waist="Moonbow Belt +1",
+    left_ear="Odnowa Earring +1",
+    right_ear="Tuisto Earring",
+    left_ring="Niqmaddu Ring",
+    right_ring="Supershear Ring",
+    back={ name="Segomo's Mantle", augments={'VIT+20','Accuracy+20 Attack+20','"Dbl.Atk."+10','System: 1 ID: 640 Val: 4',}},
+}

@@ -1,0 +1,16 @@
+sets.exported={
+    main="Karambit",
+    ammo="Ginsen",
+    head="Skormoth Mask",
+    body={ name="Otro. Harness +1", augments={'Phys. dmg. taken -3%','Magic dmg. taken -3%','"Dbl.Atk."+2',}},
+    hands={ name="Adhemar Wristbands", augments={'Accuracy+15','Attack+15','"Subtle Blow"+7',}},
+    legs="Malignance Tights",
+    feet="Malignance Boots",
+    neck="Elite Royal Collar",
+    waist="Moonbow Belt",
+    left_ear="Sherida Earring",
+    right_ear="Cessance Earring",
+    left_ring="Defending Ring",
+    right_ring={ name="Dark Ring", augments={'Magic dmg. taken -6%','Phys. dmg. taken -3%','Breath dmg. taken -5%',}},
+    back="Moonbeam Cape",
+}

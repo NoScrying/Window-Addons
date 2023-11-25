@@ -1,0 +1,17 @@
+sets.exported={
+    main="Daybreak",
+    sub="Culminus",
+    ammo="Homiliary",
+    head="Jhakri Coronal +1",
+    body="Jhakri Robe +2",
+    hands="Jhakri Cuffs +1",
+    legs="Jhakri Slops +1",
+    feet="Jhakri Pigaches +1",
+    neck="Lissome Necklace",
+    waist="Cetl Belt",
+    left_ear="Friomisi Earring",
+    right_ear="Malignance Earring",
+    left_ring="Strendu Ring",
+    right_ring="Jhakri Ring",
+    back="Lugh's Cape",
+}

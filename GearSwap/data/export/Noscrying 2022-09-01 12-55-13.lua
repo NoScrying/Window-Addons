@@ -1,0 +1,17 @@
+sets.exported={
+    main="Karambit",
+    range="Divinator",
+    ammo="Automat. Oil +3",
+    head="Tali'ah Turban +2",
+    body="Hiza. Haramaki +1",
+    hands="Foire Dastanas +2",
+    legs="Malignance Tights",
+    feet="Hermes' Sandals",
+    neck="Elite Royal Collar",
+    waist="Moonbow Belt",
+    left_ear="Enmerkar Earring",
+    right_ear="Sroda Earring",
+    left_ring="Defending Ring",
+    right_ring={ name="Dark Ring", augments={'Phys. dmg. taken -6%','Magic dmg. taken -3%',}},
+    back="Moonbeam Cape",
+}

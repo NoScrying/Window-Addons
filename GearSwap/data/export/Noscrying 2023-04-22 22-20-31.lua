@@ -1,0 +1,17 @@
+sets.exported={
+    main={ name="Montante +1", augments={'Path: A',}},
+    sub="Utu Grip",
+    ammo="Staunch Tathlum +1",
+    head="Erilaz Galea +2",
+    body="Erilaz Surcoat +2",
+    hands="Nyame Gauntlets",
+    legs="Eri. Leg Guards +2",
+    feet="Erilaz Greaves +2",
+    neck="Warder's Charm +1",
+    waist="Engraved Belt",
+    left_ear={ name="Odnowa Earring +1", augments={'Path: A',}},
+    right_ear="Tuisto Earring",
+    left_ring="Moonlight Ring",
+    right_ring={ name="Gelatinous Ring +1", augments={'Path: A',}},
+    back={ name="Ogma's Cape", augments={'HP+60','Eva.+20 /Mag. Eva.+20','Mag. Evasion+10','Enmity+10','Phys. dmg. taken-10%',}},
+}

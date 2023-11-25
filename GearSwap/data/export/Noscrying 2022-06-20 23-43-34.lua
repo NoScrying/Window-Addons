@@ -1,0 +1,16 @@
+sets.exported={
+    main="Karambit",
+    ammo="Ginsen",
+    head={ name="Adhemar Bonnet", augments={'DEX+10','AGI+10','Accuracy+15',}},
+    body="Bhikku Cyclas",
+    hands="Naga Tekko",
+    legs="Mummu Kecks +1",
+    feet="Hermes' Sandals",
+    neck="Elite Royal Collar",
+    waist="Moonbow Belt",
+    left_ear="Brutal Earring",
+    right_ear="Mache Earring",
+    left_ring="Defending Ring",
+    right_ring={ name="Dark Ring", augments={'Phys. dmg. taken -6%','Magic dmg. taken -3%',}},
+    back="Moonbeam Cape",
+}

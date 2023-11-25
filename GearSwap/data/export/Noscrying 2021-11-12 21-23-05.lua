@@ -1,0 +1,18 @@
+sets.exported={
+    main="Kaja Sword",
+    sub="Eminent Scimitar",
+    range={ name="Doomsday", augments={'"Mag.Atk.Bns."+20','"Dbl.Atk."+4','Quadruple Attack +2',}},
+    ammo="Eminent Bullet",
+    head={ name="Lanun Tricorne", augments={'Enhances "Winning Streak" effect',}},
+    body={ name="Adhemar Jacket", augments={'DEX+9','AGI+9','Accuracy+14',}},
+    hands={ name="Carmine Fin. Ga.", augments={'Rng.Atk.+15','"Mag.Atk.Bns."+10','"Store TP"+5',}},
+    legs="Carmine Cuisses +1",
+    feet="Meg. Jam. +1",
+    neck="Lissome Necklace",
+    waist="Windbuffet Belt",
+    left_ear="Brutal Earring",
+    right_ear="Mache Earring",
+    left_ring="Luzaf's Ring",
+    right_ring="Barataria Ring",
+    back={ name="Camulus's Mantle", augments={'DEX+20','Accuracy+20 Attack+20','"Dbl.Atk."+10',}},
+}

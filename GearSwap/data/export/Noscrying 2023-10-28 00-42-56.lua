@@ -1,0 +1,17 @@
+sets.exported={
+    main="Naegling",
+    sub="Kraken Club",
+    ammo="Aurgelmir Orb",
+    head="Hjarrandi Helm",
+    body="Hjarrandi Breast.",
+    hands={ name="Valorous Mitts", augments={'"Store TP"+7','Accuracy+14',}},
+    legs={ name="Carmine Cuisses +1", augments={'Accuracy+20','Attack+12','"Dual Wield"+6',}},
+    feet="Flam. Gambieras +2",
+    neck="Shulmanu Collar",
+    waist="Shetal Stone",
+    left_ear="Crep. Earring",
+    right_ear="Sherida Earring",
+    left_ring="Chirich Ring +1",
+    right_ring="Lehko's Ring",
+    back={ name="Brigantia's Mantle", augments={'STR+20','Accuracy+20 Attack+20','"Dbl.Atk."+10',}},
+}

@@ -1,0 +1,17 @@
+sets.exported={
+    main="Tauret",
+    sub={ name="Demers. Degen +1", augments={'Path: A',}},
+    range={ name="Linos", augments={'Accuracy+15','Weapon skill damage +3%','Quadruple Attack +3',}},
+    head={ name="Blistering Sallet +1", augments={'Path: A',}},
+    body="Nyame Mail",
+    hands="Nyame Gauntlets",
+    legs={ name="Lustr. Subligar +1", augments={'Accuracy+20','DEX+8','Crit. hit rate+3%',}},
+    feet={ name="Lustra. Leggings +1", augments={'HP+65','STR+15','DEX+15',}},
+    neck={ name="Bard's Charm +1", augments={'Path: A',}},
+    waist="Fotia Belt",
+    left_ear="Brutal Earring",
+    right_ear={ name="Moonshade Earring", augments={'"Mag.Atk.Bns."+4','TP Bonus +250',}},
+    left_ring="Ilabrat Ring",
+    right_ring="Lehko's Ring",
+    back={ name="Intarabus's Cape", augments={'DEX+20','Accuracy+20 Attack+20','"Dbl.Atk."+10','Phys. dmg. taken-10%',}},
+}

@@ -1,0 +1,16 @@
+sets.exported={
+    main="Kaja Axe",
+    ammo={ name="Seeth. Bomblet +1", augments={'Path: A',}},
+    head="Erilaz Galea +2",
+    body="Erilaz Surcoat +2",
+    hands={ name="Herculean Gloves", augments={'"Triple Atk."+3','STR+13',}},
+    legs="Meg. Chausses +2",
+    feet={ name="Lustra. Leggings +1", augments={'HP+65','STR+15','DEX+15',}},
+    neck="Fotia Gorget",
+    waist="Fotia Belt",
+    left_ear={ name="Moonshade Earring", augments={'"Mag.Atk.Bns."+4','TP Bonus +250',}},
+    right_ear="Sherida Earring",
+    left_ring="Ifrit Ring +1",
+    right_ring="Niqmaddu Ring",
+    back={ name="Ogma's Cape", augments={'STR+20','Accuracy+20 Attack+20','"Dbl.Atk."+10',}},
+}

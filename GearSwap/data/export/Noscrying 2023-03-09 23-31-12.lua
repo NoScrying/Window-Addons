@@ -1,0 +1,17 @@
+sets.exported={
+    main="Naegling",
+    sub="Fettering Blade",
+    ammo="Knobkierrie",
+    head="Erilaz Galea +2",
+    body="Erilaz Surcoat +2",
+    hands="Meg. Gloves +2",
+    legs="Eri. Leg Guards +2",
+    feet="Erilaz Greaves +2",
+    neck="Rep. Plat. Medal",
+    waist={ name="Sailfi Belt +1", augments={'Path: A',}},
+    left_ear="Sherida Earring",
+    right_ear={ name="Moonshade Earring", augments={'"Mag.Atk.Bns."+4','TP Bonus +250',}},
+    left_ring="Sroda Ring",
+    right_ring="Epaminondas's Ring",
+    back={ name="Ogma's Cape", augments={'DEX+20','Accuracy+20 Attack+20','"Dbl.Atk."+10',}},
+}

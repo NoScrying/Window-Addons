@@ -1,0 +1,17 @@
+sets.exported={
+    main="Naegling",
+    sub={ name="Demers. Degen +1", augments={'Path: A',}},
+    range={ name="Linos", augments={'All Songs+2','"Fast Cast"+4','Quadruple Attack +2',}},
+    head="Fili Calot",
+    body="Inyanga Jubbah +1",
+    hands="Inyan. Dastanas +1",
+    legs="Aya. Cosciales +2",
+    feet={ name="Bihu Slippers", augments={'Enhances "Nightingale" effect',}},
+    neck="Aoidos' Matinee",
+    waist="Aswang Sash",
+    left_ear="Suppanomimi",
+    right_ear="Eabani Earring",
+    left_ring="Defending Ring",
+    right_ring={ name="Dark Ring", augments={'Magic dmg. taken -6%','Phys. dmg. taken -3%','Breath dmg. taken -5%',}},
+    back={ name="Intarabus's Cape", augments={'CHR+20','Mag. Acc+20 /Mag. Dmg.+20','"Fast Cast"+10','Phys. dmg. taken-10%',}},
+}

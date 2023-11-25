@@ -1,0 +1,18 @@
+sets.exported={
+    main="Naegling",
+    sub={ name="Demers. Degen +1", augments={'Path: A',}},
+    range={ name="Anarchy +2", augments={'Delay:+60','TP Bonus +1000',}},
+    ammo="Adlivun Bullet",
+    head="Mummu Bonnet +1",
+    body="Meg. Cuirie +1",
+    hands="Meg. Gloves +2",
+    legs="Meg. Chausses +2",
+    feet="Malignance Boots",
+    neck="Peacock Amulet",
+    waist="Kwahu Kachina Belt",
+    left_ear="Volley Earring",
+    right_ear="Mache Earring",
+    left_ring="Mummu Ring",
+    right_ring="Longshot Ring",
+    back={ name="Camulus's Mantle", augments={'AGI+20','Rng.Acc.+20 Rng.Atk.+20','Weapon skill damage +10%',}},
+}

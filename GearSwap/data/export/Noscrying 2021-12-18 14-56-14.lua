@@ -1,0 +1,17 @@
+sets.exported={
+    main="Triska Scythe",
+    sub="Gracile Grip",
+    ammo="Ginsen",
+    head="Pixie Hairpin +1",
+    body={ name="Valorous Mail", augments={'Accuracy+16 Attack+16','"Store TP"+2','Accuracy+10',}},
+    hands={ name="Carmine Fin. Ga.", augments={'Rng.Atk.+15','"Mag.Atk.Bns."+10','"Store TP"+5',}},
+    legs="Sulevi. Cuisses +1",
+    feet="Flam. Gambieras +1",
+    neck="Deceiver's Torque",
+    waist="Ioskeha Belt",
+    left_ear="Friomisi Earring",
+    right_ear="Hecate's Earring",
+    left_ring="Evanescence Ring",
+    right_ring="Fenrir Ring",
+    back="Argocham. Mantle",
+}

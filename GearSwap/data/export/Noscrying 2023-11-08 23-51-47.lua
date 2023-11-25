@@ -1,0 +1,17 @@
+sets.exported={
+    main="Tauret",
+    sub={ name="Ternion Dagger +1", augments={'Path: A',}},
+    range={ name="Linos", augments={'Accuracy+15','"Dbl.Atk."+3','Quadruple Attack +3',}},
+    head="Aya. Zucchetto +2",
+    body="Ayanmo Corazza +2",
+    hands="Bunzi's Gloves",
+    legs={ name="Telchine Braconi", augments={'Accuracy+20','"Store TP"+6','DEX+10',}},
+    feet="Nyame Sollerets",
+    neck={ name="Bard's Charm +1", augments={'Path: A',}},
+    waist={ name="Sailfi Belt +1", augments={'Path: A',}},
+    left_ear="Brutal Earring",
+    right_ear="Cessance Earring",
+    left_ring="Moonlight Ring",
+    right_ring="Lehko's Ring",
+    back={ name="Intarabus's Cape", augments={'DEX+20','Accuracy+20 Attack+20','"Dbl.Atk."+10','Phys. dmg. taken-10%',}},
+}

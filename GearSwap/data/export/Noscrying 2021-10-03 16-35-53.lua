@@ -1,0 +1,16 @@
+sets.exported={
+    main="Kaja Knuckles",
+    ammo="Hasty Pinion +1",
+    head="Hizamaru Somen +1",
+    body={ name="Otro. Harness +1", augments={'Phys. dmg. taken -3%','Magic dmg. taken -3%','"Dbl.Atk."+2',}},
+    hands="Mummu Wrists +1",
+    legs={ name="Taeon Tights", augments={'Accuracy+25','"Triple Atk."+2','STR+5 DEX+5',}},
+    feet="Hiza. Sune-Ate +1",
+    neck="Elite Royal Collar",
+    waist="Moonbow Belt",
+    left_ear="Brutal Earring",
+    right_ear="Mache Earring",
+    left_ring={ name="Dark Ring", augments={'Magic dmg. taken -6%','Phys. dmg. taken -3%','Breath dmg. taken -5%',}},
+    right_ring={ name="Dark Ring", augments={'Phys. dmg. taken -6%','Magic dmg. taken -3%',}},
+    back={ name="Segomo's Mantle", augments={'STR+20','Accuracy+20 Attack+20','"Dbl.Atk."+10',}},
+}

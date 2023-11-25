@@ -1,0 +1,17 @@
+sets.exported={
+    main="Naegling",
+    sub={ name="Pukulatmuj +1", augments={'Path: A',}},
+    range="Kaja Bow",
+    head={ name="Telchine Cap", augments={'"Cure" potency +8%','Enh. Mag. eff. dur. +7',}},
+    body={ name="Telchine Chas.", augments={'"Cure" potency +7%','Enh. Mag. eff. dur. +10',}},
+    hands="Atrophy Gloves",
+    legs="Atrophy Tights",
+    feet="Leth. Houseaux +1",
+    neck="Enhancing Torque",
+    waist="Embla Sash",
+    left_ear="Aredan Earring",
+    right_ear="Malignance Earring",
+    left_ring="Stikini Ring",
+    right_ring="Stikini Ring",
+    back={ name="Sucellos's Cape", augments={'MND+20','Mag. Acc+20 /Mag. Dmg.+20','"Mag.Atk.Bns."+7',}},
+}

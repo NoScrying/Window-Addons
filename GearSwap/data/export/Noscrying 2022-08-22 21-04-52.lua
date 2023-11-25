@@ -1,0 +1,17 @@
+sets.exported={
+    main="Naegling",
+    sub="Sakpata's Sword",
+    ammo="Mavi Tathlum",
+    head={ name="Herculean Helm", augments={'Mag. Acc.+20 "Mag.Atk.Bns."+20','Weapon skill damage +5%','STR+9','Mag. Acc.+1',}},
+    body="Jhakri Robe +2",
+    hands={ name="Herculean Gloves", augments={'"Mag.Atk.Bns."+23','Weapon skill damage +4%','Mag. Acc.+5',}},
+    legs={ name="Herculean Trousers", augments={'Mag. Acc.+15 "Mag.Atk.Bns."+15','Weapon skill damage +5%','"Mag.Atk.Bns."+15',}},
+    feet={ name="Herculean Boots", augments={'"Mag.Atk.Bns."+23','Weapon skill damage +5%','Mag. Acc.+13',}},
+    neck="Sibyl Scarf",
+    waist="Eschan Stone",
+    left_ear="Friomisi Earring",
+    right_ear="Hecate's Earring",
+    left_ring="Jhakri Ring",
+    right_ring="Strendu Ring",
+    back="Seshaw Cape",
+}

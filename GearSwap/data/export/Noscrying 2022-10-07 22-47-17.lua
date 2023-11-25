@@ -1,0 +1,17 @@
+sets.exported={
+    main="Naegling",
+    sub={ name="Machaera +2", augments={'TP Bonus +1000',}},
+    ammo="Oshasha's Treatise",
+    head={ name="Blistering Sallet +1", augments={'Path: A',}},
+    body="Malignance Tabard",
+    hands="Jhakri Cuffs +2",
+    legs={ name="Herculean Trousers", augments={'Mag. Acc.+15 "Mag.Atk.Bns."+15','Weapon skill damage +5%','"Mag.Atk.Bns."+15',}},
+    feet="Malignance Boots",
+    neck="Fotia Gorget",
+    waist="Fotia Belt",
+    left_ear={ name="Moonshade Earring", augments={'"Mag.Atk.Bns."+4','TP Bonus +250',}},
+    right_ear="Brutal Earring",
+    left_ring="Rajas Ring",
+    right_ring="Epona's Ring",
+    back={ name="Rosmerta's Cape", augments={'STR+20','Accuracy+20 Attack+20','STR+1','Weapon skill damage +10%',}},
+}

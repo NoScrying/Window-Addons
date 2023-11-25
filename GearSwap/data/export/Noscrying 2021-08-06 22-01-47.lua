@@ -1,0 +1,16 @@
+sets.exported={
+    main={ name="Ohrmazd", augments={'Attack+14','"Dbl.Atk."+2','DMG:+23',}},
+    ammo="Hasty Pinion +1",
+    head="Hizamaru Somen",
+    body={ name="Otro. Harness +1", augments={'Phys. dmg. taken -3%','Magic dmg. taken -3%','"Dbl.Atk."+2',}},
+    hands="Hizamaru Kote",
+    legs={ name="Taeon Tights", augments={'"Triple Atk."+2',}},
+    feet="Hiza. Sune-Ate +1",
+    neck="Monk's Nodowa",
+    waist="Cetl Belt",
+    left_ear="Brutal Earring",
+    right_ear="Mache Earring",
+    left_ring="Rajas Ring",
+    right_ring="Enlivened Ring",
+    back="Segomo's Mantle",
+}

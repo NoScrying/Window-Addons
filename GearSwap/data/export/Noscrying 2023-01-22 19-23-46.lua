@@ -1,0 +1,17 @@
+sets.exported={
+    main="Masamune",
+    sub="Utu Grip",
+    ammo="Aurgelmir Orb",
+    head="Kasuga Kabuto +1",
+    body="Sacro Breastplate",
+    hands="Hizamaru Kote +2",
+    legs={ name="Tatena. Haidate +1", augments={'Path: A',}},
+    feet={ name="Ryuo Sune-Ate +1", augments={'STR+12','DEX+12','Accuracy+20',}},
+    neck={ name="Bathy Choker +1", augments={'Path: A',}},
+    waist="Ioskeha Belt +1",
+    left_ear="Cessance Earring",
+    right_ear="Crep. Earring",
+    left_ring="Hizamaru Ring",
+    right_ring="Chirich Ring +1",
+    back={ name="Smertrios's Mantle", augments={'STR+20','Accuracy+20 Attack+20','"Dbl.Atk."+10','Phys. dmg. taken-10%',}},
+}

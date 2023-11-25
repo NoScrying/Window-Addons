@@ -1,0 +1,17 @@
+sets.exported={
+    main={ name="Izuna", augments={'Accuracy+14','"Dbl.Atk."+3','DMG:+17',}},
+    sub="Shuhansadamune",
+    ammo="Suppa Shuriken",
+    head="Heidrek Mask",
+    body="Hizamaru Haramaki",
+    hands="Mummu Wrists +1",
+    legs={ name="Taeon Tights", augments={'"Triple Atk."+2',}},
+    feet="Iga Kyahan +2",
+    neck="Peacock Amulet",
+    waist="Cetl Belt",
+    left_ear="Brutal Earring",
+    right_ear="Mache Earring",
+    left_ring="Rajas Ring",
+    right_ring="Mummu Ring",
+    back="Kayapa Cape",
+}

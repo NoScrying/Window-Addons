@@ -1,0 +1,16 @@
+sets.exported={
+    main="Naegling",
+    range={ name="Linos", augments={'Evasion+12','"Fast Cast"+4','VIT+6',}},
+    head="Vanya Hood",
+    body="Bunzi's Robe",
+    hands="Inyan. Dastanas +2",
+    legs={ name="Telchine Braconi", augments={'"Cure" potency +8%','Enh. Mag. eff. dur. +10',}},
+    feet={ name="Vanya Clogs", augments={'Healing magic skill +20','"Cure" spellcasting time -7%','Magic dmg. taken -3',}},
+    neck="Phalaina Locket",
+    waist="Hachirin-no-Obi",
+    left_ear="Magnetic Earring",
+    right_ear="Halasz Earring",
+    left_ring="Stikini Ring +1",
+    right_ring="Stikini Ring +1",
+    back="Tempered Cape +1",
+}

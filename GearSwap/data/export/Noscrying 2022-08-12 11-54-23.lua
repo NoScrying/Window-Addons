@@ -1,0 +1,17 @@
+sets.exported={
+    main="Trial Blade",
+    sub="Utu Grip",
+    ammo="Impatiens",
+    head="Meghanada Visor +2",
+    body="Ayanmo Corazza +2",
+    hands="Aya. Manopolas +2",
+    legs="Aya. Cosciales +2",
+    feet="Hermes' Sandals",
+    neck="Futhark Torque",
+    waist={ name="Sailfi Belt +1", augments={'Path: A',}},
+    left_ear="Friomisi Earring",
+    right_ear="Magnetic Earring",
+    left_ring="Defending Ring",
+    right_ring="Petrov Ring",
+    back="Moonbeam Cape",
+}

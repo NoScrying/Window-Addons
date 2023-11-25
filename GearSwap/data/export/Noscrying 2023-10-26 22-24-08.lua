@@ -1,0 +1,17 @@
+sets.exported={
+    main="Tauret",
+    sub={ name="Ternion Dagger +1", augments={'Path: A',}},
+    ammo="Aurgelmir Orb",
+    head={ name="Adhemar Bonnet +1", augments={'DEX+12','AGI+12','Accuracy+20',}},
+    body="Meg. Cuirie +2",
+    hands="Mummu Wrists +2",
+    legs="Mummu Kecks +2",
+    feet="Mummu Gamash. +2",
+    neck="Fotia Gorget",
+    waist="Fotia Belt",
+    left_ear="Odr Earring",
+    right_ear="Sherida Earring",
+    left_ring="Lehko's Ring",
+    right_ring="Ilabrat Ring",
+    back="Sacro Mantle",
+}

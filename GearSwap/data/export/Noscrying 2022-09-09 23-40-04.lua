@@ -1,0 +1,17 @@
+sets.exported={
+    main="Naegling",
+    sub={ name="Machaera +2", augments={'TP Bonus +1000',}},
+    ammo="Mavi Tathlum",
+    head="Jhakri Coronal +2",
+    body="Jhakri Robe +2",
+    hands="Jhakri Cuffs +2",
+    legs="Malignance Tights",
+    feet="Malignance Boots",
+    neck="Mirage Stole",
+    waist="Eschan Stone",
+    left_ear="Saviesa Pearl",
+    right_ear={ name="Hashishin Earring", augments={'System: 1 ID: 1676 Val: 0','Accuracy+9','Mag. Acc.+9',}},
+    left_ring="Archon Ring",
+    right_ring="Stikini Ring",
+    back={ name="Cornflower Cape", augments={'MP+21','DEX+1','Blue Magic skill +10',}},
+}

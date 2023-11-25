@@ -1,0 +1,17 @@
+sets.exported={
+    main="Trial Blade",
+    sub="Utu Grip",
+    ammo="Impatiens",
+    head="Meghanada Visor +2",
+    body={ name="Taeon Tabard", augments={'Pet: Accuracy+19 Pet: Rng. Acc.+19','Pet: "Dbl. Atk."+5','Pet: Damage taken -4%',}},
+    hands="Aya. Manopolas +2",
+    legs="Aya. Cosciales +2",
+    feet="Aya. Gambieras +2",
+    neck="Elite Royal Collar",
+    waist={ name="Sailfi Belt +1", augments={'Path: A',}},
+    left_ear="Sherida Earring",
+    right_ear="Magnetic Earring",
+    left_ring="Evanescence Ring",
+    right_ring="Lebeche Ring",
+    back="Moonbeam Cape",
+}

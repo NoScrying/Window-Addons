@@ -1,0 +1,17 @@
+sets.exported={
+    main="Kaja Katana",
+    sub={ name="Ternion Dagger +1", augments={'Path: A',}},
+    ammo="Oshasha's Treatise",
+    head={ name="Blistering Sallet +1", augments={'Path: A',}},
+    body="Mummu Jacket +2",
+    hands="Mummu Wrists +2",
+    legs="Hiza. Hizayoroi +2",
+    feet="Mummu Gamash. +2",
+    neck="Fotia Gorget",
+    waist="Fotia Belt",
+    left_ear="Odr Earring",
+    right_ear={ name="Moonshade Earring", augments={'"Mag.Atk.Bns."+4','TP Bonus +250',}},
+    left_ring="Epaminondas's Ring",
+    right_ring="Gere Ring",
+    back={ name="Andartia's Mantle", augments={'DEX+20','Accuracy+20 Attack+20','"Dbl.Atk."+10',}},
+}

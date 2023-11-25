@@ -1,0 +1,17 @@
+sets.exported={
+    main="Naegling",
+    sub="Blurred Shield +1",
+    ammo={ name="Seeth. Bomblet +1", augments={'Path: A',}},
+    head="Hjarrandi Helm",
+    body="Boii Lorica +1",
+    hands="Sakpata's Gauntlets",
+    legs={ name="Tatena. Haidate +1", augments={'Path: A',}},
+    feet="Flam. Gambieras +2",
+    neck="Lissome Necklace",
+    waist={ name="Sailfi Belt +1", augments={'Path: A',}},
+    left_ear="Cessance Earring",
+    right_ear="Crep. Earring",
+    left_ring="Chirich Ring",
+    right_ring="Chirich Ring",
+    back={ name="Cichol's Mantle", augments={'STR+20','Accuracy+20 Attack+20','"Dbl.Atk."+10',}},
+}

@@ -1,0 +1,17 @@
+sets.exported={
+    main={ name="Ipetam", augments={'Accuracy+12','"Dbl.Atk."+3','DMG:+15',}},
+    sub="Homestead Dagger",
+    range="War Hoop",
+    head="Shned. Chapeau +1",
+    body="Etoile Casaque",
+    hands="Meg. Gloves +1",
+    legs="Meg. Chausses",
+    feet="Meg. Jambeaux",
+    neck="Peacock Amulet",
+    waist="Cetl Belt",
+    left_ear="Suppanomimi",
+    right_ear="Brutal Earring",
+    left_ring="Rajas Ring",
+    right_ring="Enlivened Ring",
+    back="Cuchulain's Mantle",
+}

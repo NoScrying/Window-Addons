@@ -1,0 +1,17 @@
+sets.exported={
+    main={ name="Macbain", augments={'Accuracy+20','"Dbl.Atk."+3','DMG:+32',}},
+    sub="Immolation Grip",
+    ammo="Ginsen",
+    head="Flam. Zucchetto +1",
+    body="Heathen's Cuirass",
+    hands={ name="Fall. Fin. Gaunt.", augments={'Enhances "Diabolic Eye" effect',}},
+    legs={ name="Carmine Cuisses +1", augments={'Accuracy+20','Attack+12','"Dual Wield"+6',}},
+    feet="Flam. Gambieras +1",
+    neck="Deceiver's Torque",
+    waist="Ioskeha Belt",
+    left_ear="Eabani Earring",
+    right_ear="Hecate's Earring",
+    left_ring="Evanescence Ring",
+    right_ring="Kunaji Ring",
+    back="Ankou's Mantle",
+}

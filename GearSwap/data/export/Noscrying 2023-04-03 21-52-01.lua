@@ -1,0 +1,17 @@
+sets.exported={
+    main="Zantetsuken X",
+    sub="Utu Grip",
+    ammo="Staunch Tathlum",
+    head="Erilaz Galea +2",
+    body="Erilaz Surcoat +2",
+    hands="Turms Mittens +1",
+    legs="Eri. Leg Guards +2",
+    feet="Erilaz Greaves +2",
+    neck="Warder's Charm +1",
+    waist="Engraved Belt",
+    left_ear="Tuisto Earring",
+    right_ear="Eabani Earring",
+    left_ring={ name="Dark Ring", augments={'Phys. dmg. taken -6%','Magic dmg. taken -3%',}},
+    right_ring="Defending Ring",
+    back={ name="Ogma's Cape", augments={'DEX+20','Accuracy+20 Attack+20','"Dbl.Atk."+10','Phys. dmg. taken-10%',}},
+}

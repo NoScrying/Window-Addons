@@ -1,0 +1,17 @@
+sets.exported={
+    main="Triska Scythe",
+    sub="Immolation Grip",
+    ammo="Ginsen",
+    head="Sulevia's Mask +1",
+    body="Sulevia's Plate. +2",
+    hands="Sulev. Gauntlets +2",
+    legs={ name="Carmine Cuisses +1", augments={'Accuracy+20','Attack+12','"Dual Wield"+6',}},
+    feet="Sulev. Leggings +2",
+    neck="Elite Royal Collar",
+    waist="Flume Belt",
+    left_ear="Brutal Earring",
+    right_ear="Mache Earring",
+    left_ring="Defending Ring",
+    right_ring={ name="Dark Ring", augments={'Magic dmg. taken -6%','Phys. dmg. taken -3%','Breath dmg. taken -5%',}},
+    back={ name="Ankou's Mantle", augments={'STR+20','Accuracy+20 Attack+20','"Dbl.Atk."+7',}},
+}

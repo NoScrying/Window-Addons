@@ -1,0 +1,17 @@
+sets.exported={
+    main="Naegling",
+    sub="Blurred Shield +1",
+    ammo={ name="Seeth. Bomblet +1", augments={'Path: A',}},
+    head="Sakpata's Helm",
+    body="Sakpata's Plate",
+    hands="Sakpata's Gauntlets",
+    legs="Sakpata's Cuisses",
+    feet="Hermes' Sandals",
+    neck={ name="Bathy Choker +1", augments={'Path: A',}},
+    waist="Flume Belt",
+    left_ear={ name="Lugra Earring +1", augments={'Path: A',}},
+    right_ear="Odnowa Earring +1",
+    left_ring="Defending Ring",
+    right_ring={ name="Dark Ring", augments={'Magic dmg. taken -6%','Phys. dmg. taken -3%','Breath dmg. taken -5%',}},
+    back="Moonbeam Cape",
+}

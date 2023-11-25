@@ -1,0 +1,16 @@
+sets.exported={
+    main="Verethragna",
+    ammo="Aurgelmir Orb",
+    head={ name="Adhemar Bonnet +1", augments={'DEX+12','AGI+12','Accuracy+20',}},
+    body="Ken. Samue +1",
+    hands={ name="Adhemar Wrist. +1", augments={'DEX+12','AGI+12','Accuracy+20',}},
+    legs="Bhikku Hose +2",
+    feet="Ken. Sune-Ate +1",
+    neck={ name="Mnk. Nodowa +1", augments={'Path: A',}},
+    waist="Moonbow Belt +1",
+    left_ear="Sherida Earring",
+    right_ear="Dedition Earring",
+    left_ring="Gere Ring",
+    right_ring="Chirich Ring +1",
+    back={ name="Segomo's Mantle", augments={'STR+20','Accuracy+20 Attack+20','STR+5','"Dbl.Atk."+10','Phys. dmg. taken-10%',}},
+}
