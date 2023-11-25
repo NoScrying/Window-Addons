@@ -109,30 +109,35 @@ xivhotbar_keybinds_job['NIN'] = {
 
 xivhotbar_keybinds_job['WHM'] = {
 	{'f 1 7', 'ma', 'Raise', 'stpc', 'Raise'},
+	{'f 1 5', 'ma', 'Dia II', 'stnpc', 'Dia'},	
+ 	{'f 1 6', 'ma', 'Cure III', 'stpc', 'CureIII'},
 	{'f 3 2', 'ma', 'Paralyna', 'stpc', 'Para'},
 	{'f 3 3', 'ma', 'Silena', 'stpc', 'Silena'},
 	{'f 3 4', 'ma', 'Stona', 'stpc', 'Stona'},
 	{'f 3 5', 'ma', 'Viruna', 'stpc', 'Viruna'},
 	{'f 3 6', 'ma', 'Cursna', 'stpc', 'Cursna'},
 	{'f 3 7', 'ma', 'Poisona', 'stpc', 'Poisona'},
-	{'f 3 8', 'ma', 'Auspice', 'me', 'Auspice'},
+
+	--{'f 3 8', 'ma', 'Auspice', 'me', 'Auspice'}, --, unlocked at mlv.30
 	{'f 1 8', 'ma', 'Erase', 'stpc', 'Erase'},
  	{'f 3 1', 'ma', 'Cure IV', 'stpc', 'CureIV'},
-	{'f 4 1', 'ma', 'Curaga II', 'stpc', 'CuraII'},	
+	{'f 4 1', 'ma', 'Curaga III', 'stpc', 'CuraIII'},	
 	{'f 4 2', 'ma', 'Barblizzara', 'me', 'Blizra'},	
 	{'f 4 3', 'ma', 'Barfira', 'me', 'Fira'},	
 	{'f 4 4', 'ma', 'Barstonra', 'me', 'Stonra'},	
 	{'f 4 5', 'ma', 'Baraera', 'me', 'Aera'},	
 	{'f 4 6', 'ma', 'Barthundra', 'me', 'Thundra'},	
 	{'f 4 7', 'ma', 'Barwatera', 'me', 'Watera'},	
-	{'f 4 8', 'ma', 'Reraise', 'me', 'Reraise'},		
+	{'f 4 8', 'ma', 'Reraise', 'me', 'Reraise'},
+	{'f 4 10', 'ma', 'Cura', 'me', 'Cura'},	
 	{'f 2 7', 'ja', 'Divine Seal', 'me', 'D.Seal'},	
 	{'f 2 8', 'ma', 'Haste', 'stpc', 'Haste'},	
 	{'f 2 1', 'ma', 'Banish II', 'stnpc', 'Banish'},		
 	{'f 2 2', 'ma', 'Banishga II', 'stnpc', 'Banishga'},	
 	{'f 2 3', 'ma', 'Silence', 'stnpc', 'Silence'},		
 	{'f 2 4', 'ma', 'Stoneskin', 'me', 'S.SKin'},	
-	{'f 2 5', 'ma', 'Aquaveil', 'me', 'Aqua'},			
+	{'f 2 5', 'ma', 'Aquaveil', 'me', 'Aqua'},		
+	{'f 2 6', 'ma', 'Blink', 'me', 'Blink'},				
 	
 }
 return xivhotbar_keybinds_job
