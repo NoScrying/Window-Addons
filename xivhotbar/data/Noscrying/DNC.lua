@@ -1,13 +1,15 @@
 
 xivhotbar_keybinds_job['Base'] = {
  -- Hotbar #1
+	{'b 1 5', 'ja', 'Animated Flourish', 'stnpc', 'Provoke'},
 	{'b 1 8', 'ja', 'Striking Flourish', 'me', 'DA+1', "StrikingFlourish"},
 	{'b 1 7', 'ja', 'Climactic Flourish', 'me', 'Crit+1', 'Ternary'},
+	{'b 1 6', 'input', "//cancel Saber Dance", '', 'DA Off', "SaberDanceOff"},
 	{'b 1 9', 'ja', 'No Foot Rise', 'me', 'Finish', "Flourish"},
 	{'b 1 10', 'ja', 'Presto', 'me', 'Step+', 'Presto'},
 
  -- Hotbar #2
-	{'b 2 3', 'ja', 'Violent Flourish', 't', 'Stun'},
+	{'b 2 3', 'ja', 'Violent Flourish', 't', 'Stun', "Stun"},
 
 	{'b 2 10', 'ja', 'Chocobo Jig II', 'me', 'Choco', 'Chocobo'},
 	{'b 4 9', 'ja', 'Spectral Jig', 'me', 'Spectral', 'Spectral'},	
@@ -17,17 +19,21 @@ xivhotbar_keybinds_job['Base'] = {
 	{'b 3 3', 'ja', 'Curing Waltz V', 'stpc', 'CureV', 'WaltzV'},
 	{'b 3 4', 'ja', 'Divine Waltz', 'stpc', 'Cura', 'Divine'},
 	{'b 3 5', 'ja', 'Divine Waltz II', 'stpc', 'Curaga', 'Divine2'},
-	{'b 3 6', 'ja', 'Healing Waltz', 'me', 'Esuna', 'HealingWaltz'},
-    {'b 3 8', 'ct', 'ra', 't', 'RA', 'Ranged'},
+	{'b 3 6', 'ja', 'Healing Waltz', 'stpc', 'Esuna', 'HealingWaltz'},
 	{'b 3 7', 'ja', 'Reverse Flourish', 'me', 'Reverse', 'Reverse'},
+	{'b 3 8', 'ja', 'Building Flourish', 'me', 'WS+', 'BuildingFlourish'},
+	
+	{'f 3 9', 'ja', 'Trance', 'me', 'TP+',},
+	{'f 3 10', 'ja', 'Grand Pas', 'me', 'Flourish+',},
  -- Hotbar #4
     {'b 2 1', 'ja', 'Drain Samba III', 'me', 'Drain', 'Drain'},
-    {'b 2 2', 'ja', 'Haste Samba', 'me', 'Haste', 'Haste'},
+    {'b 2 2', 'ja', 'Haste Samba', 'me', 'Haste', 'HasteSamba'},
 	{'b 4 1', 'ja', 'Box Step', 't', 'Box', 'Box'},
 	{'b 4 2', 'ja', 'Feather Step', 't', 'Crit+', 'Feather'},
 	{'b 4 3', 'ja', 'Stutter Step', 't', 'MEVA-', "Stutter"},
-	{'b 4 7', 'ja', 'Saber Dance', 'me', 'Double'},
-	{'b 4 8', 'ja', 'Fan Dance', 'me', 'DEF'},
+	{'b 4 4', 'ja', 'Quickstep', 't', 'EVA-', "QuickStep"},
+	{'b 4 7', 'ja', 'Saber Dance', 'me', 'DA', "SaberDance"},
+	{'b 4 8', 'ja', 'Fan Dance', 'me', 'DEF', "FanDance"},
 	{'b 4 10', 'ja', 'Contradance', 'me', 'Heal+', "Halation"},
 	
  -- Hotbar #6
@@ -39,12 +45,31 @@ xivhotbar_keybinds_job['Dagger'] = {
     {'b 1 3', 'weaponskill', 'Evisceration', 't', 'Evisc.', 'Dagger-Multi'},
 	{'b 1 4', 'weaponskill', 'Aeolian Edge', 't', 'Aeolian.', 'Dagger-AoE'},
     {'b 2 4', 'weaponskill', 'Shark Bite', 't', 'Shark.', "Dagger-Single2"},
+    {'b 2 5', 'weaponskill', 'Exenterator', 't', 'Exent.', "Dagger-Single4"},
 }
+xivhotbar_keybinds_job['Hand-to-hand'] = {
+{'b 1 1', 'weaponskill', 'Tornado Kick', 't', 'T. Kick', 'H2H-Kick'},
+{'b 1 2', 'weaponskill', 'Spinning Attack', 't', 'AoE', 'H2H-AoE'},
+{'b 1 3', 'weaponskill', 'Asuran Fists', 't', 'Asuran', 'H2H-Multi'},
+}
+
 xivhotbar_keybinds_job['WAR'] = {
     {'b 1 5',  'ja', 'Provoke', 'stnpc', 'Prov.'},
     {'b 2 7',  'ja', 'Berserk', 'me', 'Berserk', 'Berserk'},
     {'b 2 8',  'ja', 'Warcry', 'me', 'War.', 'Warcry'},
 	{'b 2 9', 'ja', 'Aggressor', 'me', 'Aggr.', 'Agressor'},
+}
+xivhotbar_keybinds_job['MNK'] = {
+    {'b 1 5',  'ja', 'Chi Blast', 'stnpc', 'Chi.'},
+    {'b 2 7',  'ja', 'Focus', 'me', 'Focus'},
+    {'b 2 8',  'ja', 'Dodge', 'me', 'Dodge.'},
+	{'b 2 9', 'ja', 'Counterstance', 'me', 'Counter.'},
+	{'b 1 6', 'ja', 'Chakra', 'me', 'Chakra.'},
+}
+xivhotbar_keybinds_job['NIN'] = {
+	-- Battle
+	{'b 4 4', 'ma', 'Utsusemi: Ichi', 'me', 'Shadow1', 'UtsuIchi'},
+	{'b 4 5', 'ma', 'Utsusemi: Ni', 'me', 'Shadow2', 'UtsuNi'},
 }
 xivhotbar_keybinds_job['THF'] = {
     {'b 4 8', 'ja', 'Flee', 'me', 'Flee', 'Flee'},
@@ -55,7 +80,6 @@ xivhotbar_keybinds_job['THF'] = {
 xivhotbar_keybinds_job['DRG'] = {
     {'b 2 1', 'ja', 'Jump', 't', 'Jump', 'Jump'},
     {'b 2 2',  'ja', 'High Jump', 't', 'H. Jump', 'Hjump'},
-
 }
 xivhotbar_keybinds_job['SAM'] = {
 	{'b 4 4', 'ja', 'Warding Circle', 'me', 'Circle'},
