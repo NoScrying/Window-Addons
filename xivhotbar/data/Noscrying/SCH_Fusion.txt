@@ -1,0 +1,9 @@
+input /p Opening Fusion
+input /ja "Immanence" <me>
+wait 2
+input /magic "Fire" <t>
+wait 4
+input /ja "Immanence" <me>
+wait 2
+input /magic "Ionohelix" <t>
+input /p Fusion Closing on <t>

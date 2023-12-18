@@ -1,0 +1,9 @@
+input /p Opening Scission
+input /ja "Immanence" <me>
+wait 2
+input /magic "Fire" <t>
+wait 4
+input /ja "Immanence" <me>
+wait 2
+input /magic "Geohelix" <t>
+input /p Scission Closing on <t>

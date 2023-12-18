@@ -1,0 +1,9 @@
+input /p Opening Detonation
+input /ja "Immanence" <me>
+wait 2
+input /magic "Thunder" <t>
+wait 4
+input /ja "Immanence" <me>
+wait 2
+input /magic "Anemohelix" <t>
+input /p Detonation Closing on <t>

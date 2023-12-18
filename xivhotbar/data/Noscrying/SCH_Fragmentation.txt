@@ -1,0 +1,9 @@
+input /p Opening Fragmentation
+input /ja "Immanence" <me>
+wait 2
+input /magic "Blizzard" <t>
+wait 4
+input /ja "Immanence" <me>
+wait 2
+input /magic "Hydrohelix" <t>
+input /p Fragmentation Closing on <t>

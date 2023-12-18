@@ -1,0 +1,9 @@
+input /p Opening Transfixion
+input /ja "Immanence" <me>
+wait 2
+input /magic "Noctohelix" <t>
+wait 5
+input /ja "Immanence" <me>
+wait 2
+input /magic "Luminohelix" <t>
+input /p Transfixion Closing on <t>

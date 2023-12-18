@@ -1,0 +1,9 @@
+input /p Opening Liquefaction
+input /ja "Immanence" <me>
+wait 2
+input /magic "Thunder " <t>
+wait 4
+input /ja "Immanence" <me>
+wait 2
+input /magic "Pyrohelix" <t>
+input /p Liquefaction Closing on <t>

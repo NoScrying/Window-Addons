@@ -1,0 +1,9 @@
+input /p Opening Compression
+input /ja "Immanence" <me>
+wait 2
+input /magic "Blizzard" <t>
+wait 4
+input /ja "Immanence" <me>
+wait 2
+input /magic "Noctohelix" <t>
+input /p Compression Closing on <t>

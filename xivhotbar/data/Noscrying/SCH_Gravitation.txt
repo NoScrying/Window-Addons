@@ -1,0 +1,9 @@
+input /p Opening Gravitation
+input /ja "Immanence" <me>
+wait 2
+input /magic "Aero" <t>
+wait 4
+input /ja "Immanence" <me>
+wait 2
+input /magic "Noctohelix" <t>
+input /p Gravitation Closing on <t>

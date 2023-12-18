@@ -1,0 +1,9 @@
+input /p Opening Impaction
+input /ja "Immanence" <me>
+wait 2
+input /magic "Blizzard" <t>
+wait 4
+input /ja "Immanence" <me>
+wait 2
+input /magic "Ionohelix" <t>
+input /p Impaction Closing on <t>

@@ -1,0 +1,9 @@
+input /p Opening Induration
+input /ja "Immanence" <me>
+wait 2
+input /magic "Water" <t>
+wait 4
+input /ja "Immanence" <me>
+wait 2
+input /magic "Cryohelix" <t>
+input /p Induration Closing on <t>

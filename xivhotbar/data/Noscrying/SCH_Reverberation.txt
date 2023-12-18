@@ -1,0 +1,9 @@
+input /p Opening Reverberation
+input /ja "Immanence" <me>
+wait 2
+input /magic "Stone" <t>
+wait 4
+input /ja "Immanence" <me>
+wait 2
+input /magic "Hydrohelix" <t>
+input /p Reverberation Closing on <t>

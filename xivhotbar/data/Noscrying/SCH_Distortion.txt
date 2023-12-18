@@ -1,0 +1,9 @@
+input /p Opening Distortion
+input /ja "Immanence" <me>
+wait 2
+input /magic "Luminohelix" <t>
+wait 5
+input /ja "Immanence" <me>
+wait 2
+input /magic "Geohelix" <t>
+input /p Distortion Closing on <t>
