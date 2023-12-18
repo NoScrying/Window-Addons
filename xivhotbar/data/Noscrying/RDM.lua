@@ -9,7 +9,7 @@ xivhotbar_keybinds_job['Base'] = {
 	{'b 1 10', 'ja', 'Convert', 'me', 'Convert'},
 	
 	{'f 2 7', 'ja', 'Chainspell', 'me', 'Chain'},
-	{'f 2 8', 'ja', 'Stymie', 'me', 'Stymie'},
+	{'f 3 10', 'ja', 'Stymie', 'me', 'Stymie'},
 	{'f 3 3', 'ma', 'Diaga', 't', 'TH4'},
 	{'f 1 10', 'ma', 'Dispelga', 'stnpc', 'Dispelga'},
   -- Hotbar #2
@@ -136,15 +136,37 @@ xivhotbar_keybinds_job['THF'] = {
 	{'b 4 10', 'ja', 'Hide', 'me', 'Hide', 'Hide'},
 }
 
+xivhotbar_keybinds_job['Light Arts'] = {
+  -- Battle
+  {'f 4 6',  'ja', 'Addendum: White', 'me', 'Add.W'},
+  {'f 4 7',  'ja', 'Rapture', 'me', 'Divine'},
+  {'f 4 8',  'ja', 'Accession', 'me', 'AoE'},
+  
+ 	{'f 4 2', 'ma', 'Paralyna', 'stpc', 'Para'},
+	{'f 4 3', 'ma', 'Silena', 'stpc', 'Silena'},
+	{'f 4 4', 'ma', 'Stona', 'stpc', 'Stona'},
+	{'f 4 5', 'ma', 'Viruna', 'stpc', 'Viruna'},
+	{'f 1 4', 'ma', 'Cursna', 'stpc', 'Cursna'},
+	{'f 1 5', 'ma', 'Poisona', 'stpc', 'Poisona'},
+	{'f 1 6', 'ma', 'Erase', 'stpc', 'Erase'},
+}
+
+xivhotbar_keybinds_job["Dark Arts"] = {
+  -- Battle
+  {'f 4 6',  'ja', 'Addendum: Black', 'me', 'Add.B'},
+  {'f 4 7',  'ja', 'Ebullience', 'me', 'E.Seal'},
+  {'f 4 8',  'ja', 'Manifestation', 'me', 'AoE'},
+  	{'f 4 2', 'ma', 'Luminohelix', 'stnpc', 'Lumino'},
+	{'f 4 3', 'ma', 'Noctohelix', 'stnpc', 'Nocto'},
+	{'f 4 4', 'ma', 'Pyrohelix', 'stnpc', 'Pyro'},
+	{'f 4 5', 'ma', 'Cryohelix', 'stnpc', 'Cryo'},
+}
 xivhotbar_keybinds_job['SCH'] = {
 
     {'f 2 7',  'ja', 'Light Arts', 'me', 'Light'},
     {'f 2 8',  'ja', 'Dark Arts', 'me', 'Dark'},
-	{'f 1 9', 'ma', 'Paralyna', 'stpc', 'Paralyna'},
-	{'f 1 6',  'ja', 'Addendum: White', 'me', 'Spells'},
-    {'f 1 7',  'ja', 'Accession', 'me', 'AoE'},
-    {'f 1 8',  'ja', 'Manifestation', 'me', 'AoE'},
-	{'f 2 9', 'ma', 'Erase', 'stpc', 'Erase'},
+
+
 	{'f 2 10', 'ma', 'Klimaform', 'me', 'Klima'},
 
  	{'f 4 1', 'ma', 'Cure III', 'stpc', 'CureIII'},
@@ -157,22 +179,9 @@ xivhotbar_keybinds_job['SCH'] = {
 	{'f 3 7', 'ma', 'Thunderstorm', 'stpc', 'Thunder'},
 	{'f 3 8', 'ma', 'Aurorastorm', 'stpc', 'Aurora'},
 	{'f 4 9', 'ma', 'Reraise', 'me', 'Reraise'},
-}
--- xivhotbar_keybinds_job['Light Arts'] = {
-  -- -- Battle
-  -- {'b 4 1',  'ja', 'Penury', 'me', 'MP 1/2'},
-  -- {'b 4 2',  'ja', 'Celerity', 'me', 'Fast'},
-  -- {'b 4 3',  'ja', 'Accession', 'me', 'AoE'},
-  -- {'b 4 4',  'ma', 'Regen IV', 'me', ''},
--- }
 
--- xivhotbar_keybinds_job['Dark Arts'] = {
-  -- -- Battle
-  -- {'b 4 1',  'ja', 'Parsimony', 'me', 'MP 1/2'},
-  -- {'b 4 2',  'ja', 'Alacrity', 'me', 'Fast'},
-  -- {'b 4 3',  'ja', 'Manifestation', 'me', 'AoE'},
-  -- {'b 4 4',  'ma', 'Impact', 't', ''},
--- }
+}
+
 
 xivhotbar_keybinds_job['WHM'] = {
 	{'f 3 2', 'ma', 'Paralyna', 'stpc', 'Para'},
@@ -181,6 +190,7 @@ xivhotbar_keybinds_job['WHM'] = {
 	{'f 3 5', 'ma', 'Viruna', 'stpc', 'Viruna'},
 	{'f 3 6', 'ma', 'Cursna', 'stpc', 'Cursna'},
 	{'f 3 7', 'ma', 'Auspice', 'me', 'Auspice'},
+	{'f 3 8', 'ma', 'Cura', 'me', 'Cura'},
 	{'f 1 8', 'ma', 'Erase', 'stpc', 'Erase'},
  	{'f 3 1', 'ma', 'Cure IV', 'stpc', 'CureIV'},
 	{'f 4 1', 'ma', 'Curaga III', 'stpc', 'CuraII'},	
@@ -190,7 +200,7 @@ xivhotbar_keybinds_job['WHM'] = {
 	{'f 4 5', 'ma', 'Baraera', 'me', 'Aera'},	
 	{'f 4 6', 'ma', 'Barthundra', 'me', 'Thundra'},	
 	{'f 4 7', 'ma', 'Barwatera', 'me', 'Watera'},	
-	{'f 4 8', 'ma', 'Reraise', 'me', 'Reraise'},		
+	{'f 4 8', 'ma', 'Reraise II', 'me', 'Reraise'},		
 	{'f 2 7', 'ja', 'Divine Seal', 'me', 'D.Seal'},	
 }
 xivhotbar_keybinds_job['BLM'] = {

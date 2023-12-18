@@ -1,12 +1,12 @@
 
 xivhotbar_keybinds_job['Base'] = {
  -- Hotbar #1
-	{'b 1 5', 'ma',  'Dragonfoe Mambo', 'me', 'Eva 2'},
- 	{'b 1 6', 'ma',  'Sheepfoe Mambo', 'me', 'Eva 1'},
+	{'b 1 5', 'ma',  'Dragonfoe Mambo', 'stpc', 'Eva 2'},
+ 	{'b 1 6', 'ma',  'Sheepfoe Mambo', 'stpc', 'Eva 1'},
  	{'b 1 7', 'ja',  'Marcato', 'me', 'Marcato'},
  	{'b 1 8', 'ma',  "Army's Paeon", 'stpc', 'Dupe'},	
  	{'b 1 9', 'ma',  "Army's Paeon II", 'stpc', 'Dupe'},	
- 	{'b 1 10', 'ma',  "Goddess's Hymnus", 'me', 'RR'},	
+ 	{'b 1 10', 'ma',  "Goddess's Hymnus", 'stpc', 'RR'},	
 
  -- Hotbar #2
 	{'b 2 1', 'ma',  'Blade Madrigal', 'stpc', 'Ac 2'},
@@ -28,42 +28,44 @@ xivhotbar_keybinds_job['Base'] = {
  	{'b 3 6', 'ma',  'Hunter\'s Prelude', 'stpc', 'RAC 1'},
 	{'b 3 7', 'ja',  'Tenuto', 'me', 'Tenuto'},
 	{'b 3 8', 'ma',  'Mage\'s Ballad', 'stpc', 'MP'},
+	{'b 3 9', 'ma',  'Valor Minuet III', 'stpc', 'ATK'},
  -- Hotbar #4
-	{'b 4 1', 'ma',  'Valor Minuet V', 'stpc', 'ATK V'},
-	{'b 4 2', 'ma',  'Valor Minuet IV', 'stpc', 'ATK IV'},
-	{'b 4 3', 'ma',  'Victory March', 'stpc', 'HST 2'},
-	{'b 4 4', 'ma',  'Advancing March', 'stpc', 'HST 1'},
+	{'b 4 2', 'ma',  'Valor Minuet V', 'stpc', 'ATK V'},
+	{'b 4 1', 'ma',  'Valor Minuet IV', 'stpc', 'ATK IV'},
+	{'b 4 3', 'ma',  'Honor March', 'stpc', 'Honor'},
+	{'b 4 4', 'ma',  'Victory March', 'stpc', 'HST 2'},
 
  	{'b 4 5', 'ma',  'Knight\'s Minne V', 'stpc', 'Min'},	
  	{'b 4 6', 'ma',  'Knight\'s Minne IV', 'stpc', 'Min'},	
-
-	{'b 4 7', 'ma',  'Horde Lullaby II', 'stnpc', 'SlepgaII'},
+	{'b 4 7', 'ma',  'Horde Lullaby', 'stnpc', 'Slepga'},	
+	{'b 4 8', 'ma',  'Horde Lullaby II', 'stnpc', 'SlepgaII'},
 	{'b 4 9', 'ma',  'Foe Lullaby II', 'stnpc', 'SleepII'},		
-	{'b 4 8', 'ma',  'Horde Lullaby', 'stnpc', 'Slepga'},	
+	{'b 4 10', 'ma',  "Maiden's Virelai", 'stnpc', 'Charm'},		
 	-- {'f 2 1', 'ma',  'Fire Threnody', 'stnpc', 'Fire-'},
 	-- {'f 2 2', 'ma',  'Ice Threnody', 'stnpc', 'Ice-'},
 	-- {'f 2 3', 'ma',  'Wind Threnody', 'stnpc', 'Wind-'},
 	-- {'f 2 4', 'ma',  'Earth Threnody', 'stnpc', 'Earth-'},
 	-- {'f 2 5', 'ma',  'Light Threnody', 'stnpc', 'Light-'},
 	-- {'f 2 6', 'ma',  'Dark Threnody', 'stnpc', 'Dark-'},
-	{'f 1 9', 'ma',  'Horde Lullaby', 'stnpc', 'Slepga'},
-	{'f 1 10', 'ma',  'Horde Lullaby II', 'stnpc', 'SlepgaII'},
+	--{'f 1 9', 'ma',  'Horde Lullaby', 'stnpc', 'Slepga'},
+	--{'f 1 10', 'ma',  'Horde Lullaby II', 'stnpc', 'SlepgaII'},
 
-	{'f 2 9', 'ma',  'Foe Lullaby', 'stnpc', 'Sleep'},
-	{'f 2 10', 'ma',  'Foe Lullaby II', 'stnpc', 'SleepII'},
+	--{'f 2 9', 'ma',  'Foe Lullaby', 'stnpc', 'Sleep'},
+	--{'f 2 10', 'ma',  'Foe Lullaby II', 'stnpc', 'SleepII'},
 	
-	{'f 4 9', 'ja',  'Clarion Call', 'me', 'C.Call'},
-	{'f 4 10', 'ja',  'Soul Voice', 'me', 'S.Voice'},
+	{'f 3 9', 'ja',  'Clarion Call', 'me', 'C.Call'},
+	{'f 3 10', 'ja',  'Soul Voice', 'me', 'S.Voice'},
 
-	{'b 6 1', 'ma',  'Light Carol', 'me', 'Light'},
-	{'b 6 2', 'ma',  'Dark Carol', 'me', 'Dark'},
-	{'b 6 3', 'ma',  'Ice Carol', 'me', 'Ice'},
-	{'b 6 4', 'ma',  'Wind Carol', 'me', 'Wind'},
+	{'b 6 1', 'ma',  'Light Carol', 'stpc', 'Light'},
+	{'b 6 2', 'ma',  'Dark Carol', 'stpc', 'Dark'},
+	{'b 6 3', 'ma',  'Ice Carol', 'stpc', 'Ice'},
+	{'b 6 4', 'ma',  'Wind Carol', 'stpc', 'Wind'},
+	{'b 6 5', 'ma',  'Lightning Carol', 'stpc', 'Thun.'},	
 	
-	{'b 6 6', 'ma',  'Light Threnody II', 'stnpc', 'Light'},
-	{'b 6 7', 'ma',  'Dark Threnody II', 'stnpc', 'Dark'},	
-	{'b 6 8', 'ma',  'Ice Threnody II', 'stnpc', 'Ice'},	
-	{'b 6 9', 'ma',  'Fire Threnody II', 'stnpc', 'Fire'},	
+	{'b 6 7', 'ma',  'Light Threnody II', 'stnpc', 'Light'},
+	{'b 6 8', 'ma',  'Dark Threnody II', 'stnpc', 'Dark'},	
+	{'b 6 9', 'ma',  'Ice Threnody II', 'stnpc', 'Ice'},	
+	{'b 6 10', 'ma',  'Fire Threnody II', 'stnpc', 'Fire'},	
 		
 }
 
@@ -71,6 +73,9 @@ xivhotbar_keybinds_job['Sword'] = {
 	-- Battle
 	{'b 1 1', 'weaponskill',  'Savage Blade', 'stnpc', 'Savage', 'Sword-Single3'}, 
 	{'b 1 2', 'weaponskill',  'Circle Blade', 't', 'AoE', 'Sword-AoE'}, 
+	
+	{'f 1 1', 'weaponskill',  'Savage Blade', 'stnpc', 'Savage', 'Sword-Single3'}, 
+	{'f 1 2', 'weaponskill',  'Circle Blade', 't', 'AoE', 'Sword-AoE'}, 
 }
 xivhotbar_keybinds_job['Dagger'] = {
 	-- Battle
@@ -85,18 +90,30 @@ xivhotbar_keybinds_job['Dagger'] = {
 	{'f 1 4', 'weaponskill', 'Aeolian Edge', 't', 'Aeolian.', 'Dagger-AoE'},
 }
 
-
+xivhotbar_keybinds_job['PLD'] = {
+    {'f 1 7',  'ma', 'Cure IV', 'stpc', 'CureIV'},
+    {'f 1 8',  'ma', 'Banishga', 't', 'Banishga', "Angel"},
+    {'f 1 9',  'ma', 'Flash', 'stnpc', 'Flash', "Flash"},
+    {'f 2 7',  'ja', 'Sentinel', 'me', 'Sentinel', 'Sentinel'},
+    {'f 2 8',  'ja', 'Cover', 'stpc', 'Cover', 'Cover'},
+	{'f 1 5', 'ja', 'Holy Circle', 'me', 'H.Circle', 'HolyCircle'}
+}
 
 xivhotbar_keybinds_job['DNC'] = {
 	-- Battle
-    {'f 4 1', 'ja', 'Drain Samba II', 'me', 'Drain II', 'Drain'},
-	{'f 4 2', 'ja', 'Stutter Step', 't', 'M. Eva-', 'Box'},
-    {'f 4 3', 'ja', 'Haste Samba', 'me', 'Haste', 'Haste'},
-		{'f 4 7', 'ja', 'Reverse Flourish', 'me', 'Reverse', 'Reverse'},
-		{'f 4 4', 'ja', 'Divine Waltz', 'stpc', 'Cura', 'Divine'},
-		{'f 4 5', 'ja', 'Curing Waltz III', 'stpc', 'CureIII', 'CureIII'},
-		{'f 4 6', 'ja', 'Healing Waltz', 'stpc', 'Erase', 'Esuna'},
-		--{'b 4 10', 'ja', 'Spectral Jig', 'me', 'Spectral', 'Spectral'},
+    {'f 3 1', 'ja', 'Curing Waltz III', 'stpc', 'CureIII', 'WaltzIII'},
+	{'f 3 2', 'ja', 'Divine Waltz', 'stpc', 'Cura', 'Divine'},
+	{'f 3 3', 'ja', 'Healing Waltz', 'stpc', 'Esuna', 'HealingWaltz'},
+	
+	{'f 4 10', 'ja', 'Contradance', 'me', 'Cure+', 'Halation'},
+    {'f 2 2', 'ja', 'Haste Samba', 'me', 'Haste', 'Haste'},
+
+
+	{'f 4 1', 'ja', 'Box Step', 't', 'Box', 'Box'},
+	{'f 4 2', 'ja', 'Feather Step', 't', 'Crit+', 'Feather'},
+	{'f 4 7', 'ja', 'Reverse Flourish', 'me', 'Reverse', 'Reverse'},
+	{'f 4 9', 'ja', 'Spectral Jig', 'me', 'Spectral', 'Spectral'},
+	{'f 2 10', 'ja', 'Chocobo Jig', 'me', 'Choco', 'Chocobo'},
 }
 
 xivhotbar_keybinds_job['NIN'] = {
@@ -118,7 +135,7 @@ xivhotbar_keybinds_job['WHM'] = {
 	{'f 3 6', 'ma', 'Cursna', 'stpc', 'Cursna'},
 	{'f 3 7', 'ma', 'Poisona', 'stpc', 'Poisona'},
 
-	--{'f 3 8', 'ma', 'Auspice', 'me', 'Auspice'}, --, unlocked at mlv.30
+	{'f 3 8', 'ma', 'Auspice', 'me', 'Auspice'},
 	{'f 1 8', 'ma', 'Erase', 'stpc', 'Erase'},
  	{'f 3 1', 'ma', 'Cure IV', 'stpc', 'CureIV'},
 	{'f 4 1', 'ma', 'Curaga III', 'stpc', 'CuraIII'},	

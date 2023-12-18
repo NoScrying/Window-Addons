@@ -2,10 +2,9 @@
 xivhotbar_keybinds_job['Base'] = {
  -- Hotbar #1
 
-{'b 1 5',  'ja', 'Formless Strikes', 'me', 'Magic Atk.'},
+{'b 1 7',  'ja', 'Formless Strikes', 'me', 'Magic Atk.'},
 {'b 1 6',  'ja', 'Mantra', 'me', 'Mantra'},
 	{'b 1 7',  'ja', 'Boost', 'me', 'Boost'},
-	{'b 1 8',  'ja', 'Counterstance', 'me', 'Counter'},
 	{'b 1 9',  'ja', 'Footwork', 'me', 'Footwork'},
 	{'b 1 10',  'ja', 'Perfect Counter', 'me', 'Counter'},
 	
@@ -34,15 +33,19 @@ xivhotbar_keybinds_job['WAR'] = {
 
 xivhotbar_keybinds_job['DNC'] = {
 	-- Battle
-    {'b 4 1', 'ja', 'Drain Samba II', 'me', 'Drain II', 'Drain'},
-	{'b 4 2', 'ja', 'Box Step', 't', 'Box', 'Box'},
-    {'b 2 8', 'ja', 'Haste Samba', 'me', 'Haste', 'Haste'},
+    {'b 3 1', 'ja', 'Curing Waltz III', 'stpc', 'CureIII', 'WaltzIII'},
+	{'b 3 2', 'ja', 'Divine Waltz', 'stpc', 'Cura', 'Divine'},
+	{'b 3 3', 'ja', 'Healing Waltz', 'me', 'Esuna', 'HealingWaltz'},
+	
+	{'b 2 8', 'ja', 'Contradance', 'me', 'Cure+', 'Halation'},
+    {'b 2 7', 'ja', 'Haste Samba', 'me', 'Haste', 'Haste'},
 
-		{'b 2 7', 'ja', 'Reverse Flourish', 'me', 'Reverse', 'Reverse'},
-		{'b 4 4', 'ja', 'Divine Waltz', 'stpc', 'Cura', 'Divine'},
-		{'b 4 5', 'ja', 'Curing Waltz III', 'stpc', 'CureIII', 'CureIII'},
-		{'b 4 6', 'ja', 'Healing Waltz', 'stpc', 'Erase', 'Esuna'},
-		{'b 2 10', 'ja', 'Spectral Jig', 'me', 'Spectral', 'Spectral'},
+
+	{'b 4 1', 'ja', 'Box Step', 't', 'Box', 'Box'},
+	{'b 4 2', 'ja', 'Feather Step', 't', 'Crit+', 'Feather'},
+	{'b 3 7', 'ja', 'Reverse Flourish', 'me', 'Reverse', 'Reverse'},
+	{'b 2 9', 'ja', 'Spectral Jig', 'me', 'Spectral', 'Spectral'},
+	{'b 2 10', 'ja', 'Chocobo Jig', 'me', 'Choco', 'Chocobo'},
 }
 
 xivhotbar_keybinds_job['THF'] = {
@@ -97,11 +100,12 @@ xivhotbar_keybinds_job['Hand-to-hand'] = {
 {'b 1 1', 'weaponskill', 'Victory Smite', 'stnpc', 'Smite', 'H2H-Single'},
 {'b 1 2', 'weaponskill', 'Tornado Kick', 't', 'T. Kick', 'H2H-Kick'},
 {'b 1 3', 'weaponskill', 'Shijin Spiral', 't', 'Shijin', 'H2H-Single4'},
-{'b 1 4', 'weaponskill', 'Asuran Fists', 't', 'Asuran', 'H2H-Multi'},
+{'b 1 5', 'weaponskill', 'Asuran Fists', 't', 'Asuran', 'H2H-Multi2'},
+{'b 1 4', 'weaponskill', 'Raging Fists', 't', 'Raging', 'H2H-Multi'},
 
 	{'b 2 1', 'weaponskill', 'Howling Fist', 't', 'Howling', 'H2H-Single2'},
 	{'b 2 2', 'weaponskill', 'Spinning Attack', 't', 'AoE', 'H2H-AoE'},
-	{'b 2 3', 'weaponskill', 'Dragon Kick', 't', 'D. Kick', 'H2H-Multi2'},
+	{'b 2 3', 'weaponskill', 'Dragon Kick', 't', 'D. Kick', 'H2H-Kick2'},
 	{'b 2 4', 'weaponskill', 'Ascetic\'s Fury', 't', 'Ascetic', 'H2H-Multi3'},
 }
 xivhotbar_keybinds_job['Staff'] = {
