@@ -7,6 +7,6 @@ SCH/RDM Hotbar with cooldown, showing timers, custom icons and shortcut to Imman
 
 RUN/DRK Hotbar, custom icons
 
-[<img src="https://github.com/NoScrying/Window-Addons/blob/main/xivhotbar/images/other/RUN%20XIVHotbar.png">]
+<img src="https://github.com/NoScrying/Window-Addons/blob/main/xivhotbar/images/other/RUN%20XIVHotbar.png">
 
 [<img src="img/myImage.png">]
