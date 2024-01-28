@@ -1,126 +1,134 @@
-xivhotbar_keybinds_job['Base'] = { -- Magic
- --Hotbar #1
- 	{'b 1 4', 'ma',  'Eyes On Me', 't', 'Dark', 'BLU-Heavy'}, 
-	{'b 1 7', 'ja', 'Efflux', 'me', 'Efflux', 'Efflux'},
-	{'b 1 8', 'ma', 'Jettatura', 't', 'Jett', 'Terror'},
-	{'b 1 6', 'ma', 'Subduction', 't', 'Subd.', 'BLU-AoE'},
-
- --Hotbar #2
-	{'b 2 1', 'ma', 'Thrashing Assault', 't', 'Assault', 'BLU-assault'},
-	{'b 3 5', 'ma', 'Sound Blast', 't', 'Pull'},
-	{'b 3 2', 'ma', 'Magic Hammer', 't', 'Aspir', 'Hammer'},
-	{'b 2 5', 'ma', 'Entomb', 't', 'Tomb', 'BLU-AoE2'},
-	--{'b 2 5', 'ma', 'Searing Tempest', 't', 'Tempest', 'BLU-AoE2'},
-	--{'b 2 5', 'ma', 'Blinding Fulgor', 't', 'Fulgor', 'BLU-AoE2'},
-	{'b 2 4', 'ma', 'Retinal Glare', 't', 'Glare', 'BLU-WW'},
-	{'b 2 7', 'ja', 'Chain Affinity', 'me', 'Chain'},
-	{'b 2 8', 'ja', 'Burst Affinity', 'me', 'Burst'},
-	{'b 2 9', 'ja', 'Diffusion', 'me', 'AoE'},
-	{'b 1 5', 'ma', 'Spectral Floe', 't', 'Floe', 'Floe'},
-	{'b 2 6', 'ma', 'Tenebral Crush', 't', 'Crush', 'BLU-Conal'},
-	{'b 2 10', 'ja', 'Unbridled Learning', 'me', '+Spells'},
-		
- --Hotbar #3
-	{'b 3 1', 'ma', 'Magic Fruit', 'stpc', 'Heal', 'BLU-cure'},
-
-
-	{'b 3 3', 'ma', 'Battery Charge', 'me', 'Refresh', 'Refresh'},
-
-	{'b 3 4', 'ma', 'Regeneration', 'me', 'Regen', 'regen'},
-	{'b 3 7', 'ma', 'Occultation', 'me', 'Blink', 'Occultation'},
-	{'b 3 8', 'ma', 'Cruel Joke', 't', 'Doom', 'Doom'},
- --Hotbar #4
-	{'b 4 2', 'ma', 'Memento Mori', 'me', 'Amp.', 'Libra'},
-	{'b 4 3', 'ma', 'Erratic Flutter', 'me', 'Haste', 'Haste'},
-	{'b 4 4', 'ma', 'Cocoon', 'me', 'DEF'},
-	{'b 4 5', 'ma', 'Mighty Guard', 'me', 'M. Guard', 'BLU-MG'},
-	{'b 4 8', 'ma', 'Absolute Terror', 't', 'Terror', 'Terror2'},
-	{'b 4 9', 'ma', 'Tourbillion', 't', 'DEF-'},
-	{'b 4 10', 'ma', 'Carcharian Verve', 'me', 'C.Verve', 'Aquaveil'},
-	{'b 4 1', 'ma', 'Dream Flower', 't', 'Dream', 'Sleep2'},
-	{'b 4 6', 'ma', 'Sheep Song', 't', 'Song', 'Song'},
- --Hotbar #6
-
-}
-
--- xivhotbar_keybinds_job['Base'] = { -- Acc/Phys
+-- xivhotbar_keybinds_job['Base'] = { -- //azuresets set mage - Magic Damage
  -- --Hotbar #1
- 	-- {'b 1 4', 'ma',  'Heavy Strike', 't', 'Heavy', 'BLU-Heavy'}, 
-	-- {'b 1 10', 'ma', 'Sudden Lunge', 'stnpc', 'Stun', 'BLU-stun'},
-
+ 	-- {'b 1 4', 'ma',  'Eyes On Me', 't', 'Dark', 'BLU-Heavy'}, 
 	-- {'b 1 7', 'ja', 'Efflux', 'me', 'Efflux', 'Efflux'},
-	-- {'b 1 5', 'ma', 'Sinker Drill', 't', 'Drill', 'BLU-drill'},
+	-- {'b 1 8', 'ma', 'Jettatura', 't', 'Jett', 'Terror'},
+	-- {'b 1 6', 'ma', 'Subduction', 't', 'Subd.', 'BLU-AoE'},
 
  -- --Hotbar #2
-
 	-- {'b 2 1', 'ma', 'Thrashing Assault', 't', 'Assault', 'BLU-assault'},
+	-- {'b 3 5', 'ma', 'Sound Blast', 't', 'Pull'},
+	-- {'b 3 2', 'ma', 'Magic Hammer', 't', 'Aspir', 'Hammer'},
+	-- {'b 2 5', 'ma', 'Entomb', 't', 'Tomb', 'Entomb'},
+	-- --{'b 2 5', 'ma', 'Searing Tempest', 't', 'Tempest', 'SearingTempest'},
+	-- --{'b 2 5', 'ma', 'Blinding Fulgor', 't', 'Fulgor', 'BlindingFulgor'},
+	-- {'b 2 4', 'ma', 'Retinal Glare', 't', 'Glare', 'WhiteWind'},
 	-- {'b 2 7', 'ja', 'Chain Affinity', 'me', 'Chain'},
 	-- {'b 2 8', 'ja', 'Burst Affinity', 'me', 'Burst'},
 	-- {'b 2 9', 'ja', 'Diffusion', 'me', 'AoE'},
-	-- {'b 2 6', 'ma', 'Empty Thrash', 't', 'Trash', 'BLU-Conal'},
-	-- {'b 2 5', 'ma', 'Tenebral Crush', 't', 'Crush', 'BLU-AoE2'},
+	-- {'b 1 5', 'ma', 'Spectral Floe', 't', 'Floe', 'Floe'},
+	-- {'b 2 6', 'ma', 'Tenebral Crush', 't', 'Crush', 'Crush'},
 	-- {'b 2 10', 'ja', 'Unbridled Learning', 'me', '+Spells'},
 		
  -- --Hotbar #3
 	-- {'b 3 1', 'ma', 'Magic Fruit', 'stpc', 'Heal', 'BLU-cure'},
-	-- {'b 3 3', 'ma', 'Refresh', 'me', 'Refresh'},
+
+
 	-- {'b 3 3', 'ma', 'Battery Charge', 'me', 'Refresh', 'Refresh'},
+
 	-- {'b 3 4', 'ma', 'Regeneration', 'me', 'Regen', 'regen'},
 	-- {'b 3 7', 'ma', 'Occultation', 'me', 'Blink', 'Occultation'},
 	-- {'b 3 8', 'ma', 'Cruel Joke', 't', 'Doom', 'Doom'},
-	
+	-- {'f 3 9', 'ja', 'Azure Lore', 'me', 'Azure'},	
+	-- {'f 3 10', 'ja', 'Unbridled Wisdom', 'me', '+Spells+'},	
  -- --Hotbar #4
+	-- {'b 4 2', 'ma', 'Memento Mori', 'me', 'Amp.', 'Libra'},
 	-- {'b 4 3', 'ma', 'Erratic Flutter', 'me', 'Haste', 'Haste'},
 	-- {'b 4 4', 'ma', 'Cocoon', 'me', 'DEF'},
 	-- {'b 4 5', 'ma', 'Mighty Guard', 'me', 'M. Guard', 'BLU-MG'},
-	-- {'b 4 6', 'ma', 'Sheep Song', 't', 'Song', 'Song'},
-	-- {'b 4 7', 'ma', 'Nat. Meditation', 'me', 'Berserk', 'Berserk'},
 	-- {'b 4 8', 'ma', 'Absolute Terror', 't', 'Terror', 'Terror2'},
 	-- {'b 4 9', 'ma', 'Tourbillion', 't', 'DEF-'},
 	-- {'b 4 10', 'ma', 'Carcharian Verve', 'me', 'C.Verve', 'Aquaveil'},
+	-- {'b 4 1', 'ma', 'Dream Flower', 't', 'Dream', 'Song'},
+	-- {'b 4 6', 'ma', 'Sheep Song', 't', 'Song', 'Sleep'},
  -- --Hotbar #6
 
 -- }
 
--- xivhotbar_keybinds_job['Base'] = { --Reaving Wind / Feather Tickle - Melee
+xivhotbar_keybinds_job['Base'] = { -- //azuresets set Acc - Melee/Phys
+ --Hotbar #1
+ 	{'b 1 4', 'ma',  'Heavy Strike', 't', 'Heavy', 'BLU-Heavy'}, 
+	{'b 1 10', 'ma', 'Sudden Lunge', 'stnpc', 'Stun', 'BLU-stun'},
+ 	{'b 1 6', 'ma',  'Anvil Lightning', 't', 'Stunga'}, 
+	{'b 1 7', 'ja', 'Efflux', 'me', 'Efflux', 'Efflux'},
+	{'b 1 5', 'ma', 'Sinker Drill', 't', 'Drill', 'BLU-drill'},
+		{'b 1 9', 'ma', 'Barrier Tusk', 'me', 'Phalanx', "Phalanx"},
+
+ --Hotbar #2
+
+	{'b 2 1', 'ma', 'Thrashing Assault', 't', 'Assault', 'BLU-assault'},
+	{'b 2 7', 'ja', 'Chain Affinity', 'me', 'Chain'},
+	{'b 2 8', 'ja', 'Burst Affinity', 'me', 'Burst'},
+	{'b 2 9', 'ja', 'Diffusion', 'me', 'AoE'},
+	{'b 2 6', 'ma', 'Empty Thrash', 't', 'Trash', 'BLU-Conal'},
+	{'b 2 5', 'ma', 'Tenebral Crush', 't', 'Crush', 'Crush'},
+	{'b 2 10', 'ja', 'Unbridled Learning', 'me', '+Spells'},
+		
+ --Hotbar #3
+	{'b 3 1', 'ma', 'Magic Fruit', 'stpc', 'Heal', 'BLU-cure'},
+	{'b 3 2', 'ma', 'Magic Hammer', 't', 'Aspir', 'Hammer'},
+	{'b 3 3', 'ma', 'Refresh', 'me', 'Refresh'},
+	{'b 3 3', 'ma', 'Battery Charge', 'me', 'Refresh', 'Refresh'},
+	{'b 3 4', 'ma', 'Regeneration', 'me', 'Regen', 'regen'},
+	{'b 3 5', 'ma', 'White Wind', 'me', 'Curaga','CuringWaltz'},
+	{'b 3 7', 'ma', 'Occultation', 'me', 'Blink', 'Occultation'},
+	{'b 3 8', 'ma', 'Cruel Joke', 't', 'Doom', 'Doom'},
+	{'f 3 9', 'ja', 'Azure Lore', 'me', 'Azure'},	
+	{'f 3 10', 'ja', 'Unbridled Wisdom', 'me', '+Spells+'},		
+ --Hotbar #4
+	{'b 4 3', 'ma', 'Erratic Flutter', 'me', 'Haste', 'Haste'},
+	{'b 4 4', 'ma', 'Cocoon', 'me', 'DEF'},
+	{'b 4 5', 'ma', 'Mighty Guard', 'me', 'M. Guard', 'BLU-MG'},
+	{'b 4 7', 'ma', 'Nat. Meditation', 'me', 'Berserk', 'Berserk'},
+	--{'b 4 8', 'ma', 'Sheep Song', 't', 'Song', 'Song'},
+	{'b 4 8', 'ma', 'Dream Flower', 't', 'Song', 'Song'},
+	{'b 4 9', 'ma', 'Tourbillion', 't', 'DEF-'},
+	{'b 4 10', 'ma', 'Carcharian Verve', 'me', 'C.Verve', 'Aquaveil'},
+ --Hotbar #6
+
+}
+
+-- xivhotbar_keybinds_job['Base'] = { -- //azuresets set bluemage - Melee/Support
  -- --Hotbar #1
- 	-- {'b 1 4', 'ma',  'Heavy Strike', 't', 'Heavy', 'BLU-Heavy'}, 
+
 	-- {'b 1 10', 'ma', 'Sudden Lunge', 'stnpc', 'Stun', 'BLU-stun'},
 
 	-- {'b 1 7', 'ja', 'Efflux', 'me', 'Efflux', 'Efflux'},
-
-	-- {'b 1 5', 'ma', 'Sinker Drill', 't', 'Drill', 'BLU-drill'},
-	-- {'b 1 6', 'ma', 'Subduction', 't', 'Subd.', 'BLU-AoE'},
-
+	-- {'b 1 8', 'ma', 'Osmosis', 't', 'Osmosis', 'Osmosis'},
+	-- {'b 1 5', 'ma', 'Spectral Floe', 't', 'Floe', 'Floe'},
+	-- {'b 1 6', 'ma', 'Entomb', 't', 'Entomb', 'Entomb'},
+	-- {'b 1 9', 'ma', 'Healing Breeze', 'me', 'Cura', 'Whitewind'},
  -- --Hotbar #2
 
 	-- {'b 2 1', 'ma', 'Thrashing Assault', 't', 'Assault', 'BLU-assault'},
-	-- {'b 2 5', 'ma', 'Tenebral Crush', 't', 'Crush', 'BLU-AoE2'},
+	-- {'b 2 5', 'ma', 'Tenebral Crush', 't', 'Crush', 'Crush'},
 	-- {'b 2 7', 'ja', 'Chain Affinity', 'me', 'Chain'},
 	-- {'b 2 8', 'ja', 'Burst Affinity', 'me', 'Burst'},
 	-- {'b 2 9', 'ja', 'Diffusion', 'me', 'AoE'},
-	-- {'b 2 6', 'ma', 'Empty Thrash', 't', 'Trash', 'BLU-Conal'},
 	-- {'b 2 10', 'ja', 'Unbridled Learning', 'me', '+Spells'},
 		
  -- --Hotbar #3
 	-- {'b 3 1', 'ma', 'Magic Fruit', 'stpc', 'Heal', 'BLU-cure'},
+	-- {'b 3 2', 'ma', 'Magic Hammer', 't', 'Aspir', 'Hammer'},
 	-- {'b 3 3', 'ma', 'Battery Charge', 'me', 'Refresh', 'Refresh'},
 	-- {'b 3 4', 'ma', 'Regeneration', 'me', 'Regen', 'regen'},
 	-- -- {'b 3 5', 'ma', 'Blank Gaze', 't', 'Dispel', 'Eye'},
+	-- {'b 3 5', 'ma', 'White Wind', 'me', 'Curaga','CuringWaltz'},
 	-- {'b 3 7', 'ma', 'Occultation', 'me', 'Blink', 'Occultation'},
 	-- {'b 3 8', 'ma', 'Cruel Joke', 't', 'Doom', 'Doom'},
-	
+	-- {'f 3 9', 'ja', 'Azure Lore', 'me', 'Azure'},	
+	-- {'f 3 10', 'ja', 'Unbridled Wisdom', 'me', '+Spells+'},	
  -- --Hotbar #4
 	-- -- {'b 4 1', 'ma', 'Osmosis', 't', 'Dispel', 'Osmosis'},
 	-- -- {'b 4 2', 'ma', 'Dream Flower', 't', 'Dream', 'Sleep2'},
-	-- {'b 4 1', 'ma', 'Feather Tickle', 'stnpc', 'Tickle'},
-	-- {'b 4 2', 'ma', 'Reaving Wind', 'stnpc', 'Reaving'},
+	-- {'b 4 1', 'ma', 'Feather Tickle', 'stnpc', 'Tickle',"FeatherTickle"},
+	-- {'b 4 2', 'ma', 'Reaving Wind', 'stnpc', 'Reaving',"ReavingWind"},
 	-- -- {'b 4 6', 'ma', 'Sheep Song', 't', 'Song', 'Song'},
 	-- {'b 4 3', 'ma', 'Erratic Flutter', 'me', 'Haste', 'Haste'},
-	-- {'b 4 4', 'ma', 'Cocoon', 'me', 'DEF'},
+
 	-- {'b 4 5', 'ma', 'Mighty Guard', 'me', 'M. Guard', 'BLU-MG'},
-	-- {'b 4 7', 'ma', 'Nat. Meditation', 'me', 'Berserk', 'Berserk'},
-	-- {'b 4 8', 'ma', 'Absolute Terror', 't', 'Terror', 'Terror2'},
+	-- {'b 4 7', 'ma', 'Nat. Meditation', 'me', 'ATK+', 'Berserk'},
+	-- {'b 4 8', 'ma', 'Sheep Song', 't', 'Sleep', 'Zleep'},
 	-- {'b 4 9', 'ma', 'Tourbillion', 't', 'DEF-'},
 	-- {'b 4 10', 'ma', 'Carcharian Verve', 'me', 'C.Verve', 'Aquaveil'},
  -- --Hotbar #6
@@ -134,10 +142,11 @@ xivhotbar_keybinds_job['Sword'] = {
 	{'b 1 3', 'weaponskill',  'Sanguine Blade', 't', 'Sang.', 'DBlossom'},
 	{'b 2 2', 'weaponskill',  'Expiacion', 't', 'Expi.', 'Sword-Requiescat'},
 	{'b 2 3', 'weaponskill',  'Circle Blade', 't', 'AoE', 'Sword-AoE'},
+	{'b 1 4', 'weaponskill',  'Requiescat', 't', 'Req.', 'Sword-Requiescat'},
 		
 	{'f 1 2', 'weaponskill',  'Chant Du Cygne', 'stnpc', 'CDC', 'Sword-CDC'}, 
 	{'f 1 1', 'weaponskill',  'Savage Blade', 'stnpc', 'Savage', 'Sword-Single3'}, 
-	{'f 1 3', 'weaponskill',  'Sanguine Blade', 't', 'Sang.', 'DBlossom'},
+	{'f 1 3', 'weaponskill',  'Seraph Blade', 't', 'Seraph', 'Seraph'},
 		{'f 2 2', 'weaponskill',  'Expiacion', 't', 'Expi.', 'Sword-Requiescat'},
 }
 xivhotbar_keybinds_job['Club'] = {
@@ -182,15 +191,16 @@ xivhotbar_keybinds_job['DRG'] = {
 
 xivhotbar_keybinds_job['DNC'] = {
 	-- Battle
-	{'f 2 1', 'ja', 'Drain Samba II', 'me', 'Drain II', 'Drain'},
-	{'f 2 2', 'ja', 'Stutter Step', 't', 'M. Eva-', 'Box'},
-    {'f 2 3', 'ja', 'Haste Samba', 'me', 'Haste', 'Haste'},
-		{'f 3 10', 'ja', 'Reverse Flourish', 'me', 'Reverse', 'Reverse'},
-		{'f 4 4', 'ja', 'Divine Waltz', 'stpc', 'Cura', 'Divine'},
-		{'f 4 5', 'ja', 'Curing Waltz III', 'stpc', 'CureIII', 'CureIII'},
-		{'f 4 6', 'ja', 'Healing Waltz', 'stpc', 'Erase', 'Esuna'},
-		{'f 4 10', 'ja', 'Spectral Jig', 'me', 'Spectral', 'Spectral'},
-
+	{'f 4 1', 'ja', 'Box Step', 't', 'Box', 'Box'},
+    {'f 2 7', 'ja', 'Haste Samba', 'me', 'Haste', 'Haste'},
+		{'f 2 5', 'ja', 'Animated Flourish', 't', 'Provoke'},
+		{'f 4 10', 'ja', 'Reverse Flourish', 'me', 'Reverse', 'Reverse'},
+		{'f 4 3', 'ja', 'Divine Waltz', 'stpc', 'Cura', 'Divine'},
+		{'f 4 2', 'ja', 'Curing Waltz III', 'stpc', 'CureIII', 'CureIII'},
+		{'f 4 4', 'ja', 'Healing Waltz', 'stpc', 'Erase', 'Esuna'},
+		{'f 2 10', 'ja', 'Chocobo Jig', 'me', 'Chocobo', "Chocobo"},
+		{'f 2 9', 'ja', 'Spectral Jig', 'me', 'Spectral', 'Spectral'},
+		{'f 2 8', 'ja', 'Contradance', 'me', 'Heal+', "CuringWaltz"},
 }
 xivhotbar_keybinds_job['COR'] = {
 	{'f 1 1', 'ja', 'Fighter\'s Roll', 'me', 'Dbl. Atk', 'Roll5'},
@@ -221,7 +231,7 @@ xivhotbar_keybinds_job['RUN'] = {
 	{'f 4 5', 'ja', 'Swordplay', 'me', 'Sword.', 'Swordplay'},
 }
 xivhotbar_keybinds_job['RDM'] = {
-	{'b 1 9', 'ma', 'Phalanx', 'me', 'Phalanx', 'Stoneskin'},
+	{'b 1 9', 'ma', 'Phalanx', 'me', 'Phalanx', "Phalanx"},
 	{'f 1 9', 'ma', 'Dispel', 't', 'Dispel'},
 	{'f 4 1', 'ma', 'Stone II', 't', 'Stone'},
 	{'f 4 2', 'ma', 'Water II', 't', 'Water'},
