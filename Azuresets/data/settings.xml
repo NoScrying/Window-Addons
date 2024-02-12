@@ -6,23 +6,23 @@
         <spellsets>
             <acc>
                 <slot01>molting plumage</slot01>
-                <slot02>heavy strike</slot02>
-                <slot03>sickle slash</slot03>
-                <slot04>sudden lunge</slot04>
-                <slot05>erratic flutter</slot05>
-                <slot06>nat. meditation</slot06>
-                <slot07>tail slap</slot07>
-                <slot08>empty thrash</slot08>
-                <slot09>magic fruit</slot09>
-                <slot10>thrashing assault</slot10>
-                <slot11>fantod</slot11>
-                <slot12>battery charge</slot12>
-                <slot13>occultation</slot13>
-                <slot14>anvil lightning</slot14>
-                <slot15>white wind</slot15>
-                <slot16>tenebral crush</slot16>
-                <slot18>cocoon</slot18>
-                <slot19>sinker drill</slot19>
+                <slot02>nat. meditation</slot02>
+                <slot03>white wind</slot03>
+                <slot04>erratic flutter</slot04>
+                <slot05>thrashing assault</slot05>
+                <slot06>heavy strike</slot06>
+                <slot07>fantod</slot07>
+                <slot08>magic fruit</slot08>
+                <slot09>empty thrash</slot09>
+                <slot10>occultation</slot10>
+                <slot11>tenebral crush</slot11>
+                <slot12>anvil lightning</slot12>
+                <slot13>diffusion ray</slot13>
+                <slot14>cocoon</slot14>
+                <slot15>sudden lunge</slot15>
+                <slot16>regeneration</slot16>
+                <slot17>sinker drill</slot17>
+                <slot18>barrier tusk</slot18>
             </acc>
             <bluemage>
                 <slot01>molting plumage</slot01>
@@ -66,6 +66,26 @@
                 <slot19>fantod</slot19>
                 <slot20>heavy strike</slot20>
             </counter>
+            <cp>
+                <slot01>vanity dive</slot01>
+                <slot02>nat. meditation</slot02>
+                <slot03>white wind</slot03>
+                <slot04>erratic flutter</slot04>
+                <slot05>thrashing assault</slot05>
+                <slot06>heavy strike</slot06>
+                <slot07>fantod</slot07>
+                <slot08>magic fruit</slot08>
+                <slot09>empty thrash</slot09>
+                <slot10>frenetic rip</slot10>
+                <slot11>sinker drill</slot11>
+                <slot12>anvil lightning</slot12>
+                <slot13>molting plumage</slot13>
+                <slot14>dimensional death</slot14>
+                <slot15>sudden lunge</slot15>
+                <slot16>disseverment</slot16>
+                <slot17>diffusion ray</slot17>
+                <slot18>regeneration</slot18>
+            </cp>
             <default>
 
             </default>
@@ -91,26 +111,47 @@
                 <slot19>tail slap</slot19>
             </hybrid>
             <mage>
-                <slot01>dream flower</slot01>
-                <slot02>magic fruit</slot02>
-                <slot03>molting plumage</slot03>
+                <slot01>molting plumage</slot01>
+                <slot02>evryone. grudge</slot02>
+                <slot03>sound blast</slot03>
                 <slot04>erratic flutter</slot04>
-                <slot05>magic hammer</slot05>
-                <slot06>tenebral crush</slot06>
-                <slot07>regeneration</slot07>
-                <slot08>cocoon</slot08>
-                <slot09>occultation</slot09>
-                <slot11>spectral floe</slot11>
-                <slot12>eyes on me</slot12>
-                <slot13>sound blast</slot13>
-                <slot14>battery charge</slot14>
-                <slot15>memento mori</slot15>
-                <slot16>retinal glare</slot16>
-                <slot17>subduction</slot17>
-                <slot18>cursed sphere</slot18>
-                <slot19>entomb</slot19>
-                <slot20>water bomb</slot20>
+                <slot05>occultation</slot05>
+                <slot06>entomb</slot06>
+                <slot07>subduction</slot07>
+                <slot08>magic fruit</slot08>
+                <slot09>spectral floe</slot09>
+                <slot10>cocoon</slot10>
+                <slot11>tenebral crush</slot11>
+                <slot12>memento mori</slot12>
+                <slot13>dream flower</slot13>
+                <slot14>barrier tusk</slot14>
+                <slot15>magic hammer</slot15>
+                <slot16>regeneration</slot16>
+                <slot17>retinal glare</slot17>
+                <slot18>white wind</slot18>
             </mage>
+            <omen>
+                <slot01>entomb</slot01>
+                <slot02>nat. meditation</slot02>
+                <slot03>white wind</slot03>
+                <slot04>erratic flutter</slot04>
+                <slot05>thrashing assault</slot05>
+                <slot06>heavy strike</slot06>
+                <slot07>fantod</slot07>
+                <slot08>magic fruit</slot08>
+                <slot09>empty thrash</slot09>
+                <slot10>occultation</slot10>
+                <slot11>glutinous dart</slot11>
+                <slot12>anvil lightning</slot12>
+                <slot13>o. counterstance</slot13>
+                <slot14>cocoon</slot14>
+                <slot15>sudden lunge</slot15>
+                <slot16>regeneration</slot16>
+                <slot17>diffusion ray</slot17>
+                <slot18>barrier tusk</slot18>
+                <slot19>dream flower</slot19>
+                <slot20>asuran claws</slot20>
+            </omen>
             <osmosis>
                 <slot01>empty thrash</slot01>
                 <slot02>sickle slash</slot02>
@@ -170,6 +211,27 @@
                 <slot19>barbed crescent</slot19>
                 <slot20>final sting</slot20>
             </sleep>
+            <support>
+                <slot01>molting plumage</slot01>
+                <slot02>sheep song</slot02>
+                <slot03>white wind</slot03>
+                <slot04>erratic flutter</slot04>
+                <slot05>occultation</slot05>
+                <slot06>entomb</slot06>
+                <slot07>nat. meditation</slot07>
+                <slot08>magic fruit</slot08>
+                <slot09>spectral floe</slot09>
+                <slot10>fantod</slot10>
+                <slot11>tenebral crush</slot11>
+                <slot12>osmosis</slot12>
+                <slot13>reaving wind</slot13>
+                <slot14>cocoon</slot14>
+                <slot15>magic hammer</slot15>
+                <slot16>regeneration</slot16>
+                <slot17>sudden lunge</slot17>
+                <slot18>feather tickle</slot18>
+                <slot19>sound blast</slot19>
+            </support>
             <tpdrain>
                 <slot01>empty thrash</slot01>
                 <slot02>sickle slash</slot02>
