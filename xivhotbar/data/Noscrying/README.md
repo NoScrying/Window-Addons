@@ -19,4 +19,16 @@ RUN/DRK Page 2
 
 BLU/BLM with mage spells set
 
-<img src="https://github.com/NoScrying/Window-Addons/blob/main/xivhotbar/images/other/BLU%20Xivhotbar.png">
+<img src="https://github.com/NoScrying/Window-Addons/blob/main/xivhotbar/images/other/BLU%20hotbar.png">
+
+BRD/NIN
+
+<img src="https://github.com/NoScrying/Window-Addons/blob/main/xivhotbar/images/other/BRD%20Hotbar.png">
+
+RDM/NIN
+
+<img src="https://github.com/NoScrying/Window-Addons/blob/main/xivhotbar/images/other/RDM%20XIVHotbar.png">
+
+DRK/DRG
+
+<img src="https://github.com/NoScrying/Window-Addons/blob/main/xivhotbar/images/other/DRK%20Hotbar.png">
