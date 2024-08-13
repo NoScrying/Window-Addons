@@ -16,3 +16,7 @@ RUN/DRK Hotbar, custom icons on Page 1
 RUN/DRK Page 2
 
 <img src="https://github.com/NoScrying/Window-Addons/blob/main/xivhotbar/images/other/RUN%20Page2%20XIVHotbar.png">
+
+BLU/BLM with mage spells set
+
+<img src="https://github.com/NoScrying/Window-Addons/blob/main/xivhotbar/images/other/BLU%20Xivhotbar.png">
