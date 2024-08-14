@@ -4,8 +4,7 @@ xivhotbar_keybinds_job['Base'] = {
 	{'b 1 5', 'ja', 'Animated Flourish', 'stnpc', 'Provoke'},
 	{'b 1 8', 'ja', 'Striking Flourish', 'me', 'DA+1', "Striking"},
 	{'b 1 7', 'ja', 'Climactic Flourish', 'me', 'Crit+1', 'Ternary'},
-	{'b 1 6', 'input', "//cancel Saber Dance", '', 'DA Off', "SaberDanceOff"},
-	{'b 1 6', 'input', "//cancel Fan Dance", '', 'DA Off', "SaberDanceOff"},
+	{'b 1 6', 'input', "//cancel Saber Dance,Fan Dance", '', 'DA Off', "SaberDanceOff"},
 	{'b 1 9', 'ja', 'No Foot Rise', 'me', 'Finish', "Flourish"},
 	{'b 1 10', 'ja', 'Presto', 'me', 'Step+', 'Presto'},
 
