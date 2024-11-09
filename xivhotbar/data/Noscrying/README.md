@@ -23,7 +23,7 @@ BLU/BLM with mage spells set
 
 BRD Hotbar 2024
 
-<img src="https://github.com/NoScrying/Window-Addons/blob/main/xivhotbar/images/other/BRD%20Hotbar%202024.png">
+<img src="https://github.com/NoScrying/Window-Addons/blob/main/xivhotbar/images/other/BRD%20Hotbar%202024(2).png">
 
 RDM Hotbar 2024
 
