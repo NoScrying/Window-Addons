@@ -1,50 +1,50 @@
 xivhotbar_keybinds_job['Base'] = {
  -- Hotbar #1
- {'b 1 8',  'ja', 'Weapon Bash', 't', 'Bash'},
-  {'b 1 9',  'ma', 'Stun', 'stnpc', 'Stun'},
-    {'b 1 10',  'ma', 'Absorb-Attri', 'stnpc', 'Displ'},
-    {'b 1 7', 'ja', 'Nether Void', 'me', 'Drn++'},
-	{'b 1 5', 'ja', 'Dark Seal', 'me', 'D.Mac'},
-	{'b 1 6', 'ja', 'Arcane Circle', 'me', 'A.Crcl'},  
+ {'b 1 8',  'ja', 'Weapon Bash', 't', 'Bash',"Dark_Spear"},
+  {'b 1 9',  'ma', 'Stun', 'stnpc', 'Stun',"tile959"},
+    {'b 1 10',  'ma', 'Absorb-Attri', 'stnpc', 'Displ',"Unholy_Feast"},
+    {'b 1 7', 'ja', 'Nether Void', 'me', 'Drn++',"Sand_Flare"},
+	{'b 1 5', 'ja', 'Dark Seal', 'me', 'D.Mac','GatheringPlague'},
+	{'b 1 6', 'ja', 'Arcane Circle', 'me', 'A.Crcl',"Putrid_Mark"},  
  -- Hotbar #2
 
- {'b 2 3', 'ma', 'Drain II', 't', 'Drain'},
- {'b 2 4', 'ma', 'Drain III', 't', 'Drain'},
- {'b 2 5', 'ma', 'Aspir II', 't', 'Aspir'},
-	{'b 2 6', 'ja', 'Arcane Crest', 't', 'Crest'},  
+ {'b 2 3', 'ma', 'Drain II', 't', 'Drain II',"Gormandize"},
+ {'b 2 4', 'ma', 'Drain III', 't', 'Drain 3',"Feast_of_Corruption"},
+ {'b 2 5', 'ma', 'Aspir II', 't', 'Aspir II',"Life_Transfer"},
+	{'b 2 6', 'ja', 'Arcane Crest', 't', 'Crest',"Spectral_Armor"},  
   {'b 2 7', 'ja', 'Last Resort', 'me', 'L.Rsrt', "LastResort"},
-  {'b 2 8', 'ja', 'Souleater', 'me', 'S.Etr'},
-   {'b 2 9', 'ma', 'Poisonga', 't', 'Psnga'},
+  {'b 2 8', 'ja', 'Souleater', 'me', 'S.Etr',"Harbinger_Shroud"},
+   {'b 2 9', 'ma', 'Poisonga', 't', 'Psnga', "Spider_Venom"},
      {'b 2 10', 'ma', 'Poison', 't', 'Psn'},
   --{'b 2 9', 'ja', 'Consume Mana', 'me', 'M.Burst'},
  -- Hotbar #3
- {'b 3 1', 'ma', 'Bio II', 't', 'Bio II'},
- {'b 3 2', 'ma', 'Poison', 'stnpc', 'Psn'},
+ {'b 3 1', 'ma', 'Bio II', 'stnpc', 'Bio',"tile036"},
+ {'b 3 2', 'ma', 'Poison', 'stnpc', 'Psn',"tile056"},
   --{'b 3 2', 'ma', 'Absorb-ACC', 't', 'ACC'},
-   {'b 3 3', 'ma', 'Absorb-STR', 't', 'STR'},
-    {'b 3 4', 'ma', 'Absorb-TP', 't', 'TP'},
+   {'b 3 3', 'ma', 'Absorb-STR', 't', 'STR',"Well_of_Power"},
+    {'b 3 4', 'ma', 'Absorb-TP', 't', 'TP',"Locust_Swarm"},
 	 --{'b 3 5', 'ma', 'Absorb-DEX', 't', 'DEX'},
-	  {'b 3 5', 'ma', 'Absorb-VIT', 't', 'VIT'},
+	  {'b 3 5', 'ma', 'Absorb-VIT', 't', 'VIT',"Enfeebling_Blood"},
 
  -- Hotbar #4
-    {'b 4 4', 'ma', 'Tractor', 'stpc', 'Tractr'},
-  {'b 4 7', 'ma', 'Dread Spikes', 'me', 'Spiks'},
-   {'b 4 8', 'ma', 'Endark II', 'me', 'Endrk'},
+    {'b 4 4', 'ma', 'Tractor', 'stpc', 'Tractr',"Signet_of_Undeath"},
+  {'b 4 7', 'ma', 'Dread Spikes', 'me', 'Spiks', "Death_Shroud"},
+   {'b 4 8', 'ma', 'Endark II', 'me', 'Endrk',"Life_Rend"},
     {'b 4 9',  'ja', 'Scarlet Delirium', 'me', 'Dlrium'},
  --
- {'f 1 7', 'ma', 'Sleep II', 'stnpc', 'Sleep'},
- {'f 1 8', 'ma', 'Bind', 'stnpc', 'Bind'},
+ {'f 1 7', 'ma', 'Sleep II', 'stnpc', 'Sleep','tile944'},
+ {'f 1 8', 'ma', 'Bind', 'stnpc', 'Bind',"tile959"},
  {'f 1 9', 'ma', 'Break', 'stnpc', 'Break'},
-  {'f 2 3', 'ma', 'Poisonga', 't', 'Psnga'},
+  {'f 2 3', 'ma', 'Poisonga', 't', 'Psnga', "Spider_Venom"},
    {'f 4 10', 'ja', 'Blood Weapon', 'me', 'Blood'},
     {'f 4 9', 'ja', 'Soul Enslavement', 'me', 'TP Drain'},
 	
-	{'f 4 1', 'ma', 'Fire III', 't', 'Fire'},
-	{'f 4 2', 'ma', 'Blizzard III', 't', 'Bliz.'},
-	{'f 4 3', 'ma', 'Thunder III', 't', 'Thun.'},
-	{'f 4 4', 'ma', 'Aero III', 't', 'Aero'},
-	{'f 4 5', 'ma', 'Stone III', 't', 'Stone'},
-	{'f 4 6', 'ma', 'Water III', 't', 'Water'},
+	{'f 4 1', 'ma', 'Fire III', 't', 'Fire',"tile054"},
+	{'f 4 2', 'ma', 'Blizzard III', 't', 'Bliz.',"tile053"},
+	{'f 4 3', 'ma', 'Thunder III', 't', 'Thun.',"tile055"},
+	{'f 4 4', 'ma', 'Aero III', 't', 'Aero',"tile056"},
+	{'f 4 5', 'ma', 'Stone III', 't', 'Stone',"tile031"},
+	{'f 4 6', 'ma', 'Water III', 't', 'Water',"tile085"},
 }
 
 xivhotbar_keybinds_job['Great Sword'] = {
@@ -106,7 +106,7 @@ xivhotbar_keybinds_job['Club'] = {
 }
 
 xivhotbar_keybinds_job['WAR'] = {
-    {'b 4 4',  'ja', 'Provoke', 'stnpc', 'Prov.'},
+    {'b 4 4',  'ja', 'Provoke', 'stnpc', 'Prov.',"tile150"},
     {'b 3 7',  'ja', 'Berserk', 'me', 'Brsrk', 'Berserk'},
     {'b 3 9',  'ja', 'Warcry', 'me', 'War.', 'Warcry'},
 	{'b 3 8', 'ja', 'Aggressor', 'me', 'Aggr.', 'Agressor'},
@@ -118,8 +118,8 @@ xivhotbar_keybinds_job['SAM'] = {
     {'b 3 8',  'ja', 'Sekkanoki', 'me', 'Sek.', 'Sekkanoki'},
 	{'b 2 6',  'ja', 'Third Eye', 'me', 'Third.', 'Third'},
 	{'b 1 6',  'ja', 'Seigan', 'me', 'Seign', 'Seigan'},
-	{'b 4 1', 'ja', 'Arcane Circle', 'me', 'Arc.Circ'},
-	{'b 4 2', 'ja', 'Arcane Crest', 't', 'Crest'},	
+	{'b 4 1', 'ja', 'Arcane Circle', 'me', 'Arc.Circ',"Putrid_Mark"},  
+	{'b 4 2', 'ja', 'Arcane Crest', 't', 'Crest',"Spectral_Armor"},
 	{'b 4 3', 'ja', 'Warding Circle', 'me', 'Dem.Circ'},
 }
 xivhotbar_keybinds_job['THF'] = {
@@ -140,7 +140,7 @@ xivhotbar_keybinds_job['RDM'] = {
 	{'f 2 4', 'ma', 'Haste', 'stpc', 'Haste'},
 	{'f 2 1', 'ma', 'Diaga', 't', 'Diaga'},
 	{'f 2 2', 'ma', 'Dia', 't', 'Dia'},
-	{'f 2 7', 'ma', 'Stoneskin', 'me', 'StnSkn'},
+	{'f 2 7', 'ma', 'Stoneskin', 'me', 'StnSkn',"tile639"},
 	{'f 2 8', 'ma', 'Enfire', 'me', 'En-Ele'},
 	{'f 1 9', 'ma', 'Phalanx', 'me', 'Phalnx'},
 
