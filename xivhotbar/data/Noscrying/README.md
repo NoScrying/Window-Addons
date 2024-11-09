@@ -15,7 +15,7 @@ RUN/DRK Hotbar 2024
 
 RUN/DRK Page 2
 
-<img src="https://github.com/NoScrying/Window-Addons/blob/main/xivhotbar/images/other/RUN%20Page2%20XIVHotbar.png">
+<img src="https://github.com/NoScrying/Window-Addons/blob/main/xivhotbar/images/other/RUN%20Page2%20XIVHotbar%202024.png">
 
 BLU/BLM with mage spells set
 
