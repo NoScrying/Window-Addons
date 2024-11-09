@@ -9,9 +9,9 @@ XIVHotbar only shows cooldown per use.
 
 <img src="https://github.com/NoScrying/Window-Addons/blob/main/xivhotbar/images/other/SCH%20XIVHotbar.png">
 
-RUN/DRK Hotbar, custom icons on Page 1
+RUN/DRK Hotbar 2024
 
-<img src="https://github.com/NoScrying/Window-Addons/blob/main/xivhotbar/images/other/RUN%20XIVHotbar.png">
+<img src="https://github.com/NoScrying/Window-Addons/blob/main/xivhotbar/images/other/RUN%20XIVHotbar%202024.png">
 
 RUN/DRK Page 2
 
@@ -21,14 +21,14 @@ BLU/BLM with mage spells set
 
 <img src="https://github.com/NoScrying/Window-Addons/blob/main/xivhotbar/images/other/BLU%20hotbar.png">
 
-BRD/NIN
+BRD Hotbar 2024
 
-<img src="https://github.com/NoScrying/Window-Addons/blob/main/xivhotbar/images/other/BRD%20Hotbar.png">
+<img src="https://github.com/NoScrying/Window-Addons/blob/main/xivhotbar/images/other/BRD%20Hotbar%202024.png">
 
-RDM/NIN
+RDM Hotbar 2024
 
-<img src="https://github.com/NoScrying/Window-Addons/blob/main/xivhotbar/images/other/RDM%20XIVHotbar.png">
+<img src="https://github.com/NoScrying/Window-Addons/blob/main/xivhotbar/images/other/RDM%20Hotbar%202024.png">
 
-DRK/DRG
+DRK Hotbar 2024
 
-<img src="https://github.com/NoScrying/Window-Addons/blob/main/xivhotbar/images/other/DRK%20Hotbar.png">
+<img src="https://github.com/NoScrying/Window-Addons/blob/main/xivhotbar/images/other/DRK%20Hotbar%202024.png">
