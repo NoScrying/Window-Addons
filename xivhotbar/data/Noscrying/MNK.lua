@@ -3,30 +3,30 @@ xivhotbar_keybinds_job['Base'] = {
  -- Hotbar #1
 
 {'b 1 7',  'ja', 'Formless Strikes', 'me', 'Magic Atk.'},
-{'b 1 6',  'ja', 'Mantra', 'me', 'Mantra'},
-	{'b 1 7',  'ja', 'Boost', 'me', 'Boost'},
-	{'b 1 9',  'ja', 'Footwork', 'me', 'Footwork'},
-	{'b 1 10',  'ja', 'Perfect Counter', 'me', 'Counter'},
+{'b 1 6',  'ja', 'Mantra', 'me', 'Mntr',"tile626"},
+	{'b 1 7',  'ja', 'Boost', 'me', 'Boost',"tile186"},
+	{'b 1 9',  'ja', 'Footwork', 'me', 'Ftwrk',"tile679"},
+	{'b 1 10',  'ja', 'Perfect Counter', 'me', 'Countr',"tile651"},
 	
  -- Hotbar #2
 
-	{'b 2 5',  'ja', 'Chi Blast', 'stnpc', 'Chi'},
+	{'b 2 5',  'ja', 'Chi Blast', 'stnpc', 'Chi',"tile078(2)"},
 	
-		{'f 4 10',  'ja', 'Hundred Fists', 'me', 'Hundred'},
+		{'f 4 10',  'ja', 'Hundred Fists', 'me', '100Fs'},
 		{'f 4 9',  'ja', 'Inner Strength', 'me', 'HP++'},
  -- Hotbar #3
 
  -- Hotbar #4
 
-	{'b 4 7',  'ja', 'Dodge', 'me', 'Dodge'},
-	{'b 4 8',  'ja', 'Focus', 'me', 'Focus'},
-	{'b 4 10',  'ja', 'Chakra', 'me', 'Chakra'},
-	{'b 4 9',  'ja', 'Impetus', 'me', 'Impetus'},
+	{'b 4 7',  'ja', 'Dodge', 'me', 'Dodge',"tile748"},
+	{'b 4 8',  'ja', 'Focus', 'me', 'Focus',"tile637"},
+	{'b 4 10',  'ja', 'Chakra', 'me', 'Chakra',"tile025"},
+	{'b 4 9',  'ja', 'Impetus', 'me', 'Impts',"tile547"},
 }
 
 xivhotbar_keybinds_job['WAR'] = {
-    {'b 4 4',  'ja', 'Provoke', 'stnpc', 'Prov.'},
-    {'b 2 7',  'ja', 'Berserk', 'me', 'Berserk', 'Berserk'},
+    {'b 4 4',  'ja', 'Provoke', 'stnpc', 'Prov.',"tile150"},
+    {'b 2 7',  'ja', 'Berserk', 'me', 'Brsrk', 'Berserk'},
     {'b 2 8',  'ja', 'Warcry', 'me', 'War.', 'Warcry'},
 	{'b 2 9', 'ja', 'Aggressor', 'me', 'Aggr.', 'Agressor'},
 }
@@ -43,22 +43,22 @@ xivhotbar_keybinds_job['DNC'] = {
 
 	{'b 4 1', 'ja', 'Box Step', 't', 'Box', 'Box'},
 	{'b 4 2', 'ja', 'Feather Step', 't', 'Crit+', 'Feather'},
-	{'b 3 7', 'ja', 'Reverse Flourish', 'me', 'Reverse', 'Reverse'},
-	{'b 2 9', 'ja', 'Spectral Jig', 'me', 'Spectral', 'Spectral'},
+	{'b 3 7', 'ja', 'Reverse Flourish', 'me', 'Rvrse', 'Reverse'},
+	{'b 2 9', 'ja', 'Spectral Jig', 'me', 'Spctrl', 'Spectral'},
 	{'b 2 10', 'ja', 'Chocobo Jig', 'me', 'Choco', 'Chocobo'},
 }
 
 xivhotbar_keybinds_job['THF'] = {
     {'b 2 9',  'ja', 'Flee', 'me', 'Flee', 'Flee'},
-    {'b 2 7',  'ja', 'Sneak Attack', 'me', 'Snk. Atk', 'snkatk'},
-    {'b 2 8',  'ja', 'Trick Attack', 'me', 'Trk. Atk', 'Innin'},
+    {'b 2 7',  'ja', 'Sneak Attack', 'me', 'Snk.Atk', 'snkatk'},
+    {'b 2 8',  'ja', 'Trick Attack', 'me', 'Trk.Atk', 'Innin'},
 	{'b 2 10', 'ja', 'Hide', 'me', 'Hide', 'Hide'},
 }
 
 xivhotbar_keybinds_job['DRG'] = {
 	-- Battle
 	{'b 4 1', 'ja', 'Jump', 't', 'Jump', 'Jump'},
-	{'b 4 2', 'ja', 'High Jump', 't', 'H. Jump', 'High Jump'},
+	{'b 4 2', 'ja', 'High Jump', 't', 'H.Jump', 'High Jump'},
 
 }
 
@@ -98,22 +98,25 @@ xivhotbar_keybinds_job['DRK'] = {
 }
 xivhotbar_keybinds_job['Hand-to-hand'] = {
 {'b 1 1', 'weaponskill', 'Victory Smite', 'stnpc', 'Smite', 'H2H-Single'},
-{'b 1 2', 'weaponskill', 'Tornado Kick', 't', 'T. Kick', 'H2H-Kick'},
+{'b 1 2', 'weaponskill', 'Tornado Kick', 't', 'T.Kick', 'H2H-Kick'},
 {'b 1 3', 'weaponskill', 'Shijin Spiral', 't', 'Shijin', 'H2H-Single4'},
-{'b 1 5', 'weaponskill', 'Asuran Fists', 't', 'Asuran', 'H2H-Multi2'},
-{'b 1 4', 'weaponskill', 'Raging Fists', 't', 'Raging', 'H2H-Multi'},
+{'b 1 5', 'weaponskill', 'Asuran Fists', 't', 'Asura', 'H2H-Multi2'},
+{'b 1 4', 'weaponskill', 'Raging Fists', 't', 'Rage', 'H2H-Multi'},
 
-	{'b 2 1', 'weaponskill', 'Howling Fist', 't', 'Howling', 'H2H-Single2'},
+	{'b 2 1', 'weaponskill', 'Howling Fist', 't', 'Howl', 'H2H-Single2'},
 	{'b 2 2', 'weaponskill', 'Spinning Attack', 't', 'AoE', 'H2H-AoE'},
-	{'b 2 3', 'weaponskill', 'Dragon Kick', 't', 'D. Kick', 'H2H-Kick2'},
-	{'b 2 4', 'weaponskill', 'Ascetic\'s Fury', 't', 'Ascetic', 'H2H-Multi3'},
+	{'b 2 3', 'weaponskill', 'Dragon Kick', 't', 'D.Kick', 'H2H-Kick2'},
+	{'b 2 4', 'weaponskill', 'Ascetic\'s Fury', 't', 'Asctic', 'H2H-Multi3'},
+	
+{'f 1 1', 'weaponskill', 'Shoulder Tackle', 'stnpc', 'Tackle', 'H2H-Single3'},
 }
 xivhotbar_keybinds_job['Staff'] = {
-{'b 1 1', 'weaponskill', 'Shell Crusher', 't', 'Crusher', 'H2H-Single'},
+{'b 1 2', 'weaponskill', 'Shell Crusher', 't', 'Crusher', 'H2H-Single'},
+{'b 1 1', 'weaponskill', 'Cataclysm', 't', 'Cata', 'H2H-Single2'},
 }
 
 xivhotbar_keybinds_job['RDM'] = {
-	{'f 1 8', 'ma', 'Phalanx', 'me', 'Phalanx', 'Stoneskin'},
+	{'f 1 8', 'ma', 'Phalanx', 'me', 'Phalanx', "Phalanx"},
 	{'f 1 9', 'ma', 'Dispel', 't', 'Dispel'},
 	{'f 4 1', 'ma', 'Stone II', 't', 'Stone'},
 	{'f 4 2', 'ma', 'Water II', 't', 'Water'},
@@ -137,5 +140,10 @@ xivhotbar_keybinds_job['RDM'] = {
 	{'f 3 8', 'ma', 'Barblizzard', 'me', 'BarIce'},	
 	{'f 4 9', 'ma', 'Sneak', 'me', 'Sneak'},
 	{'f 4 10', 'ma', 'Invisible', 'me', 'Invis'},
+}
+xivhotbar_keybinds_job['NIN'] = {
+	-- Battle
+	{'b 4 1', 'ma', 'Utsusemi: Ichi', 'me', 'Utsu', 'UtsuIchi'},
+	{'b 4 2', 'ma', 'Utsusemi: Ni', 'me', 'Utsu', 'UtsuNi'},
 }
 return xivhotbar_keybinds_job
