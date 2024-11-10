@@ -25,7 +25,7 @@ BRD Hotbar 2024
 RDM Hotbar 2024
 
 <img src="https://github.com/NoScrying/Window-Addons/blob/main/xivhotbar/images/other/RDM%20Hotbar%202024.png">
-<img src=https://github.com/NoScrying/Window-Addons/blob/main/xivhotbar/images/other/RDM%20Hotbar%20Page2%202024.png">
+<img src="https://github.com/NoScrying/Window-Addons/blob/main/xivhotbar/images/other/RDM%20Hotbar%20Page2%202024.png">
 
 DRK Hotbar 2024
 
