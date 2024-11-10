@@ -12,9 +12,6 @@ XIVHotbar only shows cooldown per use.
 RUN/DRK Hotbar 2024
 
 <img src="https://github.com/NoScrying/Window-Addons/blob/main/xivhotbar/images/other/RUN%20XIVHotbar%202024(2).png">
-
-RUN/DRK Page 2
-
 <img src="https://github.com/NoScrying/Window-Addons/blob/main/xivhotbar/images/other/RUN%20Page2%20XIVHotbar%202024.png">
 
 BLU/BLM with mage spells set
@@ -28,6 +25,7 @@ BRD Hotbar 2024
 RDM Hotbar 2024
 
 <img src="https://github.com/NoScrying/Window-Addons/blob/main/xivhotbar/images/other/RDM%20Hotbar%202024.png">
+<img src=https://github.com/NoScrying/Window-Addons/blob/main/xivhotbar/images/other/RDM%20Hotbar%20Page2%202024.png">
 
 DRK Hotbar 2024
 
