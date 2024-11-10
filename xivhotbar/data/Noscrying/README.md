@@ -7,7 +7,8 @@ SCH/RDM Hotbar with cooldown, showing timers, custom icons and shortcut to Imman
 Suggested to use the "SCH-Hud" addon in combination, as it shows how many Stratagems are available.
 XIVHotbar only shows cooldown per use.
 
-<img src="https://github.com/NoScrying/Window-Addons/blob/main/xivhotbar/images/other/SCH%20XIVHotbar.png">
+<img src="https://github.com/NoScrying/Window-Addons/blob/main/xivhotbar/images/other/SCH%20XIVHotbar%202024.png">
+<img src="https://github.com/NoScrying/Window-Addons/blob/main/xivhotbar/images/other/SCH%20Page2%20XIVHotbar%202024.png">
 
 RUN/DRK Hotbar 2024
 
