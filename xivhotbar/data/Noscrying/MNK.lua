@@ -5,12 +5,13 @@ xivhotbar_keybinds_job['Base'] = {
 {'b 1 7',  'ja', 'Formless Strikes', 'me', 'Magic Atk.'},
 {'b 1 6',  'ja', 'Mantra', 'me', 'Mntr',"tile626"},
 	{'b 1 7',  'ja', 'Boost', 'me', 'Boost',"tile186"},
+	{'b 1 8',  'ja', 'Formless Strikes', 'me', 'Frmles',"Chapter_2-_Radiant_Recovery"},
 	{'b 1 9',  'ja', 'Footwork', 'me', 'Ftwrk',"tile679"},
 	{'b 1 10',  'ja', 'Perfect Counter', 'me', 'Countr',"tile651"},
 	
  -- Hotbar #2
 
-	{'b 2 5',  'ja', 'Chi Blast', 'stnpc', 'Chi',"tile078(2)"},
+	{'b 2 5',  'ja', 'Chi Blast', 'stnpc', 'Chi',"Peacekeeper"},
 	
 		{'f 4 10',  'ja', 'Hundred Fists', 'me', '100Fs'},
 		{'f 4 9',  'ja', 'Inner Strength', 'me', 'HP++'},
@@ -45,7 +46,7 @@ xivhotbar_keybinds_job['DNC'] = {
 	{'b 4 2', 'ja', 'Feather Step', 't', 'Crit+', 'Feather'},
 	{'b 3 7', 'ja', 'Reverse Flourish', 'me', 'Rvrse', 'Reverse'},
 	{'b 2 9', 'ja', 'Spectral Jig', 'me', 'Spctrl', 'Spectral'},
-	{'b 2 10', 'ja', 'Chocobo Jig', 'me', 'Choco', 'Chocobo'},
+	{'b 2 10', 'ja', 'Chocobo Jig', 'me', 'Choco', 'Overwhelming_Celerity'},
 }
 
 xivhotbar_keybinds_job['THF'] = {
@@ -66,14 +67,14 @@ xivhotbar_keybinds_job['RUN'] = {
     {'b 4 2',  'ja', 'Lunge', 't', 'Lunge', 'Lunge'},
     {'b 4 1',  'ja', 'swipe', 't', 'Swipe', 'Swipe'},
 	
-	{'b 3 1', 'ja', 'Ignis', 'me', 'Ice', 'ignis-icon'},
-    {'b 3 2', 'ja', 'Gelus', 'me', 'Wind', 'gelus-icon'},
-    {'b 3 3', 'ja', 'Flabra', 'me', 'Earth', 'flabra-icon'},
-    {'b 3 4', 'ja', 'Tellus', 'me', 'Thun.', 'tellus-icon'},
-    {'b 3 5', 'ja', 'Sulpor', 'me', 'Water', 'sulpor-icon'},
-    {'b 3 6', 'ja', 'Unda', 'me', 'Fire', 'unda-icon'},
-    {'b 3 7', 'ja', 'Lux', 'me', 'Dark', 'lux-icon'},
-    {'b 3 8', 'ja', 'Tenebrae', 'me', 'Light', 'tenebrae-icon'},
+	{'b 3 1', 'ja', 'Ignis', 'me', 'Ice', 'Activate..._(red)'},
+    {'b 3 2', 'ja', 'Gelus', 'me', 'Wind', 'Ice_Wall'},
+    {'b 3 3', 'ja', 'Flabra', 'me', 'Earth', 'Activate..._(green)'},
+    {'b 3 4', 'ja', 'Tellus', 'me', 'Thun.', 'Activate..._(yellow)'},
+    {'b 3 5', 'ja', 'Sulpor', 'me', 'Water', 'Activate..._(purple)'},
+    {'b 3 6', 'ja', 'Unda', 'me', 'Fire', 'Activate..._(blue)'},
+    {'b 3 7', 'ja', 'Lux', 'me', 'Dark', 'Center_Your_Mind'},
+    {'b 3 8', 'ja', 'Tenebrae', 'me', 'Light', 'Call_Forth_Magic'},
 	
 
 	{'b 4 3', 'ja', 'Vallation', 'me', 'Val.', 'Vallation'},
@@ -81,16 +82,16 @@ xivhotbar_keybinds_job['RUN'] = {
 	{'b 4 6', 'ja', 'Pflug', 'me', 'Pflug', 'Valiance'},
 	{'b 4 5', 'ja', 'Swordplay', 'me', 'Sword.', 'Swordplay'},
 	
-	{'f 2 1', 'ma', 'Barfire', 'me', 'Fire'},
-	{'f 2 2', 'ma', 'Barblizzard', 'me', 'Ice'},
-	{'f 2 3', 'ma', 'Barthunder', 'me', 'Thun'},
-	{'f 2 4', 'ma', 'Baraero', 'me', 'Aero'},
-	{'f 2 5', 'ma', 'Barwater', 'me', 'Water'},
-	{'f 2 6', 'ma', 'Barstone', 'me', 'Stone'},
+	{'f 2 1', 'ma', 'Barfire', 'me', 'B.Fire',"tile054"},
+	{'f 2 2', 'ma', 'Barblizzard', 'me', 'B.Ice',"tile053"},
+	{'f 2 3', 'ma', 'Barthunder', 'me', 'B.Thun',"tile055"},
+	{'f 2 4', 'ma', 'Baraero', 'me', 'B.Aero',"tile052"},
+	{'f 2 5', 'ma', 'Barwater', 'me', 'B.Water',"tile085"},
+	{'f 2 6', 'ma', 'Barstone', 'me', 'B.Stone',"tile031"},
 	
-	{'f 4 1', 'ma', 'Barsleep', 'me', 'B.Sleep'},
-	{'f 4 2', 'ma', 'Barparalyze', 'me', 'B.Para'},
-	{'f 4 3', 'ma', 'Barsilence', 'me', 'Bar.Sil'},
+	{'f 4 1', 'ma', 'Barsleep', 'me', 'B.Slp',"Barsleep"},
+	{'f 4 2', 'ma', 'Barparalyze', 'me', 'B.Para',"BarParalyze"},
+	{'f 4 3', 'ma', 'Barsilence', 'me', 'B.Sil',"BarSilence"},
 }
 xivhotbar_keybinds_job['DRK'] = {
     {'b 4 1',  'ja', 'Arcane Circle', 'me', 'Circle.'},

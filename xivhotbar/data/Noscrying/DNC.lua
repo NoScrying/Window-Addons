@@ -2,17 +2,17 @@
 xivhotbar_keybinds_job['Base'] = {
  -- Hotbar #1
 	{'b 1 5', 'ja', 'Animated Flourish', 'stnpc', 'Provoke',"tile150"},
-	{'b 1 8', 'ja', 'Striking Flourish', 'me', 'DA+1', "Striking"},
-	{'b 1 7', 'ja', 'Climactic Flourish', 'me', 'Crit+1', 'Ternary'},
-	{'b 1 6', 'input', "//cancel Saber Dance,Fan Dance", '', 'DA Off', "SaberDanceOff"},
+	{'b 1 8', 'ja', 'Striking Flourish', 'me', 'DA+1', "Unstable_Bladestorm"},
+	{'b 1 7', 'ja', 'Climactic Flourish', 'me', 'Crit+1', 'Bladesong_Harmony'},
+	{'b 1 6', 'input', "//cancel Saber Dance,Fan Dance", '', 'DA Off', "Awakening"},
 	{'b 1 9', 'ja', 'No Foot Rise', 'me', 'Finish', "Flourish"},
 	{'b 1 10', 'ja', 'Presto', 'me', 'Step+', 'Presto'},
 
  -- Hotbar #2
-	{'b 2 3', 'ja', 'Violent Flourish', 't', 'Stun', "Stun"},
+	{'b 2 3', 'ja', 'Violent Flourish', 't', 'Stun', "Reflexive_Strike"},
 
-	{'b 2 10', 'ja', 'Chocobo Jig II', 'me', 'Choco', 'Chocobo'},
-	{'b 4 9', 'ja', 'Spectral Jig', 'me', 'Spctrl', 'Spectral'},	
+	{'b 2 10', 'ja', 'Chocobo Jig II', 'me', 'Choco', 'Overwhelming_Celerity'},
+	{'b 4 9', 'ja', 'Spectral Jig', 'me', 'Spctrl', 'Smoke_Screen'},	
  -- Hotbar #3
     {'b 3 1', 'ja', 'Curing Waltz III', 'stpc', 'CureIII', 'WaltzIII'},
     {'b 3 2', 'ja', 'Curing Waltz IV', 'stpc', 'CureIV', 'WaltzIV'},
@@ -26,14 +26,14 @@ xivhotbar_keybinds_job['Base'] = {
 	{'f 3 9', 'ja', 'Trance', 'me', 'TP+',"tile972"},
 	{'f 3 10', 'ja', 'Grand Pas', 'me', 'Flourish+',"tile711"},
  -- Hotbar #4
-    {'b 2 1', 'ja', 'Drain Samba III', 'me', 'Drain', 'Drain'},
+    {'b 2 1', 'ja', 'Drain Samba III', 'me', 'Drain', 'Death_Curse'},
     {'b 2 2', 'ja', 'Haste Samba', 'me', 'Haste', 'HasteSamba'},
 	{'b 4 1', 'ja', 'Box Step', 't', 'Box', 'Box'},
 	{'b 4 2', 'ja', 'Feather Step', 't', 'Crit+', 'Feather'},
 	{'b 4 3', 'ja', 'Stutter Step', 't', 'MEVA-', "Stutter"},
 	{'b 4 4', 'ja', 'Quickstep', 't', 'EVA-', "QuickStep"},
-	{'b 4 7', 'ja', 'Saber Dance', 'me', 'DA On', "SaberDance"},
-	{'b 4 8', 'ja', 'Fan Dance', 'me', 'DEF', "FanDance"},
+	{'b 4 7', 'ja', 'Saber Dance', 'me', 'DA On', "Pyro_Vortex"},
+	{'b 4 8', 'ja', 'Fan Dance', 'me', 'DEF', "Symbol_of_Swiftness"},
 	{'b 4 10', 'ja', 'Contradance', 'me', 'Heal+', "CuringWaltz"},
 	
  -- Hotbar #6
@@ -114,7 +114,7 @@ xivhotbar_keybinds_job['RDM'] = {
 	
 	{'f 1 10', 'ja', 'Convert', 'me', 'Convert',"tile813"},
 	{'f 2 3', 'ma', 'Refresh', 'stpc', 'Refresh',"tile617"},
-	{'f 2 4', 'ma', 'Haste', 'stpc', 'Haste',"tile860"},
+	{'f 2 4', 'ma', 'Haste', 'stpc', 'Haste',"_Advance!_"},
 	{'f 2 1', 'ma', 'Diaga', 't', 'Diaga'},
 	{'f 2 2', 'ma', 'Dia', 't', 'Dia',"tile455"},
 	{'f 2 7', 'ma', 'Stoneskin', 'me', 'StnSkn',"tile639"},
@@ -151,14 +151,14 @@ xivhotbar_keybinds_job['BLM'] = {
 }
 
 xivhotbar_keybinds_job['RUN'] = {
-	{'f 3 1', 'ja', 'Ignis', 'me', 'Ice', 'ignis-icon'},
-    {'f 3 2', 'ja', 'Gelus', 'me', 'Wind', 'gelus-icon'},
-    {'f 3 3', 'ja', 'Flabra', 'me', 'Earth', 'flabra-icon'},
-    {'f 3 4', 'ja', 'Tellus', 'me', 'Thun.', 'tellus-icon'},
-    {'f 3 5', 'ja', 'Sulpor', 'me', 'Water', 'sulpor-icon'},
-    {'f 3 6', 'ja', 'Unda', 'me', 'Fire', 'unda-icon'},
-    {'f 3 7', 'ja', 'Lux', 'me', 'Dark', 'lux-icon'},
-    {'f 3 8', 'ja', 'Tenebrae', 'me', 'Light', 'tenebrae-icon'},
+	{'f 3 1', 'ja', 'Ignis', 'me', 'Ice', 'Activate..._(red)'},
+    {'f 3 2', 'ja', 'Gelus', 'me', 'Wind', 'Ice_Wall'},
+    {'f 3 3', 'ja', 'Flabra', 'me', 'Earth', 'Activate..._(green)'},
+    {'f 3 4', 'ja', 'Tellus', 'me', 'Thun.', 'Activate..._(yellow)'},
+    {'f 3 5', 'ja', 'Sulpor', 'me', 'Water', 'Activate..._(purple)'},
+    {'f 3 6', 'ja', 'Unda', 'me', 'Fire', 'Activate..._(blue)'},
+    {'f 3 7', 'ja', 'Lux', 'me', 'Dark', 'Center_Your_Mind'},
+    {'f 3 8', 'ja', 'Tenebrae', 'me', 'Light', 'Call_Forth_Magic'},
 	
 
 	{'f 4 1', 'ja', 'Vallation', 'me', 'Val.', 'Vallation'},

@@ -1,33 +1,33 @@
 xivhotbar_keybinds_job['Base'] = {
   -- Hotbar #1 
-  	{'b 1 7', 'ja',  'Accomplice', 'stpc', 'Accomplice'}, 
-	{'b 1 8', 'ja',  'Collaborator', 'stpc', 'Collaborator'}, 
-	{'b 1 9', 'ja',  'Conspirator', 'me', 'Acc'}, 
+  	{'b 1 7', 'ja',  'Accomplice', 'stpc', 'Acco.',"Smoke_Screen"}, 
+	{'b 1 8', 'ja',  'Collaborator', 'stpc', 'Collab.',"Cloak_and_Dagger"}, 
+	{'b 1 9', 'ja',  'Conspirator', 'me', 'Acc',"Reflexive_Strike"}, 
 
-	{'b 1 10', 'ja', 'Flee', 'me', 'Flee', 'Flee'},
+	{'b 1 10', 'ja', 'Flee', 'me', 'Flee', 'tile090'},
   -- Hotbar #2
-    {'b 2 1', 'ja',  'Steal', 't', 'Steal'}, 
-	{'b 2 2', 'ja',  'Mug', 't', 'Mug'}, 
-	{'b 2 3', 'ja',  'Despoil', 't', 'Despoil'}, 
-	{'b 2 4', 'ja',  'Bully', 't', 'Bully'}, 
-	{'b 2 5', 'ja',  'Feint', 'me', 'Feint'},
+    {'b 2 1', 'ja',  'Steal', 't', 'Steal',"Roll_for_Initiative"}, 
+	{'b 2 2', 'ja',  'Mug', 't', 'Mug',"Shadow_Strike"}, 
+	{'b 2 3', 'ja',  'Despoil', 't', 'Despoil',"Enter_Shadow_Shroud"}, 
+	{'b 2 4', 'ja',  'Bully', 't', 'Bully',"Thieves_Guild"}, 
+	{'b 2 5', 'ja',  'Feint', 'me', 'Feint',"Prepare_Shadow_Portal"},
 
-  	{'b 2 7', 'ja',  'Sneak Attack', 'me', 'Snk. Atk', 'snkatk'}, 
-	{'b 2 8', 'ja',  'Trick Attack', 'me', 'Trk. Atk', 'Innin'},
-	{'b 2 10', 'ja', 'Hide', 'me', 'Hide', 'Hide'},
+  	{'b 2 7', 'ja',  'Sneak Attack', 'me', 'Snk. Atk', 'Malicious_Backstab'}, 
+	{'b 2 8', 'ja',  'Trick Attack', 'me', 'Trk. Atk', 'Thieves_Guild'},
+	{'b 2 10', 'ja', 'Hide', 'me', 'Hide', 'Prepare_Shadow_Portal'},
 	 {'f 2 1', 'ja',  'Perfect Dodge', 'me', 'Dodge'}, 
 	 {'f 2 2', 'ja',  'Larceny', 't', 'STEAL'},
   -- Hotbar #3
-    {'b 3 8', 'ct', 'ra', 't', 'RA', 'Ranged'},
+    {'b 3 8', 'ct', 'ra', 't', 'RA', 'Abyssal_Fire'},
 }
 xivhotbar_keybinds_job['Dagger'] = {
 	-- Battle
-	{'b 1 1', 'weaponskill', 'Rudra\'s Storm', 'stnpc', 'Rudra', 'Dagger-Single3'},
-    {'b 1 3', 'weaponskill', 'Evisceration', 'stnpc', 'Evisceration.', 'Dagger-Multi'},
+	{'b 1 1', 'weaponskill', 'Rudra\'s Storm', 'stnpc', 'Rudra', 'Zesho'},
+    {'b 1 3', 'weaponskill', 'Evisceration', 'stnpc', 'Evisc.', 'Dagger-Multi'},
     {'b 1 2', 'weaponskill', 'Mercy Stroke', 'stnpc', 'Mercy', 'Dagger-Single'},
 	{'b 1 4', 'weaponskill', 'Aeolian Edge', 't', 'Aeolian.', 'Dagger-AoE'},
 	
-	{'f 1 1', 'weaponskill', 'Rudra\'s Storm', 'stnpc', 'Rudra', 'Dagger-Single3'},
+	{'f 1 1', 'weaponskill', 'Rudra\'s Storm', 'stnpc', 'Rudra', 'Zesho'},
     {'f 1 3', 'weaponskill', 'Evisceration', 'stnpc', 'Evisceration.', 'Dagger-Multi'},
     {'f 1 2', 'weaponskill', 'Mercy Stroke', 'stnpc', 'Mercy', 'Dagger-Single'},
 	{'f 1 4', 'weaponskill', 'Aeolian Edge', 't', 'Aeolian.', 'Dagger-AoE'},
@@ -41,6 +41,7 @@ xivhotbar_keybinds_job['Sword'] = {
 	{'b 1 2', 'weaponskill', 'Seraph Blade', 't', 'Seraph.'},	
 	{'b 1 3', 'weaponskill', 'Red Lotus Blade', 't', 'Lotus.'},	
 	{'b 1 4', 'weaponskill',  'Sanguine Blade', 't', 'Sang.', 'DBlossom'},
+	{'b 1 5', 'weaponskill',  'Circle Blade', 't', 'AoE', 'Sword-AoE'},
 }
 xivhotbar_keybinds_job['Scythe'] = {
 	-- Battle 
@@ -91,7 +92,7 @@ xivhotbar_keybinds_job['WAR'] = {
 	{'b 4 7', 'ja', 'Berserk', 'me', 'Berserk', 'Berserk'},
 	{'b 4 8', 'ja', 'Warcry', 'me', 'Warcry', 'Warcry'},
 	{'b 4 9', 'ja', 'Aggressor', 'me', 'Aggr.', 'Agressor'},
-    {'b 1 5',  'ja', 'Provoke', 'stnpc', 'Prov.'},
+    {'b 1 5',  'ja', 'Provoke', 'stnpc', 'Prov.',"tile150"},
 }
 xivhotbar_keybinds_job['DNC'] = {
 	-- Battle
@@ -99,24 +100,24 @@ xivhotbar_keybinds_job['DNC'] = {
 	{'b 4 2', 'ja', 'Box Step', 't', 'Box', 'Box'},
     {'b 4 3', 'ja', 'Haste Samba', 'me', 'Haste', 'Haste'},
 
-		{'b 4 9', 'ja', 'Reverse Flourish', 'me', 'Reverse', 'Reverse'},
+		{'b 4 9', 'ja', 'Reverse Flourish', 'me', 'Rvrs', 'Reverse'},
 		{'b 4 4', 'ja', 'Divine Waltz', 'stpc', 'Cura', 'Divine'},
 		{'b 4 5', 'ja', 'Curing Waltz III', 'stpc', 'CureIII', 'CureIII'},
 		{'b 4 6', 'ja', 'Healing Waltz', 'stpc', 'Erase', 'Esuna'},
-		{'b 4 10', 'ja', 'Spectral Jig', 'me', 'Spectral', 'Spectral'},
+		{'b 4 10', 'ja', 'Spectral Jig', 'me', 'Spctrl', 'Spectral'},
 }
 xivhotbar_keybinds_job['RUN'] = {
     {'f 4 2',  'ja', 'Lunge', 't', 'Lunge', 'Lunge'},
     {'f 4 1',  'ja', 'swipe', 't', 'Swipe', 'Swipe'},
 	
-	{'f 3 1', 'ja', 'Ignis', 'me', 'Ice', 'ignis-icon'},
-    {'f 3 2', 'ja', 'Gelus', 'me', 'Wind', 'gelus-icon'},
-    {'f 3 3', 'ja', 'Flabra', 'me', 'Earth', 'flabra-icon'},
-    {'f 3 4', 'ja', 'Tellus', 'me', 'Thun.', 'tellus-icon'},
-    {'f 3 5', 'ja', 'Sulpor', 'me', 'Water', 'sulpor-icon'},
-    {'f 3 6', 'ja', 'Unda', 'me', 'Fire', 'unda-icon'},
-    {'f 3 7', 'ja', 'Lux', 'me', 'Dark', 'lux-icon'},
-    {'f 3 8', 'ja', 'Tenebrae', 'me', 'Light', 'tenebrae-icon'},
+	{'f 3 1', 'ja', 'Ignis', 'me', 'Ice', 'Activate..._(red)'},
+    {'f 3 2', 'ja', 'Gelus', 'me', 'Wind', 'Ice_Wall'},
+    {'f 3 3', 'ja', 'Flabra', 'me', 'Earth', 'Activate..._(green)'},
+    {'f 3 4', 'ja', 'Tellus', 'me', 'Thun.', 'Activate..._(yellow)'},
+    {'f 3 5', 'ja', 'Sulpor', 'me', 'Water', 'Activate..._(purple)'},
+    {'f 3 6', 'ja', 'Unda', 'me', 'Fire', 'Activate..._(blue)'},
+    {'f 3 7', 'ja', 'Lux', 'me', 'Dark', 'Center_Your_Mind'},
+    {'f 3 8', 'ja', 'Tenebrae', 'me', 'Light', 'Call_Forth_Magic'},
 	
 	{'f 4 3', 'ja', 'Vallation', 'me', 'Val.', 'Vallation'},
 	{'f 4 4', 'ja', 'Valiance', 'me', 'Val+', 'Valiance'},

@@ -53,7 +53,7 @@ xivhotbar_keybinds_job['WAR'] = {
 	{'b 2 7', 'ja', 'Berserk', 'me', 'Berserk', 'Berserk'},
 	{'b 2 8', 'ja', 'Warcry', 'me', 'Warcry', 'Warcry'},
 	{'b 2 9', 'ja', 'Aggressor', 'me', 'Aggr.', 'Agressor'},
-	{'b 1 5',  'ja', 'Provoke', 'stnpc', 'Prov.'},
+	{'b 1 5',  'ja', 'Provoke', 'stnpc', 'Prov.',"tile150"},
 }
 xivhotbar_keybinds_job['DNC'] = {
 	-- Battle
@@ -61,11 +61,11 @@ xivhotbar_keybinds_job['DNC'] = {
 	{'f 4 2', 'ja', 'Box Step', 't', 'Box', 'Box'},
     {'f 4 3', 'ja', 'Haste Samba', 'me', 'Haste', 'Haste'},
 
-		{'f 3 10', 'ja', 'Reverse Flourish', 'me', 'Reverse', 'Reverse'},
+		{'f 3 10', 'ja', 'Reverse Flourish', 'me', 'Rvrs', 'Reverse'},
 		{'f 4 4', 'ja', 'Divine Waltz', 'stpc', 'Cura', 'Divine'},
 		{'f 4 5', 'ja', 'Curing Waltz III', 'stpc', 'CureIII', 'CureIII'},
 		{'f 4 6', 'ja', 'Healing Waltz', 'stpc', 'Erase', 'Esuna'},
-		{'f 4 10', 'ja', 'Spectral Jig', 'me', 'Spectral', 'Spectral'},
+		{'f 4 10', 'ja', 'Spectral Jig', 'me', 'Spctrl', 'Spectral'},
 }
 xivhotbar_keybinds_job['RDM'] = {
 	--{'b 1 9', 'ma', 'Phalanx', 'me', 'Phalanx', 'Stoneskin'},
@@ -103,14 +103,14 @@ xivhotbar_keybinds_job['RUN'] = {
     {'f 4 2',  'ja', 'Lunge', 't', 'Lunge', 'Lunge'},
     {'f 4 1',  'ja', 'swipe', 't', 'Swipe', 'Swipe'},
 	
-	{'f 3 1', 'ja', 'Ignis', 'me', 'Ice', 'ignis-icon'},
-    {'f 3 2', 'ja', 'Gelus', 'me', 'Wind', 'gelus-icon'},
-    {'f 3 3', 'ja', 'Flabra', 'me', 'Earth', 'flabra-icon'},
-    {'f 3 4', 'ja', 'Tellus', 'me', 'Thun.', 'tellus-icon'},
-    {'f 3 5', 'ja', 'Sulpor', 'me', 'Water', 'sulpor-icon'},
-    {'f 3 6', 'ja', 'Unda', 'me', 'Fire', 'unda-icon'},
-    {'f 3 7', 'ja', 'Lux', 'me', 'Dark', 'lux-icon'},
-    {'f 3 8', 'ja', 'Tenebrae', 'me', 'Light', 'tenebrae-icon'},
+	{'f 3 1', 'ja', 'Ignis', 'me', 'Ice', 'Activate..._(red)'},
+    {'f 3 2', 'ja', 'Gelus', 'me', 'Wind', 'Ice_Wall'},
+    {'f 3 3', 'ja', 'Flabra', 'me', 'Earth', 'Activate..._(green)'},
+    {'f 3 4', 'ja', 'Tellus', 'me', 'Thun.', 'Activate..._(yellow)'},
+    {'f 3 5', 'ja', 'Sulpor', 'me', 'Water', 'Activate..._(purple)'},
+    {'f 3 6', 'ja', 'Unda', 'me', 'Fire', 'Activate..._(blue)'},
+    {'f 3 7', 'ja', 'Lux', 'me', 'Dark', 'Center_Your_Mind'},
+    {'f 3 8', 'ja', 'Tenebrae', 'me', 'Light', 'Call_Forth_Magic'},
 	
 	{'f 4 3', 'ja', 'Vallation', 'me', 'Val.', 'Vallation'},
 	{'f 4 4', 'ja', 'Pflug', 'me', 'Pflug', 'Valiance'},

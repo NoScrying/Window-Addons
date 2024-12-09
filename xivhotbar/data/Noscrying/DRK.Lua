@@ -2,7 +2,7 @@ xivhotbar_keybinds_job['Base'] = {
  -- Hotbar #1
  {'b 1 8',  'ja', 'Weapon Bash', 't', 'Bash',"Dark_Spear"},
   {'b 1 9',  'ma', 'Stun', 'stnpc', 'Stun',"tile959"},
-    {'b 1 10',  'ma', 'Absorb-Attri', 'stnpc', 'Displ',"Unholy_Feast"},
+    {'b 1 10',  'ma', 'Absorb-Attri', 'stnpc', 'Absorb',"Unholy_Feast"},
     {'b 1 7', 'ja', 'Nether Void', 'me', 'Drn++',"Sand_Flare"},
 	{'b 1 5', 'ja', 'Dark Seal', 'me', 'D.Mac','GatheringPlague'},
 	{'b 1 6', 'ja', 'Arcane Circle', 'me', 'A.Crcl',"Putrid_Mark"},  
@@ -15,7 +15,7 @@ xivhotbar_keybinds_job['Base'] = {
   {'b 2 7', 'ja', 'Last Resort', 'me', 'L.Rsrt', "LastResort"},
   {'b 2 8', 'ja', 'Souleater', 'me', 'S.Etr',"Harbinger_Shroud"},
    {'b 2 9', 'ma', 'Poisonga', 't', 'Psnga', "Spider_Venom"},
-     {'b 2 10', 'ma', 'Poison', 't', 'Psn'},
+     {'b 2 10', 'ma', 'Poison', 't', 'Psn',"tile056"},
   --{'b 2 9', 'ja', 'Consume Mana', 'me', 'M.Burst'},
  -- Hotbar #3
  {'b 3 1', 'ma', 'Bio II', 'stnpc', 'Bio',"tile036"},
@@ -28,9 +28,9 @@ xivhotbar_keybinds_job['Base'] = {
 
  -- Hotbar #4
     {'b 4 4', 'ma', 'Tractor', 'stpc', 'Tractr',"Signet_of_Undeath"},
-  {'b 4 7', 'ma', 'Dread Spikes', 'me', 'Spiks', "Death_Shroud"},
+  {'b 4 7', 'ma', 'Dread Spikes', 'me', 'Spikes', "Death_Shroud"},
    {'b 4 8', 'ma', 'Endark II', 'me', 'Endrk',"Life_Rend"},
-    {'b 4 9',  'ja', 'Scarlet Delirium', 'me', 'Dlrium'},
+    {'b 4 9',  'ja', 'Scarlet Delirium', 'me', 'Dlrium',"Shadowed_Vigil_Icon"},
  --
  {'f 1 7', 'ma', 'Sleep II', 'stnpc', 'Sleep','tile944'},
  {'f 1 8', 'ma', 'Bind', 'stnpc', 'Bind',"tile959"},
@@ -78,15 +78,15 @@ xivhotbar_keybinds_job['Scythe'] = {
 }
 xivhotbar_keybinds_job['Great Axe'] = {
 	-- Battle
-    {'b 1 1', 'weaponskill', 'Upheaval', 'stnpc', 'Uphevl', 'GA-Single4'},
-	{'b 1 2', 'weaponskill', 'Steel Cyclone', 't', 'S.Clne', 'GA-Single2'},
-	{'b 1 3', 'weaponskill', 'Fell Cleave', 't', 'AoE', 'GAoE'},
-	{'b 1 4', 'weaponskill', 'Armor Break', 't', 'Armor', 'GA-Single3'},	
+    {'b 1 1', 'weaponskill', 'Upheaval', 'stnpc', 'Uphvl', 'Core_Cleave'},
+	{'b 1 2', 'weaponskill', 'Steel Cyclone', 't', 'S.Clne', 'Malicious_Cunning_Salvo'},
+	{'b 1 3', 'weaponskill', 'Fell Cleave', 't', 'AoE', 'Symbol_of_Vengeance'},
+	{'b 1 4', 'weaponskill', 'Armor Break', 't', 'Armor', 'Analyze'},	
 
-    {'f 1 1', 'weaponskill', 'Upheaval', 'stnpc', 'Uphevl', 'GA-Single4'},
-	{'f 1 2', 'weaponskill', 'Steel Cyclone', 't', 'S.Clne', 'GA-Single2'},
-	{'f 1 3', 'weaponskill', 'Fell Cleave', 't', 'AoE', 'GAoE'},
-	{'f 1 4', 'weaponskill', 'Armor Break', 't', 'Armor', 'GA-Single3'},	
+    {'f 1 1', 'weaponskill', 'Upheaval', 'stnpc', 'Uphvl', 'Core_Cleave'},
+	{'f 1 2', 'weaponskill', 'Steel Cyclone', 't', 'S.Clne', 'Malicious_Cunning_Salvo'},
+	{'f 1 3', 'weaponskill', 'Fell Cleave', 't', 'AoE', 'Symbol_of_Vengeance'},
+	{'f 1 4', 'weaponskill', 'Armor Break', 't', 'Armor', 'Analyze'},
 }
 xivhotbar_keybinds_job['Sword'] = {
 	-- Battle
@@ -113,14 +113,14 @@ xivhotbar_keybinds_job['WAR'] = {
 }
 
 xivhotbar_keybinds_job['SAM'] = {
-    {'b 4 10',  'ja', 'Hasso', 'me', 'Has.', 'Hasso'},
+    {'b 4 10',  'ja', 'Hasso', 'me', 'Hasso', 'Dragon_Trigger'},
     {'b 3 7',  'ja', 'Meditate', 'me', 'Med.', 'Meditate'},
     {'b 3 8',  'ja', 'Sekkanoki', 'me', 'Sek.', 'Sekkanoki'},
 	{'b 2 6',  'ja', 'Third Eye', 'me', 'Third.', 'Third'},
 	{'b 1 6',  'ja', 'Seigan', 'me', 'Seign', 'Seigan'},
-	{'b 4 1', 'ja', 'Arcane Circle', 'me', 'Arc.Circ',"Putrid_Mark"},  
+	{'b 4 1', 'ja', 'Arcane Circle', 'me', 'A.Circ',"Putrid_Mark"},  
 	{'b 4 2', 'ja', 'Arcane Crest', 't', 'Crest',"Spectral_Armor"},
-	{'b 4 3', 'ja', 'Warding Circle', 'me', 'Dem.Circ'},
+	{'b 4 3', 'ja', 'Warding Circle', 'me', 'D.Circ',"Winds_of_Disenchantment"},
 }
 xivhotbar_keybinds_job['THF'] = {
 	-- Battle
@@ -170,14 +170,14 @@ xivhotbar_keybinds_job['RUN'] = {
     {'f 4 2',  'ja', 'Lunge', 't', 'Lnge', 'Lunge'},
     {'f 4 1',  'ja', 'swipe', 't', 'Swipe', 'Swipe'},
 	
-	{'f 3 1', 'ja', 'Ignis', 'me', 'Ice', 'ignis-icon'},
-    {'f 3 2', 'ja', 'Gelus', 'me', 'Wind', 'gelus-icon'},
-    {'f 3 3', 'ja', 'Flabra', 'me', 'Earth', 'flabra-icon'},
-    {'f 3 4', 'ja', 'Tellus', 'me', 'Thun.', 'tellus-icon'},
-    {'f 3 5', 'ja', 'Sulpor', 'me', 'Water', 'sulpor-icon'},
-    {'f 3 6', 'ja', 'Unda', 'me', 'Fire', 'unda-icon'},
-    {'f 3 7', 'ja', 'Lux', 'me', 'Dark', 'lux-icon'},
-    {'f 3 8', 'ja', 'Tenebrae', 'me', 'Light', 'tenebrae-icon'},
+	{'f 3 1', 'ja', 'Ignis', 'me', 'Ice', 'Activate..._(red)'},
+    {'f 3 2', 'ja', 'Gelus', 'me', 'Wind', 'Ice_Wall'},
+    {'f 3 3', 'ja', 'Flabra', 'me', 'Earth', 'Activate..._(green)'},
+    {'f 3 4', 'ja', 'Tellus', 'me', 'Thun.', 'Activate..._(yellow)'},
+    {'f 3 5', 'ja', 'Sulpor', 'me', 'Water', 'Activate..._(purple)'},
+    {'f 3 6', 'ja', 'Unda', 'me', 'Fire', 'Activate..._(blue)'},
+    {'f 3 7', 'ja', 'Lux', 'me', 'Dark', 'Center_Your_Mind'},
+    {'f 3 8', 'ja', 'Tenebrae', 'me', 'Light', 'Call_Forth_Magic'},
 	
 	{'f 2 6', 'ma', 'Barfire', 'me', 'Fire'},
 	{'f 2 1', 'ma', 'Barblizzard', 'me', 'Ice'},

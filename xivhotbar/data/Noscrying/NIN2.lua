@@ -54,14 +54,14 @@ xivhotbar_keybinds_job['RUN'] = {
     {'f 4 2',  'ja', 'Lunge', 't', 'Lunge', 'Lunge'},
     {'f 4 1',  'ja', 'swipe', 't', 'Swipe', 'Swipe'},
 	
-	{'f 2 1', 'ja', 'Ignis', 'me', 'Ice', 'ignis-icon'},
-    {'f 2 2', 'ja', 'Gelus', 'me', 'Wind', 'gelus-icon'},
-    {'f 2 3', 'ja', 'Flabra', 'me', 'Earth', 'flabra-icon'},
-    {'f 2 4', 'ja', 'Tellus', 'me', 'Thun.', 'tellus-icon'},
-    {'f 2 5', 'ja', 'Sulpor', 'me', 'Water', 'sulpor-icon'},
-    {'f 2 6', 'ja', 'Unda', 'me', 'Fire', 'unda-icon'},
-    {'f 2 7', 'ja', 'Lux', 'me', 'Dark', 'lux-icon'},
-    {'f 2 8', 'ja', 'Tenebrae', 'me', 'Light', 'tenebrae-icon'},
+	{'f 2 1', 'ja', 'Ignis', 'me', 'Ice', 'Activate..._(red)'},
+    {'f 2 2', 'ja', 'Gelus', 'me', 'Wind', 'Ice_Wall'},
+    {'f 2 3', 'ja', 'Flabra', 'me', 'Earth', 'Activate..._(green)'},
+    {'f 2 4', 'ja', 'Tellus', 'me', 'Thun.', 'Activate..._(yellow)'},
+    {'f 2 5', 'ja', 'Sulpor', 'me', 'Water', 'Activate..._(purple)'},
+    {'f 2 6', 'ja', 'Unda', 'me', 'Fire', 'Activate..._(blue)'},
+    {'f 2 7', 'ja', 'Lux', 'me', 'Dark', 'Center_Your_Mind'},
+    {'f 2 8', 'ja', 'Tenebrae', 'me', 'Light', 'Call_Forth_Magic'},
 	
 	{'f 1 7', 'ja', 'Vallation', 'me', 'Val.', 'Vallation'},
 	{'f 1 8', 'ja', 'Pflug', 'me', 'Pflug', 'Valiance'},
@@ -76,7 +76,7 @@ xivhotbar_keybinds_job['Sword'] = {
 xivhotbar_keybinds_job['Dagger'] = {
 	-- Battle
     {'b 1 1', 'weaponskill', 'Evisceration', 't', 'Evisc.', 'Dagger-Multi'},
-	{'b 1 2', 'weaponskill', 'Exenterator', 't', 'Exent.', 'Dagger-Single3'},
+	{'b 1 2', 'weaponskill', 'Exenterator', 't', 'Exent.', 'Zesho'},
 }
 xivhotbar_keybinds_job['Katana'] = {
 	-- Battle
@@ -91,7 +91,7 @@ xivhotbar_keybinds_job['Katana'] = {
 	{'b 2 4', 'weaponskill', 'Blade: Kamu', 't', 'Kamu', 'Katana-Kamu'},
 }
 xivhotbar_keybinds_job['WAR'] = {
-    {'b 1 5',  'ja', 'Provoke', 'stnpc', 'Prov.'},
+'Provoke', 'stnpc', 'Prov.',"tile150"},
     {'b 3 7',  'ja', 'Berserk', 'me', 'Berserk', 'Berserk'},
     {'b 3 9',  'ja', 'Warcry', 'me', 'War.', 'Warcry'},
 	{'b 3 8', 'ja', 'Aggressor', 'me', 'Aggr.', 'Agressor'},

@@ -4,18 +4,18 @@ xivhotbar_keybinds_job['Base'] = {
 
 	{'b 1 8', 'ja', 'Futae', 'me', 'Futae'},
  -- Hotbar #2
- 	{'b 3 1', 'ma', 'Jubaku: Ichi', 't', 'Paralyze'},
+ 	{'b 3 1', 'ma', 'Jubaku: Ichi', 't', 'Para'},
 	{'b 3 2', 'ma', 'Hojo: Ni', 't', 'Slow'},
 	{'b 3 3', 'ma', 'Kurayami: Ni', 't', 'Blind'},
-	{'b 3 4', 'ma', 'Migawari: Ichi', 'me', 'Last Stand'},
+	{'b 3 4', 'ma', 'Migawari: Ichi', 'me', 'Migawr'},
 	{'b 3 5', 'ma', 'Yurin: Ichi', 't', 'TP-'},
 
-	{'b 2 7', 'ja', 'Innin', 'me', 'DPS', 'Innin'},
-	{'b 2 8', 'ja', 'Yonin', 'me', 'Tank', 'Yonin'},
-	{'b 2 9', 'ma', 'Kakka: Ichi', 'me', 'Store TP'},
+	{'b 4 7', 'ja', 'Innin', 'me', 'DPS', 'Innin'},
+	{'b 4 8', 'ja', 'Yonin', 'me', 'Tank', 'Yonin'},
+	{'b 1 10', 'ma', 'Kakka: Ichi', 'me', 'STP'},
 	
 	{'f 2 1', 'ma', 'Huton: San', 't', 'Wind'},
-	{'f 2 2', 'ma', 'Raiton: San', 't', 'Thunder'},
+	{'f 2 2', 'ma', 'Raiton: San', 't', 'Thndr'},
 	{'f 2 3', 'ma', 'Hyoton: San', 't', 'Ice'},
 	{'f 2 4', 'ma', 'Katon: San', 't', 'Fire'},
 	{'f 2 5', 'ma', 'Doton: San', 't', 'Earth'},
@@ -31,13 +31,13 @@ xivhotbar_keybinds_job['Base'] = {
 	{'b 4 9', 'ma', 'Monomi: Ichi', 'me', 'Sneak'},
 	{'b 4 10', 'ma', 'Tonko: Ni', 'me', 'Invis'},
 -- Fieldbar
- 	{'f 4 7', 'ja', 'Mijin Gakure', 't', 'Mijin Gakure'},
-	{'f 4 8', 'ja', 'Mikage', 'me', 'Kage Bunshin'},
+ 	{'f 3 10', 'ja', 'Mijin Gakure', 't', 'Mijin'},
+	{'f 3 9', 'ja', 'Mikage', 'me', 'Kage'},
 }
 
 xivhotbar_keybinds_job['COR'] = {
-	{'f 1 1', 'ja', 'Fighter\'s Roll', 'me', 'Dbl. Atk', 'Roll5'},
-	{'f 1 2', 'ja', 'Samurai Roll', 'me', 'St. TP', 'Roll2'},
+	{'f 1 1', 'ja', 'Fighter\'s Roll', 'me', 'Dbl.Atk', 'Roll5'},
+	{'f 1 2', 'ja', 'Samurai Roll', 'me', 'STP', 'Roll2'},
 	{'f 1 3', 'ja', 'Chaos Roll', 'me', 'ATK', 'Roll4'},
 	{'f 1 4', 'ja', 'Hunter\'s Roll', 'me', 'Acc', 'Roll4'},
 	{'f 1 5', 'ja', 'Wizard\'s Roll', 'me', 'M.Atk.', 'Roll5'},
@@ -55,32 +55,46 @@ xivhotbar_keybinds_job['RUN'] = {
     {'f 4 2',  'ja', 'Lunge', 't', 'Lunge', 'Lunge'},
     {'f 4 1',  'ja', 'swipe', 't', 'Swipe', 'Swipe'},
 	
-	{'f 3 1', 'ja', 'Ignis', 'me', 'Ice', 'ignis-icon'},
-    {'f 3 2', 'ja', 'Gelus', 'me', 'Wind', 'gelus-icon'},
-    {'f 3 3', 'ja', 'Flabra', 'me', 'Earth', 'flabra-icon'},
-    {'f 3 4', 'ja', 'Tellus', 'me', 'Thun.', 'tellus-icon'},
-    {'f 3 5', 'ja', 'Sulpor', 'me', 'Water', 'sulpor-icon'},
-    {'f 3 6', 'ja', 'Unda', 'me', 'Fire', 'unda-icon'},
-    {'f 3 7', 'ja', 'Lux', 'me', 'Dark', 'lux-icon'},
-    {'f 3 8', 'ja', 'Tenebrae', 'me', 'Light', 'tenebrae-icon'},
+	{'f 3 1', 'ja', 'Ignis', 'me', 'Ice', 'Activate..._(red)'},
+    {'f 3 2', 'ja', 'Gelus', 'me', 'Wind', 'Ice_Wall'},
+    {'f 3 3', 'ja', 'Flabra', 'me', 'Earth', 'Activate..._(green)'},
+    {'f 3 4', 'ja', 'Tellus', 'me', 'Thun.', 'Activate..._(yellow)'},
+    {'f 3 5', 'ja', 'Sulpor', 'me', 'Water', 'Activate..._(purple)'},
+    {'f 3 6', 'ja', 'Unda', 'me', 'Fire', 'Activate..._(blue)'},
+    {'f 3 7', 'ja', 'Lux', 'me', 'Dark', 'Center_Your_Mind'},
+    {'f 3 8', 'ja', 'Tenebrae', 'me', 'Light', 'Call_Forth_Magic'},
 	
-	{'f 1 7', 'ja', 'Vallation', 'me', 'Val.', 'Vallation'},
-	{'f 1 8', 'ja', 'Pflug', 'me', 'Pflug', 'Valiance'},
-	{'f 1 9', 'ja', 'Swordplay', 'me', 'Sword.', 'Swordplay'},
+	{'f 2 6', 'ma', 'Barfire', 'me', 'Fire'},
+	{'f 2 1', 'ma', 'Barblizzard', 'me', 'Ice'},
+	{'f 2 4', 'ma', 'Barthunder', 'me', 'Thun'},
+	{'f 2 2', 'ma', 'Baraero', 'me', 'Wind'},
+	{'f 2 5', 'ma', 'Barwater', 'me', 'Water'},
+	{'f 2 3', 'ma', 'Barstone', 'me', 'Earth'},
+	
+	{'f 4 3', 'ja', 'Vallation', 'me', 'Val.', 'Vallation'},
+	{'f 4 4', 'ja', 'Valiance', 'me', 'Val+', 'Valiance'},
+	{'f 4 6', 'ja', 'Pflug', 'me', 'Pflug', 'Valiance'},
+	{'f 4 5', 'ja', 'Swordplay', 'me', 'Sword.', 'Swordplay'},
+	{'f 1 6', 'ma', 'Flash', 'stnpc', 'Flash'},	
+	{'b 1 6', 'ma', 'Flash', 'stnpc', 'Flash'},	
+	
+	{'f 2 7', 'ma', 'Barsleep', 'me', 'B.Slp'},
+	{'f 2 8', 'ma', 'Barparalyze', 'me', 'B.Para'},
+	{'f 2 9', 'ma', 'Barsilence', 'me', 'Bar.Sil'},
 }
 
 xivhotbar_keybinds_job['WAR'] = {
-    {'b 1 6',  'ja', 'Provoke', 'stnpc', 'Prov.'},
-    {'b 3 7',  'ja', 'Berserk', 'me', 'Berserk', 'Berserk'},
-    {'b 3 9',  'ja', 'Warcry', 'me', 'War.', 'Warcry'},
-	{'b 3 8', 'ja', 'Aggressor', 'me', 'Aggr.', 'Agressor'},
+    {'b 1 6',  'ja', 'Provoke', 'stnpc', 'Prov.',"tile150"},
+    {'b 2 7',  'ja', 'Berserk', 'me', 'Brsrk', 'Berserk'},
+    {'b 2 8',  'ja', 'Warcry', 'me', 'War.', 'Warcry'},
+	{'b 2 9', 'ja', 'Aggressor', 'me', 'Aggr.', 'Agressor'},
 }
 
 
 xivhotbar_keybinds_job['Sword'] = {
 	-- Battle 
-	{'b 1 1', 'weaponskill',  'Savage Blade', 'stnpc', 'Savage', 'Sword-Single3'}, 
-	{'b 1 2', 'weaponskill',  'Sanguine Blade', 'stnpc', 'Drain', 'Sword-Single2'}, 
+	{'b 1 1', 'weaponskill',  'Savage Blade', 'stnpc', 'Savge', 'Sword-Single3'}, 
+	{'b 1 2', 'weaponskill',  'Sanguine Blade', 't', 'Drain', 'Sword-Single2'}, 
 	{'b 1 3', 'weaponskill',  'Circle Blade', 't', 'AoE', 'Sword-AoE'}, 
 	{'b 1 4', 'weaponskill', 'Seraph Blade', 't', 'Seraph.'},	
 	{'b 1 5', 'weaponskill', 'Red Lotus Blade', 't', 'Lotus.'},	
@@ -105,9 +119,9 @@ xivhotbar_keybinds_job['Staff'] = {
 xivhotbar_keybinds_job['Dagger'] = {
 	-- Battle
     {'b 1 1', 'weaponskill', 'Evisceration', 't', 'Evisc.', 'Dagger-Multi'},
-	{'b 1 2', 'weaponskill', 'Exenterator', 't', 'Exent.', 'Dagger-Single3'},
+	{'b 1 2', 'weaponskill', 'Exenterator', 't', 'Exent.', 'Zesho'},
 	{'b 1 3', 'weaponskill', 'Aeolian Edge', 't', 'Aeolian.', 'Dagger-AoE'},
-	{'b 1 4', 'weaponskill', 'Cyclone', 't', 'Cyclone.'},	
+	{'b 1 4', 'weaponskill', 'Cyclone', 't', 'Cyclne.'},	
 	{'b 1 5', 'weaponskill', 'Energy Drain', 't', 'Energy.'},	
 }
 xivhotbar_keybinds_job['Katana'] = {

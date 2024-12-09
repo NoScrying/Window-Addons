@@ -32,7 +32,7 @@ xivhotbar_keybinds_job['WAR'] = {
 	{'b 4 7', 'ja', 'Berserk', 'me', 'Berserk', 'Berserk'},
 	--{'b 4 8', 'ja', 'Warcry', 'me', 'Warcry', 'Warcry'},
 	--{'b 4 9', 'ja', 'Aggressor', 'me', 'Aggr.', 'Agressor'},
-	{'b 1 5',  'ja', 'Provoke', 'stnpc', 'Prov.'},
+	{'b 1 5',  'ja', 'Provoke', 'stnpc', 'Prov.',"tile150"},
 }
 
 return xivhotbar_keybinds_job
