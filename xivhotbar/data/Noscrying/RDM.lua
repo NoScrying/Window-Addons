@@ -1,12 +1,12 @@
 xivhotbar_keybinds_job['Base'] = {
   -- Battle	
   -- Hotbar #1
-	{'f 1 3', 'weaponskill',  'Empyreal Arrow', 't', 'Emp.Ar', 'Apex_Arrow'},
+	{'f 4 3', 'weaponskill',  'Empyreal Arrow', 't', 'Emp.Ar', 'Apex_Arrow'},
 	{'b 1 6', 'ma', 'Inundation', 't', 'SC+',"tile787"},
-	{'f 1 6', 'ma', 'Gravity II', 't', 'Gravt',"tile095"},
+	{'f 1 6', 'ma', 'Gravity II', 't', 'Gravt',"Aphelios_Binding_Eclipse_HD"},
 	{'b 1 7', 'ma', 'Dispel', 'stnpc', 'Dspel','tile877'},
 	{'b 1 8', 'ma', 'Sleep II', 'stnpc', 'Sleep','tile944'},	
-  	{'b 1 9', 'ma', 'Phalanx', 'me', 'Phalnx', "tile835"},
+  	{'b 1 9', 'ma', 'Phalanx II', 'me', 'Phalnx', "tile835"},
 	{'b 1 10', 'ja', 'Convert', 'me', 'Convert',"tile813"},
 	
 	{'f 3 9', 'ja', 'Chainspell', 'me', 'Chain',"Woven_Air"},
@@ -45,8 +45,8 @@ xivhotbar_keybinds_job['Base'] = {
 	{'b 4 5', 'ma', 'Protect V', 'stpc', 'Protct',"tile462"},
 	{'b 4 6', 'ma', 'Shell V', 'stpc', 'Shell',"tile497"},
 	{'b 4 7', 'ma', 'Temper II', 'me', 'Tri-ATK',"tile933"},
-	{'b 4 8', 'ma', 'Enaero', 'me', 'En-Ele',"tile828"},
-	{'b 4 9', 'ja', 'Composure', 'me', 'Comp.',"tile591"},
+	{'b 4 8', 'ma', 'Enaero', 'me', 'En-Ele',"Kayle_Divine_Ascent_HD"},
+	{'b 4 9', 'ja', 'Composure', 'me', 'Comp.',"Kayle_Celestial_Blessing_HD"},
 	{'b 4 10', 'ma', 'Blink', 'me', 'Blink',"tile191"},		
   -- Movement Spells
 
@@ -66,6 +66,23 @@ xivhotbar_keybinds_job['Base'] = {
    {'f 2 6', 'ma', 'Water V', 't', 'Water',"Tidal_Surge"},
 	{'f 4 9', 'ma', 'Sneak', 'stpc', 'Sneak',"tile019"},		
 	{'f 4 10', 'ma', 'Invisible', 'stpc', 'Invis',"tile086"},		
+	
+	{'b 6 1',  'input', '//send Nolyte //exec Valor_Valor_Victory', 'me', 'VVV','Tome_of_Justice'},
+    {'b 6 2',  'input', '//send Nolyte //exec Minne_Mambo_Mambo', 'me', 'MMM','_Advance!_'},
+    {'b 6 3',  'input', '//send Nolyte //exec CuragaIII_DivineWaltz', 'me', 'CuraIII','Searing_Light'},
+    {'b 6 4',  'input', '//send Nolyte //exec CureIV_CuringWaltz', 'me', 'CureIV','tile792'},
+    {'b 6 6',  'input', '//send Nolyte //exec HM_ATK_ACC_HST', 'me', 'HM.VMV','Chapter_2-_Igniting_Burst'},
+    {'b 6 5',  'input', '//send Nolyte //exec Marcato_NiTro.txt', 'me', 'NiTro',"Kayle_Divine_Ascent_HD"},
+    {'b 6 7',  'input', '//send Nolyte /ma "Carnage Elegy" <bt>', 'me', 'Elegy', 'tile075'},
+    {'b 6 8',  'input', '//send Nolyte /ma "Magic Finale" <bt>', 'me', 'Dispel', 'tile877'},
+    {'b 6 9',  'input', '//send Nolyte /ma "Horde Lullaby II" <bt>', 'me', 'Sleepga', 'tile250(2)'},
+
+	{'f 5 1', 'ma', 'Fire', 't', 'Fire',"Fire_Attunement"},	
+	{'f 5 2', 'ma', 'Blizzard', 't', 'Bliz',"Frost_Storm"},
+	{'f 5 3', 'ma', 'Aero', 't', 'Aero',"Gust(2)"},
+	{'f 5 4', 'ma', 'Stone', 't', 'Stone',"Earth_Attunement"},
+	{'f 5 5', 'ma', 'Thunder', 't', 'Thun',"Air_Attunement"},
+	--{'f 5 6', 'ma', 'Water', 't', 'Water',"Water_Attunement"},	
 }
 xivhotbar_keybinds_job['Hand-to-hand'] = {
 	-- Battle
@@ -81,14 +98,17 @@ xivhotbar_keybinds_job['Sword'] = {
 	-- Battle
  
 	{'b 1 1', 'weaponskill',  'Savage Blade', 'stnpc', 'Savge', 'Imperator'}, 
-	{'b 1 2', 'weaponskill',  'Red Lotus Blade', 't', 'RLB', 'RedLotus'},
+	{'b 1 2', 'weaponskill',  'Red Lotus Blade', 't', 'RLB', 'Kayle_Starfire_Spellblade_2_HD'},
 	{'b 1 3', 'weaponskill',  'Seraph Blade', 't', 'Seraph', 'Seraph'},
 	{'b 1 4', 'weaponskill',  'Circle Blade', 't', 'AoE', 'Sword-AoE'},
 	{'b 1 5', 'weaponskill',  'Sanguine Blade', 't', 'Sang.', 'Scarlet'},
 	
-	{'f 1 4', 'weaponskill',  'Chant Du Cygne', 'stnpc', 'CDC', 'Sword-CDC'},
-	{'f 1 1', 'weaponskill',  'Savage Blade', 'stnpc', 'Savge', 'Imperator'}, 	
-	{'f 1 2', 'weaponskill',  'Knights of Round', 't', 'KoR', 'KoR'},
+	{'f 1 5', 'weaponskill',  'Chant Du Cygne', 'stnpc', 'CDC', 'Sword-CDC'},
+	{'f 1 1', 'weaponskill',  'Red Lotus Blade', 't', 'RLB', 'Kayle_Starfire_Spellblade_2_HD'},
+	{'f 1 2', 'weaponskill',  'Seraph Blade', 't', 'Seraph', 'Seraph'},
+	{'f 1 3', 'weaponskill',  'Burning Blade', 't', 'Burn', 'Kayle_Starfire_Spellblade_2_HD'},
+	{'f 1 4', 'weaponskill',  'Shining Blade', 't', 'Shine', 'Seraph'},
+	--{'f 1 2', 'weaponskill',  'Knights of Round', 't', 'KoR', 'KoR'},
 }
 
 
@@ -139,52 +159,32 @@ xivhotbar_keybinds_job['THF'] = {
 	{'b 4 10', 'ja', 'Hide', 'me', 'Hide', 'Hide'},
 }
 
--- xivhotbar_keybinds_job['Light Arts'] = {
-  -- -- Battle
-  -- {'f 4 6',  'ja', 'Addendum: White', 'me', 'Add.W'},
-  -- {'f 4 7',  'ja', 'Rapture', 'me', 'Divine'},
-  -- {'f 4 8',  'ja', 'Accession', 'me', 'AoE'},
-  
- 	-- {'f 4 2', 'ma', 'Paralyna', 'stpc', 'Para'},
-	-- {'f 4 3', 'ma', 'Silena', 'stpc', 'Silena'},
-	-- {'f 4 4', 'ma', 'Stona', 'stpc', 'Stona'},
-	-- {'f 4 5', 'ma', 'Viruna', 'stpc', 'Viruna'},
-	-- {'f 1 4', 'ma', 'Cursna', 'stpc', 'Cursna'},
-	-- {'f 1 5', 'ma', 'Poisona', 'stpc', 'Poisona'},
-	-- {'f 1 6', 'ma', 'Erase', 'stpc', 'Erase'},
--- }
-
--- xivhotbar_keybinds_job["Dark Arts"] = {
-  -- -- Battle
-  -- {'f 4 6',  'ja', 'Addendum: Black', 'me', 'Add.B'},
-  -- {'f 4 7',  'ja', 'Ebullience', 'me', 'E.Seal'},
-  -- {'f 4 8',  'ja', 'Manifestation', 'me', 'AoE'},
-  	-- {'f 4 2', 'ma', 'Luminohelix', 'stnpc', 'Lumino'},
-	-- {'f 4 3', 'ma', 'Noctohelix', 'stnpc', 'Nocto'},
-	-- {'f 4 4', 'ma', 'Pyrohelix', 'stnpc', 'Pyro'},
-	-- {'f 4 5', 'ma', 'Cryohelix', 'stnpc', 'Cryo'},
--- }
 xivhotbar_keybinds_job['SCH'] = {
 
-    {'f 2 7',  'ja', 'Light Arts', 'me', 'Light'},
-    {'f 2 8',  'ja', 'Dark Arts', 'me', 'Dark'},
-
-
+    {'f 2 7',  'ja', 'Light Arts', 'me', 'Light',"Tome_of_Resolve(light)"},
+    {'f 2 8',  'ja', 'Dark Arts', 'me', 'Dark',"Tome_of_Resolve(dark)"},
+	
 	{'f 2 10', 'ma', 'Klimaform', 'me', 'Klima'},
 
- 	{'f 4 1', 'ma', 'Cure III', 'stpc', 'CureIII'},
- 	{'f 3 1', 'ma', 'Cure IV', 'stpc', 'CureIV'},
-	{'f 3 2', 'ma', 'Hailstorm', 'me', 'Hail'},
-	{'f 3 3', 'ma', 'Voidstorm', 'stpc', 'Void'},
-	{'f 3 4', 'ma', 'Firestorm', 'stpc', 'Fire'},
-	{'f 3 5', 'ma', 'Sandstorm', 'stpc', 'Sand'},
-	{'f 3 6', 'ma', 'Windstorm', 'stpc', 'Wind'},
-	{'f 3 7', 'ma', 'Thunderstorm', 'stpc', 'Thunder'},
-	{'f 3 8', 'ma', 'Aurorastorm', 'stpc', 'Aurora'},
+	{'f 3 2', 'ma', 'Hailstorm', 'me', '', 'Ice_Wall'},
+	{'f 3 3', 'ma', 'Voidstorm', 'stpc', '','Call_Forth_Magic'},
+	{'f 3 4', 'ma', 'Firestorm', 'stpc', '','Activate..._(red)'},
+	{'f 3 5', 'ma', 'Sandstorm', 'stpc', '','Activate..._(yellow)'},
+	{'f 3 6', 'ma', 'Windstorm', 'stpc', '','Activate..._(green)'},
+	{'f 3 7', 'ma', 'Thunderstorm', 'stpc', '','Activate..._(purple)'},
+	{'f 3 8', 'ma', 'Aurorastorm', 'stpc', '','Center_Your_Mind'},
 	{'f 4 9', 'ma', 'Reraise', 'me', 'Reraise'},
 
 }
+-- xivhotbar_keybinds_job['Light Arts'] = {
+	-- {'f 4 7',  'ja', 'Addendum: White', 'me', 'Spells',"Tome_of_Courage"},
+	-- {'f 4 8',  'ja', 'Accession', 'me', 'AoE',"Rejuvenating_Respite"},
+	-- {'f 1 5',  'ja', 'Erase', 'stpc', 'Erase',"Unhindered_Delivery"},
+-- }
 
+-- xivhotbar_keybinds_job['Dark Arts'] = {
+ 	-- {'f 4 8',  'ja', 'Manifestation', 'me', 'AoE',"Soul_Spiral"},
+-- }
 
 xivhotbar_keybinds_job['WHM'] = {
 	{'f 3 2', 'ma', 'Paralyna', 'stpc', 'Para',"Elixir_U"},
@@ -209,9 +209,12 @@ xivhotbar_keybinds_job['WHM'] = {
 }
 xivhotbar_keybinds_job['BLM'] = {
 	{'b 4 10', 'ja', 'Elemental Seal', 'me', 'E.Seal'},
-	{'f 4 10', 'ja', 'Elemental Seal', 'me', 'E.Seal'},
-	{'f 4 1', 'ma', 'Warp', 'me', 'Warp'},
- 	{'f 4 2', 'ma', 'Warp II', 'stpc', 'WarpII'},
+	--{'f 4 10', 'ja', 'Elemental Seal', 'me', 'E.Seal'},
+	{'f 4 7', 'ma', 'Warp', 'me', 'Warp'},
+ 	{'f 4 8', 'ma', 'Warp II', 'stpc', 'WarpII'},
+ 	{'f 4 6', 'ma', 'Escape', 'me', 'Esc'},
+ 	{'f 4 4', 'ma', 'Sleepga', 't', 'Slpga', 'tile944'},
+ 	{'f 4 5', 'ma', 'Tractor', 't', 'Tractor'},
  	{'f 4 4', 'ma', 'Sleepga II', 't', 'Slpga'},
 	{'f 2 9', 'ma', 'Ice Spikes', 'me', 'Ice'},
  	{'f 1 5', 'ma', 'Stun', 't', 'Stun',"tile959"},

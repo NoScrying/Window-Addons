@@ -9,8 +9,8 @@ xivhotbar_keybinds_job['Base'] = {
  -- Hotbar #2
 	{'b 4 1', 'ja', 'Vallation', 'me', 'Val.', 'Vallation'},
 	{'b 4 2', 'ja', 'Valiance', 'me', 'Val+', 'Valiance'},
-	{'b 4 3', 'ja', 'Pflug', 'me', 'Pflug', 'Oblation'},
-	{'b 4 4', 'ja', 'Battuta', 'me', 'Parry+', 'Battuta'},
+	{'b 4 3', 'ja', 'Pflug', 'me', 'Pflug', 'Aphelios_Moonlight_Vigil_HDx55'},
+	{'b 4 4', 'ja', 'Battuta', 'me', 'Parry+', 'Kayle_Divine_Ascent_HD'},
 	{'b 4 6', 'ma', 'Refresh', 'stpc', 'Refrsh','tile617'},
 
 	{'b 4 5', 'ma', 'Regen IV', 'stpc', 'Regn',"tile638"},
@@ -59,6 +59,16 @@ xivhotbar_keybinds_job['Base'] = {
 	{'f 4 5', 'ma', 'Aquaveil', 'me', 'Veil',"tile630"},	
    {'f 4 10', 'ja', 'Elemental Sforzo', 'me', 'Sforzo',"tile054(2)"},
     {'f 4 9', 'ja', 'Odyllic Subterfuge', 'stnpc', 'Odyllic',"tile040"},
+	
+	{'b 6 1',  'input', '//send Nolyte //exec Valor_Valor_Victory', 'me', 'VVV','Tome_of_Justice'},
+    {'b 6 2',  'input', '//send Nolyte //exec Minne_Mambo_Mambo', 'me', 'MMM','_Advance!_'},
+    {'b 6 3',  'input', '//send Nolyte //exec CuragaIII_DivineWaltz', 'me', 'CuraIII','Searing_Light'},
+    {'b 6 4',  'input', '//send Nolyte //exec CureIV_CuringWaltz', 'me', 'CureIV','tile792'},
+    {'b 6 6',  'input', '//send Nolyte //exec HM_ATK_ACC_HST', 'me', 'HM.VMV','Chapter_2-_Igniting_Burst'},
+    {'b 6 5',  'input', '//send Nolyte //exec Marcato_NiTro.txt', 'me', 'NiTro',"Kayle_Divine_Ascent_HD"},
+    {'b 6 7',  'input', '//send Nolyte /ma "Carnage Elegy" <bt>', 'me', 'Elegy', 'tile075'},
+    {'b 6 8',  'input', '//send Nolyte /ma "Magic Finale" <bt>', 'me', 'Dispel', 'tile877'},
+    {'b 6 9',  'input', '//send Nolyte /ma "Horde Lullaby II" <bt>', 'me', 'Sleepga', 'tile250(2)'},
 }
 xivhotbar_keybinds_job['BLM'] = {
 	{'f 4 1', 'ma', 'Warp', 'me', 'Warp'},
@@ -137,12 +147,12 @@ xivhotbar_keybinds_job['Great Axe'] = {
     {'b 1 1', 'weaponskill', 'Upheaval', 'stnpc', 'Uphvl', 'Core_Cleave'},
 	{'b 1 2', 'weaponskill', 'Steel Cyclone', 't', 'S.Clne', 'Malicious_Cunning_Salvo'},
 	{'b 1 3', 'weaponskill', 'Fell Cleave', 't', 'AoE', 'Symbol_of_Vengeance'},
-	{'b 1 4', 'weaponskill', 'Armor Break', 't', 'Armor', 'Analyze'},	
+	{'b 1 4', 'weaponskill', 'Armor Break', 't', 'Armor', 'Kayle_Radiant_Blast_2_HD'},	
 
     {'f 1 1', 'weaponskill', 'Upheaval', 'stnpc', 'Uphvl', 'Core_Cleave'},
 	{'f 1 2', 'weaponskill', 'Steel Cyclone', 't', 'S.Clne', 'Malicious_Cunning_Salvo'},
 	{'f 1 3', 'weaponskill', 'Fell Cleave', 't', 'AoE', 'Symbol_of_Vengeance'},
-	{'f 1 4', 'weaponskill', 'Armor Break', 't', 'Armor', 'Analyze'},
+	{'f 1 4', 'weaponskill', 'Armor Break', 't', 'Armor', 'Kayle_Radiant_Blast_2_HD'},
 }
 xivhotbar_keybinds_job['Sword'] = {
 	-- Battle
@@ -179,5 +189,13 @@ xivhotbar_keybinds_job['SCH'] = {
 	{'f 3 8', 'ma', 'Aurorastorm', 'stpc', 'Aurora'},
 	{'f 4 9', 'ma', 'Reraise', 'me', 'Reraise'},
 
+}
+xivhotbar_keybinds_job['NIN'] = {
+	-- Battle
+	{'b 1 7', 'ma', 'Utsusemi: Ichi', 'me', 'Shadow1', 'UtsuIchi'},
+	{'b 1 8', 'ma', 'Utsusemi: Ni', 'me', 'Shadow2', 'UtsuNi'},
+	{'f 4 9', 'ma', 'Monomi: Ichi', 'me', 'Sneak'},
+	{'f 4 10', 'ma', 'Tonko: Ni', 'me', 'Invis'},
+	
 }
 return xivhotbar_keybinds_job

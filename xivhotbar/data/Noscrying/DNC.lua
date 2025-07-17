@@ -22,21 +22,30 @@ xivhotbar_keybinds_job['Base'] = {
 	{'b 3 6', 'ja', 'Healing Waltz', 'stpc', 'Esuna', 'HealingWaltz'},
 	{'b 3 7', 'ja', 'Reverse Flourish', 'me', 'Rvrse', 'Reverse'},
 	{'b 3 8', 'ja', 'Building Flourish', 'me', 'WS+', 'BuildingFlourish'},
-	
+	{'b 3 9', 'ja', 'Ternary Flourish', 'me', 'TA+1', 'Plasma_Burst'},	
 	{'f 3 9', 'ja', 'Trance', 'me', 'TP+',"tile972"},
 	{'f 3 10', 'ja', 'Grand Pas', 'me', 'Flourish+',"tile711"},
  -- Hotbar #4
     {'b 2 1', 'ja', 'Drain Samba III', 'me', 'Drain', 'Death_Curse'},
     {'b 2 2', 'ja', 'Haste Samba', 'me', 'Haste', 'HasteSamba'},
-	{'b 4 1', 'ja', 'Box Step', 't', 'Box', 'Box'},
-	{'b 4 2', 'ja', 'Feather Step', 't', 'Crit+', 'Feather'},
-	{'b 4 3', 'ja', 'Stutter Step', 't', 'MEVA-', "Stutter"},
-	{'b 4 4', 'ja', 'Quickstep', 't', 'EVA-', "QuickStep"},
+	{'b 4 1', 'ja', 'Box Step', 't', 'Box', 'Qiyana_Terrashape_Rock_HD'},
+	{'b 4 2', 'ja', 'Feather Step', 't', 'Crit+', 'Qiyana_Terrashape_River_HD'},
+	{'b 4 3', 'ja', 'Stutter Step', 't', 'MEVA-', "Qiyana_Terrashape_Brush_HD"},
+	{'b 4 4', 'ja', 'Quickstep', 't', 'EVA-', "Qiyana_Terrashape_HD"},
 	{'b 4 7', 'ja', 'Saber Dance', 'me', 'DA On', "Pyro_Vortex"},
 	{'b 4 8', 'ja', 'Fan Dance', 'me', 'DEF', "Symbol_of_Swiftness"},
 	{'b 4 10', 'ja', 'Contradance', 'me', 'Heal+', "CuringWaltz"},
 	
  -- Hotbar #6
+	{'b 6 1',  'input', '//send Nolyte //exec Valor_Valor_Victory', 'me', 'VVV','Tome_of_Justice'},
+    {'b 6 2',  'input', '//send Nolyte //exec Minne_Mambo_Mambo', 'me', 'MMM','_Advance!_'},
+    {'b 6 3',  'input', '//send Nolyte //exec CuragaIII_DivineWaltz', 'me', 'CuraIII','Searing_Light'},
+    {'b 6 4',  'input', '//send Nolyte //exec CureIV_CuringWaltz', 'me', 'CureIV','tile792'},
+    {'b 6 6',  'input', '//send Nolyte //exec HM_ATK_ACC_HST', 'me', 'HM.VMV','Chapter_2-_Igniting_Burst'},
+    {'b 6 5',  'input', '//send Nolyte //exec Marcato_NiTro.txt', 'me', 'NiTro',"Kayle_Divine_Ascent_HD"},
+    {'b 6 7',  'input', '//send Nolyte /ma "Carnage Elegy" <bt>', 'me', 'Elegy', 'tile075'},
+    {'b 6 8',  'input', '//send Nolyte /ma "Magic Finale" <bt>', 'me', 'Dispel', 'tile877'},
+    {'b 6 9',  'input', '//send Nolyte /ma "Horde Lullaby II" <bt>', 'me', 'Sleepga', 'tile250(2)'},
 }
 xivhotbar_keybinds_job['Dagger'] = {
 	-- Battle
@@ -70,8 +79,10 @@ xivhotbar_keybinds_job['MNK'] = {
 }
 xivhotbar_keybinds_job['NIN'] = {
 	-- Battle
-	{'b 4 4', 'ma', 'Utsusemi: Ichi', 'me', 'Utsu', 'UtsuIchi'},
-	{'b 4 5', 'ma', 'Utsusemi: Ni', 'me', 'Utsu', 'UtsuNi'},
+	{'f 4 1', 'ma', 'Utsusemi: Ichi', 'me', 'Utsu', 'UtsuIchi'},
+	{'f 4 2', 'ma', 'Utsusemi: Ni', 'me', 'Utsu', 'UtsuNi'},
+	{'f 4 9', 'ma', 'Monomi: Ichi', 'me', 'Sneak'},
+	{'f 4 10', 'ma', 'Tonko: Ni', 'me', 'Invis'},
 }
 xivhotbar_keybinds_job['THF'] = {
     {'b 4 8', 'ja', 'Flee', 'me', 'Flee', 'Flee'},
@@ -83,7 +94,7 @@ xivhotbar_keybinds_job['DRG'] = {
 	{'b 2 7',  'ja', 'Jump', 't', 'Jump', 'Jump'},
 	{'b 2 8',  'ja', 'High Jump', 't', 'H. Jump', 'High Jump'},
 	{'b 2 9',  'ja', 'Super Jump', 't', 'Enmity-', 'Super Jump'},
-	{'b 4 5',  'ja', 'Ancient Circle', 'me', 'DRG.Circ'},
+	{'b 4 5',  'ja', 'Ancient Circle', 'me', 'DRG.Circ',"Rise_of_the_Dragon"},
 }
 xivhotbar_keybinds_job['SAM'] = {
 	{'b 4 4', 'ja', 'Warding Circle', 'me', 'Circle'},
@@ -105,29 +116,41 @@ xivhotbar_keybinds_job['RDM'] = {
 	{'f 1 9', 'ma', 'Phalanx', 'me', 'Phalnx', "Phalanx"},
 	{'f 1 8', 'ma', 'Dispel', 't', 'Dspel','tile877'},
 	
-	{'f 4 1', 'ma', 'Stone II', 't', 'Stone',"tile031"},
-	{'f 4 2', 'ma', 'Water II', 't', 'Water',"tile085"},
-	{'f 4 3', 'ma', 'Aero II', 't', 'Aero',"tile056"},
-	{'f 4 4', 'ma', 'Fire II', 't', 'Fire',"tile054"},
-	{'f 4 5', 'ma', 'Blizzard II', 't', 'Bliz.',"tile053"},
-	{'f 4 6', 'ma', 'Thunder', 't', 'Thund.',"tile055"},
+	{'f 1 1', 'ma', 'Stone II', 't', 'Stone',"tile031"},
+	{'f 1 2', 'ma', 'Water II', 't', 'Water',"tile085"},
+	{'f 1 3', 'ma', 'Aero II', 't', 'Aero',"tile056"},
+	{'f 1 4', 'ma', 'Fire II', 't', 'Fire',"tile054"},
+	{'f 1 5', 'ma', 'Blizzard II', 't', 'Bliz.',"tile053"},
+	{'f 1 6', 'ma', 'Thunder II', 't', 'Thund.',"tile055"},
 	
 	{'f 1 10', 'ja', 'Convert', 'me', 'Convert',"tile813"},
-	{'f 2 3', 'ma', 'Refresh', 'stpc', 'Refresh',"tile617"},
-	{'f 2 4', 'ma', 'Haste', 'stpc', 'Haste',"_Advance!_"},
-	{'f 2 1', 'ma', 'Diaga', 't', 'Diaga'},
-	{'f 2 2', 'ma', 'Dia', 't', 'Dia',"tile455"},
-	{'f 2 7', 'ma', 'Stoneskin', 'me', 'StnSkn',"tile639"},
-	{'f 2 8', 'ma', 'Enthunder', 'me',"En-Ele","tile828"},
-	{'f 2 9', 'ma', 'Ice Spikes', 'me', 'I.Spks',"tile385"},
 
-	{'f 3 1', 'ma', 'Protect III', 'me', 'Prtct.',"tile462"},
-	{'f 3 2', 'ma', 'Shell II', 'me', 'Shell',"tile497"},
-	{'f 3 3', 'ma', 'Aquaveil', 'me', 'Aqua',"tile630"},	
-	{'f 3 7', 'ma', 'Barparalyze', 'me', 'B.Par',"tile821"},		
+	{'f 2 1', 'ma', 'Dia II', 'stnpc', 'Dia',"tile455"},
+	{'f 2 2', 'ma', 'Paralyze', 'stnpc', 'Para',"tile827"},
+	{'f 2 3', 'ma', 'Slow', 'stnpc', 'Slow',"tile075"},
+	{'f 2 4', 'ma', 'Distract', 'stnpc', 'Eva-',"tile007"},
+	{'f 2 5', 'ma', 'Frazzle', 'stnpc', 'M.Eva-3',"tile700"},
+	{'f 2 6', 'ma', 'Gravity', 'stnpc', 'Grav',"tile299"},
+  	--{'b 3 1', 'ma', 'Cure IV', 'stpc', 'CureIV',"tile792"},
+	{'f 3 2', 'ma', 'Regen II', 'stpc', 'Rgen',"tile638"},
+  	{'f 3 3', 'ma', 'Refresh', 'stpc', 'Refrsh',"tile617"},
+	{'f 3 5', 'ma', 'Stoneskin', 'me', 'StnSkn',"tile639"},
+	{'f 3 6', 'ma', 'Aquaveil', 'me', 'Veil',"tile630"},	
+	{'f 3 7', 'ma', 'Barparalyze', 'me', 'B.Para',"tile821"},	
 	{'f 3 8', 'ma', 'Barblizzard', 'me', 'B.Ice',"tile822"},	
-	{'f 4 9', 'ma', 'Sneak', 'stpc', 'Sneak',"tile019"},		
-	{'f 4 10', 'ma', 'Invisible', 'stpc', 'Invis',"tile086"},	
+	{'f 3 9', 'ma', 'Silence', 'stnpc', 'Slnce',"tile277"},
+
+  -- Hotbar #4
+ 	{'f 4 1', 'ma', 'Cure III', 'stpc', 'CureIII',"tile078"},
+	{'f 4 2', 'ma', 'Raise II', 'stpc', 'Raise',"tile844"},
+	{'f 4 3', 'ma', 'Haste', 'stpc', 'Haste',"_Advance!_"},
+	--{'f 4 4', 'ma', 'Flurry II', 'stpc', 'Flurry',"tile004"},
+	{'f 4 5', 'ma', 'Protect III', 'stpc', 'Protct',"tile462"},
+	{'f 4 6', 'ma', 'Shell III', 'stpc', 'Shell',"tile497"},
+	---{'f 4 7', 'ma', 'Temper II', 'me', 'Tri-ATK',"tile933"},
+	{'f 4 8', 'ma', 'Enthunder', 'me', 'En-Ele',"Kayle_Divine_Ascent_HD"},
+	--{'f 4 9', 'ja', 'Composure', 'me', 'Comp.',"Kayle_Celestial_Blessing_HD"},
+	{'f 4 10', 'ma', 'Blink', 'me', 'Blink',"tile191"},	
 }
 xivhotbar_keybinds_job['BLM'] = {
 	{'f 4 10', 'ja', 'Elemental Seal', 'me', 'E.Seal'},
@@ -179,4 +202,6 @@ xivhotbar_keybinds_job['WHM'] = {
 	{'f 3 2', 'ma', 'Recall-Jugner', 'me', 'Jugn'},	
 	{'f 3 3', 'ma', 'Recall-Meriph', 'me', 'Meriph'},	
 }
+
+
 return xivhotbar_keybinds_job

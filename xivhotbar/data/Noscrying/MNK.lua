@@ -5,7 +5,7 @@ xivhotbar_keybinds_job['Base'] = {
 {'b 1 7',  'ja', 'Formless Strikes', 'me', 'Magic Atk.'},
 {'b 1 6',  'ja', 'Mantra', 'me', 'Mntr',"tile626"},
 	{'b 1 7',  'ja', 'Boost', 'me', 'Boost',"tile186"},
-	{'b 1 8',  'ja', 'Formless Strikes', 'me', 'Frmles',"Chapter_2-_Radiant_Recovery"},
+	{'b 1 8',  'ja', 'Formless Strikes', 'me', 'Frmles',"Iceborn_Gauntlet_item_HD"},
 	{'b 1 9',  'ja', 'Footwork', 'me', 'Ftwrk',"tile679"},
 	{'b 1 10',  'ja', 'Perfect Counter', 'me', 'Countr',"tile651"},
 	
@@ -13,8 +13,8 @@ xivhotbar_keybinds_job['Base'] = {
 
 	{'b 2 5',  'ja', 'Chi Blast', 'stnpc', 'Chi',"Peacekeeper"},
 	
-		{'f 4 10',  'ja', 'Hundred Fists', 'me', '100Fs'},
-		{'f 4 9',  'ja', 'Inner Strength', 'me', 'HP++'},
+		{'f 4 10',  'ja', 'Hundred Fists', 'me', '100Fs', 'Empower'},
+		{'f 4 9',  'ja', 'Inner Strength', 'me', 'HP++', 'Chapter_4-_Stalwart_Stand'},
  -- Hotbar #3
 
  -- Hotbar #4
@@ -23,6 +23,16 @@ xivhotbar_keybinds_job['Base'] = {
 	{'b 4 8',  'ja', 'Focus', 'me', 'Focus',"tile637"},
 	{'b 4 10',  'ja', 'Chakra', 'me', 'Chakra',"tile025"},
 	{'b 4 9',  'ja', 'Impetus', 'me', 'Impts',"tile547"},
+	
+	{'b 6 1',  'input', '//send Nolyte //exec Valor_Valor_Victory', 'me', 'VVV','Tome_of_Justice'},
+    {'b 6 2',  'input', '//send Nolyte //exec Minne_Mambo_Mambo', 'me', 'MMM','_Advance!_'},
+    {'b 6 3',  'input', '//send Nolyte //exec CuragaIII_DivineWaltz', 'me', 'CuraIII','Searing_Light'},
+    {'b 6 4',  'input', '//send Nolyte //exec CureIV_CuringWaltz', 'me', 'CureIV','tile792'},
+    {'b 6 6',  'input', '//send Nolyte //exec HM_ATK_ACC_HST', 'me', 'HM.VMV','Chapter_2-_Igniting_Burst'},
+    {'b 6 5',  'input', '//send Nolyte //exec Marcato_NiTro.txt', 'me', 'NiTro',"Kayle_Divine_Ascent_HD"},
+    {'b 6 7',  'input', '//send Nolyte /ma "Carnage Elegy" <bt>', 'me', 'Elegy', 'tile075'},
+    {'b 6 8',  'input', '//send Nolyte /ma "Magic Finale" <bt>', 'me', 'Dispel', 'tile877'},
+    {'b 6 9',  'input', '//send Nolyte /ma "Horde Lullaby II" <bt>', 'me', 'Sleepga', 'tile250(2)'},
 }
 
 xivhotbar_keybinds_job['WAR'] = {
@@ -99,7 +109,7 @@ xivhotbar_keybinds_job['DRK'] = {
 }
 xivhotbar_keybinds_job['Hand-to-hand'] = {
 {'b 1 1', 'weaponskill', 'Victory Smite', 'stnpc', 'Smite', 'H2H-Single'},
-{'b 1 2', 'weaponskill', 'Tornado Kick', 't', 'T.Kick', 'H2H-Kick'},
+{'b 1 2', 'weaponskill', 'Tornado Kick', 't', 'T.Kick', "Lee_Sin_Dragon's_Rage_HD"},
 {'b 1 3', 'weaponskill', 'Shijin Spiral', 't', 'Shijin', 'H2H-Single4'},
 {'b 1 5', 'weaponskill', 'Asuran Fists', 't', 'Asura', 'H2H-Multi2'},
 {'b 1 4', 'weaponskill', 'Raging Fists', 't', 'Rage', 'H2H-Multi'},
@@ -112,7 +122,7 @@ xivhotbar_keybinds_job['Hand-to-hand'] = {
 {'f 1 1', 'weaponskill', 'Shoulder Tackle', 'stnpc', 'Tackle', 'H2H-Single3'},
 }
 xivhotbar_keybinds_job['Staff'] = {
-{'b 1 2', 'weaponskill', 'Shell Crusher', 't', 'Crusher', 'H2H-Single'},
+{'b 1 2', 'weaponskill', 'Shell Crusher', 't', 'Crusher', 'Kayle_Radiant_Blast_2_HD'},
 {'b 1 1', 'weaponskill', 'Cataclysm', 't', 'Cata', 'H2H-Single2'},
 }
 
@@ -144,7 +154,7 @@ xivhotbar_keybinds_job['RDM'] = {
 }
 xivhotbar_keybinds_job['NIN'] = {
 	-- Battle
-	{'b 4 1', 'ma', 'Utsusemi: Ichi', 'me', 'Utsu', 'UtsuIchi'},
-	{'b 4 2', 'ma', 'Utsusemi: Ni', 'me', 'Utsu', 'UtsuNi'},
+	{'f 4 1', 'ma', 'Utsusemi: Ichi', 'me', 'Utsu', 'UtsuIchi'},
+	{'f 4 2', 'ma', 'Utsusemi: Ni', 'me', 'Utsu', 'UtsuNi'},
 }
 return xivhotbar_keybinds_job

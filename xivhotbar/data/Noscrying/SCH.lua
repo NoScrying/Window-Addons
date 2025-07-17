@@ -11,12 +11,10 @@ xivhotbar_keybinds_job['Base'] = {
  	{'b 2 1', 'ma', 'Dia II', 'stnpc', 'Dia',"tile455"},
 	{'b 2 2', 'ma', 'Paralyze', 'stnpc', 'Para',"tile827"},
 	{'b 2 3', 'ma', 'Slow', 'stnpc', 'Slow',"tile075"},
-	{'b 2 4', 'ma', 'Paralyna', 'stpc', 'Paral',"Elixir_U"},
-	{'b 2 5', 'ma', 'Stona', 'stpc', 'Stona',"Super_Elixir"},
-	{'b 2 6', 'ma', 'Cursna', 'stpc', 'Cursna',"Completely_Legal_Performance-Enhancing_Serum"},
 
 
-    {'b 2 7',  'ja', 'Light Arts', 'me', 'Light',"Tome_of_Courage"},
+
+    {'b 2 7',  'ja', 'Light Arts', 'me', 'Light',"Tome_of_Resolve(light)"},
 	{'b 2 8',  'ja', 'Addendum: White', 'me', 'Spells',"tile495"},
 
     {'b 2 10',  'ma', 'Klimaform', 'me', 'Klima',"Primordial_Stance"},	
@@ -29,18 +27,18 @@ xivhotbar_keybinds_job['Base'] = {
 	{'b 3 6', 'ma', 'Aquaveil', 'me', 'Veil',"tile630"},	
   	{'b 3 3', 'ma', 'Animus Augeo', 'stpc', 'Enm.+',"Mantra_of_Pain"},
   	{'b 3 4', 'ma', 'Animus Minuo', 'stpc', 'Enm.-',"Mantra_of_Recovery"},
-	{'b 4 8', 'ma', 'Reraise III', 'me', 'Reraise',"tile800"},
+
 	{'b 3 9', 'ma', 'Silence', 'stnpc', 'Silnce',"tile277"},
 	{'b 3 10',  'ja', 'Enlightenment', 'me', 'Grey',"Clarified_Conclusion"},
   -- Hotbar #4
 
 
-	{'b 4 2', 'ma', 'Raise III', 'stpc', 'Raise',"tile844"},
+
   	{'b 4 3', 'ma', 'Regen V', 'stpc', 'Rgen V',"tile638"},
-	{'b 4 4', 'ma', 'Erase', 'stpc', 'Erase',"Unhindered_Delivery"},
+
 	{'b 4 5', 'ma', 'Protect V', 'stpc', 'Prot.',"tile462"},
 	{'b 4 6', 'ma', 'Shell V', 'stpc', 'Shell',"tile497"},
-	{'b 4 7', 'ma', 'Haste', 'stpc', 'Haste',"_Advance!_"},
+	{'b 4 8', 'ma', 'Blink', 'me', 'Blink',"Occultation"},
 
 	{'b 4 9', 'ma', 'Sneak', 'stpc', 'Sneak',"tile019"},
 	{'b 4 10', 'ma', 'Invisible', 'stpc', 'Invis',"tile086"},	
@@ -68,9 +66,9 @@ xivhotbar_keybinds_job['Base'] = {
 	{'f 2 2', 'input', '//exec SCH_Fragmentation.txt', 'me', 'Frag.',"Fragmentation"},
 	{'f 2 3', 'input', '//exec SCH_Gravitation.txt', 'me', 'Grav.',"Gravitation"},
 	{'f 2 4', 'input', '//exec SCH_Distortion.txt', 'me', 'Dist.',"Distortion"},
-	{'f 2 5', 'input', '//exec SCH_Transfixion.txt', 'me', 'Light.',"Umbral"},
-	{'f 2 6', 'input', '//exec SCH_Compression.txt', 'me', 'Dark.',"Darkness"},
-    {'f 2 7',  'ja', 'Dark Arts', 'me', 'Dark',"Tome_of_Courage"},
+	{'f 2 5', 'input', '//exec SCH_Transfixion.txt', 'me', 'Light.',"Dawncore_item_HD"},
+	{'f 2 6', 'input', '//exec SCH_Compression.txt', 'me', 'Dark.',"Aurelion_Sol_Singularity_HD"},
+    {'f 2 7',  'ja', 'Dark Arts', 'me', 'Dark',"Tome_of_Resolve(dark)"},
 	{'f 2 8',  'ja', 'Addendum: Black', 'me', 'Spells',"tile495"},
 	{'f 2 9',  'ma', 'Bind', 'stnpc', 'Bind',"tile959"},
     {'f 2 10',  'ma', 'Klimaform', 'me', 'Klima',"Primordial_Stance"},	
@@ -84,6 +82,7 @@ xivhotbar_keybinds_job['Base'] = {
 	{'f 3 6', 'ma', 'Noctohelix II', 't', 'Nocto',"Oppressive_Collapse"},
 	{'f 3 7', 'ma', 'Luminohelix II', 't', 'Lumino',"Procession_of_Blades"},	
 	    {'f 3 10',  'ja', 'Enlightenment', 'me', 'Grey',"Clarified_Conclusion"},
+	{'f 3 9',  'ma', 'Kaustra', 'stpc', 'Kaustra',"The_Prestige"},
 --Bar #4
 
 
@@ -104,7 +103,15 @@ xivhotbar_keybinds_job['Light Arts'] = {
   {'b 1 7',  'ja', 'Accession', 'me', 'AoE',"Rejuvenating_Respite"},
   {'b 2 9',  'ja', 'Rapture', 'me', 'Heal+',"Reconstruction_Field"},
   {'b 1 10',  'ja', 'Sublimation', 'me', 'Sublim.',"Mantra_of_Potence"},
+  
+	{'b 4 8', 'ma', 'Reraise III', 'me', 'Reraise',"tile800"},
+	{'b 4 2', 'ma', 'Raise III', 'stpc', 'Raise',"tile844"},
+	{'b 4 4', 'ma', 'Erase', 'stpc', 'Erase',"Unhindered_Delivery"},
 
+	{'b 2 4', 'ma', 'Paralyna', 'stpc', 'Paral',"Elixir_U"},
+	{'b 2 5', 'ma', 'Stona', 'stpc', 'Stona',"Super_Elixir"},
+	{'b 2 6', 'ma', 'Cursna', 'stpc', 'Cursna',"Completely_Legal_Performance-Enhancing_Serum"},
+	{'b 1 3', 'ma', 'Viruna', 'stpc', 'Virna',"Elixir_S"},	
 }
 
 xivhotbar_keybinds_job['Dark Arts'] = {
@@ -132,19 +139,26 @@ xivhotbar_keybinds_job['Club'] = {
 	{'b 1 3', 'weaponskill',  'Moonlight', 'me', 'MP', 'Club-MP'}, 
 }
 xivhotbar_keybinds_job['Staff'] = {
- 	{'b 1 1', 'weaponskill',  'Retribution', 't', 'Retri.', 'Halo'}, 
-	{'b 1 2', 'weaponskill',  'Shell Crusher', 't', 'Crush', 'Razer'},
-	{'b 1 3', 'weaponskill',  'Full Swing', 't', 'Swing', 'Nova'}, 
+ 	--{'b 1 1', 'weaponskill',  'Retribution', 't', 'Retri.', 'Bullet_Catcher'}, 
+	{'b 1 1', 'weaponskill',  'Shell Crusher', 't', 'Crush', 'Rampart_Splitter'},
+	{'b 1 2', 'weaponskill',  'Myrkr', 'me', 'Myrkr', 'Weave_Self'}, 
 }
 
 xivhotbar_keybinds_job['WHM'] = {
-	{'b 4 1', 'ma', 'Curaga II', 'stpc', 'Curaga',"Searing_Light"},	
-	--{'b 4 1', 'ma', 'Curaga III', 'stpc', 'Curaga'},	
+	--{'b 4 1', 'ma', 'Curaga II', 'stpc', 'Curaga',"Searing_Light"},	
+	{'b 4 1', 'ma', 'Curaga III', 'stpc', 'Curaga',"Searing_Light"},	
   	{'b 1 9', 'ja', 'Divine Seal', 'me', 'D.Seal',"Symbol_of_Faith"},
 	{'b 3 7', 'ma', 'Barparalyzra', 'me', 'B.Para',"tile821"},		
 	{'b 3 8', 'ma', 'Barblizzara', 'me', 'B.Ice',"tile822"},
+	{'b 4 7', 'ma', 'Haste', 'stpc', 'Haste',"_Advance!_"},
 }
-
+xivhotbar_keybinds_job['NIN'] = {
+	-- Battle
+	{'b 4 1', 'ma', 'Utsusemi: Ichi', 'me', 'Utsu', 'UtsuIchi'},
+	{'b 4 2', 'ma', 'Utsusemi: Ni', 'me', 'Utsu', 'UtsuNi'},
+	{'f 4 9', 'ma', 'Monomi: Ichi', 'me', 'Sneak'},
+	{'f 4 10', 'ma', 'Tonko: Ichi', 'me', 'Invis'},
+}
 xivhotbar_keybinds_job['RDM'] = {
     {'b 1 6',  'ma', 'Refresh', 'stpc', 'Rfresh',"tile617"},
   	{'b 1 9', 'ma', 'Phalanx', 'me', 'Phalanx',"tile067"},
@@ -152,5 +166,6 @@ xivhotbar_keybinds_job['RDM'] = {
 	{'b 3 8', 'ma', 'Barblizzard', 'me', 'B.Ice',"tile822"},		
 	{'f 3 9', 'ma', 'Gravity', 'stnpc', 'Grav.',"tile095"},
     {'b 4 1',  'ma', 'Enwater', 'me', 'EnWater',"tile828"},	
+	{'b 4 7', 'ma', 'Haste', 'stpc', 'Haste',"_Advance!_"},
 }
 return xivhotbar_keybinds_job

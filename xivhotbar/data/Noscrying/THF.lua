@@ -19,6 +19,17 @@ xivhotbar_keybinds_job['Base'] = {
 	 {'f 2 2', 'ja',  'Larceny', 't', 'STEAL'},
   -- Hotbar #3
     {'b 3 8', 'ct', 'ra', 't', 'RA', 'Abyssal_Fire'},
+	{'b 1 6',  'input', '//send Nolyte //exec HM_Victory', 'me', 'Haste','_Advance!_'},
+	
+	{'b 6 1',  'input', '//send Nolyte //exec Valor_Valor_Victory', 'me', 'VVV','Tome_of_Justice'},
+    {'b 6 2',  'input', '//send Nolyte //exec Minne_Mambo_Mambo', 'me', 'MMM','_Advance!_'},
+    {'b 6 3',  'input', '//send Nolyte //exec CuragaIII_DivineWaltz', 'me', 'CuraIII','Searing_Light'},
+    {'b 6 4',  'input', '//send Nolyte //exec CureIV_CuringWaltz', 'me', 'CureIV','tile792'},
+    {'b 6 6',  'input', '//send Nolyte //exec HM_ATK_ACC_HST', 'me', 'HM.VMV','Chapter_2-_Igniting_Burst'},
+    {'b 6 5',  'input', '//send Nolyte //exec Marcato_NiTro.txt', 'me', 'NiTro',"Kayle_Divine_Ascent_HD"},
+    {'b 6 7',  'input', '//send Nolyte /ma "Carnage Elegy" <bt>', 'me', 'Elegy', 'tile075'},
+    {'b 6 8',  'input', '//send Nolyte /ma "Magic Finale" <bt>', 'me', 'Dispel', 'tile877'},
+    {'b 6 9',  'input', '//send Nolyte /ma "Horde Lullaby II" <bt>', 'me', 'Sleepga', 'tile250(2)'},
 }
 xivhotbar_keybinds_job['Dagger'] = {
 	-- Battle
@@ -152,9 +163,9 @@ xivhotbar_keybinds_job['RDM'] = {
 
 	{'f 3 1', 'ma', 'Protect III', 'me', 'Protect'},
 	{'f 3 2', 'ma', 'Shell II', 'me', 'Shell'},	
-	{'f 4 9', 'ma', 'Sneak', 'me', 'Sneak'},
+	{'f 4 9', 'ma', 'Sneak', 'stpc', 'Sneak'},
 	{'f 2 5', 'ma', 'Ice Spikes', 'me', 'Spikes'},
-	{'f 4 10', 'ma', 'Invisible', 'me', 'Invis'},
+	{'f 4 10', 'ma', 'Invisible', 'stpc', 'Invis'},
 }
 xivhotbar_keybinds_job['BLM'] = {
 	{'f 1 9', 'ma', 'Phalanx', 'me', 'Phalanx', 'Stoneskin'},

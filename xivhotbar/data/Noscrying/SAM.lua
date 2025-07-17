@@ -11,7 +11,7 @@ xivhotbar_keybinds_job['Base'] = {
 
 	
 	{'f 4 10',  'ja', 'Meikyo Shisui', 'me', 'Meikyo', 'Meikyo_Shisui'},
-	{'f 4 9',  'ja', 'Yaegasumi', 'me', 'Yaega'},
+	{'f 4 9',  'ja', 'Yaegasumi', 'me', 'Yaega', 'Legend-_Haste_rune_HD'},
  -- Hotbar #3
 	{'b 3 1',  'ja', 'Warding Circle', 'me', 'D.Circ',"Winds_of_Disenchantment"},
 	{'b 3 2',  'ja', 'Hamanoha', 't', 'Demon-',"Break_Enchantments"},
@@ -20,7 +20,16 @@ xivhotbar_keybinds_job['Base'] = {
  -- Hotbar #4
     {'b 4 10',  'ja', 'Hasso', 'me', 'Hasso', 'Dragon_Trigger'},
     {'b 1 6',  'ja', 'Seigan', 'me', 'Seigan', 'Seigan'},
-
+	
+	{'b 6 1',  'input', '//send Nolyte //exec Valor_Valor_Victory', 'me', 'VVV','Tome_of_Justice'},
+    {'b 6 2',  'input', '//send Nolyte //exec Minne_Mambo_Mambo', 'me', 'MMM','_Advance!_'},
+    {'b 6 3',  'input', '//send Nolyte //exec CuragaIII_DivineWaltz', 'me', 'CuraIII','Searing_Light'},
+    {'b 6 4',  'input', '//send Nolyte //exec CureIV_CuringWaltz', 'me', 'CureIV','tile792'},
+    {'b 6 6',  'input', '//send Nolyte //exec HM_ATK_ACC_HST', 'me', 'HM.VMV','Chapter_2-_Igniting_Burst'},
+    {'b 6 5',  'input', '//send Nolyte //exec Marcato_NiTro.txt', 'me', 'NiTro',"Kayle_Divine_Ascent_HD"},
+    {'b 6 7',  'input', '//send Nolyte /ma "Carnage Elegy" <bt>', 'me', 'Elegy', 'tile075'},
+    {'b 6 8',  'input', '//send Nolyte /ma "Magic Finale" <bt>', 'me', 'Dispel', 'tile877'},
+    {'b 6 9',  'input', '//send Nolyte /ma "Horde Lullaby II" <bt>', 'me', 'Sleepga', 'tile250(2)'},
 }
 xivhotbar_keybinds_job['Great Katana'] = {
 	-- Battle
@@ -65,10 +74,10 @@ xivhotbar_keybinds_job['WAR'] = {
 }
 xivhotbar_keybinds_job['NIN'] = {
 	-- Battle
-	{'b 4 1', 'ma', 'Utsusemi: Ichi', 'me', 'Utsu', 'UtsuIchi'},
-	{'b 4 2', 'ma', 'Utsusemi: Ni', 'me', 'Utsu', 'UtsuNi'},
-	{'f 4 9', 'ma', 'Monomi: Ichi', 'me', 'Sneak'},
-	{'f 4 10', 'ma', 'Tonko: Ichi', 'me', 'Invis'},
+	{'f 4 1', 'ma', 'Utsusemi: Ichi', 'me', 'Utsu', 'UtsuIchi'},
+	{'f 4 2', 'ma', 'Utsusemi: Ni', 'me', 'Utsu', 'UtsuNi'},
+	{'f 4 7', 'ma', 'Monomi: Ichi', 'me', 'Sneak'},
+	{'f 4 8', 'ma', 'Tonko: Ichi', 'me', 'Invis'},
 }
 xivhotbar_keybinds_job['DNC'] = {
 	-- Battle
@@ -124,7 +133,7 @@ xivhotbar_keybinds_job['DRG'] = {
 	{'b 4 1',  'ja', 'Jump', 't', 'Jump', 'Jump'},
 	{'b 4 2',  'ja', 'High Jump', 't', 'H. Jump', 'High Jump'},
 	{'b 4 3',  'ja', 'Super Jump', 't', 'Enmity-', 'Super Jump'},
-	{'b 4 4',  'ja', 'Ancient Circle', 'me', 'D.Crcl'},
+	{'b 4 4',  'ja', 'Ancient Circle', 'me', 'DRG.Circ',"Rise_of_the_Dragon"},
 }
 xivhotbar_keybinds_job['BLM'] = {
 	{'f 4 10', 'ja', 'Elemental Seal', 'me', 'E.Seal'},
@@ -140,15 +149,15 @@ xivhotbar_keybinds_job['WHM'] = {
 
 }
 xivhotbar_keybinds_job['DRK'] = {
-    {'b 2 9',  'ja', 'Arcane Circle', 'me', 'A.Crcl'},
+    {'b 2 9',  'ja', 'Arcane Circle', 'me', 'A.Crcl',"Putrid_Mark"},
     {'b 2 7',  'ja', 'Last Resort', 'me', 'L.Rsrt', "LastResort"},
-    {'b 2 8',  'ma', 'Stun', 't', 'Stun',"tile959"},
+    {'b 4 5',  'ma', 'Stun', 't', 'Stun',"tile959"},
     {'b 2 5',  'ma', 'Poisonga', 't', 'Psnga', "Spider_Venom"},
     {'b 1 10',  'ja', 'Weapon Bash', 't', 'Bash',"Dark_Spear"},
 	
-    {'b 4 1',  'ma', 'Aspir', 'stnpc', 'Aspir'},
-    {'b 4 2',  'ma', 'Poison', 'stnpc', 'Poison'},	
+    {'b 4 1',  'ma', 'Aspir', 'stnpc', 'Aspir', 'Life_Transfer'},
+    {'b 4 2',  'ma', 'Poison', 'stnpc', 'Poison', 'Well_of_Suffering'},	
     {'b 4 3',  'ma', 'Sleep II', 'stnpc', 'Sleep','tile944'},	
-    {'b 4 4',  'ma', 'Absorb-TP', 'stnpc', 'TP'},	
+    {'b 4 4',  'ma', 'Absorb-TP', 'stnpc', 'TP', 'GatheringPlague'},	
 }
 return xivhotbar_keybinds_job

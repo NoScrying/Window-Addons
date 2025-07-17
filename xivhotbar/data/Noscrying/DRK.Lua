@@ -36,15 +36,25 @@ xivhotbar_keybinds_job['Base'] = {
  {'f 1 8', 'ma', 'Bind', 'stnpc', 'Bind',"tile959"},
  {'f 1 9', 'ma', 'Break', 'stnpc', 'Break'},
   {'f 2 3', 'ma', 'Poisonga', 't', 'Psnga', "Spider_Venom"},
-   {'f 4 10', 'ja', 'Blood Weapon', 'me', 'Blood'},
-    {'f 4 9', 'ja', 'Soul Enslavement', 'me', 'TP Drain'},
+   {'f 4 10', 'ja', 'Blood Weapon', 'me', 'Blood', 'Death_Curse'},
+    {'f 4 9', 'ja', 'Soul Enslavement', 'me', 'TP Drain','Hecarim_Spirit_of_Dread_HD'},
 	
-	{'f 4 1', 'ma', 'Fire III', 't', 'Fire',"tile054"},
-	{'f 4 2', 'ma', 'Blizzard III', 't', 'Bliz.',"tile053"},
-	{'f 4 3', 'ma', 'Thunder III', 't', 'Thun.',"tile055"},
-	{'f 4 4', 'ma', 'Aero III', 't', 'Aero',"tile056"},
-	{'f 4 5', 'ma', 'Stone III', 't', 'Stone',"tile031"},
-	{'f 4 6', 'ma', 'Water III', 't', 'Water',"tile085"},
+	{'f 4 1', 'ma', 'Fire III', 't', 'Fire',"Wildfire"},
+	{'f 4 2', 'ma', 'Blizzard III', 't', 'Bliz.',"Frozen_Fusillade"},
+	{'f 4 4', 'ma', 'Aero III', 't', 'Aero',"Cleansing_Typhoon"},
+	{'f 4 5', 'ma', 'Stone III', 't', 'Stone',"Stoning"},
+	{'f 4 3', 'ma', 'Thunder III', 't', 'Thun.',"Derecho"},
+	{'f 4 6', 'ma', 'Water III', 't', 'Water',"Tidal_Surge"},
+	
+	{'b 6 1',  'input', '//send Nolyte //exec Valor_Valor_Victory', 'me', 'VVV','Tome_of_Justice'},
+    {'b 6 2',  'input', '//send Nolyte //exec Minne_Mambo_Mambo', 'me', 'MMM','_Advance!_'},
+    {'b 6 3',  'input', '//send Nolyte //exec CuragaIII_DivineWaltz', 'me', 'CuraIII','Searing_Light'},
+    {'b 6 4',  'input', '//send Nolyte //exec CureIV_CuringWaltz', 'me', 'CureIV','tile792'},
+    {'b 6 6',  'input', '//send Nolyte //exec HM_ATK_ACC_HST', 'me', 'HM.VMV','Chapter_2-_Igniting_Burst'},
+    {'b 6 5',  'input', '//send Nolyte //exec Marcato_NiTro.txt', 'me', 'NiTro',"Kayle_Divine_Ascent_HD"},
+    {'b 6 7',  'input', '//send Nolyte /ma "Carnage Elegy" <bt>', 'me', 'Elegy', 'tile075'},
+    {'b 6 8',  'input', '//send Nolyte /ma "Magic Finale" <bt>', 'me', 'Dispel', 'tile877'},
+    {'b 6 9',  'input', '//send Nolyte /ma "Horde Lullaby II" <bt>', 'me', 'Sleepga', 'tile250(2)'},
 }
 
 xivhotbar_keybinds_job['Great Sword'] = {
@@ -71,7 +81,7 @@ xivhotbar_keybinds_job['Scythe'] = {
     {'f 1 3', 'weaponskill', 'Quietus', 't', 'Qietus', 'Guillotine'},
 
 	{'f 1 4', 'weaponskill', 'Entropy', 't', 'Entrp.', 'Nightmare'},
-	{'f 1 5', 'weaponskill', 'Spinning Scythe', 't', 'AoE'},
+	{'f 1 5', 'weaponskill', 'Spinning Scythe', 't', 'AoE','Life_Slash'},
 	{'f 1 1', 'weaponskill', 'Cross Reaper', 'stnpc', 'Reap.', 'Reaper2'},
 	{'f 1 2', 'weaponskill', 'Catastrophe', 't', 'Cata', 'Cata'},
 	{'f 2 1', 'weaponskill', 'Infernal Scythe', 't', 'Infrnl'},
@@ -81,12 +91,12 @@ xivhotbar_keybinds_job['Great Axe'] = {
     {'b 1 1', 'weaponskill', 'Upheaval', 'stnpc', 'Uphvl', 'Core_Cleave'},
 	{'b 1 2', 'weaponskill', 'Steel Cyclone', 't', 'S.Clne', 'Malicious_Cunning_Salvo'},
 	{'b 1 3', 'weaponskill', 'Fell Cleave', 't', 'AoE', 'Symbol_of_Vengeance'},
-	{'b 1 4', 'weaponskill', 'Armor Break', 't', 'Armor', 'Analyze'},	
+	{'b 1 4', 'weaponskill', 'Armor Break', 't', 'Armor', 'Kayle_Radiant_Blast_2_HD'},	
 
     {'f 1 1', 'weaponskill', 'Upheaval', 'stnpc', 'Uphvl', 'Core_Cleave'},
 	{'f 1 2', 'weaponskill', 'Steel Cyclone', 't', 'S.Clne', 'Malicious_Cunning_Salvo'},
 	{'f 1 3', 'weaponskill', 'Fell Cleave', 't', 'AoE', 'Symbol_of_Vengeance'},
-	{'f 1 4', 'weaponskill', 'Armor Break', 't', 'Armor', 'Analyze'},
+	{'f 1 4', 'weaponskill', 'Armor Break', 't', 'Armor', 'Kayle_Radiant_Blast_2_HD'},
 }
 xivhotbar_keybinds_job['Sword'] = {
 	-- Battle
@@ -201,7 +211,7 @@ xivhotbar_keybinds_job['DRG'] = {
 	{'b 4 1',  'ja', 'Jump', 't', 'Jump', 'Jump'},
 	{'b 4 2',  'ja', 'High Jump', 't', 'H. Jump', 'High Jump'},
 	{'b 4 3',  'ja', 'Super Jump', 't', 'Enmity-', 'Super Jump'},
-	{'b 4 5',  'ja', 'Ancient Circle', 'me', '-DRG'},
+	{'b 4 5',  'ja', 'Ancient Circle', 'me', 'DRG.Circ',"Rise_of_the_Dragon"},
 }
 xivhotbar_keybinds_job['BLM'] = {
 	{'f 4 10', 'ja', 'Elemental Seal', 'me', 'E.Seal'},

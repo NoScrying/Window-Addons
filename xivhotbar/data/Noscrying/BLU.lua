@@ -14,7 +14,7 @@
 	-- {'b 2 5', 'ma', 'Entomb', 't', 'Tomb', 'Entomb2'},
 	-- --{'b 2 5', 'ma', 'Searing Tempest', 't', 'Tempest', 'SearingTempest'},
 	-- --{'b 2 5', 'ma', 'Blinding Fulgor', 't', 'Fulgor', 'BlindingFulgor'},
-	-- {'b 2 4', 'ma', 'Retinal Glare', 't', 'Glare', 'Glare'},
+	-- {'b 2 4', 'ma', 'Retinal Glare', 't', 'Glare', 'Dawncore_item_HD'},
 	-- {'b 2 7', 'ja', 'Chain Affinity', 'me', 'Chain',"Plasma_Burst"},
 	-- {'b 2 8', 'ja', 'Burst Affinity', 'me', 'Burst',"Woven_Air"},
 	-- {'b 2 9', 'ja', 'Diffusion', 'me', 'AoE',"Sanctuary"},
@@ -44,6 +44,17 @@
 	-- {'b 4 1', 'ma', 'Dream Flower', 't', 'Dream', 'tile051(2)'},
 	-- {'b 4 6', 'ma', 'Sheep Song', 't', 'Song', 'tile051'},
 	-- {'b 4 7', 'ma', 'Sudden Lunge', 'stnpc', 'Stun', 'BLU-stun'},
+	
+
+	-- {'b 6 1',  'input', '//send Nolyte //exec Valor_Valor_Victory', 'me', 'VVV','Tome_of_Justice'},	
+    -- {'b 6 2',  'input', '//send Nolyte //exec Minne_Mambo_Mambo', 'me', 'MMM','_Advance!_'},	
+    -- {'b 6 3',  'input', '//send Nolyte //exec CuragaIII_DivineWaltzz', 'me', 'CuraIII','Searing_Light'},	
+    -- --{'b 6 3',  'input', '//send Nolyte /CuragaIV', 'me', 'CureIV','tile792'},
+    -- {'b 6 6',  'input', '//send Nolyte /ma "Auspice" <me>', 'me', 'Auspice','Chapter_2-_Igniting_Burst'},	
+    -- {'b 6 5',  'input', '//send Nolyte //exec Marcato_NiTro.txt', 'me', 'NiTro',"Kayle_Divine_Ascent_HD"},
+    -- {'b 6 7',  'input', '//send Nolyte /ma "Carnage Elegy" <bt>', 'me', 'Elegy', 'tile075'},	
+    -- {'b 6 8',  'input', '//send Nolyte /ma "Magic Finale" <bt>', 'me', 'Dispel', 'tile877'},	
+    -- {'b 6 9',  'input', '//send Nolyte /ma "Horde Lullaby II" <bt>', 'me', 'Sleepga', 'tile250(2)'},					
  -- --Hotbar #6
 
 -- }
@@ -54,7 +65,7 @@ xivhotbar_keybinds_job['Base'] = { -- //azuresets set Acc - Melee/Phys
 	{'b 1 10', 'ma', 'Sudden Lunge', 'stnpc', 'Stun', 'BLU-stun'},
  	--{'b 1 6', 'ma',  'Anvil Lightning', 't', 'Stunga',"Shock"},  
 	--{'b 1 6', 'ma',  'Searing Tempest', 't', 'Sear',"SearingTempest"},  
-	{'b 1 6', 'ma', 'Entomb', 't', 'Tomb', 'Entomb2'},
+	{'b 2 5', 'ma', 'Entomb', 't', 'Tomb', 'Entomb2'},
  	--{'b 1 4', 'ma',  'Glutinous Dart', 't', 'RA', "Ranged"}, 
 	{'b 1 4', 'ma',  'Diffusion Ray', 't', 'Ray', "WhiteWind"}, 
 	{'b 1 7', 'ja', 'Efflux', 'me', 'Efflux', 'Efflux'},
@@ -70,8 +81,10 @@ xivhotbar_keybinds_job['Base'] = { -- //azuresets set Acc - Melee/Phys
 	{'b 2 7', 'ja', 'Chain Affinity', 'me', 'Chain',"Plasma_Burst"},
 	{'b 2 8', 'ja', 'Burst Affinity', 'me', 'Burst',"Woven_Air"},
 	{'b 2 9', 'ja', 'Diffusion', 'me', 'AoE',"Sanctuary"},
-	{'b 2 6', 'ma', 'Empty Thrash', 't', 'Trash', 'BLU-Conal'},
-	{'b 2 5', 'ma', 'Tenebral Crush', 't', 'Crush', 'Comet'},
+	{'b 1 6', 'ma', 'Empty Thrash', 't', 'Trash', 'BLU-Conal'},
+	{'b 2 6', 'ma', 'Tenebral Crush', 't', 'Crush', 'Comet'},
+	--{'b 2 6', 'ma', 'Silent Storm', 't', 'Silent', 'Oppressive_Collapse'},
+	-- {'b 2 6', 'ma', 'Radiant Breath', 't', 'Silent', 'Oppressive_Collapse'},
 	--{'b 2 5', 'ma', 'Entomb', 't', 'Tomb', 'Entomb2'},
 	{'b 2 10', 'ja', 'Unbridled Learning', 'me', '+Spells',"Clarified_Conclusion"},
 		
@@ -101,6 +114,15 @@ xivhotbar_keybinds_job['Base'] = { -- //azuresets set Acc - Melee/Phys
 	{'b 4 10', 'ma', 'Carcharian Verve', 'me', 'C.Verve', 'Aquaveil'},
  --Hotbar #6
 
+	{'b 6 1',  'input', '//send Nolyte //exec Valor_Valor_Victory', 'me', 'VVV','Tome_of_Justice'},
+    {'b 6 2',  'input', '//send Nolyte //exec Minne_Mambo_Mambo', 'me', 'MMM','_Advance!_'},
+    {'b 6 3',  'input', '//send Nolyte //exec CuragaIII_DivineWaltzz', 'me', 'CuraIII','Searing_Light'},
+    {'b 6 4',  'input', '//send Nolyte //exec CureIV_CuringWaltz', 'me', 'CureIV','tile792'},
+    {'b 6 6',  'input', '//send Nolyte //exec HM_ATK_ACC_HST', 'me', 'HM.VMV','Chapter_2-_Igniting_Burst'},
+    {'b 6 5',  'input', '//send Nolyte //exec Marcato_NiTro.txt', 'me', 'NiTro',"Kayle_Divine_Ascent_HD"},
+    {'b 6 7',  'input', '//send Nolyte /ma "Carnage Elegy" <bt>', 'me', 'Elegy', 'tile075'},
+    {'b 6 8',  'input', '//send Nolyte /ma "Magic Finale" <bt>', 'me', 'Dispel', 'tile877'},
+    {'b 6 9',  'input', '//send Nolyte /ma "Horde Lullaby II" <bt>', 'me', 'Sleepga', 'tile250(2)'},
 }
 
 -- xivhotbar_keybinds_job['Base'] = { -- //azuresets set Odyssey - Magic Damage
@@ -120,7 +142,7 @@ xivhotbar_keybinds_job['Base'] = { -- //azuresets set Acc - Melee/Phys
 	-- {'b 2 5', 'ma', 'Entomb', 't', 'Tomb', 'Entomb2'},
 	-- --{'b 2 5', 'ma', 'Searing Tempest', 't', 'Tempest', 'SearingTempest'},
 	-- --{'b 2 5', 'ma', 'Blinding Fulgor', 't', 'Fulgor', 'BlindingFulgor'},
-	-- --{'b 2 4', 'ma', 'Retinal Glare', 't', 'Glare', 'Glare'},
+	-- --{'b 2 4', 'ma', 'Retinal Glare', 't', 'Glare', 'Dawncore_item_HD'},
 	-- {'b 2 7', 'ja', 'Chain Affinity', 'me', 'Chain',"Plasma_Burst"},
 	-- {'b 2 8', 'ja', 'Burst Affinity', 'me', 'Burst',"Woven_Air"},
 	-- {'b 2 9', 'ja', 'Diffusion', 'me', 'AoE',"Sanctuary"},
@@ -395,8 +417,8 @@ xivhotbar_keybinds_job['DRG'] = {
 	-- Battle
 	{'b 4 1', 'ja', 'Jump', 't', 'Jump', 'Jump'},
 	{'b 4 2', 'ja', 'High Jump', 't', 'H. Jump', 'High Jump'},
-	{'b 1 8',  'ja', 'Super Jump', 't', 'Enmity-', 'Super Jump'},
-	{'b 3 6',  'ja', 'Ancient Circle', 'me', 'Drg.Crc'},
+	{'b 3 9',  'ja', 'Super Jump', 't', 'Enmity-', 'Super Jump'},
+	{'b 3 6',  'ja', 'Ancient Circle', 'me', 'DRG.Circ',"Rise_of_the_Dragon"},
 }
 
 xivhotbar_keybinds_job['DNC'] = {
@@ -487,8 +509,9 @@ xivhotbar_keybinds_job['BLM'] = {
 	{'f 4 10', 'ja', 'Elemental Seal', 'me', 'E.Seal'},
 	{'f 4 8', 'ma', 'Warp', 'me', 'Warp'},
  	{'f 4 9', 'ma', 'Warp II', 'stpc', 'WarpII'},
- 	{'f 2 10', 'ma', 'Escape', 'me', 'Esc'},
- 	{'f 4 4', 'ma', 'tile051ga', 't', 'Slpga'},
+ 	{'f 4 7', 'ma', 'Escape', 'me', 'Esc'},
+ 	{'f 4 4', 'ma', 'Sleepga', 't', 'Slpga', 'tile944'},
+ 	{'f 4 5', 'ma', 'Tractor', 't', 'Tractor'},
  	{'f 4 1', 'ma', 'Stone III', 't', 'Stone'},
  	{'f 4 2', 'ma', 'Firaga II', 't', 'Firga'},
  	{'f 4 3', 'ma', 'Burst', 't', 'Burst'},
@@ -500,8 +523,8 @@ xivhotbar_keybinds_job['BLM'] = {
 	{'f 3 3', 'ma', 'Burn', 't', 'Burn'},	
 	{'f 3 1', 'ma', 'Shock', 't', 'Shock'},	
 	{'f 1 10', 'ma', 'Stun', 't', 'Stun',"tile959"},		
-	{'f 1 8', 'ma', 'tile051 II', 't', 'SlpII'},	
-	{'f 1 9', 'ma', 'tile051ga II', 't', 'SlpgaII'},		
+	{'f 1 8', 'ma', 'Sleep II', 't', 'SlpII'},	
+	{'f 1 9', 'ma', 'Sleepga II', 't', 'SlpgaII'},		
 }
 xivhotbar_keybinds_job['DRK'] = {
     {'f 2 6',  'ja', 'Arcane Circle', 'me', 'Crcl.'},
