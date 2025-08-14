@@ -1,7 +1,8 @@
 xivhotbar_keybinds_job['Base'] = {
   -- Hotbar #1 
   	{'b 1 7', 'ja',  'Accomplice', 'stpc', 'Acco.',"Smoke_Screen"}, 
-	{'b 1 8', 'ja',  'Collaborator', 'stpc', 'Collab.',"Cloak_and_Dagger"}, 
+	--{'b 1 8', 'ja',  'Collaborator', 'stpc', 'Collab.',"Cloak_and_Dagger"}, 
+	{'b 1 8',  'input', '/heal', 'me', 'Rest'},
 	{'b 1 9', 'ja',  'Conspirator', 'me', 'Acc',"Reflexive_Strike"}, 
 
 	{'b 1 10', 'ja', 'Flee', 'me', 'Flee', 'tile090'},
@@ -21,13 +22,14 @@ xivhotbar_keybinds_job['Base'] = {
     {'b 3 8', 'ct', 'ra', 't', 'RA', 'Abyssal_Fire'},
 	{'b 1 6',  'input', '//send Nolyte //exec HM_Victory', 'me', 'Haste','_Advance!_'},
 	
-	{'b 6 1',  'input', '//send Nolyte //exec Valor_Valor_Victory', 'me', 'VVV','Tome_of_Justice'},
-    {'b 6 2',  'input', '//send Nolyte //exec Minne_Mambo_Mambo', 'me', 'MMM','_Advance!_'},
-    {'b 6 3',  'input', '//send Nolyte //exec CuragaIII_DivineWaltz', 'me', 'CuraIII','Searing_Light'},
-    {'b 6 4',  'input', '//send Nolyte //exec CureIV_CuringWaltz', 'me', 'CureIV','tile792'},
-    {'b 6 6',  'input', '//send Nolyte //exec HM_ATK_ACC_HST', 'me', 'HM.VMV','Chapter_2-_Igniting_Burst'},
+	{'b 6 6',  'input', '//send Nolyte //exec Valor_Valor_Victory', 'me', 'VVV','Tome_of_Justice'},
+    {'b 6 2',  'input', '//send Nolyte //exec CuragaIII_DivineWaltz', 'me', 'CuraIII','Searing_Light'},
+    {'b 6 3',  'input', '//send Nolyte //exec CureIV_CuringWaltz', 'me', 'CureIV','tile792'},
     {'b 6 5',  'input', '//send Nolyte //exec Marcato_NiTro.txt', 'me', 'NiTro',"Kayle_Divine_Ascent_HD"},
+    {'b 6 1',  'input', '//send Nolyte /ma "Auspice" <me>', 'me', 'Auspice', 'Chapter_2-_Radiant_Recovery'},
+    {'b 6 4',  'input', '//send Nolyte //exec Regen.txt', 'me', 'RegenIV', 'tile025'},
     {'b 6 7',  'input', '//send Nolyte /ma "Carnage Elegy" <bt>', 'me', 'Elegy', 'tile075'},
+    {'b 6 10',  'input', '//send Nolyte /ma "Pining Nocturne" <bt>', 'me', 'Nocturne', 'tile170'},
     {'b 6 8',  'input', '//send Nolyte /ma "Magic Finale" <bt>', 'me', 'Dispel', 'tile877'},
     {'b 6 9',  'input', '//send Nolyte /ma "Horde Lullaby II" <bt>', 'me', 'Sleepga', 'tile250(2)'},
 }

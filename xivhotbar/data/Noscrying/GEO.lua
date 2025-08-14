@@ -59,7 +59,7 @@ xivhotbar_keybinds_job['Base'] = {
 	{'f 4 9',  'ja', 'Concentric Pulse', 'me', 'Bomb', 'Rift_of_Pain'},
   -- Hotbar #4
 
-    {'b 4 2',  'ma', 'Geo-Frailty', 'stnpc', 'Frailty', 'Analyze'},
+    {'b 4 2',  'ma', 'Geo-Frailty', 'stnpc', 'Frailty', 'Kayle_Radiant_Blast_2_HD'},
     {'b 4 3',  'ma', 'Geo-Malaise', 'stnpc', 'Malaise', 'The_Prestige'},
     {'b 4 4',  'ma', 'Geo-Torpor', 'stnpc', 'Torpor', 'Glue_Shot'},
     {'b 4 5',  'ma', 'Geo-Wilt', 'stnpc', 'Wilt', 'Break_Enchantments'},
@@ -67,8 +67,7 @@ xivhotbar_keybinds_job['Base'] = {
     {'b 4 7',  'ma', 'Geo-Fade', 'stnpc', 'Fade', 'Winds_of_Disenchantment'},
 	{'b 4 8',  'ja', 'Entrust', 'me', 'Entrust', 'Entrust'},
 	
-	{'b 4 9', 'ma', 'Sneak', 'stpc', 'Sneak',"tile019"},
-	{'b 4 10', 'ma', 'Invisible', 'stpc', 'Invis',"tile086"},	
+	
 
     {'f 3 9',  'ja', 'Bolster', 'me', 'Bolster',"Primordial_Stance"},
     {'f 3 10',  'ja', 'Widened Compass', 'me', 'AoE',"Sanctuary"},		
@@ -86,7 +85,16 @@ xivhotbar_keybinds_job['Base'] = {
 --Bar #4
 
 
-
+	{'b 6 6',  'input', '//send Nolyte //exec Valor_Valor_Victory', 'me', 'VVV','Tome_of_Justice'},
+    {'b 6 2',  'input', '//send Nolyte //exec CuragaIII_DivineWaltz', 'me', 'CuraIII','Searing_Light'},
+    {'b 6 3',  'input', '//send Nolyte //exec CureIV_CuringWaltz', 'me', 'CureIV','tile792'},
+    {'b 6 5',  'input', '//send Nolyte //exec Marcato_NiTro.txt', 'me', 'NiTro',"Kayle_Divine_Ascent_HD"},
+    {'b 6 1',  'input', '//send Nolyte /ma "Auspice" <me>', 'me', 'Auspice', 'Chapter_2-_Radiant_Recovery'},
+    {'b 6 4',  'input', '//send Nolyte //exec Regen.txt', 'me', 'RegenIV', 'tile025'},
+    {'b 6 7',  'input', '//send Nolyte /ma "Carnage Elegy" <bt>', 'me', 'Elegy', 'tile075'},
+    {'b 6 10',  'input', '//send Nolyte /ma "Pining Nocturne" <bt>', 'me', 'Nocturne', 'tile170'},
+    {'b 6 8',  'input', '//send Nolyte /ma "Magic Finale" <bt>', 'me', 'Dispel', 'tile877'},
+    {'b 6 9',  'input', '//send Nolyte /ma "Horde Lullaby II" <bt>', 'me', 'Sleepga', 'tile250(2)'},
 }
 
 xivhotbar_keybinds_job['Club'] = {
@@ -128,6 +136,9 @@ xivhotbar_keybinds_job['WHM'] = {
 	{'b 6 8', 'ma', 'Stoneskin', 'me', 'StnSkn',"tile639"},
 	{'b 6 9', 'ma', 'Aquaveil', 'me', 'Veil',"tile630"},
 	{'b 1 7', 'ma', 'Haste', 'stpc', 'Haste',"_Advance!_"},
+	
+	{'b 4 9', 'ma', 'Sneak', 'stpc', 'Sneak',"tile019"},
+	{'b 4 10', 'ma', 'Invisible', 'stpc', 'Invis',"tile086"},	
 }
 
 xivhotbar_keybinds_job['RDM'] = {
@@ -149,6 +160,9 @@ xivhotbar_keybinds_job['RDM'] = {
 	{'b 6 2', 'ma', 'Aquaveil', 'me', 'Veil',"tile630"},
 	{'b 6 3', 'ma', 'Blink', 'me', 'Blink',"tile191"},	
  	{'b 1 7',  'ma', 'Dispel', 't', 'Dispel',"tile877"},
+	
+	{'b 4 9', 'ma', 'Sneak', 'stpc', 'Sneak',"tile019"},
+	{'b 4 10', 'ma', 'Invisible', 'stpc', 'Invis',"tile086"},
 }
 xivhotbar_keybinds_job['DRK'] = {
     {'b 2 5',  'ja', 'Arcane Circle', 'me', 'A.Crcl',"Putrid_Mark"}, 
@@ -166,5 +180,13 @@ xivhotbar_keybinds_job['WAR'] = {
     {'b 2 4',  'ja', 'Berserk', 'me', 'Brsrk', 'Berserk'},
     {'b 2 5',  'ja', 'Warcry', 'me', 'War.', 'Warcry'},
 	{'b 2 6', 'ja', 'Aggressor', 'me', 'Aggr.', 'Agressor'},
+}
+xivhotbar_keybinds_job['NIN'] = {
+	-- Battle
+	{'f 4 4', 'ma', 'Utsusemi: Ichi', 'me', 'Shadow1', 'UtsuIchi'},
+	{'f 4 5', 'ma', 'Utsusemi: Ni', 'me', 'Shadow2', 'UtsuNi'},
+	{'f 4 9', 'ma', 'Monomi: Ichi', 'me', 'Sneak'},
+	{'f 4 10', 'ma', 'Tonko: Ni', 'me', 'Invis'},
+	
 }
 return xivhotbar_keybinds_job

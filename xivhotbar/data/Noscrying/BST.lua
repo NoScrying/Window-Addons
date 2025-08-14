@@ -1,12 +1,12 @@
 xivhotbar_keybinds_job['Base'] = {
 	-- Hotbar #1
-	{'b 1 10', 'ja', 'Sic', 'me', 'Sic', 'Sic'},
+	{'b 1 10', 'ja', 'Sic', 'me', 'Sic', 'Naafiri_We_Are_More_HD'},
 	{'b 1 5', 'ja', 'Gauge', 't', 'Gauge', 'Gauge'},
-	{'b 1 7', 'ja', 'Fight', 'stnpc', 'Atk.', 'fight'},
-	{'b 1 8', 'ja', 'Heel', 'me', 'Heel', 'heel'},	
+	{'b 1 7', 'ja', 'Fight', 'stnpc', 'Atk.', 'Ornn_Call_of_the_Forge_God_HD'},
+	{'b 1 8', 'ja', 'Heel', 'me', 'Heel', 'Naafiri_Eviscerate_HD'},	
 
 	-- Hotbar #2
-	{'b 2 1', 'ja', 'Charm', 'stnpc', 'Charm', 'Dazing_Discharge'},
+	{'b 2 1', 'ja', 'Charm', 'stnpc', 'Charm', 'Evelynn_Allure_HD'},
 	{'b 2 9', 'ja', 'Killer Instinct', 'me', 'Killer', "Soulcleave's_Summit"},
 
 	-- Hotbar #3
@@ -28,6 +28,17 @@ xivhotbar_keybinds_job['Base'] = {
 	{'f 3 8', 'ja', 'Unleash', 'me', 'Unleash', 'Unleash'},
 	{'f 3 9', 'ja', 'Run Wild', 'me', 'Run W.', "BlindingFulgor"},
 	{'f 3 10', 'ja', 'Familiar', 'me', 'Famil', 'Familiar'},
+
+	{'b 6 6',  'input', '//send Nolyte //exec Valor_Valor_Victory', 'me', 'VVV','Tome_of_Justice'},
+    {'b 6 2',  'input', '//send Nolyte //exec CuragaIII_DivineWaltz', 'me', 'CuraIII','Searing_Light'},
+    {'b 6 3',  'input', '//send Nolyte //exec CureIV_CuringWaltz', 'me', 'CureIV','tile792'},
+    {'b 6 5',  'input', '//send Nolyte //exec Marcato_NiTro.txt', 'me', 'NiTro',"Kayle_Divine_Ascent_HD"},
+    {'b 6 1',  'input', '//send Nolyte /ma "Auspice" <me>', 'me', 'Auspice', 'Chapter_2-_Radiant_Recovery'},
+    {'b 6 4',  'input', '//send Nolyte //exec Regen.txt', 'me', 'RegenIV', 'tile025'},
+    {'b 6 7',  'input', '//send Nolyte /ma "Carnage Elegy" <bt>', 'me', 'Elegy', 'tile075'},
+    {'b 6 10',  'input', '//send Nolyte /ma "Pining Nocturne" <bt>', 'me', 'Nocturne', 'tile170'},
+    {'b 6 8',  'input', '//send Nolyte /ma "Magic Finale" <bt>', 'me', 'Dispel', 'tile877'},
+    {'b 6 9',  'input', '//send Nolyte /ma "Horde Lullaby II" <bt>', 'me', 'Sleepga', 'tile250(2)'},
 }
 
 xivhotbar_keybinds_job['Axe'] = {

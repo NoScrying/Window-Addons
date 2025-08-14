@@ -40,8 +40,8 @@ xivhotbar_keybinds_job['Base'] = {
 
 	---
 	{'f 1 5', 'ma', 'Foil', 'me', 'Foil', 'Angel'},
-	{'f 4 1', 'ma', 'Protect IV', 'stpc', 'Protct',"tile462"},
-	{'f 4 2', 'ma', 'Shell V', 'stpc', 'Shell',"tile497"},
+	{'f 4 2', 'ma', 'Protect IV', 'stpc', 'Protct',"tile462"},
+	{'f 4 3', 'ma', 'Shell V', 'stpc', 'Shell',"tile497"},
 
 	{'f 3 1', 'ma', 'Barblizzard', 'me', 'B.Ice',"tile053"},
 	{'f 3 2', 'ma', 'Baraero', 'me', 'B.Aero',"tile052"},
@@ -57,16 +57,17 @@ xivhotbar_keybinds_job['Base'] = {
 	
 	{'f 4 4', 'ma', 'Stoneskin', 'me', 'StnSkn',"tile639"},
 	{'f 4 5', 'ma', 'Aquaveil', 'me', 'Veil',"tile630"},	
-   {'f 4 10', 'ja', 'Elemental Sforzo', 'me', 'Sforzo',"tile054(2)"},
-    {'f 4 9', 'ja', 'Odyllic Subterfuge', 'stnpc', 'Odyllic',"tile040"},
+   {'f 3 10', 'ja', 'Elemental Sforzo', 'me', 'Sforzo',"tile054(2)"},
+    {'f 3 9', 'ja', 'Odyllic Subterfuge', 'stnpc', 'Odyllic',"tile040"},
 	
-	{'b 6 1',  'input', '//send Nolyte //exec Valor_Valor_Victory', 'me', 'VVV','Tome_of_Justice'},
-    {'b 6 2',  'input', '//send Nolyte //exec Minne_Mambo_Mambo', 'me', 'MMM','_Advance!_'},
-    {'b 6 3',  'input', '//send Nolyte //exec CuragaIII_DivineWaltz', 'me', 'CuraIII','Searing_Light'},
-    {'b 6 4',  'input', '//send Nolyte //exec CureIV_CuringWaltz', 'me', 'CureIV','tile792'},
-    {'b 6 6',  'input', '//send Nolyte //exec HM_ATK_ACC_HST', 'me', 'HM.VMV','Chapter_2-_Igniting_Burst'},
+	{'b 6 6',  'input', '//send Nolyte //exec Valor_Valor_Victory', 'me', 'VVV','Tome_of_Justice'},
+    {'b 6 2',  'input', '//send Nolyte //exec CuragaIII_DivineWaltz', 'me', 'CuraIII','Searing_Light'},
+    {'b 6 3',  'input', '//send Nolyte //exec CureIV_CuringWaltz', 'me', 'CureIV','tile792'},
     {'b 6 5',  'input', '//send Nolyte //exec Marcato_NiTro.txt', 'me', 'NiTro',"Kayle_Divine_Ascent_HD"},
+    {'b 6 1',  'input', '//send Nolyte /ma "Auspice" <me>', 'me', 'Auspice', 'Chapter_2-_Radiant_Recovery'},
+    {'b 6 4',  'input', '//send Nolyte //exec Regen.txt', 'me', 'RegenIV', 'tile025'},
     {'b 6 7',  'input', '//send Nolyte /ma "Carnage Elegy" <bt>', 'me', 'Elegy', 'tile075'},
+    {'b 6 10',  'input', '//send Nolyte /ma "Pining Nocturne" <bt>', 'me', 'Nocturne', 'tile170'},
     {'b 6 8',  'input', '//send Nolyte /ma "Magic Finale" <bt>', 'me', 'Dispel', 'tile877'},
     {'b 6 9',  'input', '//send Nolyte /ma "Horde Lullaby II" <bt>', 'me', 'Sleepga', 'tile250(2)'},
 }
@@ -117,12 +118,13 @@ xivhotbar_keybinds_job['BLU'] = {
     {'b 1 7',  'ma', 'Magic Fruit', 'stpc', "Cure", 'BLU-cure'},
     {'b 1 8',  'ma', 'Cocoon', 'me', 'DEF+', "Barrier"},
 	
-    {'b 2 5',  'ma', 'Geist Wall', 'stnpc', 'Dsplga', "Soulcleave's_Summit"},
-	{'b 2 6', 'ma', 'Jettatura', 't', 'Fan', 'Terror2'},
+    {'b 2 5',  'ma', 'Geist Wall', 'stnpc', 'Geist', "Soulcleave's_Summit"},
+	{'b 2 6', 'ma', 'Jettatura', 't', 'Jet', 'Terror2'},
     {'b 2 7',  'ma', 'Refueling', 'me', 'Haste', '_Advance!_'},
 
 	{'b 4 10',  'ma', 'Healing Breeze', 'me', 'Curaga','Troll_Unguent'},
-	{'b 4 3',  'ma', 'Frightful Roar', 't', 'DEF-','Enfeebling_Blood'},	
+	--{'b 4 3',  'ma', 'Frightful Roar', 't', 'DEF-','Enfeebling_Blood'},
+	{'b 4 3',  'ma', 'Cursed Sphere', 't', 'AoE','Blossoming_Aura'},
     {'f 1 7',  'ma', 'Blank Gaze', 'stnpc', 'Dspl', 'Eye'},
 	{'f 1 8', 'ma', 'Sheep Song', 'stnpc', 'Song', 'Dazing_Discharge'},
 	
@@ -171,24 +173,22 @@ xivhotbar_keybinds_job['Axe'] = {
 	{'b 1 1', 'weaponskill', 'Decimation', 'stnpc', 'Dcimte', 'Decimation'},
 }
 xivhotbar_keybinds_job['SCH'] = {
-    {'b 2 5',  'ja', 'Addendum: White', 'me', 'Add.W'},
-    {'b 2 7',  'ja', 'Light Arts', 'me', 'Light'},
-    {'b 2 6',  'ja', 'Dark Arts', 'me', 'Dark'},
-    {'b 1 8',  'ja', 'Accession', 'me', 'Aoe'},
-    {'b 1 7',  'ja', 'Sublimation', 'me', 'Sub.'},
-	{'f 2 10', 'ma', 'Klimaform', 'me', 'Klima'},
+    {'b 2 5',  'ja', 'Addendum: White', 'me', 'Add.W',"tile495"},
+    {'b 2 7',  'ja', 'Light Arts', 'me', 'Light',"Tome_of_Resolve(light)"},
+    {'b 2 6',  'ja', 'Dark Arts', 'me', 'Dark',"Tome_of_Resolve(dark)"},
+    {'b 1 8',  'ja', 'Accession', 'me', 'Aoe',"Rejuvenating_Respite"},
+    {'b 1 7',  'ja', 'Sublimation', 'me', 'Sub.',"Mantra_of_Potence"},
 
- 	{'f 4 1', 'ma', 'Cure III', 'stpc', 'CureIII'},
- 	{'f 3 1', 'ma', 'Cure IV', 'stpc', 'CureIV'},
-	{'f 3 2', 'ma', 'Hailstorm', 'me', 'Hail'},
-	{'f 3 3', 'ma', 'Voidstorm', 'stpc', 'Void'},
-	{'f 3 4', 'ma', 'Firestorm', 'stpc', 'Fire'},
-	{'f 3 5', 'ma', 'Sandstorm', 'stpc', 'Sand'},
-	{'f 3 6', 'ma', 'Windstorm', 'stpc', 'Wind'},
-	{'f 3 7', 'ma', 'Thunderstorm', 'stpc', 'Thndr'},
-	{'f 3 8', 'ma', 'Aurorastorm', 'stpc', 'Aurora'},
-	{'f 4 9', 'ma', 'Reraise', 'me', 'Reraise'},
-
+ 	{'f 4 1', 'ma', 'Cure III', 'stpc', 'CureIII',"tile078"},
+ 	{'f 3 1', 'ma', 'Cure IV', 'stpc', 'CureIV',"tile792"},
+	
+	{'f 1 7', 'ma', 'Firestorm', 'stpc', 'Storm.F', 'Activate..._(red)'},
+	{'f 1 8', 'ma', 'Voidstorm', 'stpc', 'Void', 'Call_Forth_Magic'},
+	{'f 1 9', 'ma', 'Aurorastorm', 'stpc', 'Aurora', 'Center_Your_Mind'},
+	
+	{'f 4 8', 'ma', 'Reraise', 'me', 'Reraise',"tile800"},
+	{'f 4 9', 'ma', 'Sneak', 'stpc', 'Sneak',"tile019"},
+	{'f 4 10', 'ma', 'Invisible', 'stpc', 'Invis',"tile086"},
 }
 xivhotbar_keybinds_job['NIN'] = {
 	-- Battle

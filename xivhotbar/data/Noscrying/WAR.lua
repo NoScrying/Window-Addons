@@ -16,13 +16,14 @@ xivhotbar_keybinds_job['Base'] = {
 	{'f 4 9', 'ja', 'Mighty Strikes', 'me', 'Mighty', 'Transmute_Fire'},	
 	{'f 4 10', 'ja', 'Brazen Rush', 'me', 'Double', 'Vengeance_(skill)'},	
 	
-	{'b 6 1',  'input', '//send Nolyte //exec Valor_Valor_Victory', 'me', 'VVV','Tome_of_Justice'},
-    {'b 6 2',  'input', '//send Nolyte //exec Minne_Mambo_Mambo', 'me', 'MMM','_Advance!_'},
-    {'b 6 3',  'input', '//send Nolyte //exec CuragaIII_DivineWaltz', 'me', 'CuraIII','Searing_Light'},
-    {'b 6 4',  'input', '//send Nolyte //exec CureIV_CuringWaltz', 'me', 'CureIV','tile792'},
-    {'b 6 6',  'input', '//send Nolyte //exec HM_ATK_ACC_HST', 'me', 'HM.VMV','Chapter_2-_Igniting_Burst'},
+	{'b 6 6',  'input', '//send Nolyte //exec Valor_Valor_Victory', 'me', 'VVV','Tome_of_Justice'},
+    {'b 6 2',  'input', '//send Nolyte //exec CuragaIII_DivineWaltz', 'me', 'CuraIII','Searing_Light'},
+    {'b 6 3',  'input', '//send Nolyte //exec CureIV_CuringWaltz', 'me', 'CureIV','tile792'},
     {'b 6 5',  'input', '//send Nolyte //exec Marcato_NiTro.txt', 'me', 'NiTro',"Kayle_Divine_Ascent_HD"},
+    {'b 6 1',  'input', '//send Nolyte /ma "Auspice" <me>', 'me', 'Auspice', 'Chapter_2-_Radiant_Recovery'},
+    {'b 6 4',  'input', '//send Nolyte //exec Regen.txt', 'me', 'RegenIV', 'tile025'},
     {'b 6 7',  'input', '//send Nolyte /ma "Carnage Elegy" <bt>', 'me', 'Elegy', 'tile075'},
+    {'b 6 10',  'input', '//send Nolyte /ma "Pining Nocturne" <bt>', 'me', 'Nocturne', 'tile170'},
     {'b 6 8',  'input', '//send Nolyte /ma "Magic Finale" <bt>', 'me', 'Dispel', 'tile877'},
     {'b 6 9',  'input', '//send Nolyte /ma "Horde Lullaby II" <bt>', 'me', 'Sleepga', 'tile250(2)'},
 }
@@ -255,12 +256,12 @@ xivhotbar_keybinds_job['RDM'] = {
 	{'f 4 10', 'ma', 'Invisible', 'me', 'Invis'},
 }
 xivhotbar_keybinds_job['BLM'] = {
-	{'b 4 10', 'ja', 'Elemental Seal', 'me', 'E.Seal'},
+	--{'b 4 10', 'ja', 'Elemental Seal', 'me', 'E.Seal'},
 	{'f 4 10', 'ja', 'Elemental Seal', 'me', 'E.Seal'},
 	{'f 4 8', 'ma', 'Warp', 'me', 'Warp'},
  	{'f 4 9', 'ma', 'Warp II', 'stpc', 'WarpII'},
  	{'f 4 7', 'ma', 'Escape', 'me', 'Esc'},
- 	{'f 4 4', 'ma', 'Sleepga', 't', 'Slpga', 'tile944'},
+ 	{'f 4 4', 'ma', 'Sleepga', 't', 'Slpga'},
  	{'f 4 5', 'ma', 'Tractor', 't', 'Tractor'},
  	{'f 4 1', 'ma', 'Stone III', 't', 'Stone'},
  	{'f 4 2', 'ma', 'Firaga II', 't', 'Firga'},
@@ -273,7 +274,7 @@ xivhotbar_keybinds_job['BLM'] = {
 	{'f 3 3', 'ma', 'Burn', 't', 'Burn'},	
 	{'f 3 1', 'ma', 'Shock', 't', 'Shock'},	
 	{'f 1 10', 'ma', 'Stun', 't', 'Stun',"tile959"},		
-	{'f 1 8', 'ma', 'Sleep II', 't', 'SlpII'},	
-	{'f 1 9', 'ma', 'Sleepga II', 't', 'SlpgaII'},		
+	{'f 1 8', 'ma', 'Sleep II', 't', 'SlpII', 'tile944'},	
+	{'f 1 9', 'ma', 'Sleepga II', 't', 'SlpgaII', 'tile944'},		
 }
 return xivhotbar_keybinds_job
