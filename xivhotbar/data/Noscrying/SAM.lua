@@ -10,27 +10,27 @@ xivhotbar_keybinds_job['Base'] = {
  -- Hotbar #2
 
 	
-	{'f 4 10',  'ja', 'Meikyo Shisui', 'me', 'Meikyo', 'Meikyo_Shisui'},
+	{'f 4 10', 'ja', 'Meikyo Shisui', 'me', 'Meikyo', 'Meikyo_Shisui'},
 	{'f 4 9',  'ja', 'Yaegasumi', 'me', 'Yaega', 'Legend-_Haste_rune_HD'},
  -- Hotbar #3
-	{'b 3 1',  'ja', 'Warding Circle', 'me', 'D.Circ',"Winds_of_Disenchantment"},
-	{'b 3 2',  'ja', 'Hamanoha', 't', 'Demon-',"Break_Enchantments"},
+	{'b 3 1',  'ja', 'Warding Circle', 'me', 'D.Circ',"tile681"},
+	{'b 3 2',  'ja', 'Hamanoha', 't', 'Demon-',"tile322"},
 	{'b 4 7',  'ja', 'Meditate', 'me', 'Mditate', 'Meditate'},
     {'b 4 8',  'ja', 'Sekkanoki', 'me', 'Sekka', 'Sekkanoki'},
  -- Hotbar #4
-    {'b 4 10',  'ja', 'Hasso', 'me', 'Hasso', 'Dragon_Trigger'},
+    {'b 4 10', 'ja', 'Hasso', 'me', 'Hasso', 'Dragon_Trigger'},
     {'b 1 6',  'ja', 'Seigan', 'me', 'Seigan', 'Seigan'},
 	
-	{'b 6 6',  'input', '//send Nolyte //exec Valor_Valor_Victory', 'me', 'VVV','Tome_of_Justice'},
-    {'b 6 2',  'input', '//send Nolyte //exec CuragaIII_DivineWaltz', 'me', 'CuraIII','Searing_Light'},
-    {'b 6 3',  'input', '//send Nolyte //exec CureIV_CuringWaltz', 'me', 'CureIV','tile792'},
-    {'b 6 5',  'input', '//send Nolyte //exec Marcato_NiTro.txt', 'me', 'NiTro',"Kayle_Divine_Ascent_HD"},
-    {'b 6 1',  'input', '//send Nolyte /ma "Auspice" <me>', 'me', 'Auspice', 'Chapter_2-_Radiant_Recovery'},
-    {'b 6 4',  'input', '//send Nolyte //exec Regen.txt', 'me', 'RegenIV', 'tile025'},
+	{'b 6 6',  'input', '//exec Generic_Attack_Buffs', 'me', 'Alt Buffs','Tome_of_Justice'},
+    {'b 6 2',  'input', '//send Nolyte exec CuragaIII_DivineWaltz', 'me', 'CuraIII','Searing_Light'},
+    {'b 6 3',  'input', '//send Nolyte exec CureIV_CuringWaltz', 'me', 'CureIV','tile792'},
+    {'b 6 1',  'input', '//send Nolyte /Dia2', 't', 'Dia2',"Kayle_Divine_Ascent_HD"},
+    {'b 6 5',  'input', '//send Nolyte /DivineSeal', 'me', 'D.Seal', 'Chapter_2-_Radiant_Recovery'},
+    {'b 6 4',  'input', '//send Nolyte /ma "Horde Lullaby" <bt>', 'me', 'Horde', 'tile448'},
     {'b 6 7',  'input', '//send Nolyte /ma "Carnage Elegy" <bt>', 'me', 'Elegy', 'tile075'},
-    {'b 6 10',  'input', '//send Nolyte /ma "Pining Nocturne" <bt>', 'me', 'Nocturne', 'tile170'},
+    {'b 6 10', 'input', '//send Nolyte /ma "Pining Nocturne" <bt>', 'me', 'Nocturne', 'tile170'},
     {'b 6 8',  'input', '//send Nolyte /ma "Magic Finale" <bt>', 'me', 'Dispel', 'tile877'},
-    {'b 6 9',  'input', '//send Nolyte /ma "Horde Lullaby II" <bt>', 'me', 'Sleepga', 'tile250(2)'},
+    {'b 6 9',  'input', '//send Nolyte /ma "Horde Lullaby II" <bt>', 'me', 'Horde II', 'tile250(2)'},
 }
 xivhotbar_keybinds_job['Great Katana'] = {
 	-- Battle
@@ -71,7 +71,7 @@ xivhotbar_keybinds_job['WAR'] = {
     {'b 4 5',  'ja', 'Provoke', 'stnpc', 'Prov.',"tile150"},
     {'b 2 7',  'ja', 'Berserk', 'me', 'Brsrk', 'Berserk'},
     {'b 2 8',  'ja', 'Warcry', 'me', 'War.', 'Warcry'},
-	{'b 2 9', 'ja', 'Aggressor', 'me', 'Aggr.', 'Agressor'},
+	{'b 2 9',  'ja', 'Aggressor', 'me', 'Aggr.', 'Agressor'},
 }
 xivhotbar_keybinds_job['NIN'] = {
 	-- Battle

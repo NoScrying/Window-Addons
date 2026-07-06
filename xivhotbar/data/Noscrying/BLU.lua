@@ -46,11 +46,11 @@
 	-- {'b 4 7', 'ma', 'Sudden Lunge', 'stnpc', 'Stun', 'BLU-stun'},
 	
 
-	-- {'b 6 6',  'input', '//send Nolyte //exec Valor_Valor_Victory', 'me', 'VVV','Tome_of_Justice'},
+	-- {'b 6 6',  'input', '//exec Generic_Attack_Buffs.txt', 'me', 'Alt Buffs','Tome_of_Justice'},
     -- {'b 6 2',  'input', '//send Nolyte //exec CuragaIII_DivineWaltz', 'me', 'CuraIII','Searing_Light'},
     -- {'b 6 3',  'input', '//send Nolyte //exec CureIV_CuringWaltz', 'me', 'CureIV','tile792'},
-    -- {'b 6 5',  'input', '//send Nolyte //exec Marcato_NiTro.txt', 'me', 'NiTro',"Kayle_Divine_Ascent_HD"},
-    -- {'b 6 1',  'input', '//send Nolyte /ma "Auspice" <me>', 'me', 'Auspice', 'Chapter_2-_Radiant_Recovery'},
+        -- {'b 6 1',  'input', '//send Nolyte //Dia2', 't', 'Dia2',"Kayle_Divine_Ascent_HD"},
+    -- {'b 6 5',  'input', '//send Nolyte /ma "Auspice" <me>', 'me', 'Auspice', 'Chapter_2-_Radiant_Recovery'},
     -- {'b 6 4',  'input', '//send Nolyte //exec Regen.txt', 'me', 'RegenIV', 'tile025'},
     -- {'b 6 7',  'input', '//send Nolyte /ma "Carnage Elegy" <bt>', 'me', 'Elegy', 'tile075'},
     -- {'b 6 10',  'input', '//send Nolyte /ma "Pining Nocturne" <bt>', 'me', 'Nocturne', 'tile170'},
@@ -78,7 +78,8 @@ xivhotbar_keybinds_job['Base'] = { -- //azuresets set Acc - Melee/Phys
  --Hotbar #2
 
 	{'b 2 1', 'ma', 'Thrashing Assault', 't', 'Assault', 'BLU-assault'},
- 	{'b 2 4', 'ma',  'Molting Plumage', 't', 'Aero', "Aero"}, 
+ 	--{'b 2 4', 'ma',  'Molting Plumage', 't', 'Aero', "Aero"}, 
+ 	{'b 2 4', 'ma',  'Silent Storm', 't', 'Silence', "Aero"}, 
 	{'b 2 7', 'ja', 'Chain Affinity', 'me', 'Chain',"Plasma_Burst"},
 	{'b 2 8', 'ja', 'Burst Affinity', 'me', 'Burst',"Woven_Air"},
 	{'b 2 9', 'ja', 'Diffusion', 'me', 'AoE',"Sanctuary"},
@@ -115,16 +116,18 @@ xivhotbar_keybinds_job['Base'] = { -- //azuresets set Acc - Melee/Phys
 	{'b 4 10', 'ma', 'Carcharian Verve', 'me', 'C.Verve', 'Aquaveil'},
  --Hotbar #6
 
-	{'b 6 6',  'input', '//send Nolyte //exec Valor_Valor_Victory', 'me', 'VVV','Tome_of_Justice'},
+	{'b 6 6',  'input', '//exec Generic_Attack_Buffs.txt', 'me', 'Alt Buffs','Tome_of_Justice'},
     {'b 6 2',  'input', '//send Nolyte //exec CuragaIII_DivineWaltz', 'me', 'CuraIII','Searing_Light'},
     {'b 6 3',  'input', '//send Nolyte //exec CureIV_CuringWaltz', 'me', 'CureIV','tile792'},
-    {'b 6 5',  'input', '//send Nolyte //exec Marcato_NiTro.txt', 'me', 'NiTro',"Kayle_Divine_Ascent_HD"},
-    {'b 6 1',  'input', '//send Nolyte /ma "Auspice" <me>', 'me', 'Auspice', 'Chapter_2-_Radiant_Recovery'},
-    {'b 6 4',  'input', '//send Nolyte //exec Regen.txt', 'me', 'RegenIV', 'tile025'},
+    {'b 6 1',  'input', '//send Nolyte //Dia2', 't', 'Dia2',"Kayle_Divine_Ascent_HD"},
+    {'b 6 5',  'input', '//send Nolyte /DivineSeal', 'me', 'D.Seal', 'Chapter_2-_Radiant_Recovery'},
+    {'b 6 4',  'input', '//send Nolyte /ma "Horde Lullaby" <bt>', 'me', 'Horde', 'tile448'},
     {'b 6 7',  'input', '//send Nolyte /ma "Carnage Elegy" <bt>', 'me', 'Elegy', 'tile075'},
     {'b 6 10',  'input', '//send Nolyte /ma "Pining Nocturne" <bt>', 'me', 'Nocturne', 'tile170'},
     {'b 6 8',  'input', '//send Nolyte /ma "Magic Finale" <bt>', 'me', 'Dispel', 'tile877'},
-    {'b 6 9',  'input', '//send Nolyte /ma "Horde Lullaby II" <bt>', 'me', 'Sleepga', 'tile250(2)'},
+    {'b 6 9',  'input', '//send Nolyte /ma "Horde Lullaby II" <bt>', 'me', 'Horde II', 'tile250(2)'},
+	
+    {'b 8 9',  'input', '//send Nolyte exec HM_Victory', 'me', 'Melee',"Holy_Sheltron"},	
 }
 
 -- xivhotbar_keybinds_job['Base'] = { -- //azuresets set Odyssey - Magic Damage
@@ -372,7 +375,7 @@ xivhotbar_keybinds_job['Sword'] = {
 	{'b 1 2', 'weaponskill',  'Chant Du Cygne', 'stnpc', 'CDC', 'Sword-CDC'}, 
 	{'b 1 1', 'weaponskill',  'Savage Blade', 'stnpc', 'Savge', 'Imperator'}, 
 	{'b 1 3', 'weaponskill',  'Sanguine Blade', 't', 'Sang.', 'Scarlet'},
-	{'b 2 2', 'weaponskill',  'Expiacion', 't', 'Expi.', 'Expiacion'},
+	{'b 2 2', 'weaponskill',  'Expiacion', 't', 'Expi.', 'Sepulchre'},
 	{'b 2 3', 'weaponskill',  'Circle Blade', 't', 'AoE', 'Sword-AoE'},
 	
 	{'f 1 5', 'weaponskill',  'Requiescat', 't', 'Req.', 'Sword-Requiescat'},	
@@ -380,7 +383,7 @@ xivhotbar_keybinds_job['Sword'] = {
 	{'f 1 2', 'weaponskill',  'Red Lotus Blade', 't', 'RLB', 'RedLotus'},
 	{'f 1 1', 'weaponskill',  'Savage Blade', 'stnpc', 'Savge', 'Imperator'}, 
 	{'f 1 3', 'weaponskill',  'Seraph Blade', 't', 'Seraph', 'Seraph'},
-	{'f 2 2', 'weaponskill',  'Expiacion', 't', 'Expi.', 'Expiacion'},
+	{'f 2 2', 'weaponskill',  'Expiacion', 't', 'Expi.', 'Sepulchre'},
 }
 xivhotbar_keybinds_job['Club'] = {
 	-- Battle
@@ -512,7 +515,7 @@ xivhotbar_keybinds_job['BLM'] = {
 	{'f 4 8', 'ma', 'Warp', 'me', 'Warp'},
  	{'f 4 9', 'ma', 'Warp II', 'stpc', 'WarpII'},
  	{'f 4 7', 'ma', 'Escape', 'me', 'Esc'},
- 	{'f 4 4', 'ma', 'Sleepga', 't', 'Slpga', 'tile944'},
+ 	{'f 4 4', 'ma', 'Sleepga II', 't', 'SlpgaII', 'tile944'},
  	{'f 4 5', 'ma', 'Tractor', 't', 'Tractor'},
  	{'f 4 1', 'ma', 'Stone III', 't', 'Stone'},
  	{'f 4 2', 'ma', 'Firaga II', 't', 'Firga'},

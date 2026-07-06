@@ -50,13 +50,13 @@ xivhotbar_keybinds_job['Base'] = {
 	{'b 4 10', 'ma', 'Blink', 'me', 'Blink',"tile191"},		
   -- Movement Spells
 
-  {'f 1 7', 'ma', 'Gravity II', 'stnpc', 'Gravt',"tile095"},
-  {'f 1 8', 'ma', 'Bind', 'stnpc', 'Bind',"tile959"},
+  --{'f 1 7', 'ma', 'Gravity II', 'stnpc', 'Gravt',"tile095"},
+  {'f 1 7', 'ma', 'Bind', 'stnpc', 'Bind',"tile959"},
   {'f 1 9', 'ma', 'Break', 'stnpc', 'Break',"tile009"},
   {'f 3 2', 'ma', 'Bio III', 'stnpc', 'Bio',"tile036"},
   {'f 3 4', 'ma', 'Frazzle II', 'stnpc', 'M.Eva 2',"tile700"},
   {'f 3 1', 'ma', 'Poison II', 'stnpc', 'Psn',"tile056"},
-  {'f 1 7', 'ma', 'Blind II', 'stnpc', 'Blind',"tile094"},
+  {'f 1 8', 'ma', 'Blind II', 'stnpc', 'Blind',"tile094"},
   
   {'f 2 1', 'ma', 'Thunder V', 't', 'Thndr',"Derecho"},
   {'f 2 2', 'ma', 'Blizzard V', 't', 'Blzrd',"Frozen_Fusillade"},
@@ -67,16 +67,16 @@ xivhotbar_keybinds_job['Base'] = {
 	{'f 4 9', 'ma', 'Sneak', 'stpc', 'Sneak',"tile019"},		
 	{'f 4 10', 'ma', 'Invisible', 'stpc', 'Invis',"tile086"},		
 	
-	{'b 6 6',  'input', '//send Nolyte //exec Valor_Valor_Victory', 'me', 'VVV','Tome_of_Justice'},
+	{'b 6 6',  'input', '//exec Generic_Attack_Buffs.txt', 'me', 'Alt Buffs','Tome_of_Justice'},
     {'b 6 2',  'input', '//send Nolyte //exec CuragaIII_DivineWaltz', 'me', 'CuraIII','Searing_Light'},
     {'b 6 3',  'input', '//send Nolyte //exec CureIV_CuringWaltz', 'me', 'CureIV','tile792'},
-    {'b 6 5',  'input', '//send Nolyte //exec Marcato_NiTro.txt', 'me', 'NiTro',"Kayle_Divine_Ascent_HD"},
-    {'b 6 1',  'input', '//send Nolyte /ma "Auspice" <me>', 'me', 'Auspice', 'Chapter_2-_Radiant_Recovery'},
-    {'b 6 4',  'input', '//send Nolyte //exec Regen.txt', 'me', 'RegenIV', 'tile025'},
+        {'b 6 1',  'input', '//send Nolyte //Dia2', 't', 'Dia2',"Kayle_Divine_Ascent_HD"},
+    {'b 6 5',  'input', '//send Nolyte /DivineSeal', 'me', 'D.Seal', 'Chapter_2-_Radiant_Recovery'},
+    {'b 6 4',  'input', '//send Nolyte /ma "Horde Lullaby" <bt>', 'me', 'Horde', 'tile448'},
     {'b 6 7',  'input', '//send Nolyte /ma "Carnage Elegy" <bt>', 'me', 'Elegy', 'tile075'},
     {'b 6 10',  'input', '//send Nolyte /ma "Pining Nocturne" <bt>', 'me', 'Nocturne', 'tile170'},
     {'b 6 8',  'input', '//send Nolyte /ma "Magic Finale" <bt>', 'me', 'Dispel', 'tile877'},
-    {'b 6 9',  'input', '//send Nolyte /ma "Horde Lullaby II" <bt>', 'me', 'Sleepga', 'tile250(2)'},
+    {'b 6 9',  'input', '//send Nolyte /ma "Horde Lullaby II" <bt>', 'me', 'Horde II', 'tile250(2)'},
 
 	{'f 5 1', 'ma', 'Fire', 't', 'Fire',"Fire_Attunement"},	
 	{'f 5 2', 'ma', 'Blizzard', 't', 'Bliz',"Frost_Storm"},
@@ -103,6 +103,7 @@ xivhotbar_keybinds_job['Sword'] = {
 	{'b 1 3', 'weaponskill',  'Seraph Blade', 't', 'Seraph', 'Seraph'},
 	{'b 1 4', 'weaponskill',  'Circle Blade', 't', 'AoE', 'Sword-AoE'},
 	{'b 1 5', 'weaponskill',  'Sanguine Blade', 't', 'Sang.', 'Scarlet'},
+	{'b 1 6', 'weaponskill',  'Knights of Round', 't', 'KoR', 'KoR'},
 	
 	{'f 1 5', 'weaponskill',  'Chant Du Cygne', 'stnpc', 'CDC', 'Sword-CDC'},
 	{'f 1 1', 'weaponskill',  'Red Lotus Blade', 't', 'RLB', 'Kayle_Starfire_Spellblade_2_HD'},

@@ -32,7 +32,7 @@ xivhotbar_keybinds_job['Base'] = {
     {'b 3 2', 'ja', 'Gelus', 'me', 'Wind', 'Ice_Wall'},
     {'b 3 3', 'ja', 'Flabra', 'me', 'Earth', 'Activate..._(green)'},
     {'b 3 4', 'ja', 'Tellus', 'me', 'Thun.', 'Activate..._(yellow)'},
-    {'b 3 5', 'ja', 'Sulpor', 'me', 'Water', 'Activate..._(purple)'},
+    {'b 3 5', 'ja', 'Sulpor', 'me', 'Ice', 'Activate..._(purple)'},
     {'b 3 6', 'ja', 'Unda', 'me', 'Fire', 'Activate..._(blue)'},
     {'b 3 7', 'ja', 'Lux', 'me', 'Dark', 'Center_Your_Mind'},
     {'b 3 8', 'ja', 'Tenebrae', 'me', 'Light', 'Call_Forth_Magic'},
@@ -43,33 +43,34 @@ xivhotbar_keybinds_job['Base'] = {
 	{'f 4 2', 'ma', 'Protect IV', 'stpc', 'Protct',"tile462"},
 	{'f 4 3', 'ma', 'Shell V', 'stpc', 'Shell',"tile497"},
 
-	{'f 3 1', 'ma', 'Barblizzard', 'me', 'B.Ice',"tile053"},
-	{'f 3 2', 'ma', 'Baraero', 'me', 'B.Aero',"tile052"},
-	{'f 3 3', 'ma', 'Barstone', 'me', 'B.Stone',"tile031"},
-	{'f 3 4', 'ma', 'Barthunder', 'me', 'B.Thun',"tile055"},
-	{'f 3 5', 'ma', 'Barwater', 'me', 'B.Water',"tile085"},
-	{'f 3 6', 'ma', 'Barfire', 'me', 'B.Fire',"tile054"},
+	{'f 3 1', 'ma', 'Barfire', 'me', 'B.Fire',"tile054"},
+	{'f 3 2', 'ma', 'Barblizzard', 'me', 'B.Ice',"tile053"},
+	{'f 3 3', 'ma', 'Baraero', 'me', 'B.Aero',"tile052"},
+	{'f 3 4', 'ma', 'Barstone', 'me', 'B.Stone',"tile031"},
+	{'f 3 5', 'ma', 'Barthunder', 'me', 'B.Thun',"tile055"},
+	{'f 3 6', 'ma', 'Barwater', 'me', 'B.Water',"tile085"},
+
 	
 	{'f 2 4', 'ma', 'Barsleep', 'me', 'B.Slp',"Barsleep"},
-	{'f 2 1', 'ma', 'Barparalyze', 'me', 'B.Para',"BarParalyze"},
-	{'f 2 2', 'ma', 'Barsilence', 'me', 'B.Sil',"BarSilence"},
-	{'f 2 3', 'ma', 'Baramnesia', 'me', 'B.Amns',"BarAmnesia"},
+	{'f 2 2', 'ma', 'Barparalyze', 'me', 'B.Para',"BarParalyze"},
+	{'f 2 3', 'ma', 'Barsilence', 'me', 'B.Sil',"BarSilence"},
+	{'f 2 1', 'ma', 'Baramnesia', 'me', 'B.Amns',"BarAmnesia"},
 	
 	{'f 4 4', 'ma', 'Stoneskin', 'me', 'StnSkn',"tile639"},
 	{'f 4 5', 'ma', 'Aquaveil', 'me', 'Veil',"tile630"},	
    {'f 3 10', 'ja', 'Elemental Sforzo', 'me', 'Sforzo',"tile054(2)"},
     {'f 3 9', 'ja', 'Odyllic Subterfuge', 'stnpc', 'Odyllic',"tile040"},
 	
-	{'b 6 6',  'input', '//send Nolyte //exec Valor_Valor_Victory', 'me', 'VVV','Tome_of_Justice'},
+	{'b 6 6',  'input', '//exec Generic_Attack_Buffs.txt', 'me', 'Alt Buffs','Tome_of_Justice'},
     {'b 6 2',  'input', '//send Nolyte //exec CuragaIII_DivineWaltz', 'me', 'CuraIII','Searing_Light'},
     {'b 6 3',  'input', '//send Nolyte //exec CureIV_CuringWaltz', 'me', 'CureIV','tile792'},
-    {'b 6 5',  'input', '//send Nolyte //exec Marcato_NiTro.txt', 'me', 'NiTro',"Kayle_Divine_Ascent_HD"},
-    {'b 6 1',  'input', '//send Nolyte /ma "Auspice" <me>', 'me', 'Auspice', 'Chapter_2-_Radiant_Recovery'},
-    {'b 6 4',  'input', '//send Nolyte //exec Regen.txt', 'me', 'RegenIV', 'tile025'},
+        {'b 6 1',  'input', '//send Nolyte //Dia2', 't', 'Dia2',"Kayle_Divine_Ascent_HD"},
+    {'b 6 5',  'input', '//send Nolyte /DivineSeal', 'me', 'D.Seal', 'Chapter_2-_Radiant_Recovery'},
+    {'b 6 4',  'input', '//send Nolyte /ma "Horde Lullaby" <bt>', 'me', 'Horde', 'tile448'},
     {'b 6 7',  'input', '//send Nolyte /ma "Carnage Elegy" <bt>', 'me', 'Elegy', 'tile075'},
     {'b 6 10',  'input', '//send Nolyte /ma "Pining Nocturne" <bt>', 'me', 'Nocturne', 'tile170'},
     {'b 6 8',  'input', '//send Nolyte /ma "Magic Finale" <bt>', 'me', 'Dispel', 'tile877'},
-    {'b 6 9',  'input', '//send Nolyte /ma "Horde Lullaby II" <bt>', 'me', 'Sleepga', 'tile250(2)'},
+    {'b 6 9',  'input', '//send Nolyte /ma "Horde Lullaby II" <bt>', 'me', 'Horde II', 'tile250(2)'},
 }
 xivhotbar_keybinds_job['BLM'] = {
 	{'f 4 1', 'ma', 'Warp', 'me', 'Warp'},
@@ -82,14 +83,14 @@ xivhotbar_keybinds_job['WAR'] = {
 	{'b 2 5', 'ja', 'Aggressor', 'me', 'Aggr.', 'Agressor'}
 }
 xivhotbar_keybinds_job['PLD'] = {
-    {'b 1 7',  'ma', 'Cure IV', 'stpc', 'CureIV'},
-    {'b 1 8',  'ma', 'Banishga', 't', 'Bnshga', "Angel"},
+    {'f 4 1',  'ma', 'Cure IV', 'stpc', 'CureIV',"tile792"},
+    {'b 1 7',  'ma', 'Banishga', 't', 'Bnshga', "Angel"},
     {'b 2 7',  'ja', 'Sentinel', 'me', 'Sntnl', 'Sentinel'},
     {'b 2 8',  'ja', 'Cover', 'stpc', 'Cover', 'Cover'},
 	{'b 2 5', 'ja', 'Holy Circle', 'me', 'H.Crcl', 'HolyCircle'}
 }
 xivhotbar_keybinds_job['DRK'] = {
-    {'b 2 6',  'ja', 'Arcane Circle', 'me', 'A.Crcl',"Putrid_Mark"}, 
+    {'b 2 6',  'ja', 'Arcane Circle', 'me', 'A.Crcl',"tile681"}, 
     {'b 2 7',  'ja', 'Last Resort', 'me', 'L.Rsrt', "LastResort"},
     {'b 1 8',  'ma', 'Stun', 't', 'Stun',"tile959"},
     {'b 2 5',  'ma', 'Poisonga', 't', 'Psnga', "Spider_Venom"},

@@ -16,16 +16,16 @@ xivhotbar_keybinds_job['Base'] = {
 	{'f 4 9', 'ja', 'Mighty Strikes', 'me', 'Mighty', 'Transmute_Fire'},	
 	{'f 4 10', 'ja', 'Brazen Rush', 'me', 'Double', 'Vengeance_(skill)'},	
 	
-	{'b 6 6',  'input', '//send Nolyte //exec Valor_Valor_Victory', 'me', 'VVV','Tome_of_Justice'},
+	{'b 6 6',  'input', '//send Nolyte //exec NiTro', 'me', 'NiTro','Qiyana_Royal_Privilege_HD'},
     {'b 6 2',  'input', '//send Nolyte //exec CuragaIII_DivineWaltz', 'me', 'CuraIII','Searing_Light'},
     {'b 6 3',  'input', '//send Nolyte //exec CureIV_CuringWaltz', 'me', 'CureIV','tile792'},
-    {'b 6 5',  'input', '//send Nolyte //exec Marcato_NiTro.txt', 'me', 'NiTro',"Kayle_Divine_Ascent_HD"},
-    {'b 6 1',  'input', '//send Nolyte /ma "Auspice" <me>', 'me', 'Auspice', 'Chapter_2-_Radiant_Recovery'},
-    {'b 6 4',  'input', '//send Nolyte //exec Regen.txt', 'me', 'RegenIV', 'tile025'},
+    {'b 6 1',  'input', '//send Nolyte //Dia2', 't', 'Dia2',"Kayle_Divine_Ascent_HD"},
+    {'b 6 5',  'input', '//send Nolyte /DivineSeal', 'me', 'D.Seal', 'Chapter_2-_Radiant_Recovery'},
+    {'b 6 4',  'input', '//send Nolyte /ma "Horde Lullaby" <bt>', 'me', 'Horde', 'tile448'},
     {'b 6 7',  'input', '//send Nolyte /ma "Carnage Elegy" <bt>', 'me', 'Elegy', 'tile075'},
     {'b 6 10',  'input', '//send Nolyte /ma "Pining Nocturne" <bt>', 'me', 'Nocturne', 'tile170'},
     {'b 6 8',  'input', '//send Nolyte /ma "Magic Finale" <bt>', 'me', 'Dispel', 'tile877'},
-    {'b 6 9',  'input', '//send Nolyte /ma "Horde Lullaby II" <bt>', 'me', 'Sleepga', 'tile250(2)'},
+    {'b 6 9',  'input', '//send Nolyte /ma "Horde Lullaby II" <bt>', 'me', 'Horde II', 'tile250(2)'},
 }
 
 -- xivhotbar_keybinds_job['Hand-to-hand'] = {
@@ -221,6 +221,7 @@ xivhotbar_keybinds_job['RUN'] = {
 	{'f 4 3', 'ma', 'Aquaveil', 'me', 'Aqua'},
 	{'f 4 4', 'ma', 'Blink', 'me', 'Blink'},
 	{'f 4 5', 'ma', 'Regen II', 'me', 'Regen'},
+	{'b 1 7', 'ma', 'Foil', 'me', 'Foil', 'Angel'},
 }
 xivhotbar_keybinds_job['THF'] = {
 	-- Battle
@@ -233,7 +234,7 @@ xivhotbar_keybinds_job['DRG'] = {
 	{'b 4 1',  'ja', 'Jump', 't', 'Jump', 'Jump'},
 	{'b 4 2',  'ja', 'High Jump', 't', 'H. Jump', 'High Jump'},
 	{'b 4 3',  'ja', 'Super Jump', 't', 'S. Jump', 'Super Jump'},
-	{'b 4 4',  'ja', 'Ancient Circle', 'me', 'DRG.Circle', 'DragonCircle'},
+	{'b 4 4',  'ja', 'Ancient Circle', 'me', 'DRG.Circle', 'tile681'},
 }
 xivhotbar_keybinds_job['RDM'] = {
 	--{'b 1 9', 'ma', 'Phalanx', 'me', 'Phalanx', 'Stoneskin'},

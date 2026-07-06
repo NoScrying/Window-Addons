@@ -116,7 +116,12 @@ xivhotbar_keybinds_job['RUN'] = {
 	{'f 4 4', 'ja', 'Pflug', 'me', 'Pflug', 'Valiance'},
 	{'f 4 5', 'ja', 'Swordplay', 'me', 'Sword.', 'Swordplay'},
 }
-
+xivhotbar_keybinds_job['BLM'] = {
+	{'f 4 8', 'ma', 'Warp', 'me', 'Warp'},
+ 	{'f 4 9', 'ma', 'Warp II', 'stpc', 'WarpII'},
+ 	{'f 4 7', 'ma', 'Escape', 'me', 'Esc'},
+ 	{'f 1 10', 'input', '//send Nolyte //cor on', 'me', 'COR'},	
+}
 xivhotbar_keybinds_job['Hand-to-hand'] = {
 {'b 1 1', 'weaponskill', 'Victory Smite', 'stnpc', 'Smite', 'H2H-Single'},
 {'b 1 2', 'weaponskill', 'Tornado Kick', 't', 'T.Kick', 'H2H-Kick'},
