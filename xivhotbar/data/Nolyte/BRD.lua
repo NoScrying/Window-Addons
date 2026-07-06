@@ -14,7 +14,7 @@ xivhotbar_keybinds_job['Base'] = {
 	{'b 2 4', 'ma',  'Mage\'s Ballad II', 'stpc', 'MP 2','tile617'},
 	{'b 2 5', 'ma',  'Army\'s Paeon VI', 'stpc', 'HP',"tile638"},
 	{'b 2 6', 'ma',  'Sentinel\'s Scherzo', 'stpc', 'Srzo','tile067'},
-	{'b 2 10', 'ma',  'Chocobo Mazurka', 'me', 'Run','Overwhelming_Celerity'},
+    {'b 2 10',  'input', '//exec MoveSpeed.txt', 'me', 'Mazurka','Overwhelming_Celerity'},	
 	{'b 2 7', 'ja',  'Troubadour', 'me', 'Troub.','tile761'},
 	{'b 2 8', 'ja',  'Nightingale', 'me', 'Night.','tile856'},
 	{'b 2 9', 'ja',  'Pianissimo', 'me', 'Pian.','tile753'},
@@ -66,7 +66,10 @@ xivhotbar_keybinds_job['Base'] = {
 	{'b 6 8', 'ma',  'Dark Threnody II', 'stnpc', 'Dark',"Dark_Threnody"},	
 	{'b 6 9', 'ma',  'Ice Threnody II', 'stnpc', 'Ice',"Ice_Threnody"},	
 	{'b 6 10', 'ma',  'Fire Threnody II', 'stnpc', 'Fire',"Fire_Threnody"},	
-		
+	
+	
+    {'b 8 6',  'input', '//exec Valor_Valor_Victory', 'me', 'VVV',"Tome_of_Justice"},
+    {'b 8 7',  'input', '//exec HM_Victory', 'me', 'Mad.VV',"Holy_Sheltron"},
 }
 
 xivhotbar_keybinds_job['Sword'] = {
@@ -117,6 +120,8 @@ xivhotbar_keybinds_job['DNC'] = {
 	{'f 4 3', 'ja', 'Quickstep', 't', 'EVA-', "Qiyana_Terrashape_HD"},
 	{'f 4 9', 'ja', 'Spectral Jig', 'me', 'Spctrl', 'Smoke_Screen'},	
 	{'f 4 10', 'ja', 'Contradance', 'me', 'Heal+', "CuringWaltz"},
+	
+	{'f 1 10',  'input', '//exec Balladx3', 'me', 'Ballad','tile617'},	
 }
 
 xivhotbar_keybinds_job['NIN'] = {
